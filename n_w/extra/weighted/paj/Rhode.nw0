@@ -1,0 +1,21 @@
+20
+crop land	0	0	0	20500	0	0	0	0	0	0	0	0	0	0	0	0	0	0	44900	0
+pasture land	0	0	0	0	460	0	0	0	0	0	0	0	0	0	0	0	0	0	9120	0
+upland forest	0	0	0	0	0	540	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+riparian forest adj. crop	0	0	0	0	0	0	3520	0	0	33.7	0	0	1080	0	179	0	0	0	0	0
+riparian forest adj. past	0	0	0	0	0	0	282	0	0	0	0	0	378	0	1	0	0	0	0	0
+riparian forest adj. upla	0	0	0	0	0	0	269	0	0	17.6	0	0	413	83.8	130	0	0	0	0	0
+flooded swamp forest	0	0	0	0	0	0	0	630	100	2880	0	0	0	0	0	0	0	0	0	0
+herbaceous wetland	0	0	0	0	0	0	0	0	0	700	0	0	0	0	0	0	0	0	0	0
+floodplain forest	0	0	0	0	0	0	0	0	0	30	0	0	0	0	0	0	0	0	0	0
+main fork	0	0	0	0	0	0	0	317	0	0	0	609	0	4000	0	0	0	0	0	0
+low marsh adj. north fork	0	0	0	0	0	0	0	0	0	0	0	0	2200	0	0	0	0	0	0	0
+low marsh adj. main fork	0	0	0	0	0	0	0	0	0	601	0	0	0	0	0	0	0	0	0	0
+north fork	0	0	0	0	0	0	0	0	0	0	2230	0	0	2500	0	0	0	0	0	0
+muddy creek	0	0	0	0	0	0	0	0	0	650	0	0	600	0	8000	0	8670	0	0	0
+mud flat	0	0	0	0	0	0	0	0	0	0	0	0	0	2800	0	8760	0	0	44500	0
+high marsh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9600	0	0	0	0	0
+low marsh adj. muddy cree	0	0	0	0	0	0	0	0	0	0	0	0	0	8550	0	0	0	0	0	0
+Input	83170	20040	6630	5170	2800	4850	67	67	660	0	44.5	12.1	0	30	43850	391	172	0	0	0
+Output	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Respiration	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0

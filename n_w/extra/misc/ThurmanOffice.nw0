@@ -1,0 +1,21 @@
+{ Formal organizational chart of the interactions among employees in the overseas office of a large international corporation. 
+{ Thurman B. 1979. In the office: Networks and coalitions. Social Networks 2:47-63. 
+{
+{ From UCINET IV Datasets. http://vlado.fmf.uni-lj.si/pub/networks/data/Ucinet/UciData.htm
+{ 
+15
+ANN	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+AMY	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+KATY	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+BILL	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+PETE	1	1	1	1	0	1	1	1	0	1	1	1	1	1	1
+TINA	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ANDY	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LISA	0	0	0	0	0	1	0	0	0	0	1	0	1	1	1
+PRESIDENT	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1
+MINNA	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0
+MARY	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+EMMA	0	0	0	0	0	1	0	0	0	0	1	0	1	1	1
+ROSE	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+MIKE	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+PEG	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0

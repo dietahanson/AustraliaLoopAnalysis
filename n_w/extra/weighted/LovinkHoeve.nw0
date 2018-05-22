@@ -1,0 +1,31 @@
+{ Lovink Hoeve Experimental Farm food web.
+{
+{ De Ruiter PC, JC Moore, KB Zwart, LA Bouwman, J Hassink, J Bloem, 
+{ JA De Vos, JCY Marinissen, WAM Didden, G Lebrink & L Brussaard. 1993.
+{ Simulation of nitrogen mineralization in the below-ground food webs of two winter wheat fields.
+{ Journal of Applied Ecology 30:95-106.
+{
+{ Allesina S & M Pascual. 2009. 
+{ Googling food webs: can an eigenvector measure species’ importance for coextinctions? 
+{ PLoS Computational Biology 5:e1000494. doi:10.1371/journal.pcbi.1000494.s002
+{
+19
+Root	0	2000	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Detritus	342.1	0	0	40.8	11.1	1606	0	0	0	0	0	0	0	0	0	0	0	0	0
+Plants	2.56	0	0	0	0	0	7.44	0	0	0	0	0	0	0	0	0	0	0	0
+Fungi	31.13	0	0	0	0.09	0	0	0.34	6.65	0.08	10.1	0	0	0	0	0	0	0	0
+Enchytraedis	21.9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	1397	0	0	0	10.1	0	0	0	0	0	0	0.33	182	9.46	6.89	0.01	0	0	0
+PhytoNema	6.96	0	0	0	0	0	0	0	0	0	0	0.28	0	0	0	0	0.01	0.13	0.06
+NonCryptoMites	0.33	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.015
+Collembola	6.34	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.31
+CryptoMites	0.08	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.005
+FungiNema	2.32	0	0	0	0	0	0	0	0	0	0	0.03	0	0	0	0	0.004	0.05	0.03
+PredaNema	1.26	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.003	0.04	0
+Amoebae	182.3	0	0	0	0	0	0	0	0	0	0	0.17	0	0	0	0	0	0	0
+Flagellates	9.03	0	0	0	0	0	0	0	0	0	0	0	0.42	0	0	0	0	0	0
+BacterNema	0.01	0	0	0	0	0	0	0	0	0	0	0.42	0	0	0	0	0.014	0.2	0.1
+BacterMites	0.01	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0003
+NemaMites	0.03	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.002
+PredaCollemb	0.4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.02
+PredaMites	0.56	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0

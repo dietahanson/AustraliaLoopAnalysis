@@ -1,0 +1,36 @@
+{ matrimonial relations network across classes in Purum village 
+{ Manipur, North-East India
+{ normative relations
+
+{ Ackerman C. 1964.
+{ Structure and statistics: The Purum case. 
+{ The American Anthropologist 66:53-65.
+
+{ Muller EW. 1964.
+{ Structure and statistics: Some remarks on the Purum case. 
+{ The American Anthropologist 66:1371-1377.
+
+{ Ramirez P & S Legendre. 2017. To appear.
+{ Revisiting asymmetric marriage rules.
+
+{ a_ij = 0/1 = existence of matrimonial relation from class i to class j 
+{ lineage of wife in column (transpose of the convention)
+{ n = 13 classes
+{ k = 49 matrimonial relations (nb of nonzero entries of the matrix)
+{ a = 49 matrimonial relations (all matrimonial relations are asymmetric)
+{ p_config(n,k = a + 2*s) = 0.0000118368
+
+13
+M1	0	0	0	0	1	0	1	1	0	0	0	0	0
+M2	0	0	0	0	0	0	1	0	1	1	1	0	0
+M3	0	0	0	0	1	0	1	1	1	1	1	1	0
+M4	0	0	0	0	1	0	0	0	1	1	1	0	0
+MK1	0	1	0	0	0	0	1	1	0	0	0	0	1
+MK2	1	1	1	1	0	0	1	0	0	0	0	0	1
+K1	0	0	0	1	0	0	0	0	1	1	1	1	1
+K2	0	0	0	0	0	0	0	0	0	0	0	0	0
+T1	0	0	0	0	1	1	0	0	0	0	0	0	1
+T2	0	0	0	0	1	1	0	0	0	0	0	0	1
+T3	0	0	0	0	1	1	0	0	0	0	0	0	0
+T4	0	1	0	0	1	1	0	0	0	0	0	0	0
+P	1	1	1	1	0	0	0	0	0	0	0	0	0

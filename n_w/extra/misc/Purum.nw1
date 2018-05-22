@@ -1,0 +1,65 @@
+{ Scheme of Alliances in the Purum society
+
+{ Needham R. 1962.
+{ Structure and Sentiment: A Test Case in Social Anthropology. 
+{ Chicago, University of Chicago Press.
+{ TABLE 6 p. 80.
+
+13
+Mk2	K1
+M2	K1
+M4	K1
+P	K1
+T1	K1
+T2	K1
+T3	K1
+T4	K1
+Mk1	K2
+Mk2	K2
+M2	K2
+P	K2
+T1	K2
+T4	K2
+K1	Mk1
+M2	Mk1
+P	Mk1
+K1	Mk2
+M1	Mk2
+M2	Mk2
+M3	Mk2
+M4	Mk2
+P	Mk2
+K1	M1
+K2	M1
+Mk1	M1
+T1	M2
+T2	M2
+T3	M2
+K1	M3
+K2	M3
+Mk1	M3
+T1	M3
+T2	M3
+T3	M3
+T4	M3
+K2	M4
+Mk1	M4
+T1	M4
+T2	M4
+T3	M4
+T4	M4
+M1	P
+M2	P
+M3	P
+M4	P
+Mk1	T1
+Mk2	T1
+P	T1
+Mk1	T2
+Mk2	T2
+P	T2
+Mk1	T3
+Mk2	T3
+Mk1	T4
+Mk2	T4
+

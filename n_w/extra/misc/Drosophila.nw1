@@ -1,0 +1,31 @@
+{ Life cycle of Drosophila melanogaster (14 age classes, female-based).
+{
+{ Thomas-Orillard M & S Legendre. 1996. Virus C de la Drosophile et dynamique d’une population hôte. 
+{ Comptes Rendus de l’Académie des Sciences de Paris 319:615-621.
+{
+{ The generation time of the population model is T = 12.34.
+{ The weighted cycle time of the first node age1 (newborn class) is equal to T.
+{
+14
+age1	age2	0.99
+age2	age3	0.971
+age3	age4	0.971
+age4	age5	0.971
+age5	age6	0.971
+age6	age7	0.9975
+age7	age8	0.9975
+age8	age9	0.9975
+age9	age10	0.9975
+age10	age11	1.0
+age11	age12	1.0
+age12	age13	1.0
+age13	age14	1.0
+age11	age1	15.0
+age12	age1	31.0
+age13	age1	35.0
+age14	age1	28.7
+
+
+
+
+

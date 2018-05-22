@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1526596681842.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "93601184",
+    "id" : "86EB141D",
+    "lastKnownWriteTime" : 1525236982,
+    "last_content_update" : 1525236982,
+    "path" : "~/Documents/Australia/R_code/Raymond_code/example1.R",
+    "project_path" : "example1.R",
+    "properties" : {
+        "cursorPosition" : "130,4",
+        "scrollLine" : "123"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

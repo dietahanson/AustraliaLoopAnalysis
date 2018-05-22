@@ -1,0 +1,14 @@
+{ Reduced aquatic food web from
+{
+{ Lazzaro X, G Lacroix, B Gauzens, J Gignoux & S Legendre. 2009. 
+{ Predator foraging behaviour drives food-web topological structure. 
+{ Journal of Animal Ecology 78:1307-1317. 
+{ Top predator = Visual feeder fish
+{
+6
+Visualfeeder fish	0	0	0	0	0	0
+Invertebrate carnivores	1	0	0	0	0	0
+Small herbivores	1	1	0	0	0	0
+Large herbivores	1	0	0	0	0	0
+Nano algae	0	0	1	1	0	0
+Micro algae	0	1	0	1	0	0

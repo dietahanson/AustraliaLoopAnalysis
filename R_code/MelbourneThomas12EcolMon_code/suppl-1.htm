@@ -1,0 +1,169 @@
+<!--?php include 'header.php'; ?--><!doctype html><html><head>
+        <meta http-equiv="Content-Type" content="text/html, charset=UTF-8">
+        <title>Ecological Archives M082-019-S1</title>
+        
+        <script type="text/javascript" src="http://www.esapubs.org/templates/scripts/analytics.js"></script>
+    <style type="text/css">
+body {background-color: #FFF; font-family: Times New Roman, Times, serif;}
+
+hr {
+	height: .15em;
+	color: gray;
+	background-color: gray;
+	border-width: 0;
+}
+hr.divider {
+	width: 50em;
+	margin-top: 1.7em;
+	margin-bottom: 2em;
+	margin-left: 0;
+}
+
+p {max-width: 50em;}
+
+li {max-width: 48em;}
+
+sub, sup {font-size: .7em;}
+
+table, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+    vertical-align: top;
+}
+td {max-width: 70em; padding: .1em;}
+table, tr {
+	padding: .1em;}
+tr:first-child {font-weight: bold;}
+
+table.equation {border: none; width: 48em;}
+.equation td {border: none; text-align: left; vertical-align: middle;}
+.equation tr:first-child {font-weight: normal;}
+.equation td:last-child {text-align: right; width: 3em;}
+
+table.noFormat {border: none; text-align: inherit;}
+.noFormat td {border: none; text-align: inherit;}
+.noFormat tr:first-child {font-weight: normal;}
+
+/* Position modifiers.  Use these to alter placement of elements on the page. */
+
+.center {margin-left: auto; margin-right: auto; text-align: center;}
+.textCenter {text-align: center;}
+.textLeft  {text-align:left;}
+
+.indent {margin-left: 2em;}
+p.indent {max-width: 48em;}
+p.heading.indent {max-width: 40em;}
+.halfIndent {margin-left: 1em;}
+
+/* Font modifiers.  Use these to alter font style and type. */
+
+.courier {font-family: Courier new, Courier, mono;}
+.heading {max-width: 45em; margin-top: .7em; font-size: 1.2em; font-weight: bold;}
+.overline {text-decoration: overline;}
+.over {text-decoration: overline;}
+.roman{font-style: normal; text-decoration: none; font-weight: normal;}
+.smallcaps {font-variant: small-caps;}
+
+#links {font-size: .7em; font-family: Arial, Helvetica, sans-serif;}
+</style></head>
+    <body bgcolor="#FFFFFF">
+        <p class="heading">J.  Melbourne-Thomas, S.  Wotherspoon, B.  Raymond, A.  Constable. 2012. Comprehensive evaluation of model uncertainty in qualitative network analyses. <i>Ecological Monographs</i> 82:505–519. <a href="http://dx.doi.org/10.1890/12-0207.1">http://dx.doi.org/10.1890/12-0207.1</a></p>
+        <hr>
+        <p class="heading">Supplement</p>
+        <p class="heading indent">
+            Example R code and models.
+            <br><i>Ecological Archives</i> M082-019-S1.
+        </p>
+        <p style="font-weight: bold;"><a href="../../../copyright.htm">Copyright</a></p>
+        <hr>
+        <p class="heading indent">
+            <a href="#authors">Authors</a><br>
+            <a href="#filelist">File list (downloads)</a><br>
+            <a href="#desc">Description</a>
+        </p>
+        <hr>
+        <!-- Content starts here!  Don't delete anything before this! -->
+        <p id="authors" class="heading">Author(s)</p>
+        <div class="indent">
+            <p>
+                Jessica Melbourne-Thomas<br>
+                Antarctic Climate &amp; Ecosystems Cooperative Research Centre<br>
+                University of Tasmania<br>
+                Private Bag 80<br>
+                Hobart, TAS 7001<br>
+                Australia<br>
+                Email: <a href="mailto:Jessica.MelbourneThomas@utas.edu.au">Jessica.MelbourneThomas@utas.edu.au</a>
+            </p>
+            <p>
+                Simon Wotherspoon<br>
+                Institute for Marine &amp; Antarctic Studies<br>
+                University of Tasmania<br>
+                Private Bag 129<br>
+                Hobart, TAS 7001<br>
+                Australia<br>
+                Email: <a href="mailto:simon.wotherspoon@utas.edu.au">simon.wotherspoon@utas.edu.au</a>
+            </p>
+            <p>
+                Ben Raymond<br>
+                Australian Antarctic Division<br>
+                Department of Sustainability, Environment, Water, Population and Communities<br>
+                203 Channel Highway<br>
+                Kingston, TAS 7050<br>
+                Australia<br>
+                Email: <a href="mailto:ben.raymond@aad.gov.au">ben.raymond@aad.gov.au</a>
+            </p>
+            <p>
+                Andrew Constable<br>
+                Australian Antarctic Division<br>
+                Department of Sustainability, Environment, Water, Population and Communities<br>
+                203 Channel Highway<br>
+                Kingston, TAS 7050<br>
+                Australia<br>
+                Email: <a href="mailto:andrew.constable@aad.gov.au">andrew.constable@aad.gov.au</a>
+            </p>
+        </div>
+        <hr>
+        <p id="filelist" class="heading">File list</p>
+        <div class="indent">
+            <p>R files:</p>
+            <p class="indent courier">
+                <a href="simulation.r">simulation.r</a> (md5: 282588866b80f0d3318a1446a3251665)<br>
+                <a href="bayestest.r">bayestest.r</a> (md5: 61c4b9620541b11764e0f8b15885fbd6)<br>
+                <a href="interface.r">interface.r</a> (md5: 7c8d3c8a1dea0653bb13e63898028f65)<br>
+                <a href="mutual.r">mutual.r</a> (md5: 36d845acc9de95c5d14ba9a85c04be5f)<br>
+                <a href="tree.r">tree.r</a> (md5: 6c2fdcfa45bd39c90b400018bf928fb3)<br>
+                <a href="distance.r">distance.r</a> (md5: 9fa284893caf861e4c8127b676305269)<br>
+                <a href="community.r">community.r</a> (md5: 9741154bc2029b4f5c22e93c86609a99)<br>
+                <a href="dia.r">dia.r</a> (md5: 59bddece34b9577c83202b4a845e40e7)<br>
+                <a href="tk.r">tk.r</a> (md5: de75b0f1e80a830d0eecd10a7e86515f)
+            </p>
+            <p>Dia model files:</p>
+            <p class="indent courier">
+                <a href="macquarie.dia">macquarie.dia</a> (md5: 45d926fc48b1bf9a148dc71167bb87a3)<br>
+                <a href="mesocosm1.dia">mesocosm1.dia</a> (md5: 56f4b10b0ffd15714dc76221740dd2a7)<br>
+                <a href="mesocosm2.dia">mesocosm2.dia</a> (md5: c8cafd5b4fa2ff319515c995a73e769c)<br>
+                <a href="fivevariable1.dia">fivevariable1.dia</a> (md5: 77bfb61c147c45bbc6f5dc47aa1ed6c3)<br>
+                <a href="fivevariable2.dia">fivevariable2.dia</a> (md5: d39313ae9302b7fa7940e44e13734614)<br>
+                <a href="fivevariable3.dia">fivevariable3.dia</a> (md5: b0d04d241a7d4622a80043f12e982fb6)<br>
+                <a href="fivevariable4.dia">fivevariable4.dia</a> (md5: 36a4e77580957e9bdeee305af4855258)<br>
+                <a href="fivevariable5.dia">fivevariable5.dia</a> (md5: b6eb08d1f3cf294df3db469bf19afefa)
+            </p>
+        </div>
+        <p id="desc" class="heading">Description</p>
+        <div class="indent">
+            <p>Example R code for analyses presented in the main text is provided in <span class="courier">simulation.r</span>, <span class="courier">bayestest.r</span>, <span class="courier">interface.r</span>, <span class="courier">mutual.r</span>, <span class="courier">tree.r</span>, <span class="courier">distance.r</span>. Comments are provided at the beginning of each of these files describing the application of network analysis algorithms, and comments throughout annotate the steps involved. Dependencies are <span class="courier">community.r</span>, <span class="courier">dia.r</span>, and <span class="courier">tk.r</span>. These analyses require signed directed graphs created in Dia (available from <a target="_blank" href="http://live.gnome.org/Dia">http://live.gnome.org/Dia</a>) as inputs. Example models provided as part of this supplement are <span class="courier">macquarie.dia</span>, <span class="courier">mesocosm1.dia</span>, <span class="courier">mesocosm2.dia</span>, and <span class="courier">fivevariable1.dia–fivevariable5.dia</span>.
+            </p>
+        </div>
+        <!-- Content stops here!  Don't delete anything after this! -->
+        <hr>
+        <p id="links" class="center">
+            <a href="../../../../default.htm" target="_top">ESA Publications</a> |
+            <a href="../../../default.htm" target="_top">Ecological Archives</a> |
+            <a href="../../../copyright.htm" target="_top">Permissions</a> |
+            <a href="../../../citation.htm" target="_top">Citation</a> |
+            <a href="../../../contacts.htm" target="_top">Contacts</a>
+        </p>
+    
+
+<!--?php mysql_close($con); ?--></body></html>

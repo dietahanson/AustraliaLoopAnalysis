@@ -1,0 +1,133 @@
+58
+Dceped
+Lmacro
+NaupCy	Dceped
+NaupCy	Acanth
+NaupCy	Mesoc
+NaupCy	Aspl
+Acanth	Lmacro
+Mesoc	Lmacro
+Chydo	Dceped
+Chydo	Lmacro
+Chydo	Acanth
+Chydo	Mesoc
+Daphn	Dceped
+Daphn	Lmacro
+Daphn	Acanth
+Daphn	Mesoc
+Simoc	Dceped
+Simoc	Lmacro
+Simoc	Acanth
+Simoc	Mesoc
+Aspl	Dceped
+Aspl	Acanth
+Aspl	Mesoc
+Brach	Dceped
+Brach	Acanth
+Brach	Mesoc
+Brach	Aspl
+Chiro	Lmacro
+CryptoM	Chydo
+CryptoM	Daphn
+CryptoM	Simoc
+Cryptoo	NaupCy
+Cryptoo	Chydo
+Cryptoo	Daphn
+Cryptoo	Simoc
+Cryptoo	Brach
+Eutrep	Dceped
+Eugl	Simoc
+Phac
+Ochro	NaupCy
+Ochro	Chydo
+Ochro	Daphn
+Ochro	Simoc
+Mallo	NaupCy
+Mallo	Chydo
+Mallo	Daphn
+Mallo	Simoc
+Gymno	Chydo
+Gymno	Daphn
+Gymno	Simoc
+Gymno	Brach
+Chlamy1	Simoc
+Chlamy2	NaupCy
+Chlamy2	Chydo
+Chlamy2	Daphn
+Chlamy2	Simoc
+Chlamy2	Brach
+FlagelCel	NaupCy
+FlagelCel	Chydo
+FlagelCel	Daphn
+FlagelCel	Simoc
+FlagelCel	Brach
+Urogl	Simoc
+Synur
+Volvo	Dceped
+Ankist1	Dceped
+Ankist2
+Ankist3	Chydo
+Ankist3	Daphn
+Ankist3	Simoc
+Ankist3	Brach
+Ankist4	Simoc
+Actin1
+Actin2	Simoc
+Actin2	Brach
+Gloec
+Pedia1
+Pedia2
+Pedia3
+Pedia4
+Quadri
+Scen1	Chydo
+Scen1	Daphn
+Scen1	Simoc
+Scen2	Chydo
+Scen2	Daphn
+Scen2	Simoc
+Scen2	Brach
+Scen34	Chydo
+Scen34	Daphn
+Scen34	Simoc
+Scen34	Brach
+Scen32	Chydo
+Scen32	Daphn
+Scen32	Simoc
+Scen32	Brach
+Scen2a	Chydo
+Scen2a	Daphn
+Scen2a	Simoc
+Scen2a	Brach
+Tetra	Daphn
+Tetra	Simoc
+Gloeoca
+Nosto
+filam1
+Cosci	Simoc
+Cosci	Chiro
+Cigar	Chiro
+Needle	Dceped
+Needle	Chiro
+Euno	Chiro
+Fragil	Dceped
+Fragil	Chiro
+Gompho	Chiro
+Nitz	Chiro
+Pinnul	Daphn
+Pinnul	Simoc
+Pinnul	Chiro
+Syned	Dceped
+Syned	Chiro
+Melos2	Dceped
+Melos2	Chiro
+Detrit	Dceped
+Detrit	Brach
+Detrit	Chiro
+Detrit	Bact
+Bact	Dceped
+Bact	NaupCy
+Bact	Daphn
+Bact	Aspl
+Bact	Brach
+Bact	Chiro

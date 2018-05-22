@@ -1,0 +1,32 @@
+{ matrimonial relations network across classes in Purum village 
+{ Manipur, North-East India
+{ normative relations
+
+{ Needham R. 1962.
+{ Structure and Sentiment. University of Chicago Press, Chicago.
+{ Table 6 p. 80. 
+
+{ Ramirez P & S Legendre. 2017. To appear.
+{ Revisiting asymmetric marriage rules.
+
+{ a_ij = 0/1 = existence of normative matrimonial relation from class i to class j 
+{ lineage of wife in column (transpose of the convention)
+{ n = 13 classes
+{ k = 54 + 2*1 = 56 matrimonial relations (nb of nonzero entries of the matrix)
+{ of which a = 54 are asymmetric and 2*s = 2 are symmetric
+{ p_config(n,k = a + 2*s) = 0.000003036
+
+13
+K1	0	0	1	0	1	0	1	1	0	0	0	0	0
+K2	0	0	1	0	1	1	0	0	0	0	0	0	0
+M1	0	0	0	0	0	0	0	1	1	0	0	0	0
+M2	1	1	0	0	0	0	1	1	1	0	0	0	0
+M3	0	0	0	0	0	0	0	1	1	0	0	0	0
+M4	1	0	0	0	0	0	0	1	1	0	0	0	0
+Mk1	0	1	1	0	1	1	0	0	0	1	1	1	1
+Mk2	1	1	0	0	0	0	0	0	0	1	1	1	1
+P	1	1	0	0	0	0	1	1	0	1	1	0	0
+T1	1	1	0	1	1	1	0	0	0	0	0	0	0
+T2	1	0	0	1	1	1	0	0	0	0	0	0	0
+T3	1	0	0	1	1	1	0	0	0	0	0	0	0
+T4	1	1	0	0	1	1	0	0	0	0	0	0	0

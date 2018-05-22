@@ -1,0 +1,1214 @@
+﻿predator,prey,weight
+Amphibolurus burnsi,Araneidae,20
+Amphibolurus burnsi,Blattodea,20
+Amphibolurus burnsi,Chilopoda,20
+Amphibolurus burnsi,Coleoptera,20
+Amphibolurus burnsi,Lepidoptera,20
+Anas superciliosa,Blattodea,40
+Anas superciliosa,Coleoptera,40
+Anas superciliosa,Triodia basedownii,6
+Anas superciliosa,Triodia longiceps,7
+Anas superciliosa,Triodia pungens,7
+Antaresia stimsoni,Ctenotus robustus,2
+Antaresia stimsoni,Egernia kintorei,2
+Antaresia stimsoni,Egernia striata,2
+Antaresia stimsoni,Egernia striolata,2
+Antaresia stimsoni,Hemiergis peronii,2
+Antaresia stimsoni,Lagorchestes hirsutus,2
+Antaresia stimsoni,Leggadina forresti,2
+Antaresia stimsoni,Leiolopisma metallicum,2
+Antaresia stimsoni,Leiolopisma trilineatum,2
+Antaresia stimsoni,Lerista bougainvillea,2
+Antaresia stimsoni,Menetia greyii,2
+Antaresia stimsoni,Morethia lineoocellatus,3
+Antaresia stimsoni,Notaden nichollsi,20
+Antaresia stimsoni,Notomys sp.,20
+Antaresia stimsoni,Tiliqua multifasciata,3
+Antaresia stimsoni,Tiliqua occipitalis,3
+Antaresia stimsoni,Tiliqua scincoides,3
+Antaresia stimsoni,Notoryctes caurinus,20
+Antaresia stimsoni,Petrogale lateralis,3
+Antaresia stimsoni,Tachyglossus aculeatus,3
+Aprasia striolata,Formicidae,99
+Aprasia striolata,Lepidoptera,1
+Ardeotis australis,Amphibolurus burnsi,4
+Ardeotis australis,Blattodea,3
+Ardeotis australis,Chilopoda,3
+Ardeotis australis,Coleoptera,3
+Ardeotis australis,Ctenotus leonhardii,3
+Ardeotis australis,Ctenotus robustus,3
+Ardeotis australis,Ctenotus strauchii,3
+Ardeotis australis,Egernia striolata,3
+Ardeotis australis,Heteronotia binoei,5
+Ardeotis australis,Lepidoptera,3
+Ardeotis australis,Notomys sp.,4
+Ardeotis australis,Oedura marmorata,4
+Ardeotis australis,Pogona vitticeps,2
+Ardeotis australis,Pseudechis australis,2
+Ardeotis australis,Pygopus schraderi,2
+Ardeotis australis,Solanum centrale,2
+Ardeotis australis,Solanum chippendalei,2
+Ardeotis australis,Solanum cleistogamum,2
+Ardeotis australis,Solanum diversiflorum,2
+Ardeotis australis,Solanum gilesii,2
+Ardeotis australis,Stiltia isabella,2
+Ardeotis australis,Suta suta,4
+Ardeotis australis,Taeniopygia guttata,4
+Ardeotis australis,Tiliqua multifasciata,4
+Ardeotis australis,Tiliqua occipitalis,3
+Ardeotis australis,Triodia basedownii,1
+Ardeotis australis,Triodia longiceps,1
+Ardeotis australis,Triodia pungens,1
+Ardeotis australis,Turnix velox,3
+Ardeotis australis,Tympanocryptis tetraporophora,3
+Ardeotis australis,Varanus gouldii,2
+Ardeotis australis,Varanus tristis,3
+Ardeotis australis,Melopsittacus undulatus,4
+Ardeotis australis,Notoryctes caurinus,4
+Ardeotis australis,Ocyphaps lophotes,4
+Aspidites melanocephalus,Bettongia lesueur,3
+Aspidites melanocephalus,Ctenophorus caudicinctus,2
+Aspidites melanocephalus,Ctenophorus caudicinctus,2
+Aspidites melanocephalus,Ctenotus isolepis,2
+Aspidites melanocephalus,Ctenotus robustus,2
+Aspidites melanocephalus,Egernia kintorei,2
+Aspidites melanocephalus,Egernia striata,2
+Aspidites melanocephalus,Egernia striolata,2
+Aspidites melanocephalus,Hemiergis peronii,2
+Aspidites melanocephalus,Lagorchestes hirsutus,3
+Aspidites melanocephalus,Leiolopisma metallicum,2
+Aspidites melanocephalus,Leiolopisma trilineatum,2
+Aspidites melanocephalus,Lerista bougainvillea,2
+Aspidites melanocephalus,Lophognatus gilberti,4
+Aspidites melanocephalus,Menetia greyii,2
+Aspidites melanocephalus,Moloch horridus,2
+Aspidites melanocephalus,Morethia lineoocellatus,2
+Aspidites melanocephalus,Notomys sp.,6
+Aspidites melanocephalus,Pogona minor,2
+Aspidites melanocephalus,Pogona minor,2
+Aspidites melanocephalus,Pogona vitticeps,2
+Aspidites melanocephalus,Pogona vitticeps,2
+Aspidites melanocephalus,Pseudechis australis,2
+Aspidites melanocephalus,Pseudechis australis,5
+Aspidites melanocephalus,Reptile eggs,2
+Aspidites melanocephalus,Suta suta,2
+Aspidites melanocephalus,Taeniopygia guttata,2
+Aspidites melanocephalus,Tiliqua occipitalis,2
+Aspidites melanocephalus,Tiliqua scincoides,4
+Aspidites melanocephalus,Varanus acanthurus,14
+Aspidites melanocephalus,Varanus tristis,15
+Aspidites melanocephalus,Melopsittacus undulatus,2
+Aspidites melanocephalus,Notoryctes caurinus,6
+Aspidites melanocephalus,Ocyphaps lophotes,2
+Aspidites melanocephalus,Petrogale lateralis,3
+Aspidites melanocephalus,Tachyglossus aculeatus,3
+Aspidites ramsayii,Bettongia lesueur,8
+Aspidites ramsayii,Ctenophorus caudicinctus,2
+Aspidites ramsayii,Ctenophorus caudicinctus,2
+Aspidites ramsayii,Ctenotus isolepis,2
+Aspidites ramsayii,Egernia kintorei,1
+Aspidites ramsayii,Egernia striata,1
+Aspidites ramsayii,Egernia striolata,1
+Aspidites ramsayii,Hemiergis peronii,1
+Aspidites ramsayii,Lagorchestes hirsutus,8
+Aspidites ramsayii,Leiolopisma metallicum,1
+Aspidites ramsayii,Leiolopisma trilineatum,1
+Aspidites ramsayii,Lerista bougainvillea,1
+Aspidites ramsayii,Lophognatus gilberti,2
+Aspidites ramsayii,Menetia greyii,1
+Aspidites ramsayii,Morethia lineoocellatus,1
+Aspidites ramsayii,Notomys sp.,15
+Aspidites ramsayii,Oedura marmorata,2
+Aspidites ramsayii,Oryctolagus cuniculus,2
+Aspidites ramsayii,Pogona minor,2
+Aspidites ramsayii,Pogona minor,2
+Aspidites ramsayii,Pogona vitticeps,2
+Aspidites ramsayii,Pseudechis australis,2
+Aspidites ramsayii,Reptile eggs,2
+Aspidites ramsayii,Taeniopygia guttata,2
+Aspidites ramsayii,Tiliqua multifasciata,1
+Aspidites ramsayii,Tiliqua occipitalis,1
+Aspidites ramsayii,Tiliqua scincoides,1
+Aspidites ramsayii,Varanus acanthurus,2
+Aspidites ramsayii,Varanus gouldii,2
+Aspidites ramsayii,Varanus tristis,2
+Aspidites ramsayii,Melopsittacus undulatus,2
+Aspidites ramsayii,Notoryctes caurinus,10
+Aspidites ramsayii,Ocyphaps lophotes,2
+Aspidites ramsayii,Petrogale lateralis,5
+Aspidites ramsayii,Tachyglossus aculeatus,8
+Bettongia lesueur,Eragrostis eriopoda,10
+Bettongia lesueur,Eragrostis lanipes,10
+Bettongia lesueur,Eragrostis setifolia,10
+Bettongia lesueur,Panicum decompositum,10
+Bettongia lesueur,Plectrachne schinzii,10
+Bettongia lesueur,Ptilotus exaltatus,10
+Bettongia lesueur,Ptilotus macrocephalus,10
+Bettongia lesueur,Ptilotus polystachyus,10
+Bettongia lesueur,Sida calyxhymenia,10
+Bettongia lesueur,Triodia basedownii,3
+Bettongia lesueur,Triodia longiceps,4
+Bettongia lesueur,Triodia pungens,3
+Calyptorhynchus roseicapilla,Acacia acradenia,4
+Calyptorhynchus roseicapilla,Acacia aneura,19
+Calyptorhynchus roseicapilla,Acacia coriacea,4
+Calyptorhynchus roseicapilla,Acacia cowleana,4
+Calyptorhynchus roseicapilla,Acacia cuthbertsoni,4
+Calyptorhynchus roseicapilla,Acacia dictyophleba,4
+Calyptorhynchus roseicapilla,Acacia kempeana,4
+Calyptorhynchus roseicapilla,Acacia ligulata,3
+Calyptorhynchus roseicapilla,Acacia pruinocarpa,3
+Calyptorhynchus roseicapilla,Acacia spondylophylla,3
+Calyptorhynchus roseicapilla,Acacia tetragonophylla,3
+Calyptorhynchus roseicapilla,Allocasuarina decaisneana,15
+Calyptorhynchus roseicapilla,Eucalyptus opaca,30
+Camelus dromedarius,Amyema sp.,2
+Camelus dromedarius,Canthium attenuatum,1
+Camelus dromedarius,Canthium latifolium,1
+Camelus dromedarius,Capparis loranthifolia,1
+Camelus dromedarius,Capparis umbonata,1
+Camelus dromedarius,Cynanchum floribundum,1
+Camelus dromedarius,Dactyloctenium radulans,1
+Camelus dromedarius,Eragrostis eriopoda,3
+Camelus dromedarius,Eragrostis lanipes,3
+Camelus dromedarius,Eragrostis setifolia,4
+Camelus dromedarius,Hakea leucoptera,4
+Camelus dromedarius,Leptosema chambersii,4
+Camelus dromedarius,Panicum decompositum,4
+Camelus dromedarius,Plectrachne schinzii,4
+Camelus dromedarius,Ptilotus polystachyus,4
+Camelus dromedarius,Santalum acuminatum,4
+Camelus dromedarius,Santalum lanceolatum,4
+Camelus dromedarius,Sida calyxhymenia,4
+Camelus dromedarius,Solanum centrale,4
+Camelus dromedarius,Solanum chippendalei,4
+Camelus dromedarius,Solanum cleistogamum,4
+Camelus dromedarius,Solanum diversiflorum,4
+Camelus dromedarius,Solanum gilesii,4
+Camelus dromedarius,Solanum lasiophyllum,4
+Camelus dromedarius,Tecticornia verrucosa,1
+Camelus dromedarius,Thryptomene maisonneuve,4
+Camelus dromedarius,Thyridolepis multiculmis,4
+Camelus dromedarius,Triodia basedownii,1
+Camelus dromedarius,Triodia longiceps,2
+Camelus dromedarius,Triodia longiceps,3
+Camelus dromedarius,Triodia pungens,2
+Camelus dromedarius,Triodia pungens,3
+Camelus dromedarius,Yakirra australiensis,3
+Camelus dromedarius,Grevillea eriostachya,1
+Camelus dromedarius,Grevillea stenobotrya,1
+Camelus dromedarius,Grevillea wickhamii,1
+Chaeropus ecaudatus,Eragrostis eriopoda,11
+Chaeropus ecaudatus,Eragrostis lanipes,11
+Chaeropus ecaudatus,Eragrostis setifolia,11
+Chaeropus ecaudatus,Panicum decompositum,11
+Chaeropus ecaudatus,Plectrachne schinzii,11
+Chaeropus ecaudatus,Ptilotus polystachyus,11
+Chaeropus ecaudatus,Triodia basedownii,11
+Chaeropus ecaudatus,Triodia longiceps,12
+Chaeropus ecaudatus,Triodia pungens,11
+Corvus cecilae,Acacia acradenia,2
+Corvus cecilae,Acacia aneura,2
+Corvus cecilae,Acacia coriacea,2
+Corvus cecilae,Acacia cowleana,2
+Corvus cecilae,Acacia cuthbertsoni,2
+Corvus cecilae,Acacia dictyophleba,2
+Corvus cecilae,Acacia kempeana,2
+Corvus cecilae,Acacia ligulata,2
+Corvus cecilae,Acacia pruinocarpa,2
+Corvus cecilae,Acacia spondylophylla,2
+Corvus cecilae,Blattodea,1
+Corvus cecilae,Chenopodium curvispicatum,5
+Corvus cecilae,Coleoptera,5
+Corvus cecilae,Cucumis melo (agrestis),5
+Corvus cecilae,Diptera,5
+Corvus cecilae,Enchylaena tomentosa,3
+Corvus cecilae,Formicidae,5
+Corvus cecilae,Heteroptera,5
+Corvus cecilae,human,2
+Corvus cecilae,Lagorchestes hirsutus,5
+Corvus cecilae,Leiolopisma metallicum,2
+Corvus cecilae,Mantodea,2
+Corvus cecilae,Orthoptera,5
+Corvus cecilae,Pseudechis australis,2
+Corvus cecilae,Psylla eucalypti,2
+Corvus cecilae,Taeniopygia guttata,3
+Corvus cecilae,Triodia basedownii,2
+Corvus cecilae,Triodia longiceps,2
+Corvus cecilae,Triodia pungens,2
+Corvus cecilae,Falco longipennis,1
+Corvus cecilae,Varanus acanthurus,2
+Corvus cecilae,Melopsittacus undulatus,3
+Corvus cecilae,Ocyphaps lophotes,3
+Corvus cecilae,Petrogale lateralis,3
+Corvus cecilae,Tachyglossus aculeatus,3
+Corvus cecilae,Anas superciliosa,2
+Ctenophorus caudicinctus,Araneidae,13
+Ctenophorus caudicinctus,Blattodea,2.5
+Ctenophorus caudicinctus,Blattodea,28.6
+Ctenophorus caudicinctus,Chilopoda,1.4
+Ctenophorus caudicinctus,Coleoptera,7
+Ctenophorus caudicinctus,Ctenotus robustus,0.7
+Ctenophorus caudicinctus,Diptera,0.6
+Ctenophorus caudicinctus,Formicidae,17.9
+Ctenophorus caudicinctus,Heteroptera,2.5
+Ctenophorus caudicinctus,Lepidoptera,3.5
+Ctenophorus caudicinctus,Mantodea,1
+Ctenophorus caudicinctus,Neuroptera,0.5
+Ctenophorus caudicinctus,Orthoptera,4.7
+Ctenophorus caudicinctus,Phasmatodea,0.1
+Ctenophorus caudicinctus,Zygentoma ,16
+Ctenotus isolepis,Araneidae,13
+Ctenotus isolepis,Blattodea,2.5
+Ctenotus isolepis,Blattodea,28.6
+Ctenotus isolepis,Chilopoda,1.4
+Ctenotus isolepis,Coleoptera,7
+Ctenotus isolepis,Ctenotus robustus,0.7
+Ctenotus isolepis,Diptera,0.6
+Ctenotus isolepis,Formicidae,17.9
+Ctenotus isolepis,Heteroptera,2.5
+Ctenotus isolepis,Lepidoptera,3.5
+Ctenotus isolepis,Mantodea,1
+Ctenotus isolepis,Neuroptera,0.2
+Ctenotus isolepis,Orthoptera,5
+Ctenotus isolepis,Phasmatodea,0.1
+Ctenotus isolepis,Zygentoma ,16
+Ctenotus leonhardii,Araneidae,13
+Ctenotus leonhardii,Blattodea,2.5
+Ctenotus leonhardii,Blattodea,28.6
+Ctenotus leonhardii,Chilopoda,1.4
+Ctenotus leonhardii,Coleoptera,7
+Ctenotus leonhardii,Ctenotus robustus,1
+Ctenotus leonhardii,Diptera,1
+Ctenotus leonhardii,Formicidae,17.9
+Ctenotus leonhardii,Heteroptera,2.5
+Ctenotus leonhardii,Lepidoptera,3.5
+Ctenotus leonhardii,Mantodea,0.7
+Ctenotus leonhardii,Neuroptera,0.1
+Ctenotus leonhardii,Orthoptera,4.7
+Ctenotus leonhardii,Phasmatodea,0.1
+Ctenotus leonhardii,Zygentoma ,16
+Ctenotus robustus,Araneidae,13
+Ctenotus robustus,Blattodea,2.5
+Ctenotus robustus,Blattodea,28.6
+Ctenotus robustus,Chilopoda,1.4
+Ctenotus robustus,Coleoptera,6
+Ctenotus robustus,Ctenotus robustus,0.7
+Ctenotus robustus,Diptera,0.6
+Ctenotus robustus,Formicidae,17.9
+Ctenotus robustus,Heteroptera,3.5
+Ctenotus robustus,Lepidoptera,3.5
+Ctenotus robustus,Mantodea,1
+Ctenotus robustus,Neuroptera,0.2
+Ctenotus robustus,Orthoptera,5
+Ctenotus robustus,Phasmatodea,0.1
+Ctenotus robustus,Zygentoma ,16
+Ctenotus strauchii,Araneidae,13
+Ctenotus strauchii,Blattodea,3.5
+Ctenotus strauchii,Blattodea,28.6
+Ctenotus strauchii,Chilopoda,1.4
+Ctenotus strauchii,Coleoptera,6
+Ctenotus strauchii,Ctenotus robustus,0.7
+Ctenotus strauchii,Diptera,1
+Ctenotus strauchii,Formicidae,17.9
+Ctenotus strauchii,Heteroptera,2.5
+Ctenotus strauchii,Lepidoptera,3.5
+Ctenotus strauchii,Mantodea,1
+Ctenotus strauchii,Neuroptera,0.1
+Ctenotus strauchii,Orthoptera,4.7
+Ctenotus strauchii,Phasmatodea,0.1
+Ctenotus strauchii,Zygentoma ,16
+Dasycercus cristicauda,Araneidae,8
+Dasycercus cristicauda,Blattodea,7.5
+Dasycercus cristicauda,Camponotus inflatus,2
+Dasycercus cristicauda,Chilopoda,7.5
+Dasycercus cristicauda,Coleoptera,7.5
+Dasycercus cristicauda,Formicidae,7.5
+Dasycercus cristicauda,Lepidoptera,7.5
+Dasycercus cristicauda,Mantodea,7.5
+Dasycercus cristicauda,Neuroptera,7.5
+Dasycercus cristicauda,Orthoptera,7.5
+Dasycercus cristicauda,Phasmatodea,7.5
+Dasycercus cristicauda,Scorpionida,7.5
+Dasycercus cristicauda,Trigona sp.,7.5
+Dasycercus cristicauda,Zygentoma ,7.5
+Dasycercus hilleri,Araneidae,8
+Dasycercus hilleri,Blattodea,7.5
+Dasycercus hilleri,Camponotus inflatus,2
+Dasycercus hilleri,Chilopoda,7.5
+Dasycercus hilleri,Coleoptera,7.5
+Dasycercus hilleri,Formicidae,7.5
+Dasycercus hilleri,Lepidoptera,7.5
+Dasycercus hilleri,Mantodea,7.5
+Dasycercus hilleri,Neuroptera,7.5
+Dasycercus hilleri,Orthoptera,7.5
+Dasycercus hilleri,Phasmatodea,7.5
+Dasycercus hilleri,Scorpionida,7.5
+Dasycercus hilleri,Trigona sp.,7.5
+Dasycercus hilleri,Zygentoma ,7.5
+Dasyurus hallucatus,Bettongia lesueur,5
+Dasyurus hallucatus,Chaeropus ecaudatus,5
+Dasyurus hallucatus,Lagorchestes hirsutus,5
+Dasyurus hallucatus,Macrotis lagotis,5
+Dasyurus hallucatus,Notomys sp.,5
+Dasyurus hallucatus,Orthoptera,5
+Dasyurus hallucatus,Perameles eremiana,5
+Dasyurus hallucatus,Taeniopygia guttata,15
+Dasyurus hallucatus,Isodon auratus,5
+Dasyurus hallucatus,Melopsittacus undulatus,15
+Dasyurus hallucatus,Notoryctes caurinus,5
+Dasyurus hallucatus,Ocyphaps lophotes,15
+Dasyurus hallucatus,Petrogale lateralis,5
+Dasyurus hallucatus,Tachyglossus aculeatus,5
+Dromaius novaehollandiae,Acacia aneura,2
+Dromaius novaehollandiae,Allocasuarina decaisneana,2
+Dromaius novaehollandiae,Amyema sp.,2
+Dromaius novaehollandiae,Canthium attenuatum,2
+Dromaius novaehollandiae,Canthium latifolium,2
+Dromaius novaehollandiae,Capparis loranthifolia,2
+Dromaius novaehollandiae,Capparis umbonata,2
+Dromaius novaehollandiae,Chenopodium curvispicatum,2
+Dromaius novaehollandiae,Cynanchum floribundum,2
+Dromaius novaehollandiae,Daucus glochidiatus,2
+Dromaius novaehollandiae,Enchylaena tomentosa,5
+Dromaius novaehollandiae,Endoxyla cinerea,2
+Dromaius novaehollandiae,Eremophila longifolia,15
+Dromaius novaehollandiae,Grevillea eriostachya,10
+Dromaius novaehollandiae,Grevillea stenobotrya,2
+Dromaius novaehollandiae,Grevillea wickhamii,2
+Dromaius novaehollandiae,Hakea leucoptera,2
+Dromaius novaehollandiae,Hakea suberea,10
+Dromaius novaehollandiae,Leiolopisma metallicum,1
+Dromaius novaehollandiae,Leiolopisma trilineatum,1
+Dromaius novaehollandiae,Nitraria billardierei,2
+Dromaius novaehollandiae,Plectrachne schinzii,2
+Dromaius novaehollandiae,Ptilotus exaltatus,2
+Dromaius novaehollandiae,Santalum acuminatum,10
+Dromaius novaehollandiae,Tecticornia verrucosa,2
+Dromaius novaehollandiae,Tetragonia eremaea,10
+Dromaius novaehollandiae,Thyridolepis multiculmis,1
+Dromaius novaehollandiae,Eremophila latrobei,1
+Egernia kintorei,Blattodea,15
+Egernia kintorei,Formicidae,1
+Egernia kintorei,Plectrachne schinzii,6
+Egernia kintorei,Scaevola parvifolia,6
+Egernia kintorei,Senna sp.,6
+Egernia kintorei,Solanum centrale,6
+Egernia kintorei,Solanum chippendalei,6
+Egernia kintorei,Solanum cleistogamum,6
+Egernia kintorei,Solanum diversiflorum,6
+Egernia kintorei,Solanum gilesii,6
+Egernia kintorei,Solanum lasiophyllum,6
+Egernia kintorei,Tetragonia eremaea,6
+Egernia kintorei,Triodia basedownii,6
+Egernia kintorei,Triodia longiceps,6
+Egernia kintorei,Triodia pungens,6
+Egernia kintorei,Yakirra australiensis,6
+Egernia striata,Blattodea,45
+Egernia striata,Camponotus inflatus,3
+Egernia striata,Formicidae,45
+Egernia striata,Plectrachne schinzii,0.5
+Egernia striata,Scaevola parvifolia,0.5
+Egernia striata,Senna sp.,0.5
+Egernia striata,Solanum centrale,0.5
+Egernia striata,Solanum chippendalei,0.5
+Egernia striata,Solanum cleistogamum,0.5
+Egernia striata,Solanum diversiflorum,0.5
+Egernia striata,Solanum gilesii,0.5
+Egernia striata,Solanum lasiophyllum,0.5
+Egernia striata,Tetragonia eremaea,0.5
+Egernia striata,Triodia basedownii,0.5
+Egernia striata,Triodia longiceps,0.5
+Egernia striata,Triodia pungens,0.5
+Egernia striata,Yakirra australiensis,0.5
+Egernia striolata,Blattodea,45
+Egernia striolata,Camponotus inflatus,3
+Egernia striolata,Formicidae,45
+Egernia striolata,Plectrachne schinzii,0.5
+Egernia striolata,Scaevola parvifolia,0.5
+Egernia striolata,Senna sp.,0.5
+Egernia striolata,Solanum centrale,0.5
+Egernia striolata,Solanum chippendalei,0.5
+Egernia striolata,Solanum cleistogamum,0.5
+Egernia striolata,Solanum diversiflorum,0.5
+Egernia striolata,Solanum gilesii,0.5
+Egernia striolata,Solanum lasiophyllum,0.5
+Egernia striolata,Tetragonia eremaea,0.5
+Egernia striolata,Triodia basedownii,0.5
+Egernia striolata,Triodia longiceps,0.5
+Egernia striolata,Triodia pungens,0.5
+Egernia striolata,Yakirra australiensis,0.5
+Endoxyla cinerea,Acacia acradenia,10
+Endoxyla cinerea,Acacia aneura,9
+Endoxyla cinerea,Acacia coriacea,9
+Endoxyla cinerea,Acacia cowleana,9
+Endoxyla cinerea,Acacia cuthbertsoni,9
+Endoxyla cinerea,Acacia dictyophleba,9
+Endoxyla cinerea,Acacia kempeana,9
+Endoxyla cinerea,Acacia ligulata,9
+Endoxyla cinerea,Acacia pruinocarpa,9
+Endoxyla cinerea,Acacia spondylophylla,9
+Endoxyla cinerea,Acacia tetragonophylla,9
+Endoxyla leucomochla,Acacia acradenia,10
+Endoxyla leucomochla,Acacia aneura,9
+Endoxyla leucomochla,Acacia coriacea,9
+Endoxyla leucomochla,Acacia cowleana,9
+Endoxyla leucomochla,Acacia cuthbertsoni,9
+Endoxyla leucomochla,Acacia dictyophleba,9
+Endoxyla leucomochla,Acacia kempeana,9
+Endoxyla leucomochla,Acacia ligulata,9
+Endoxyla leucomochla,Acacia pruinocarpa,9
+Endoxyla leucomochla,Acacia spondylophylla,9
+Endoxyla leucomochla,Acacia tetragonophylla,9
+Falco longipennis,Amphibolurus burnsi,4.5
+Falco longipennis,Aprasia striolata,4.5
+Falco longipennis,Araneidae,4.5
+Falco longipennis,Bettongia lesueur,4.5
+Falco longipennis,Blattodea,4.5
+Falco longipennis,Chilopoda,4.5
+Falco longipennis,Coleoptera,4.5
+Falco longipennis,Ctenotus isolepis,2
+Falco longipennis,Ctenotus isolepis,4.5
+Falco longipennis,Ctenotus leonhardii,2.5
+Falco longipennis,Ctenotus leonhardii,4.5
+Falco longipennis,Ctenotus robustus,3
+Falco longipennis,Ctenotus robustus,4.5
+Falco longipennis,Ctenotus strauchii,2
+Falco longipennis,Dasycercus cristicauda,4.5
+Falco longipennis,Dasycercus hilleri,4.5
+Falco longipennis,Dasyurus hallucatus,4.5
+Falco longipennis,Formicidae,4.5
+Falco longipennis,Heteronotia binoei,2
+Falco longipennis,Leiolopisma metallicum,4.5
+Falco longipennis,Leiolopisma trilineatum,4.5
+Falco longipennis,Lepidoptera,4.5
+Falco longipennis,Oedura marmorata,3
+Falco longipennis,Orthoptera,4.5
+Falco longipennis,Suta suta,4.5
+Fulica atra,Bdelloid,10
+Fulica atra,Brachionus sp.,10
+Fulica atra,Cephalodella sp.,10
+Fulica atra,Lemna disperma,10
+Fulica atra,Myriophyllum crispatum,10
+Fulica atra,Nematodes,10
+Fulica atra,Ostracods,10
+Fulica atra,Protozoans (ciliates),10
+Fulica atra,Typha dominguensis,10
+Fulica atra,Typha orientalis,10
+Hemiergis peronii,Araneidae,11
+Hemiergis peronii,Chilopoda,11
+Hemiergis peronii,Chortoicetes terminifera,11
+Hemiergis peronii,Coleoptera,11
+Hemiergis peronii,Endoxyla cinerea,11
+Hemiergis peronii,Endoxyla leucomochla,11
+Hemiergis peronii,Lepidoptera,11
+Hemiergis peronii,Scorpionida,11
+Hemiergis peronii,Trigona sp.,12
+Heteronotia binoei,Chilopoda,25
+Heteronotia binoei,Chortoicetes terminifera,25
+Heteronotia binoei,Coleoptera,25
+Heteronotia binoei,Lepidoptera,25
+Isodon auratus,Acacia acradenia,1
+Isodon auratus,Acacia aneura,1
+Isodon auratus,Acacia coriacea,1
+Isodon auratus,Acacia cowleana,1
+Isodon auratus,Acacia cuthbertsoni,1
+Isodon auratus,Acacia dictyophleba,1
+Isodon auratus,Acacia kempeana,1
+Isodon auratus,Acacia ligulata,1
+Isodon auratus,Acacia pruinocarpa,1
+Isodon auratus,Acacia spondylophylla,1
+Isodon auratus,Acacia tetragonophylla,1
+Isodon auratus,Araneidae,20
+Isodon auratus,Blattodea,5
+Isodon auratus,Chilopoda,20
+Isodon auratus,Coleoptera,20
+Isodon auratus,Daucus glochidiatus,1
+Isodon auratus,Eremophila longifolia,1
+Isodon auratus,Formicidae,20
+Isodon auratus,Nitraria billardierei,1
+Isodon auratus,Tetragonia eremaea,1
+Leggadina forresti,Araneidae,10
+Leggadina forresti,Blattodea,10
+Leggadina forresti,Chilopoda,10
+Leggadina forresti,Coleoptera,10
+Leggadina forresti,Eragrostis eriopoda,5
+Leggadina forresti,Eragrostis lanipes,5
+Leggadina forresti,Eragrostis setifolia,5
+Leggadina forresti,Lepidoptera,10
+Leggadina forresti,Panicum decompositum,5
+Leggadina forresti,Plectrachne schinzii,5
+Leggadina forresti,Rhyncharrhena linearis,5
+Leggadina forresti,Thyridolepis multiculmis,5
+Leggadina forresti,Triodia longiceps,5
+Leggadina forresti,Triodia pungens,5
+Leggadina forresti,Yakirra australiensis,5
+Leiolopisma metallicum,Araneidae,11
+Leiolopisma metallicum,Chilopoda,11
+Leiolopisma metallicum,Chortoicetes terminifera,11
+Leiolopisma metallicum,Coleoptera,11
+Leiolopisma metallicum,Endoxyla cinerea,11
+Leiolopisma metallicum,Endoxyla leucomochla,11
+Leiolopisma metallicum,Lepidoptera,11
+Leiolopisma metallicum,Scorpionida,11
+Leiolopisma metallicum,Trigona sp.,12
+Leiolopisma trilineatum,Araneidae,11
+Leiolopisma trilineatum,Chilopoda,11
+Leiolopisma trilineatum,Chortoicetes terminifera,11
+Leiolopisma trilineatum,Coleoptera,11
+Leiolopisma trilineatum,Endoxyla cinerea,11
+Leiolopisma trilineatum,Endoxyla leucomochla,11
+Leiolopisma trilineatum,Lepidoptera,11
+Leiolopisma trilineatum,Scorpionida,11
+Leiolopisma trilineatum,Trigona sp.,12
+Lerista bougainvillea,Blattodea,15
+Lerista bougainvillea,Coleoptera,40
+Lerista bougainvillea,Formicidae,15
+Lerista bougainvillea,Heteroptera,15
+Lerista bougainvillea,Trigona sp.,15
+Lophognatus gilberti,Blattodea,50
+Lophognatus gilberti,Formicidae,50
+Macropus robustus,Calandrinia polyandra,9
+Macropus robustus,Eragrostis eriopoda,15
+Macropus robustus,Eragrostis lanipes,15
+Macropus robustus,Eragrostis setifolia,15
+Macropus robustus,Plectrachne schinzii,4
+Macropus robustus,Ptilotus exaltatus,8
+Macropus robustus,Ptilotus macrocephalus,8
+Macropus robustus,Ptilotus polystachyus,8
+Macropus robustus,Sida calyxhymenia,4
+Macropus robustus,Thyridolepis multiculmis,4
+Macropus robustus,Triodia basedownii,3
+Macropus robustus,Triodia longiceps,4
+Macropus robustus,Triodia pungens,3
+Macropus rufus,Eragrostis eriopoda,10
+Macropus rufus,Eragrostis lanipes,10
+Macropus rufus,Eragrostis setifolia,10
+Macropus rufus,Panicum decompositum,10
+Macropus rufus,Plectrachne schinzii,10
+Macropus rufus,Ptilotus exaltatus,10
+Macropus rufus,Ptilotus macrocephalus,10
+Macropus rufus,Ptilotus polystachyus,10
+Macropus rufus,Sida calyxhymenia,10
+Macropus rufus,Triodia basedownii,3
+Macropus rufus,Triodia longiceps,4
+Macropus rufus,Triodia pungens,3
+Macrotis lagotis,Araneidae,10
+Macrotis lagotis,Blattodea,40
+Macrotis lagotis,Coleoptera,20
+Macrotis lagotis,Formicidae,20
+Macrotis lagotis,Orthoptera,10
+Melopsittacus undulatus,Acacia acradenia,9
+Melopsittacus undulatus,Acacia aneura,9
+Melopsittacus undulatus,Acacia coriacea,9
+Melopsittacus undulatus,Acacia cowleana,9
+Melopsittacus undulatus,Acacia cuthbertsoni,9
+Melopsittacus undulatus,Acacia dictyophleba,9
+Melopsittacus undulatus,Acacia kempeana,9
+Melopsittacus undulatus,Acacia ligulata,9
+Melopsittacus undulatus,Acacia pruinocarpa,9
+Melopsittacus undulatus,Acacia spondylophylla,9
+Melopsittacus undulatus,Acacia tetragonophylla,10
+Menetia greyii,Blattodea,16
+Menetia greyii,Chilopoda,16
+Menetia greyii,Coleoptera,17
+Menetia greyii,Formicidae,17
+Menetia greyii,Lepidoptera,17
+Menetia greyii,Orthoptera,17
+Moloch horridus,Camponotus inflatus,10
+Moloch horridus,Formicidae,90
+Morethia lineoocellatus,Blattodea,16
+Morethia lineoocellatus,Chilopoda,16
+Morethia lineoocellatus,Coleoptera,17
+Morethia lineoocellatus,Formicidae,17
+Morethia lineoocellatus,Lepidoptera,17
+Morethia lineoocellatus,Orthoptera,17
+Notaden nichollsi,Blattodea,65
+Notaden nichollsi,Camponotus inflatus,5
+Notaden nichollsi,Formicidae,30
+Notomys sp.,Araneidae,10
+Notomys sp.,Blattodea,10
+Notomys sp.,Chilopoda,10
+Notomys sp.,Coleoptera,10
+Notomys sp.,Eragrostis eriopoda,5
+Notomys sp.,Eragrostis lanipes,5
+Notomys sp.,Eragrostis setifolia,5
+Notomys sp.,Lepidoptera,10
+Notomys sp.,Panicum decompositum,5
+Notomys sp.,Plectrachne schinzii,5
+Notomys sp.,Rhyncharrhena linearis,5
+Notomys sp.,Thyridolepis multiculmis,5
+Notomys sp.,Triodia longiceps,5
+Notomys sp.,Triodia pungens,5
+Notomys sp.,Yakirra australiensis,5
+Notoryctes caurinus,Araneidae,2
+Notoryctes caurinus,Blattodea,20
+Notoryctes caurinus,Coleoptera,50
+Notoryctes caurinus,Formicidae,14
+Notoryctes caurinus,Heteroptera,2
+Notoryctes caurinus,Lepidoptera,2
+Notoryctes caurinus,Orthoptera,6
+Notoryctes caurinus,Scorpionida,2
+Notoryctes caurinus,Trigona sp.,2
+Ocyphaps lophotes,Amyema sp.,
+Ocyphaps lophotes,Araneidae,0.2
+Ocyphaps lophotes,Blattodea,0.2
+Ocyphaps lophotes,Canthium attenuatum,5
+Ocyphaps lophotes,Canthium latifolium,5
+Ocyphaps lophotes,Capparis loranthifolia,5
+Ocyphaps lophotes,Capparis umbonata,5
+Ocyphaps lophotes,Chilopoda,0.2
+Ocyphaps lophotes,Coleoptera,0.2
+Ocyphaps lophotes,Cynanchum floribundum,5
+Ocyphaps lophotes,Eragrostis eriopoda,5
+Ocyphaps lophotes,Eragrostis lanipes,5
+Ocyphaps lophotes,Eragrostis setifolia,5
+Ocyphaps lophotes,Lepidoptera,0.2
+Ocyphaps lophotes,Panicum decompositum,5
+Ocyphaps lophotes,Plectrachne schinzii,5
+Ocyphaps lophotes,Rhyncharrhena linearis,5
+Ocyphaps lophotes,Tecticornia verrucosa,5
+Ocyphaps lophotes,Thyridolepis multiculmis,10
+Ocyphaps lophotes,Triodia longiceps,10
+Ocyphaps lophotes,Triodia pungens,10
+Ocyphaps lophotes,Yakirra australiensis,9
+Oedura marmorata,Blattodea,10
+Oedura marmorata,Chilopoda,10
+Oedura marmorata,Coleoptera,10
+Oedura marmorata,Formicidae,10
+Oedura marmorata,Lepidoptera,10
+Oedura marmorata,Menetia greyii,10
+Oedura marmorata,Morethia lineoocellatus,10
+Oedura marmorata,Orthoptera,10
+Oedura marmorata,Tiliqua multifasciata,10
+Oedura marmorata,Tiliqua occipitalis,10
+Oryctolagus cuniculus,Amyema sp.,2
+Oryctolagus cuniculus,Canthium attenuatum,2
+Oryctolagus cuniculus,Canthium latifolium,2
+Oryctolagus cuniculus,Capparis loranthifolia,2
+Oryctolagus cuniculus,Capparis umbonata,2
+Oryctolagus cuniculus,Cynanchum floribundum,2
+Oryctolagus cuniculus,Eragrostis eriopoda,7
+Oryctolagus cuniculus,Eragrostis lanipes,7
+Oryctolagus cuniculus,Eragrostis setifolia,7
+Oryctolagus cuniculus,Panicum decompositum,7
+Oryctolagus cuniculus,Plectrachne schinzii,7
+Oryctolagus cuniculus,Ptilotus exaltatus,10
+Oryctolagus cuniculus,Ptilotus macrocephalus,10
+Oryctolagus cuniculus,Ptilotus polystachyus,10
+Oryctolagus cuniculus,Sida calyxhymenia,10
+Oryctolagus cuniculus,Tecticornia verrucosa,3
+Oryctolagus cuniculus,Triodia basedownii,3
+Oryctolagus cuniculus,Triodia longiceps,4
+Oryctolagus cuniculus,Triodia pungens,3
+Perameles eremiana,Blattodea,20
+Perameles eremiana,Camponotus inflatus,21
+Perameles eremiana,Eragrostis eriopoda,5
+Perameles eremiana,Eragrostis lanipes,5
+Perameles eremiana,Eragrostis setifolia,5
+Perameles eremiana,Formicidae,20
+Perameles eremiana,Panicum decompositum,4
+Perameles eremiana,Plectrachne schinzii,4
+Perameles eremiana,Ptilotus polystachyus,4
+Perameles eremiana,Triodia basedownii,4
+Perameles eremiana,Triodia longiceps,4
+Perameles eremiana,Triodia pungens,4
+Petrogale lateralis,Eragrostis eriopoda,10
+Petrogale lateralis,Eragrostis lanipes,10
+Petrogale lateralis,Eragrostis setifolia,10
+Petrogale lateralis,Panicum decompositum,10
+Petrogale lateralis,Plectrachne schinzii,10
+Petrogale lateralis,Rhyncharrhena linearis,10
+Petrogale lateralis,Thyridolepis multiculmis,10
+Petrogale lateralis,Triodia longiceps,10
+Petrogale lateralis,Triodia pungens,10
+Petrogale lateralis,Yakirra australiensis,10
+Pogona minor,Blattodea,50
+Pogona minor,Camponotus inflatus,5
+Pogona minor,Formicidae,45
+Pogona vitticeps,Blattodea,90
+Pogona vitticeps,Camponotus inflatus,1
+Pogona vitticeps,Formicidae,9
+Pseudechis australis,Amphibolurus burnsi,5
+Pseudechis australis,Ctenotus isolepis,2
+Pseudechis australis,Ctenotus leonhardii,2
+Pseudechis australis,Ctenotus robustus,2
+Pseudechis australis,Ctenotus strauchii,2
+Pseudechis australis,Dasycercus cristicauda,5
+Pseudechis australis,Dasycercus hilleri,5
+Pseudechis australis,Egernia striolata,7
+Pseudechis australis,Hemiergis peronii,8
+Pseudechis australis,Heteronotia binoei,8
+Pseudechis australis,Leggadina forresti,10
+Pseudechis australis,Leiolopisma metallicum,8
+Pseudechis australis,Leiolopisma trilineatum,8
+Pseudechis australis,Notomys sp.,10
+Pseudechis australis,Oedura marmorata,8
+Pseudechis australis,Notoryctes caurinus,10
+Pygopus schraderi,Araneidae,20
+Pygopus schraderi,Blattodea,20
+Pygopus schraderi,Chilopoda,20
+Pygopus schraderi,Coleoptera,20
+Pygopus schraderi,Lepidoptera,20
+Sminthopsis macroura,Araneidae,33
+Sminthopsis macroura,Chilopoda,33
+Sminthopsis macroura,Coleoptera,34
+Stiltia isabella,Araneidae,20
+Stiltia isabella,Blattodea,20
+Stiltia isabella,Chilopoda,20
+Stiltia isabella,Coleoptera,20
+Stiltia isabella,Lepidoptera,20
+Suta suta,Amphibolurus burnsi,5
+Suta suta,Ctenotus isolepis,2
+Suta suta,Ctenotus leonhardii,2
+Suta suta,Ctenotus robustus,2
+Suta suta,Ctenotus strauchii,2
+Suta suta,Dasycercus cristicauda,5
+Suta suta,Dasycercus hilleri,5
+Suta suta,Egernia striolata,7
+Suta suta,Hemiergis peronii,8
+Suta suta,Heteronotia binoei,8
+Suta suta,Leggadina forresti,10
+Suta suta,Leiolopisma metallicum,8
+Suta suta,Leiolopisma trilineatum,8
+Suta suta,Notomys sp.,10
+Suta suta,Oedura marmorata,8
+Suta suta,Notoryctes caurinus,10
+Tachyglossus aculeatus,Blattodea,60
+Tachyglossus aculeatus,Camponotus inflatus,5
+Tachyglossus aculeatus,Formicidae,35
+Taeniopygia guttata,Amyema sp.,5
+Taeniopygia guttata,Canthium attenuatum,5
+Taeniopygia guttata,Canthium latifolium,5
+Taeniopygia guttata,Capparis loranthifolia,5
+Taeniopygia guttata,Capparis umbonata,5
+Taeniopygia guttata,Cynanchum floribundum,5
+Taeniopygia guttata,Eragrostis eriopoda,6
+Taeniopygia guttata,Eragrostis lanipes,6
+Taeniopygia guttata,Eragrostis setifolia,6
+Taeniopygia guttata,Panicum decompositum,6
+Taeniopygia guttata,Plectrachne schinzii,6
+Taeniopygia guttata,Ptilotus exaltatus,5
+Taeniopygia guttata,Ptilotus macrocephalus,5
+Taeniopygia guttata,Ptilotus polystachyus,5
+Taeniopygia guttata,Sida calyxhymenia,5
+Taeniopygia guttata,Tecticornia verrucosa,5
+Taeniopygia guttata,Triodia basedownii,5
+Taeniopygia guttata,Triodia longiceps,5
+Taeniopygia guttata,Triodia pungens,5
+Tiliqua multifasciata,Araneidae,11
+Tiliqua multifasciata,Chilopoda,11
+Tiliqua multifasciata,Chortoicetes terminifera,11
+Tiliqua multifasciata,Coleoptera,11
+Tiliqua multifasciata,Endoxyla cinerea,11
+Tiliqua multifasciata,Endoxyla leucomochla,11
+Tiliqua multifasciata,Lepidoptera,11
+Tiliqua multifasciata,Scorpionida,11
+Tiliqua multifasciata,Trigona sp.,12
+Tiliqua occipitalis,Araneidae,11
+Tiliqua occipitalis,Chilopoda,11
+Tiliqua occipitalis,Chortoicetes terminifera,11
+Tiliqua occipitalis,Coleoptera,11
+Tiliqua occipitalis,Endoxyla cinerea,11
+Tiliqua occipitalis,Endoxyla leucomochla,11
+Tiliqua occipitalis,Lepidoptera,11
+Tiliqua occipitalis,Scorpionida,11
+Tiliqua occipitalis,Trigona sp.,12
+Tiliqua scincoides,Araneidae,11
+Tiliqua scincoides,Chilopoda,11
+Tiliqua scincoides,Chortoicetes terminifera,11
+Tiliqua scincoides,Coleoptera,11
+Tiliqua scincoides,Endoxyla cinerea,11
+Tiliqua scincoides,Endoxyla leucomochla,11
+Tiliqua scincoides,Lepidoptera,11
+Tiliqua scincoides,Scorpionida,11
+Tiliqua scincoides,Trigona sp.,12
+Trichosurus vulpecula,Amyema sp.,2
+Trichosurus vulpecula,Canthium attenuatum,2
+Trichosurus vulpecula,Canthium latifolium,2
+Trichosurus vulpecula,Capparis loranthifolia,2
+Trichosurus vulpecula,Capparis umbonata,2
+Trichosurus vulpecula,Cynanchum floribundum,2
+Trichosurus vulpecula,Eremophila latrobei,2
+Trichosurus vulpecula,Eucalyptus opaca,60
+Trichosurus vulpecula,Ficus brachypoda,2
+Trichosurus vulpecula,Hakea suberea,2
+Trichosurus vulpecula,Leptosema chambersii,2
+Trichosurus vulpecula,Ptilotus exaltatus,5
+Trichosurus vulpecula,Ptilotus macrocephalus,5
+Trichosurus vulpecula,Santalum acuminatum,4
+Trichosurus vulpecula,Santalum lanceolatum,4
+Trichosurus vulpecula,Tecticornia verrucosa,2
+Turnix velox,Eragrostis eriopoda,10
+Turnix velox,Eragrostis lanipes,10
+Turnix velox,Eragrostis setifolia,10
+Turnix velox,Panicum decompositum,10
+Turnix velox,Plectrachne schinzii,10
+Turnix velox,Ptilotus exaltatus,10
+Turnix velox,Ptilotus macrocephalus,10
+Turnix velox,Ptilotus polystachyus,10
+Turnix velox,Sida calyxhymenia,10
+Turnix velox,Triodia basedownii,3
+Turnix velox,Triodia longiceps,4
+Turnix velox,Triodia pungens,3
+Tympanocryptis tetraporophora,Blattodea,50
+Tympanocryptis tetraporophora,Camponotus inflatus,5
+Tympanocryptis tetraporophora,Formicidae,45
+Varanus acanthurus,Araneidae,10
+Varanus acanthurus,Blattodea,10
+Varanus acanthurus,Coleoptera,30
+Varanus acanthurus,Lepidoptera,10
+Varanus acanthurus,Orthoptera,40
+Varanus giganteus,Aprasia striolata,14.9
+Varanus giganteus,Araneidae,5.9
+Varanus giganteus,Bird egg shell,2.8
+Varanus giganteus,Blattodea,3
+Varanus giganteus,Chilopoda,5.6
+Varanus giganteus,Coleoptera,7
+Varanus giganteus,Hemiergis peronii,4.5
+Varanus giganteus,human,5
+Varanus giganteus,Leiolopisma metallicum,2.1
+Varanus giganteus,Leiolopisma trilineatum,4.4
+Varanus giganteus,Lepidoptera,0.5
+Varanus giganteus,Lerista bougainvillea,11
+Varanus giganteus,Menetia greyii,2.1
+Varanus giganteus,Morethia lineoocellatus,10.6
+Varanus giganteus,Reptile eggs,15
+Varanus giganteus,Scorpionida,3.5
+Varanus giganteus,Varanus gouldii,2.1
+Varanus gouldii,Aprasia striolata,16
+Varanus gouldii,Araneidae,6
+Varanus gouldii,Bird egg shell,5
+Varanus gouldii,Blattodea,4
+Varanus gouldii,Chilopoda,6
+Varanus gouldii,Coleoptera,9
+Varanus gouldii,Hemiergis peronii,3
+Varanus gouldii,human,2
+Varanus gouldii,Leiolopisma metallicum,2
+Varanus gouldii,Leiolopisma trilineatum,5
+Varanus gouldii,Lepidoptera,1
+Varanus gouldii,Lerista bougainvillea,13
+Varanus gouldii,Menetia greyii,4
+Varanus gouldii,Morethia lineoocellatus,11
+Varanus gouldii,Reptile eggs,6
+Varanus gouldii,Scorpionida,4
+Varanus gouldii,Varanus gouldii,3
+Varanus panoptes,Aprasia striolata,14.9
+Varanus panoptes,Araneidae,5.9
+Varanus panoptes,Bird egg shell,2.8
+Varanus panoptes,Blattodea,3
+Varanus panoptes,Chilopoda,5.6
+Varanus panoptes,Coleoptera,7
+Varanus panoptes,Hemiergis peronii,4.5
+Varanus panoptes,human,5
+Varanus panoptes,Leiolopisma metallicum,2.1
+Varanus panoptes,Leiolopisma trilineatum,4.4
+Varanus panoptes,Lepidoptera,0.5
+Varanus panoptes,Lerista bougainvillea,11
+Varanus panoptes,Menetia greyii,2.1
+Varanus panoptes,Morethia lineoocellatus,10.6
+Varanus panoptes,Reptile eggs,15
+Varanus panoptes,Scorpionida,3.5
+Varanus panoptes,Varanus gouldii,2.1
+Varanus tristis,Araneidae,5
+Varanus tristis,Blattodea,10
+Varanus tristis,Coleoptera,5
+Varanus tristis,Ctenophorus caudicinctus,7
+Varanus tristis,Ctenotus isolepis,7
+Varanus tristis,Formicidae,5
+Varanus tristis,Lepidoptera,5
+Varanus tristis,Lophognatus gilberti,7
+Varanus tristis,Orthoptera,35
+Varanus tristis,Pogona minor,7
+Varanus tristis,Pogona vitticeps,7
+Vulpes vulpes,Araneidae,8
+Vulpes vulpes,Bird egg shell,12
+Vulpes vulpes,Blattodea,8
+Vulpes vulpes,Coleoptera,8
+Vulpes vulpes,Lepidoptera,8
+Vulpes vulpes,Notomys sp.,8
+Vulpes vulpes,Reptile eggs,8
+Vulpes vulpes,Trichosurus vulpecula,8
+Vulpes vulpes,Aquila audax,8
+Vulpes vulpes,Ardeotis australis,8
+Vulpes vulpes,Trichosurus vulpecula,8
+Vulpes vulpes,Notoryctes caurinus,8
+Aquila audax,Bettongia lesueur,7
+Aquila audax,Canis lupus dingo,10
+Aquila audax,Chaeropus ecaudatus,5
+Aquila audax,Ctenophorus caudicinctus,1
+Aquila audax,Ctenotus isolepis,1
+Aquila audax,Felis catus,5
+Aquila audax,Lagorchestes hirsutus,10
+Aquila audax,Lophognatus gilberti,1
+Aquila audax,Macropus robustus,15
+Aquila audax,Notomys sp.,5
+Aquila audax,Orthoptera,2
+Aquila audax,Perameles eremiana,2
+Aquila audax,Pogona minor,1
+Aquila audax,Pogona vitticeps,1
+Aquila audax,Taeniopygia guttata,5
+Aquila audax,Tiliqua multifasciata,5
+Aquila audax,Tiliqua occipitalis,5
+Aquila audax,Varanus gouldii,15
+Aquila audax,Corvus cecilae,1
+Aquila audax,Falco longipennis,1
+Aquila audax,Fulica atra,1
+Aquila audax,Anas superciliosa,1
+Bettongia lesueur,Eragrostis eriopoda,10
+Bettongia lesueur,Eragrostis lanipes,10
+Bettongia lesueur,Eragrostis setifolia,10
+Bettongia lesueur,Panicum decompositum,10
+Bettongia lesueur,Plectrachne schinzii,10
+Bettongia lesueur,Ptilotus exaltatus,10
+Bettongia lesueur,Ptilotus macrocephalus,10
+Bettongia lesueur,Ptilotus polystachyus,10
+Bettongia lesueur,Sida calyxhymenia,10
+Bettongia lesueur,Triodia basedownii,3
+Bettongia lesueur,Triodia longiceps,4
+Bettongia lesueur,Triodia pungens,3
+Canis lupus dingo,Ardeotis australis,2
+Canis lupus dingo,Bettongia lesueur,4
+Canis lupus dingo,Chaeropus ecaudatus,4
+Canis lupus dingo,Chilopoda,2
+Canis lupus dingo,Coleoptera,2
+Canis lupus dingo,Ctenophorus caudicinctus,1
+Canis lupus dingo,Ctenotus isolepis,1
+Canis lupus dingo,Felis catus,5
+Canis lupus dingo,human,1
+Canis lupus dingo,Lagorchestes hirsutus,11
+Canis lupus dingo,Lophognatus gilberti,1
+Canis lupus dingo,Macropus robustus,10
+Canis lupus dingo,Notomys sp.,15
+Canis lupus dingo,Orthoptera,4
+Canis lupus dingo,Perameles eremiana,5
+Canis lupus dingo,Pogona minor,1
+Canis lupus dingo,Pogona vitticeps,1
+Canis lupus dingo,Tiliqua multifasciata,1
+Canis lupus dingo,Tiliqua occipitalis,1
+Canis lupus dingo,Varanus gouldii,10
+Canis lupus dingo,Aquila audax,1
+Canis lupus dingo,Ardeotis australis,1
+Canis lupus dingo,Camelus dromedarius,1
+Canis lupus dingo,Dromaius novaehollandiae,1
+Canis lupus dingo,Fulica atra,1
+Canis lupus dingo,Vulpes vulpes,1
+Canis lupus dingo,Varanus acanthurus,1
+Canis lupus dingo,Tympanocryptis tetraporophora,1
+Canis lupus dingo,Trichosurus vulpecula,1
+Canis lupus dingo,Isodon auratus,1
+Canis lupus dingo,Macropus rufus,1
+Canis lupus dingo,Notoryctes caurinus,5
+Canis lupus dingo,Petrogale lateralis,1
+Canis lupus dingo,Tachyglossus aculeatus,1
+Felis catus,Amphibolurus burnsi,1
+Felis catus,Ctenotus isolepis,1
+Felis catus,Ctenotus leonhardii,1
+Felis catus,Ctenotus robustus,1
+Felis catus,Egernia striolata,1
+Felis catus,Heteronotia binoei,2
+Felis catus,Lagorchestes hirsutus,5
+Felis catus,Leggadina forresti,5
+Felis catus,Notomys sp.,30
+Felis catus,Oedura marmorata,1
+Felis catus,Pogona vitticeps,2
+Felis catus,Pseudechis australis,1
+Felis catus,Pygopus schraderi,1
+Felis catus,Reptile eggs,3
+Felis catus,Sminthopsis macroura,5
+Felis catus,Stiltia isabella,1
+Felis catus,Suta suta,1
+Felis catus,Taeniopygia guttata,2
+Felis catus,Turnix velox,2
+Felis catus,Tympanocryptis tetraporophora,2
+Felis catus,Varanus gouldii,1
+Felis catus,Ardeotis australis,1
+Felis catus,Corvus cecilae,1
+Felis catus,Fulica atra,1
+Felis catus,Vulpes vulpes,1
+Felis catus,Varanus acanthurus,1
+Felis catus,Tympanocryptis tetraporophora,1
+Felis catus,Trichosurus vulpecula,1
+Felis catus,Melopsittacus undulatus,1
+Felis catus,Notoryctes caurinus,20
+Felis catus,Ocyphaps lophotes,1
+Felis catus,Petrogale lateralis,1
+Felis catus,Tachyglossus aculeatus,1
+human,Acacia acradenia,0.15
+human,Acacia aneura,2
+human,Acacia coriacea,2
+human,Acacia cowleana,0.25
+human,Acacia cuthbertsoni,0.25
+human,Acacia dictyophleba,0.15
+human,Acacia kempeana,2
+human,Acacia ligulata,0.25
+human,Acacia pruinocarpa,0.25
+human,Acacia spondylophylla,0.15
+human,Acacia tetragonophylla,0.15
+human,Allocasuarina decaisneana,0.25
+human,Amyema sp.,0.25
+human,Anas superciliosa,1
+human,Antaresia stimsoni,0.15
+human,Aquila audax,1
+human,Ardeotis australis,0.25
+human,Aspidites melanocephalus,0.15
+human,Aspidites ramsayii,0.25
+human,Bettongia lesueur,10
+human,Blattodea,0.15
+human,Calyptorhynchus roseicapilla,0.25
+human,Camelus dromedarius,0.25
+human,Canis lupus dingo,0.15
+human,Canthium attenuatum,0.25
+human,Canthium latifolium,1
+human,Capparis loranthifolia,0.15
+human,Capparis umbonata,0.25
+human,Chaeropus ecaudatus,0.25
+human,Chioromyces aboriginum,0.15
+human,Corvus cecilae,0.25
+human,Ctenotus isolepis,0.25
+human,Cucumis melo (agrestis),0.15
+human,Cynanchum floribundum,1
+human,Dactyloctenium radulans,0.25
+human,Dasycercus cristicauda,0.15
+human,Dasycercus hilleri,0.15
+human,Dasyurus hallucatus,0.15
+human,Dromaius novaehollandiae,0.15
+human,Egernia kintorei,1
+human,Egernia striata,0.25
+human,Enchylaena tomentosa,1
+human,Eucalyptus opaca,0.15
+human,Falco longipennis,0.15
+human,Felis catus,1
+human,Fulica atra,0.15
+human,Hakea leucoptera,1
+human,Hakea suberea,1
+human,human,0.25
+human,Isodon auratus,0.25
+human,Lagorchestes hirsutus,9
+human,Macropus robustus,5
+human,Macropus rufus,0.15
+human,Macrotis lagotis,0.25
+human,Melopsittacus undulatus,0.25
+human,Moloch horridus,0.15
+human,Mycoclelandia bulundarii,0.15
+human,Notomys sp.,1
+human,Notoryctes caurinus,0.15
+human,Ocyphaps lophotes,0.15
+human,Oryctolagus cuniculus,1
+human,Panicum decompositum,0.25
+human,Perameles eremiana,0.25
+human,Petrogale lateralis,0.25
+human,Psylla eucalypti,0.15
+human,Rhyncharrhena linearis,0.15
+human,Santalum acuminatum,1
+human,Santalum lanceolatum,0.5
+human,Senna sp.,0.25
+human,Solanum centrale,1.75
+human,Solanum chippendalei,10
+human,Solanum cleistogamum,0.15
+human,Solanum diversiflorum,3
+human,Solanum gilesii,0.15
+human,Tachyglossus aculeatus,0.25
+human,Taeniopygia guttata,0.25
+human,Tecticornia verrucosa,0.25
+human,Tiliqua multifasciata,4
+human,Tiliqua occipitalis,0.15
+human,Trichosurus vulpecula,1
+human,Turnix velox,0.15
+human,Varanus giganteus,5
+human,Varanus gouldii,20
+human,Varanus panoptes,1
+human,Vulpes vulpes,0.15
+human,Yakirra australiensis,0.25
+Lagorchestes hirsutus,Araneidae,3
+Lagorchestes hirsutus,Blattodea,3
+Lagorchestes hirsutus,Chilopoda,3
+Lagorchestes hirsutus,Coleoptera,3
+Lagorchestes hirsutus,Formicidae,4
+Lagorchestes hirsutus,Lepidoptera,4
+Lagorchestes hirsutus,Portulaca oleracea,13
+Lagorchestes hirsutus,Ptilotus exaltatus,13
+Lagorchestes hirsutus,Ptilotus macrocephalus,14
+Lagorchestes hirsutus,Triodia basedownii,13
+Lagorchestes hirsutus,Triodia longiceps,14
+Lagorchestes hirsutus,Triodia pungens,13
+Fire,Acacia acradenia,
+Fire,Acacia aneura,
+Fire,Acacia coriacea,
+Fire,Acacia cowleana,
+Fire,Acacia cuthbertsoni,
+Fire,Acacia dictyophleba,
+Fire,Acacia kempeana,
+Fire,Acacia ligulata,
+Fire,Acacia pruinocarpa,50% casualty
+Fire,Acacia spondylophylla,
+Fire,Acacia tetragonophylla,100% casualty
+Fire,Amyema sp.,
+Fire,Calandrinia polyandra,
+Fire,Canthium attenuatum,
+Fire,Canthium latifolium,
+Fire,Capparis loranthifolia,
+Fire,Capparis umbonata,
+Fire,Chenopodium curvispicatum,
+Fire,Chioromyces aboriginum,
+Fire,Cucumis melo (agrestis),
+Fire,Cynanchum floribundum,
+Fire,Dactyloctenium radulans,
+Fire,Daucus glochidiatus,
+Fire,Enchylaena tomentosa,
+Fire,Eragrostis eriopoda,
+Fire,Eragrostis lanipes,
+Fire,Eragrostis setifolia,
+Fire,Eremophila latrobei,
+Fire,Eremophila longifolia,
+Fire,Ficus brachypoda,
+Fire,Grevillea eriostachya,
+Fire,Grevillea stenobotrya,
+Fire,Grevillea wickhamii,
+Fire,Hakea leucoptera,
+Fire,Hakea suberea,90% casualty
+Fire,Leptosema chambersii,
+Fire,Nitraria billardierei,
+Fire,Panicum decompositum,
+Fire,Plectrachne schinzii,
+Fire,Portulaca oleracea,
+Fire,Ptilotus exaltatus,
+Fire,Ptilotus macrocephalus,
+Fire,Ptilotus polystachyus,
+Fire,Rhyncharrhena linearis,
+Fire,Santalum acuminatum,
+Fire,Santalum lanceolatum,50% casualty
+Fire,Scaevola parvifolia,
+Fire,Senna sp.,
+Fire,Sida calyxhymenia,
+Fire,Solanum centrale,
+Fire,Solanum chippendalei,
+Fire,Solanum cleistogamum,
+Fire,Solanum diversiflorum,
+Fire,Solanum gilesii,
+Fire,Solanum lasiophyllum,
+Fire,Tecticornia verrucosa,
+Fire,Tetragonia eremaea,
+Fire,Thryptomene maisonneuve,
+Fire,Thyridolepis multiculmis,
+Fire,Triodia basedownii,
+Fire,Triodia longiceps,
+Fire,Triodia pungens,
+Fire,Yakirra australiensis,
+Fire,Bird egg shell,
+Fire,Reptile eggs,
+Fire,Blattodea,
+Fire,Araneidae,
+Fire,Chilopoda,
+Fire,Phasmatodea,
+Fire,Tiliqua multifasciata,30%  casualty
+Fire,Tiliqua occipitalis,30%  casualty
+Fire,Tiliqua scincoides,30%  casualty
+Fire,Ctenophorus caudicinctus,30%  casualty
+Fire,Moloch horridus,30%  casualty
+Fire,Ctenotus isolepis,30%  casualty
+Fire,Ctenotus leonhardii,30%  casualty
+Fire,Ctenotus robustus,30%  casualty
+Fire,Ctenotus strauchii,30%  casualty
+Fire,Pogona minor,30%  casualty
+Fire,Pogona vitticeps,30%  casualty

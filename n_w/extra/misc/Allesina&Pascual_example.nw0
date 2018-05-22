@@ -1,0 +1,13 @@
+{ Example network from
+{
+{ Allesina S & M Pascual. 2009b. 
+{ Googling food webs: can an eigenvector measure species’ importance for coextinctions? 
+{ PLoS Computational Biology 5:e1000494. 
+{
+6
+a	0	0	1	0	0	0
+b	0	0	1	1	0	0
+c	0	0	1	0	1	1
+d	0	0	1	0	0	1
+e	0	0	0	0	0	1
+f	0	0	0	0	0	1

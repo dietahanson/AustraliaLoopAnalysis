@@ -1,0 +1,46 @@
+{ marriage network across classes in Wailolong village 
+{ Flores island, East Indonesia
+
+{ Graham P, 1964. 
+{ East Flores revisited: A note on asymmetric alliance in
+{ Leloba and Wailolong, Indonesia. 
+{ Sociologus 37:40-59.
+
+{ Barnes RH. 1977. 
+{ Alliance and categories in Wailolong, East Flores. 
+{ Sociologus 27:133-157.
+
+{ Josselin de Jong PE. 1980. 
+{ Minangkabau and Negeri Sembilan: Socio-Political Structure in Indonesia. 
+{ AMS Press, New York.
+
+{ Ramirez P & S Legendre. 2017. To appear.
+{ Revisiting asymmetric marriage rules.
+
+{ w_ij = nb of marriages between class i and class j 
+{ lineage of wife in column (transpose of the convention) ?
+{ n = 17 classes
+{ N = 78 marriages (sum of matrix entries)
+{ N_asym = 68 (nb of marriages with no symmetric counterpart)
+{ asymmetry index N_asym/N = 0.8718
+{ k = 51 = 41 + 2*5 matrimonial relations (nb of nonzero entries of the matrix)
+{ of which a = 41 are asymmetric and 2*s = 10 are symmetric
+
+17
+Ia	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+Ib	0	0	0	0	1	0	0	1	0	3	0	0	0	0	0	0	0
+Ic1	0	0	0	0	0	0	0	1	0	5	2	0	0	0	0	0	0
+Ic2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+IIa	1	3	0	1	0	0	0	1	1	0	0	1	0	0	0	0	0
+IIb	0	0	1	0	0	0	0	4	1	2	0	0	0	0	0	0	0
+IIc	0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0	0
+IIIa1	0	1	1	1	0	0	0	0	0	0	0	1	0	0	0	1	2
+IIIa2	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+IIIb	0	0	0	0	4	0	0	0	0	0	0	0	1	0	0	0	3
+IIIc	0	0	0	0	4	1	0	1	0	0	0	0	0	0	3	0	1
+IVa1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+IVa2	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+IVb	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+IVc	1	0	1	0	0	2	1	0	0	0	0	0	0	0	0	0	0
+Va	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Vb	1	0	0	0	2	2	1	0	0	0	0	0	0	0	0	0	0

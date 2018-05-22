@@ -1,0 +1,91 @@
+FilTfeed
+>	Dceped
+Visfeed
+>	Lmacro
+Carninv	
+>	Acanth
+>	Mesoc
+>	Aspl
+Smherbzoop
+>	NaupCy
+>	NaupCa
+>	Brach
+Lherbzoop
+>	Cala
+>	Bosm
+>	Chydo
+>	Daphn
+>	Simoc
+Benth
+>	Chiro
+Dec
+>	Bact
+SmedCrypt
+>	CryptoM
+>	CryptoO
+SmedEugl
+>	Eutrep
+>	Eugl
+>	Phac
+SmedChryso
+>	Ochro
+>	Mallo
+SmedPyrro
+>	Cerat
+>	Gymno
+SmedChloro
+>	Chlamy2
+>	FlagelCel
+>	Cosm
+>	Stau
+>	Actin2
+>	Scen1
+>	Scen2
+>	Scen34
+>	Scen32
+>	Scen2a
+>	Sele
+>	Tetra
+LinChryso
+>	Urogl
+>	Synur
+>	Urogl1
+LinChloro
+>	Chlamy1
+>	Ankist1
+>	Ankist2
+>	Ankist3
+>	Ankist4
+>	Mono1
+>	Mono2
+>	Actin1
+>	Gloec
+>	Pedia1
+>	Pedia2
+>	Pedia3
+>	Pedia4
+>	Quadri
+>	Volvo
+>	Micro
+LinCyano
+>	Unicel1
+>	Gloeoca
+>	Nosto
+>	Spirul
+>	Filam1
+LinBacilla
+>	Cosci
+>	Cymb
+>	Cigar
+>	Needle
+>	Euno
+>	Fragil
+>	Gompho
+>	Nitz
+>	Pinnul
+>	Plank
+>	Syned
+>	Melos1
+>	Melos2
+Det
+>	Detrit

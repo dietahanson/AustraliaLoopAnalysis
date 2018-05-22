@@ -1,0 +1,2183 @@
+{ Weighted network representing US airlines
+{
+332
+Wiley Post-Will Rogers Mem	Deadhorse	0.0436
+Wiley Post-Will Rogers Mem	Fairbanks Intl	0.0767
+Wiley Post-Will Rogers Mem	Anchorage Intl	0.1026
+Deadhorse	Fairbanks Intl	0.0515
+Deadhorse	Anchorage Intl	0.0866
+Ralph Wien Memorial	Nome	0.0269
+Ralph Wien Memorial	Anchorage Intl	0.0843
+Fairbanks Intl	Anchorage Intl	0.0365
+Fairbanks Intl	Juneau Intl	0.0915
+Fairbanks Intl	Seattle-Tacoma Intl	0.2109
+Nome	Anchorage Intl	0.0849
+St Mary's	Aniak	0.0197
+St Mary's	Anchorage Intl	0.0683
+St Mary's	Bethel	0.0143
+Aniak	Anchorage Intl	0.0488
+Aniak	Bethel	0.014
+Anchorage Intl	Bethel	0.0604
+Anchorage Intl	Merle K (Mudhole) Smith	0.0239
+Anchorage Intl	Dillingham	0.0478
+Anchorage Intl	King Salmon	0.0414
+Anchorage Intl	Juneau Intl	0.083
+Anchorage Intl	Kodiak	0.0351
+Anchorage Intl	St Paul Island	0.1099
+Anchorage Intl	Port Heiden	0.0596
+Anchorage Intl	Sand Point	0.0774
+Anchorage Intl	Cold Bay	0.0863
+Anchorage Intl	Unalaska	0.1093
+Anchorage Intl	Eareckson As	0.1999
+Anchorage Intl	Adak Naf	0.1622
+Anchorage Intl	Seattle-Tacoma Intl	0.1926
+Anchorage Intl	Portland Intl	0.204
+Anchorage Intl	Minneapolis-St Paul Intl/Wold-	0.3284
+Anchorage Intl	Detroit Metropolitan Wayne Cou	0.3847
+Anchorage Intl	Chicago O'hare Intl	0.3655
+Anchorage Intl	Salt Lake City Intl	0.2746
+Anchorage Intl	San Francisco Intl	0.2654
+Anchorage Intl	Los Angeles Intl	0.3059
+Anchorage Intl	Honolulu Intl	0.3829
+Tuluksak	Akiachak	0.003
+Tuluksak	Akiak	0.0022
+Tuluksak	Kwethluk	0.0037
+Tuluksak	Bethel	0.0053
+Akiachak	Akiak	0.0011
+Akiachak	Kwethluk	0.001
+Akiachak	Bethel	0.0023
+Akiak	Bethel	0.0033
+Kwethluk	Bethel	0.002
+Bethel	Napaskiak	0.0009
+Bethel	Napakiak	0.0011
+Bethel	Tuntutuliak	0.006
+Bethel	Eek	0.0055
+Bethel	Kongiganak	0.0095
+Bethel	Kwigillingok	0.0112
+Bethel	Quinhagak	0.0098
+Napaskiak
+Napakiak
+Merle K (Mudhole) Smith	Yakutat	0.0311
+Tuntutuliak	Kongiganak	0.0038
+Tuntutuliak	Kwigillingok	0.0053
+Eek
+Kongiganak	Kwigillingok	0.0018
+Kwigillingok
+Quinhagak
+Yakutat	Juneau Intl	0.0281
+Dillingham	King Salmon	0.01
+King Salmon
+Gustavus	Juneau Intl	0.0057
+Juneau Intl	Sitka	0.0131
+Juneau Intl	James A Johnson Petersburg	0.017
+Juneau Intl	Ketchikan Intl	0.0322
+Juneau Intl	Seattle-Tacoma Intl	0.1216
+Kodiak
+St Paul Island	Cold Bay	0.0425
+Sitka	James A Johnson Petersburg	0.0125
+Sitka	Ketchikan Intl	0.0247
+Sitka	Seattle-Tacoma Intl	0.1134
+Port Heiden	Sand Point	0.0184
+James A Johnson Petersburg	Wrangell	0.0043
+Wrangell	Ketchikan Intl	0.0113
+Ketchikan Intl	Seattle-Tacoma Intl	0.0895
+Sand Point
+Cold Bay	Unalaska	0.0232
+Unalaska	Adak Naf	0.0549
+Eareckson As	Adak Naf	0.0478
+Adak Naf
+Bellingham Intl	Seattle-Tacoma Intl	0.013
+Bellingham Intl	Portland Intl	0.0306
+Bellingham Intl	Elko Muni-J.C. Harris Field	0.0835
+Glacier Park Intl	Spokane Intl	0.018
+Glacier Park Intl	Great Falls Intl	0.0167
+Glacier Park Intl	Missoula Intll	0.0133
+Glacier Park Intl	Helena Regional	0.02
+Glacier Park Intl	Bert Mooney	0.0242
+Glacier Park Intl	Billings Logan Intl	0.0377
+Glacier Park Intl	Salt Lake City Intl	0.0728
+Minot Intl	Bismarck Muni	0.0145
+Minot Intl	Minneapolis-St Paul Intl/Wold-	0.0522
+Minot Intl	Stapleton Intl	0.0831
+William R Fairchild Intl	Seattle-Tacoma Intl	0.0089
+Grand Forks Afb	Minneapolis-St Paul Intl/Wold-	0.0364
+Grand Forks Intl	Minneapolis-St Paul Intl/Wold-	0.0356
+Spokane Intl	Great Falls Intl	0.0314
+Spokane Intl	Seattle-Tacoma Intl	0.0244
+Spokane Intl	Missoula Intll	0.0187
+Spokane Intl	Pullman/Moscow Regional	0.0086
+Spokane Intl	Helena Regional	0.0299
+Spokane Intl	Lewiston-Nez Perce County	0.0122
+Spokane Intl	Tri-Cities	0.0152
+Spokane Intl	Bert Mooney	0.0302
+Spokane Intl	Billings Logan Intl	0.049
+Spokane Intl	Gallatin Field	0.037
+Spokane Intl	Portland Intl	0.0323
+Spokane Intl	Minneapolis-St Paul Intl/Wold-	0.1266
+Spokane Intl	Boise Air Terminal /Gowen Fld/	0.0393
+Spokane Intl	Chicago O'hare Intl	0.1602
+Spokane Intl	Elko Muni-J.C. Harris Field	0.0655
+Spokane Intl	Salt Lake City Intl	0.0712
+Spokane Intl	Stapleton Intl	0.0988
+Spokane Intl	San Francisco Intl	0.0986
+Great Falls Intl	Missoula Intll	0.0149
+Great Falls Intl	Helena Regional	0.009
+Great Falls Intl	Billings Logan Intl	0.0215
+Great Falls Intl	Gallatin Field	0.0163
+Great Falls Intl	Minneapolis-St Paul Intl/Wold-	0.0958
+Great Falls Intl	Salt Lake City Intl	0.0641
+Seattle-Tacoma Intl	Pangborn Memorial	0.0107
+Seattle-Tacoma Intl	Grant County	0.0154
+Seattle-Tacoma Intl	Pullman/Moscow Regional	0.0273
+Seattle-Tacoma Intl	Yakima Air Terminal	0.0122
+Seattle-Tacoma Intl	Lewiston-Nez Perce County	0.0288
+Seattle-Tacoma Intl	Tri-Cities	0.0197
+Seattle-Tacoma Intl	Walla Walla Regional	0.0242
+Seattle-Tacoma Intl	Portland Intl	0.0178
+Seattle-Tacoma Intl	Minneapolis-St Paul Intl/Wold-	0.1502
+Seattle-Tacoma Intl	Roberts Field	0.031
+Seattle-Tacoma Intl	Mahlon Sweet Field	0.032
+Seattle-Tacoma Intl	Boise Air Terminal /Gowen Fld/	0.0483
+Seattle-Tacoma Intl	Friedman Memorial	0.0555
+Seattle-Tacoma Intl	General Mitchell Intll	0.1804
+Seattle-Tacoma Intl	General Edward Lawrence Logan	0.2658
+Seattle-Tacoma Intl	Detroit Metropolitan Wayne Cou	0.2046
+Seattle-Tacoma Intl	Chicago O'hare Intl	0.1828
+Seattle-Tacoma Intl	Chicago Midway	0.1841
+Seattle-Tacoma Intl	Cleveland-Hopkins Intl	0.2139
+Seattle-Tacoma Intl	Elko Muni-J.C. Harris Field	0.0714
+Seattle-Tacoma Intl	Salt Lake City Intl	0.0825
+Seattle-Tacoma Intl	Newark Intl	0.2535
+Seattle-Tacoma Intl	John F Kennedy Intl	0.2555
+Seattle-Tacoma Intl	Pittsburgh Intll	0.2244
+Seattle-Tacoma Intl	Stapleton Intl	0.115
+Seattle-Tacoma Intl	Reno/Tahoe Intll	0.077
+Seattle-Tacoma Intl	Kansas City Intl	0.1606
+Seattle-Tacoma Intl	Cincinnati/Northern Kentucky I	0.2078
+Seattle-Tacoma Intl	Washington Dulles Intl	0.2424
+Seattle-Tacoma Intl	Lambert-St Louis Intl	0.1826
+Seattle-Tacoma Intl	Sacramento Metropolitan	0.0836
+Seattle-Tacoma Intl	Metropolitan Oakland Intl	0.0929
+Seattle-Tacoma Intl	San Francisco Intl	0.0938
+Seattle-Tacoma Intl	San Jose Intll	0.0963
+Seattle-Tacoma Intl	Mc Carran Intl	0.1144
+Seattle-Tacoma Intl	Charlotte/Douglas Intl	0.2408
+Seattle-Tacoma Intl	Memphis Intl	0.2028
+Seattle-Tacoma Intl	Burbank-Glendale-Pasadena	0.1281
+Seattle-Tacoma Intl	Ontario Intl	0.1301
+Seattle-Tacoma Intl	Los Angeles Intl	0.1305
+Seattle-Tacoma Intl	John Wayne Airport-Orange Coun	0.1334
+Seattle-Tacoma Intl	The William B Hartsfield Atlan	0.2336
+Seattle-Tacoma Intl	Phoenix Sky Harbor Intl	0.1437
+Seattle-Tacoma Intl	Dallas/Fort Worth Intl	0.1894
+Seattle-Tacoma Intl	San Diego Intl-Lindbergh Fld	0.1429
+Seattle-Tacoma Intl	Houston Intercontinental	0.216
+Seattle-Tacoma Intl	Miami Intl	0.2976
+Seattle-Tacoma Intl	Honolulu Intl	0.3086
+Seattle-Tacoma Intl	Kahului	0.3074
+Pangborn Memorial	Grant County	0.0048
+Pangborn Memorial	Portland Intl	0.0212
+Grant County	Yakima Air Terminal	0.0087
+Grant County	Walla Walla Regional	0.0119
+Missoula Intll	Helena Regional	0.0112
+Missoula Intll	Bert Mooney	0.0123
+Missoula Intll	Billings Logan Intl	0.0302
+Missoula Intll	Gallatin Field	0.0185
+Missoula Intll	Minneapolis-St Paul Intl/Wold-	0.1082
+Missoula Intll	Salt Lake City Intl	0.0596
+Missoula Intll	Stapleton Intl	0.0828
+Hector Intll	Minneapolis-St Paul Intl/Wold-	0.0267
+Hector Intll	Joe Foss Field	0.0319
+Hector Intll	Chicago O'hare Intl	0.0655
+Hector Intll	Stapleton Intl	0.0796
+Duluth Intl	Minneapolis-St Paul Intl/Wold-	0.0194
+Bismarck Muni	Minneapolis-St Paul Intl/Wold-	0.0424
+Bismarck Muni	Joe Foss Field	0.0367
+Bismarck Muni	Salt Lake City Intl	0.0809
+Bismarck Muni	Stapleton Intl	0.0701
+Pullman/Moscow Regional	Lewiston-Nez Perce County	0.0036
+Pullman/Moscow Regional	Tri-Cities	0.0113
+Pullman/Moscow Regional	Walla Walla Regional	0.0087
+Pullman/Moscow Regional	Portland Intl	0.0301
+Pullman/Moscow Regional	Boise Air Terminal /Gowen Fld/	0.0307
+Helena Regional	Bert Mooney	0.0067
+Helena Regional	Billings Logan Intl	0.0191
+Helena Regional	Gallatin Field	0.0089
+Helena Regional	Salt Lake City Intl	0.0556
+Yakima Air Terminal	Lewiston-Nez Perce County	0.018
+Yakima Air Terminal	Tri-Cities	0.0078
+Yakima Air Terminal	Walla Walla Regional	0.0124
+Yakima Air Terminal	Portland Intl	0.0141
+Marquette County	Central Wisconsin	0.0198
+Marquette County	Cherry Capital	0.0199
+Marquette County	Austin Straubel Intll	0.0197
+Marquette County	Chicago O'hare Intl	0.0435
+Lewiston-Nez Perce County	Tri-Cities	0.0107
+Lewiston-Nez Perce County	Walla Walla Regional	0.0069
+Lewiston-Nez Perce County	Portland Intl	0.0294
+Lewiston-Nez Perce County	Boise Air Terminal /Gowen Fld/	0.0271
+Tri-Cities	Walla Walla Regional	0.0046
+Tri-Cities	Eastern Oregon Regional At Pen	0.0057
+Tri-Cities	Portland Intl	0.0189
+Tri-Cities	Boise Air Terminal /Gowen Fld/	0.0297
+Tri-Cities	Salt Lake City Intl	0.0638
+Walla Walla Regional	Eastern Oregon Regional At Pen	0.0048
+Walla Walla Regional	Portland Intl	0.0225
+Bert Mooney	Billings Logan Intl	0.0201
+Bert Mooney	Gallatin Field	0.007
+Billings Logan Intl	Gallatin Field	0.0133
+Billings Logan Intl	Minneapolis-St Paul Intl/Wold-	0.0786
+Billings Logan Intl	Salt Lake City Intl	0.0511
+Billings Logan Intl	Stapleton Intl	0.0605
+Gallatin Field	Minneapolis-St Paul Intl/Wold-	0.0918
+Gallatin Field	Salt Lake City Intl	0.0479
+Gallatin Field	Stapleton Intl	0.0656
+Eastern Oregon Regional At Pen	Portland Intl	0.0191
+Portland Intl	Mcnary Fld	0.0068
+Portland Intl	Minneapolis-St Paul Intl/Wold-	0.1498
+Portland Intl	Roberts Field	0.0147
+Portland Intl	Mahlon Sweet Field	0.0143
+Portland Intl	Boise Air Terminal /Gowen Fld/	0.0378
+Portland Intl	North Bend Muni	0.0223
+Portland Intl	Rogue Valley Intl- M	0.0307
+Portland Intl	Detroit Metropolitan Wayne Cou	0.2025
+Portland Intl	Klamath Falls Intll	0.0331
+Portland Intl	Chicago O'hare Intl	0.18
+Portland Intl	Elko Muni-J.C. Harris Field	0.0572
+Portland Intl	Salt Lake City Intl	0.0709
+Portland Intl	Redding Muni	0.0485
+Portland Intl	Stapleton Intl	0.1059
+Portland Intl	Reno/Tahoe Intll	0.06
+Portland Intl	Cincinnati/Northern Kentucky I	0.2031
+Portland Intl	Sacramento Metropolitan	0.066
+Portland Intl	Metropolitan Oakland Intl	0.0752
+Portland Intl	San Francisco Intl	0.0761
+Portland Intl	San Jose Intll	0.0787
+Portland Intl	Mc Carran Intl	0.0984
+Portland Intl	Burbank-Glendale-Pasadena	0.1109
+Portland Intl	Ontario Intl	0.1131
+Portland Intl	Los Angeles Intl	0.1133
+Portland Intl	John Wayne Airport-Orange Coun	0.1163
+Portland Intl	The William B Hartsfield Atlan	0.2254
+Portland Intl	Phoenix Sky Harbor Intl	0.128
+Portland Intl	Dallas/Fort Worth Intl	0.1779
+Portland Intl	San Diego Intl-Lindbergh Fld	0.1259
+Portland Intl	Houston Intercontinental	0.2037
+Mcnary Fld	North Bend Muni	0.0156
+Mcnary Fld	Klamath Falls Intll	0.0271
+Mcnary Fld	Redding Muni	0.0422
+Minneapolis-St Paul Intl/Wold-	Austin Straubel Intll	0.0262
+Minneapolis-St Paul Intl/Wold-	Rapid City Regional	0.0508
+Minneapolis-St Paul Intl/Wold-	Rochester Intll	0.01
+Minneapolis-St Paul Intl/Wold-	La Crosse Muni	0.0138
+Minneapolis-St Paul Intl/Wold-	Joe Foss Field	0.0219
+Minneapolis-St Paul Intl/Wold-	Dane County Regional-Truax Fie	0.0258
+Minneapolis-St Paul Intl/Wold-	General Mitchell Intll	0.0327
+Minneapolis-St Paul Intl/Wold-	Greater Buffalo Intl	0.076
+Minneapolis-St Paul Intl/Wold-	Kent County Intl	0.0435
+Minneapolis-St Paul Intl/Wold-	General Edward Lawrence Logan	0.1156
+Minneapolis-St Paul Intl/Wold-	Kalamazoo/Battle Creek Interna	0.0465
+Minneapolis-St Paul Intl/Wold-	Detroit Metropolitan Wayne Cou	0.0563
+Minneapolis-St Paul Intl/Wold-	Chicago O'hare Intl	0.0388
+Minneapolis-St Paul Intl/Wold-	Bradley Intl	0.1082
+Minneapolis-St Paul Intl/Wold-	Cedar Rapids Muni	0.0297
+Minneapolis-St Paul Intl/Wold-	Chicago Midway	0.0406
+Minneapolis-St Paul Intl/Wold-	Des Moines Intl	0.0321
+Minneapolis-St Paul Intl/Wold-	Cleveland-Hopkins Intl	0.0667
+Minneapolis-St Paul Intl/Wold-	Eppley Airfield	0.0368
+Minneapolis-St Paul Intl/Wold-	Westchester County	0.1058
+Minneapolis-St Paul Intl/Wold-	Salt Lake City Intl	0.1033
+Minneapolis-St Paul Intl/Wold-	La Guardia	0.1061
+Minneapolis-St Paul Intl/Wold-	Newark Intl	0.105
+Minneapolis-St Paul Intl/Wold-	John F Kennedy Intl	0.1069
+Minneapolis-St Paul Intl/Wold-	Pittsburgh Intll	0.0783
+Minneapolis-St Paul Intl/Wold-	Yampa Valley	0.0829
+Minneapolis-St Paul Intl/Wold-	Port Columbus Intl	0.0703
+Minneapolis-St Paul Intl/Wold-	James M Cox Dayton Intl	0.0661
+Minneapolis-St Paul Intl/Wold-	Philadelphia Intl	0.1033
+Minneapolis-St Paul Intl/Wold-	Stapleton Intl	0.077
+Minneapolis-St Paul Intl/Wold-	Indianapolis Intl	0.0607
+Minneapolis-St Paul Intl/Wold-	Kansas City Intl	0.054
+Minneapolis-St Paul Intl/Wold-	Baltimore-Washington Intl	0.1004
+Minneapolis-St Paul Intl/Wold-	Cincinnati/Northern Kentucky I	0.0708
+Minneapolis-St Paul Intl/Wold-	Washington Dulles Intl	0.0983
+Minneapolis-St Paul Intl/Wold-	Washington National	0.1005
+Minneapolis-St Paul Intl/Wold-	Lambert-St Louis Intl	0.0604
+Minneapolis-St Paul Intl/Wold-	Sacramento Metropolitan	0.1562
+Minneapolis-St Paul Intl/Wold-	Louisville Intl	0.0745
+Minneapolis-St Paul Intl/Wold-	Metropolitan Oakland Intl	0.1629
+Minneapolis-St Paul Intl/Wold-	San Francisco Intl	0.1639
+Minneapolis-St Paul Intl/Wold-	San Jose Intll	0.163
+Minneapolis-St Paul Intl/Wold-	Nashville Intll	0.09
+Minneapolis-St Paul Intl/Wold-	Mc Carran Intl	0.1399
+Minneapolis-St Paul Intl/Wold-	Charlotte/Douglas Intl	0.1115
+Minneapolis-St Paul Intl/Wold-	Memphis Intl	0.0954
+Minneapolis-St Paul Intl/Wold-	Albuquerque Intl	0.1163
+Minneapolis-St Paul Intl/Wold-	Ontario Intl	0.1617
+Minneapolis-St Paul Intl/Wold-	Los Angeles Intl	0.1655
+Minneapolis-St Paul Intl/Wold-	John Wayne Airport-Orange Coun	0.1651
+Minneapolis-St Paul Intl/Wold-	The William B Hartsfield Atlan	0.1163
+Minneapolis-St Paul Intl/Wold-	Phoenix Sky Harbor Intl	0.1454
+Minneapolis-St Paul Intl/Wold-	Dallas/Fort Worth Intl	0.1162
+Minneapolis-St Paul Intl/Wold-	San Diego Intl-Lindbergh Fld	0.1685
+Minneapolis-St Paul Intl/Wold-	Tucson Intl	0.1518
+Minneapolis-St Paul Intl/Wold-	New Orleans Intl/Moisant Fld/	0.1431
+Minneapolis-St Paul Intl/Wold-	Houston Intercontinental	0.1428
+Minneapolis-St Paul Intl/Wold-	William P Hobby	0.146
+Minneapolis-St Paul Intl/Wold-	Orlando Intl	0.1685
+Minneapolis-St Paul Intl/Wold-	Tampa Intl	0.1705
+Minneapolis-St Paul Intl/Wold-	Southwest Florida Intl	0.1847
+Minneapolis-St Paul Intl/Wold-	Fort Lauderdale/Hollywood Intl	0.1917
+Minneapolis-St Paul Intl/Wold-	Miami Intl	0.1939
+Minneapolis-St Paul Intl/Wold-	Honolulu Intl	0.3992
+Bangor Intl	Portland Intl Jetport	0.0134
+Bangor Intl	Manchester	0.0223
+Bangor Intl	General Edward Lawrence Logan	0.0259
+Bangor Intl	Chicago O'hare Intl	0.1008
+Bangor Intl	Theodore Francis Green State	0.0323
+Bangor Intl	Newark Intl	0.0478
+Central Wisconsin	Austin Straubel Intll	0.0084
+Central Wisconsin	Outagamie County	0.0077
+Central Wisconsin	Chicago O'hare Intl	0.0283
+Cherry Capital	Detroit Metropolitan Wayne Cou	0.0267
+Cherry Capital	Chicago O'hare Intl	0.0289
+Austin Straubel Intll	Outagamie County	0.003
+Austin Straubel Intll	Wittman Regional	0.0053
+Austin Straubel Intll	Dane County Regional-Truax Fie	0.0143
+Austin Straubel Intll	Kalamazoo/Battle Creek Interna	0.0252
+Austin Straubel Intll	Detroit Metropolitan Wayne Cou	0.0326
+Austin Straubel Intll	Chicago O'hare Intl	0.024
+Burlington Intl	Manchester	0.0171
+Burlington Intl	Chicago O'hare Intl	0.0788
+Burlington Intl	La Guardia	0.0355
+Burlington Intl	Newark Intl	0.0365
+Burlington Intl	Pittsburgh Intll	0.0523
+Burlington Intl	Philadelphia Intl	0.0452
+Burlington Intl	Washington Dulles Intl	0.0572
+Outagamie County	Wittman Regional	0.0026
+Outagamie County	Dane County Regional-Truax Fie	0.0115
+Outagamie County	General Mitchell Intll	0.0129
+Outagamie County	Chicago O'hare Intl	0.022
+Roberts Field	Mahlon Sweet Field	0.0106
+Roberts Field	Klamath Falls Intll	0.0203
+Roberts Field	San Francisco Intl	0.0637
+Mahlon Sweet Field	North Bend Muni	0.0085
+Mahlon Sweet Field	Rogue Valley Intl- M	0.0168
+Mahlon Sweet Field	Klamath Falls Intll	0.0202
+Mahlon Sweet Field	Redding Muni	0.0348
+Mahlon Sweet Field	Stapleton Intl	0.1021
+Mahlon Sweet Field	San Francisco Intl	0.0622
+Rapid City Regional	Joe Foss Field	0.0325
+Rapid City Regional	Natrona County Intl	0.0204
+Rapid City Regional	Chicago O'hare Intl	0.0797
+Rapid City Regional	Elko Muni-J.C. Harris Field	0.0717
+Rapid City Regional	Salt Lake City Intl	0.0551
+Wittman Regional	General Mitchell Intll	0.0104
+Wittman Regional	Chicago O'hare Intl	0.0195
+Rochester Intll	La Crosse Muni	0.0063
+Rochester Intll	Chicago O'hare Intl	0.0298
+La Crosse Muni	Chicago O'hare Intl	0.025
+Portland Intl Jetport	Albany County	0.0198
+Portland Intl Jetport	General Edward Lawrence Logan	0.0128
+Portland Intl Jetport	Chicago O'hare Intl	0.091
+Portland Intl Jetport	La Guardia	0.0329
+Portland Intl Jetport	Newark Intl	0.0344
+Portland Intl Jetport	Pittsburgh Intll	0.0588
+Portland Intl Jetport	Philadelphia Intl	0.044
+Portland Intl Jetport	Cincinnati/Northern Kentucky I	0.0853
+Portland Intl Jetport	Washington Dulles Intl	0.0579
+Jackson Hole	Fanning Field	0.0069
+Jackson Hole	Chicago O'hare Intl	0.1173
+Jackson Hole	Salt Lake City Intl	0.0277
+Jackson Hole	Stapleton Intl	0.0472
+Jackson Hole	Dallas/Fort Worth Intl	0.1239
+Joe Foss Field	Sioux Gateway	0.0113
+Joe Foss Field	Chicago O'hare Intl	0.0475
+Joe Foss Field	Quad-City	0.0376
+Joe Foss Field	Lincoln Muni	0.0261
+Joe Foss Field	Salt Lake City Intl	0.0821
+Joe Foss Field	Stapleton Intl	0.0551
+Joe Foss Field	Lambert-St Louis Intl	0.0564
+Boise Air Terminal /Gowen Fld/	Fanning Field	0.0211
+Boise Air Terminal /Gowen Fld/	Friedman Memorial	0.0098
+Boise Air Terminal /Gowen Fld/	Pocatello Regional	0.0195
+Boise Air Terminal /Gowen Fld/	Twin Falls-Sun Valley Regional	0.0136
+Boise Air Terminal /Gowen Fld/	Chicago O'hare Intl	0.145
+Boise Air Terminal /Gowen Fld/	Salt Lake City Intl	0.0343
+Boise Air Terminal /Gowen Fld/	Stapleton Intl	0.0681
+Boise Air Terminal /Gowen Fld/	San Francisco Intl	0.0649
+Boise Air Terminal /Gowen Fld/	Los Angeles Intl	0.0927
+Mbs Intll	Detroit Metropolitan Wayne Cou	0.0131
+Mbs Intll	Chicago O'hare Intl	0.0245
+Fanning Field	Pocatello Regional	0.0064
+Fanning Field	Salt Lake City Intl	0.0261
+Fanning Field	Dallas/Fort Worth Intl	0.1272
+Friedman Memorial	Salt Lake City Intl	0.0286
+North Bend Muni
+Muskegon County	Chicago O'hare Intl	0.0142
+Oneida County	Baltimore-Washington Intl	0.0386
+Dane County Regional-Truax Fie	General Mitchell Intll	0.0075
+Dane County Regional-Truax Fie	Detroit Metropolitan Wayne Cou	0.0317
+Dane County Regional-Truax Fie	Chicago O'hare Intl	0.0133
+Dane County Regional-Truax Fie	Pittsburgh Intll	0.0528
+Dane County Regional-Truax Fie	Stapleton Intl	0.0855
+Dane County Regional-Truax Fie	Lambert-St Louis Intl	0.0422
+Greater Rochester Intl	Syracuse Hancock Intl	0.008
+Greater Rochester Intl	Greater Buffalo Intl	0.0057
+Greater Rochester Intl	General Edward Lawrence Logan	0.0348
+Greater Rochester Intl	Detroit Metropolitan Wayne Cou	0.0302
+Greater Rochester Intl	Chicago O'hare Intl	0.0532
+Greater Rochester Intl	Bradley Intl	0.0278
+Greater Rochester Intl	La Guardia	0.0296
+Greater Rochester Intl	Newark Intl	0.0293
+Greater Rochester Intl	John F Kennedy Intl	0.0309
+Greater Rochester Intl	Pittsburgh Intll	0.0283
+Greater Rochester Intl	Philadelphia Intl	0.0334
+Greater Rochester Intl	Baltimore-Washington Intl	0.038
+Greater Rochester Intl	Cincinnati/Northern Kentucky I	0.0527
+Greater Rochester Intl	Washington Dulles Intl	0.0399
+Greater Rochester Intl	Washington National	0.0408
+Greater Rochester Intl	Raleigh-Durham Intll	0.0694
+Greater Rochester Intl	Charlotte/Douglas Intl	0.0773
+Greater Rochester Intl	The William B Hartsfield Atlan	0.0968
+Syracuse Hancock Intl	Greater Buffalo Intl	0.0135
+Syracuse Hancock Intl	General Edward Lawrence Logan	0.027
+Syracuse Hancock Intl	Detroit Metropolitan Wayne Cou	0.0379
+Syracuse Hancock Intl	Chicago O'hare Intl	0.0611
+Syracuse Hancock Intl	Bradley Intl	0.0207
+Syracuse Hancock Intl	Long Island Mac Arthur	0.0269
+Syracuse Hancock Intl	La Guardia	0.025
+Syracuse Hancock Intl	Newark Intl	0.0251
+Syracuse Hancock Intl	John F Kennedy Intl	0.0264
+Syracuse Hancock Intl	Pittsburgh Intll	0.0326
+Syracuse Hancock Intl	Philadelphia Intl	0.0312
+Syracuse Hancock Intl	Baltimore-Washington Intl	0.0377
+Syracuse Hancock Intl	Cincinnati/Northern Kentucky I	0.0584
+Syracuse Hancock Intl	Washington National	0.0409
+Syracuse Hancock Intl	Lambert-St Louis Intl	0.0837
+Syracuse Hancock Intl	Raleigh-Durham Intll	0.0704
+Syracuse Hancock Intl	Charlotte/Douglas Intl	0.0793
+Syracuse Hancock Intl	The William B Hartsfield Atlan	0.0998
+Syracuse Hancock Intl	Orlando Intl	0.1427
+Bishop Intll	Capital City	0.0047
+Bishop Intll	Chicago O'hare Intl	0.0232
+Bishop Intll	Pittsburgh Intll	0.0297
+Bishop Intll	James M Cox Dayton Intl	0.0294
+General Mitchell Intll	Kent County Intl	0.0121
+General Mitchell Intll	General Edward Lawrence Logan	0.0863
+General Mitchell Intll	Detroit Metropolitan Wayne Cou	0.0242
+General Mitchell Intll	Chicago O'hare Intl	0.0093
+General Mitchell Intll	Cleveland-Hopkins Intl	0.0341
+General Mitchell Intll	La Guardia	0.0745
+General Mitchell Intll	Newark Intl	0.0733
+General Mitchell Intll	Pittsburgh Intll	0.0456
+General Mitchell Intll	Port Columbus Intl	0.038
+General Mitchell Intll	Philadelphia Intl	0.0709
+General Mitchell Intll	Stapleton Intl	0.0917
+General Mitchell Intll	Kansas City Intl	0.0492
+General Mitchell Intll	Cincinnati/Northern Kentucky I	0.0408
+General Mitchell Intll	Washington National	0.0677
+General Mitchell Intll	Lambert-St Louis Intl	0.042
+General Mitchell Intll	San Francisco Intl	0.1827
+General Mitchell Intll	Nashville Intll	0.0655
+General Mitchell Intll	Mc Carran Intl	0.1535
+General Mitchell Intll	Charlotte/Douglas Intl	0.0819
+General Mitchell Intll	Memphis Intl	0.0762
+General Mitchell Intll	Los Angeles Intl	0.1776
+General Mitchell Intll	The William B Hartsfield Atlan	0.0906
+General Mitchell Intll	Phoenix Sky Harbor Intl	0.1528
+General Mitchell Intll	Dallas/Fort Worth Intl	0.1068
+General Mitchell Intll	San Diego Intl-Lindbergh Fld	0.1782
+General Mitchell Intll	Orlando Intl	0.1427
+General Mitchell Intll	Tampa Intl	0.1457
+General Mitchell Intll	Fort Lauderdale/Hollywood Intl	0.1661
+General Mitchell Intll	Miami Intl	0.1684
+Greater Buffalo Intl	Albany County	0.0252
+Greater Buffalo Intl	General Edward Lawrence Logan	0.0398
+Greater Buffalo Intl	Detroit Metropolitan Wayne Cou	0.0245
+Greater Buffalo Intl	Chicago O'hare Intl	0.0476
+Greater Buffalo Intl	Bradley Intl	0.0323
+Greater Buffalo Intl	Cleveland-Hopkins Intl	0.0216
+Greater Buffalo Intl	La Guardia	0.0323
+Greater Buffalo Intl	Newark Intl	0.0317
+Greater Buffalo Intl	John F Kennedy Intl	0.0335
+Greater Buffalo Intl	Pittsburgh Intll	0.0246
+Greater Buffalo Intl	Philadelphia Intl	0.0343
+Greater Buffalo Intl	Baltimore-Washington Intl	0.0375
+Greater Buffalo Intl	Cincinnati/Northern Kentucky I	0.0479
+Greater Buffalo Intl	Washington Dulles Intl	0.0387
+Greater Buffalo Intl	Washington National	0.0399
+Greater Buffalo Intl	Raleigh-Durham Intll	0.0675
+Greater Buffalo Intl	Charlotte/Douglas Intl	0.0747
+Greater Buffalo Intl	The William B Hartsfield Atlan	0.0934
+Greater Buffalo Intl	Orlando Intl	0.1392
+Manchester	Chicago O'hare Intl	0.0844
+Manchester	Newark Intl	0.0255
+Manchester	Pittsburgh Intll	0.0505
+Manchester	Philadelphia Intl	0.0351
+Manchester	Washington Dulles Intl	0.0489
+Pocatello Regional	Twin Falls-Sun Valley Regional	0.0105
+Natrona County Intl	Salt Lake City Intl	0.0347
+Kent County Intl	Detroit Metropolitan Wayne Cou	0.0128
+Kent County Intl	Chicago O'hare Intl	0.0149
+Kent County Intl	Newark Intl	0.0616
+Kent County Intl	Pittsburgh Intll	0.0354
+Kent County Intl	James M Cox Dayton Intl	0.0293
+Kent County Intl	Indianapolis Intl	0.0305
+Kent County Intl	Cincinnati/Northern Kentucky I	0.037
+Capital City	Kalamazoo/Battle Creek Interna	0.0071
+Capital City	Detroit Metropolitan Wayne Cou	0.0083
+Capital City	Chicago O'hare Intl	0.0186
+Capital City	Fort Wayne Intll	0.0175
+Capital City	Pittsburgh Intll	0.0312
+Capital City	James M Cox Dayton Intl	0.0276
+Albany County	Detroit Metropolitan Wayne Cou	0.0489
+Albany County	Chicago O'hare Intl	0.0722
+Albany County	Stewart Int'l	0.012
+Albany County	La Guardia	0.0189
+Albany County	Pittsburgh Intll	0.0392
+Albany County	Philadelphia Intl	0.0285
+Albany County	Baltimore-Washington Intl	0.0372
+Albany County	Cincinnati/Northern Kentucky I	0.0657
+Albany County	Washington National	0.0407
+Albany County	Raleigh-Durham Intll	0.0704
+Albany County	Charlotte/Douglas Intl	0.0807
+Albany County	The William B Hartsfield Atlan	0.1024
+Waterloo Muni	Dubuque Regional	0.0087
+Waterloo Muni	Chicago O'hare Intl	0.0236
+Waterloo Muni	Cedar Rapids Muni	0.0073
+Waterloo Muni	Lambert-St Louis Intl	0.0378
+Tompkins County	Elmira/Corning Regional	0.0038
+Tompkins County	Pittsburgh Intll	0.0271
+Twin Falls-Sun Valley Regional	Salt Lake City Intl	0.0206
+Detroit City	Chicago Midway	0.0248
+Detroit City	Indianapolis Intl	0.0306
+Detroit City	Lambert-St Louis Intl	0.0512
+Sioux Gateway	Chicago O'hare Intl	0.0434
+Sioux Gateway	Cedar Rapids Muni	0.0243
+Sioux Gateway	Lincoln Muni	0.015
+Sioux Gateway	Stapleton Intl	0.05
+Sioux Gateway	Lambert-St Louis Intl	0.0465
+Dubuque Regional	Chicago O'hare Intl	0.0149
+Rogue Valley Intl- M	Klamath Falls Intll	0.0062
+Rogue Valley Intl- M	San Francisco Intl	0.0455
+General Edward Lawrence Logan	Detroit Metropolitan Wayne Cou	0.0629
+General Edward Lawrence Logan	Chicago O'hare Intl	0.0862
+General Edward Lawrence Logan	Bradley Intl	0.0095
+General Edward Lawrence Logan	Cleveland-Hopkins Intl	0.056
+General Edward Lawrence Logan	Salt Lake City Intl	0.2092
+General Edward Lawrence Logan	La Guardia	0.0211
+General Edward Lawrence Logan	Newark Intl	0.0227
+General Edward Lawrence Logan	John F Kennedy Intl	0.0218
+General Edward Lawrence Logan	Pittsburgh Intll	0.0503
+General Edward Lawrence Logan	Port Columbus Intl	0.0647
+General Edward Lawrence Logan	James M Cox Dayton Intl	0.0713
+General Edward Lawrence Logan	Philadelphia Intl	0.0321
+General Edward Lawrence Logan	Stapleton Intl	0.1744
+General Edward Lawrence Logan	Indianapolis Intl	0.0819
+General Edward Lawrence Logan	Atlantic City Intll	0.0332
+General Edward Lawrence Logan	Baltimore-Washington Intl	0.042
+General Edward Lawrence Logan	Cincinnati/Northern Kentucky I	0.0765
+General Edward Lawrence Logan	Washington Dulles Intl	0.0464
+General Edward Lawrence Logan	Washington National	0.0455
+General Edward Lawrence Logan	Lambert-St Louis Intl	0.1045
+General Edward Lawrence Logan	San Francisco Intl	0.2655
+General Edward Lawrence Logan	Richmond Intll	0.0565
+General Edward Lawrence Logan	San Jose Intll	0.2638
+General Edward Lawrence Logan	Norfolk Intl	0.0586
+General Edward Lawrence Logan	Nashville Intll	0.0997
+General Edward Lawrence Logan	Mc Carran Intl	0.2328
+General Edward Lawrence Logan	Raleigh-Durham Intll	0.0736
+General Edward Lawrence Logan	Charlotte/Douglas Intl	0.0851
+General Edward Lawrence Logan	Memphis Intl	0.1193
+General Edward Lawrence Logan	Los Angeles Intl	0.2545
+General Edward Lawrence Logan	The William B Hartsfield Atlan	0.1078
+General Edward Lawrence Logan	Phoenix Sky Harbor Intl	0.2256
+General Edward Lawrence Logan	Dallas/Fort Worth Intl	0.1605
+General Edward Lawrence Logan	Savannah Intll	0.1108
+General Edward Lawrence Logan	Houston Intercontinental	0.1714
+General Edward Lawrence Logan	Orlando Intl	0.1431
+General Edward Lawrence Logan	Tampa Intl	0.1495
+General Edward Lawrence Logan	Palm Beach Intl	0.1568
+General Edward Lawrence Logan	Southwest Florida Intl	0.1608
+General Edward Lawrence Logan	Fort Lauderdale/Hollywood Intl	0.1625
+General Edward Lawrence Logan	Miami Intl	0.1652
+General Edward Lawrence Logan	Luis Munoz Marin Intl	0.23
+Worcester Muni	Pittsburgh Intll	0.0458
+Worcester Muni	Philadelphia Intl	0.0286
+Kalamazoo/Battle Creek Interna	Detroit Metropolitan Wayne Cou	0.0112
+Kalamazoo/Battle Creek Interna	Chicago O'hare Intl	0.0123
+Kalamazoo/Battle Creek Interna	Pittsburgh Intll	0.0318
+Kalamazoo/Battle Creek Interna	James M Cox Dayton Intl	0.0233
+Detroit Metropolitan Wayne Cou	Chicago O'hare Intl	0.0233
+Detroit Metropolitan Wayne Cou	Bradley Intl	0.0544
+Detroit Metropolitan Wayne Cou	Chicago Midway	0.0228
+Detroit Metropolitan Wayne Cou	Theodore Francis Green State	0.0609
+Detroit Metropolitan Wayne Cou	Michiana Rgnl Transportation C	0.0159
+Detroit Metropolitan Wayne Cou	Cleveland-Hopkins Intl	0.0108
+Detroit Metropolitan Wayne Cou	Westchester County	0.0503
+Detroit Metropolitan Wayne Cou	Fort Wayne Intll	0.0151
+Detroit Metropolitan Wayne Cou	Salt Lake City Intl	0.1464
+Detroit Metropolitan Wayne Cou	La Guardia	0.0502
+Detroit Metropolitan Wayne Cou	Newark Intl	0.049
+Detroit Metropolitan Wayne Cou	Lehigh Valley Intll	0.043
+Detroit Metropolitan Wayne Cou	John F Kennedy Intl	0.051
+Detroit Metropolitan Wayne Cou	Pittsburgh Intll	0.0229
+Detroit Metropolitan Wayne Cou	Harrisburg Intll	0.0387
+Detroit Metropolitan Wayne Cou	Port Columbus Intl	0.0213
+Detroit Metropolitan Wayne Cou	James M Cox Dayton Intl	0.0225
+Detroit Metropolitan Wayne Cou	Philadelphia Intl	0.047
+Detroit Metropolitan Wayne Cou	Stapleton Intl	0.1121
+Detroit Metropolitan Wayne Cou	Indianapolis Intl	0.0282
+Detroit Metropolitan Wayne Cou	Atlantic City Intll	0.0519
+Detroit Metropolitan Wayne Cou	Kansas City Intl	0.0643
+Detroit Metropolitan Wayne Cou	Baltimore-Washington Intl	0.0448
+Detroit Metropolitan Wayne Cou	Cincinnati/Northern Kentucky I	0.031
+Detroit Metropolitan Wayne Cou	Washington Dulles Intl	0.0434
+Detroit Metropolitan Wayne Cou	Washington National	0.0454
+Detroit Metropolitan Wayne Cou	Lambert-St Louis Intl	0.0487
+Detroit Metropolitan Wayne Cou	Louisville Intl	0.0405
+Detroit Metropolitan Wayne Cou	San Francisco Intl	0.2035
+Detroit Metropolitan Wayne Cou	Richmond Intll	0.0545
+Detroit Metropolitan Wayne Cou	San Jose Intll	0.2019
+Detroit Metropolitan Wayne Cou	Norfolk Intl	0.0626
+Detroit Metropolitan Wayne Cou	Nashville Intll	0.0606
+Detroit Metropolitan Wayne Cou	Mc Carran Intl	0.1723
+Detroit Metropolitan Wayne Cou	Raleigh-Durham Intll	0.0649
+Detroit Metropolitan Wayne Cou	Charlotte/Douglas Intl	0.068
+Detroit Metropolitan Wayne Cou	Memphis Intl	0.0764
+Detroit Metropolitan Wayne Cou	Los Angeles Intl	0.1952
+Detroit Metropolitan Wayne Cou	John Wayne Airport-Orange Coun	0.1938
+Detroit Metropolitan Wayne Cou	The William B Hartsfield Atlan	0.0821
+Detroit Metropolitan Wayne Cou	Phoenix Sky Harbor Intl	0.1684
+Detroit Metropolitan Wayne Cou	Dallas/Fort Worth Intl	0.1131
+Detroit Metropolitan Wayne Cou	San Diego Intl-Lindbergh Fld	0.1947
+Detroit Metropolitan Wayne Cou	New Orleans Intl/Moisant Fld/	0.122
+Detroit Metropolitan Wayne Cou	Houston Intercontinental	0.1319
+Detroit Metropolitan Wayne Cou	William P Hobby	0.1346
+Detroit Metropolitan Wayne Cou	Orlando Intl	0.1321
+Detroit Metropolitan Wayne Cou	Tampa Intl	0.1362
+Detroit Metropolitan Wayne Cou	Sarasota/Bradenton Intl	0.1417
+Detroit Metropolitan Wayne Cou	Palm Beach Intl	0.1493
+Detroit Metropolitan Wayne Cou	Southwest Florida Intl	0.15
+Detroit Metropolitan Wayne Cou	Fort Lauderdale/Hollywood Intl	0.1552
+Detroit Metropolitan Wayne Cou	Miami Intl	0.1577
+Binghamton Regional/Edwin A Li	Pittsburgh Intll	0.0271
+Binghamton Regional/Edwin A Li	Baltimore-Washington Intl	0.0292
+Greater Rockford	Chicago O'hare Intl	0.0065
+Elmira/Corning Regional	Pittsburgh Intll	0.0233
+Klamath Falls Intll	Redding Muni	0.0159
+Erie Intl	Pittsburgh Intll	0.0152
+Chicago O'hare Intl	Bradley Intl	0.0775
+Chicago O'hare Intl	Cedar Rapids Muni	0.0194
+Chicago O'hare Intl	Theodore Francis Green State	0.0839
+Chicago O'hare Intl	Michiana Rgnl Transportation C	0.0085
+Chicago O'hare Intl	Toledo Express	0.0212
+Chicago O'hare Intl	Des Moines Intl	0.0296
+Chicago O'hare Intl	Stewart Int'l	0.0704
+Chicago O'hare Intl	Quad-City	0.0142
+Chicago O'hare Intl	Cleveland-Hopkins Intl	0.0313
+Chicago O'hare Intl	Eppley Airfield	0.0412
+Chicago O'hare Intl	Tweed-New Haven	0.0768
+Chicago O'hare Intl	Westchester County	0.0728
+Chicago O'hare Intl	Fort Wayne Intll	0.0168
+Chicago O'hare Intl	Akron-Canton Regional	0.0344
+Chicago O'hare Intl	Lincoln Muni	0.0464
+Chicago O'hare Intl	Long Island Mac Arthur	0.0762
+Chicago O'hare Intl	Salt Lake City Intl	0.1231
+Chicago O'hare Intl	Burlington Regional	0.02
+Chicago O'hare Intl	La Guardia	0.0724
+Chicago O'hare Intl	Newark Intl	0.0711
+Chicago O'hare Intl	Greater Peoria Regional	0.0155
+Chicago O'hare Intl	Lehigh Valley Intll	0.0648
+Chicago O'hare Intl	John F Kennedy Intl	0.073
+Chicago O'hare Intl	Pittsburgh Intll	0.0416
+Chicago O'hare Intl	Yampa Valley	0.0994
+Chicago O'hare Intl	Bloomington/Normal	0.0152
+Chicago O'hare Intl	Purdue University	0.0157
+Chicago O'hare Intl	Harrisburg Intll	0.0592
+Chicago O'hare Intl	University Of Illinois-Willard	0.0186
+Chicago O'hare Intl	Port Columbus Intl	0.0317
+Chicago O'hare Intl	James M Cox Dayton Intl	0.0273
+Chicago O'hare Intl	Philadelphia Intl	0.0676
+Chicago O'hare Intl	Capital	0.0223
+Chicago O'hare Intl	Decatur	0.0211
+Chicago O'hare Intl	Stapleton Intl	0.089
+Chicago O'hare Intl	Indianapolis Intl	0.0231
+Chicago O'hare Intl	Eagle County Regional	0.0993
+Chicago O'hare Intl	Reno/Tahoe Intll	0.164
+Chicago O'hare Intl	Kansas City Intl	0.0431
+Chicago O'hare Intl	Aspen-Pitkin Co/Sardy Field	0.1001
+Chicago O'hare Intl	Baltimore-Washington Intl	0.0632
+Chicago O'hare Intl	Cincinnati/Northern Kentucky I	0.0325
+Chicago O'hare Intl	Washington Dulles Intl	0.0606
+Chicago O'hare Intl	Washington National	0.0628
+Chicago O'hare Intl	City Of Colorado Springs Muni	0.0907
+Chicago O'hare Intl	Lambert-St Louis Intl	0.0332
+Chicago O'hare Intl	Sacramento Metropolitan	0.1744
+Chicago O'hare Intl	Yeager	0.0471
+Chicago O'hare Intl	Louisville Intl	0.0379
+Chicago O'hare Intl	Evansville Regional	0.0376
+Chicago O'hare Intl	Blue Grass	0.0412
+Chicago O'hare Intl	Metropolitan Oakland Intl	0.1795
+Chicago O'hare Intl	Wichita Mid-Continent	0.0637
+Chicago O'hare Intl	San Francisco Intl	0.1804
+Chicago O'hare Intl	Richmond Intll	0.0688
+Chicago O'hare Intl	San Jose Intll	0.1788
+Chicago O'hare Intl	Roanoke Regional/Woodrum Field	0.06
+Chicago O'hare Intl	Norfolk Intl	0.0769
+Chicago O'hare Intl	Tulsa Intl	0.0686
+Chicago O'hare Intl	Nashville Intll	0.0562
+Chicago O'hare Intl	Piedmont Triad Intll	0.0693
+Chicago O'hare Intl	Mc Carran Intl	0.1498
+Chicago O'hare Intl	Raleigh-Durham Intll	0.0745
+Chicago O'hare Intl	Mc Ghee Tyson	0.0622
+Chicago O'hare Intl	Will Rogers World	0.08
+Chicago O'hare Intl	Amarillo Intl	0.0955
+Chicago O'hare Intl	Charlotte/Douglas Intl	0.0737
+Chicago O'hare Intl	Memphis Intl	0.067
+Chicago O'hare Intl	Albuquerque Intl	0.1161
+Chicago O'hare Intl	Huntsville Intl-Carl T Jones F	0.0703
+Chicago O'hare Intl	Ontario Intl	0.1691
+Chicago O'hare Intl	Los Angeles Intl	0.1733
+Chicago O'hare Intl	Columbia Metropolitan	0.0842
+Chicago O'hare Intl	Palm Springs Regional	0.1652
+Chicago O'hare Intl	John Wayne Airport-Orange Coun	0.172
+Chicago O'hare Intl	The William B Hartsfield Atlan	0.0815
+Chicago O'hare Intl	Birmingham Intl	0.0806
+Chicago O'hare Intl	Phoenix Sky Harbor Intl	0.1474
+Chicago O'hare Intl	Charleston Afb/Intl	0.0955
+Chicago O'hare Intl	Dallas/Fort Worth Intl	0.0985
+Chicago O'hare Intl	San Diego Intl-Lindbergh Fld	0.1733
+Chicago O'hare Intl	Savannah Intll	0.1001
+Chicago O'hare Intl	Tucson Intl	0.1504
+Chicago O'hare Intl	El Paso Intl	0.1353
+Chicago O'hare Intl	Jacksonville Intl	0.1142
+Chicago O'hare Intl	Robert Mueller Muni	0.1222
+Chicago O'hare Intl	New Orleans Intl/Moisant Fld/	0.1151
+Chicago O'hare Intl	Houston Intercontinental	0.1207
+Chicago O'hare Intl	William P Hobby	0.1237
+Chicago O'hare Intl	San Antonio Intl	0.1305
+Chicago O'hare Intl	Orlando Intl	0.1337
+Chicago O'hare Intl	Tampa Intl	0.1366
+Chicago O'hare Intl	Sarasota/Bradenton Intl	0.1419
+Chicago O'hare Intl	Palm Beach Intl	0.1514
+Chicago O'hare Intl	Southwest Florida Intl	0.1508
+Chicago O'hare Intl	Fort Lauderdale/Hollywood Intl	0.157
+Chicago O'hare Intl	Miami Intl	0.1594
+Chicago O'hare Intl	Honolulu Intl	0.4076
+Chicago O'hare Intl	Luis Munoz Marin Intl	0.251
+Bradley Intl	Cleveland-Hopkins Intl	0.047
+Bradley Intl	La Guardia	0.0126
+Bradley Intl	Newark Intl	0.0141
+Bradley Intl	John F Kennedy Intl	0.0136
+Bradley Intl	Pittsburgh Intll	0.0408
+Bradley Intl	Philadelphia Intl	0.0236
+Bradley Intl	Baltimore-Washington Intl	0.0333
+Bradley Intl	Cincinnati/Northern Kentucky I	0.067
+Bradley Intl	Washington Dulles Intl	0.0375
+Bradley Intl	Washington National	0.0368
+Bradley Intl	Lambert-St Louis Intl	0.095
+Bradley Intl	Nashville Intll	0.0904
+Bradley Intl	Raleigh-Durham Intll	0.0657
+Bradley Intl	Charlotte/Douglas Intl	0.0768
+Bradley Intl	The William B Hartsfield Atlan	0.0992
+Bradley Intl	Dallas/Fort Worth Intl	0.1511
+Bradley Intl	Orlando Intl	0.1363
+Bradley Intl	Tampa Intl	0.1425
+Bradley Intl	Palm Beach Intl	0.1505
+Bradley Intl	Fort Lauderdale/Hollywood Intl	0.1563
+Bradley Intl	Miami Intl	0.159
+Bradley Intl	Luis Munoz Marin Intl	0.2271
+Cedar Rapids Muni	Quad-City	0.0073
+Cedar Rapids Muni	Stapleton Intl	0.07
+Cedar Rapids Muni	Lambert-St Louis Intl	0.0307
+Cedar Rapids Muni	Phoenix Sky Harbor Intl	0.1312
+William B. Heilig Field	Elko Muni-J.C. Harris Field	0.0629
+Merrill C Meigs	Capital	0.022
+Chicago Midway	Cleveland-Hopkins Intl	0.0302
+Chicago Midway	La Guardia	0.0714
+Chicago Midway	Newark Intl	0.07
+Chicago Midway	Pittsburgh Intll	0.0403
+Chicago Midway	Port Columbus Intl	0.03
+Chicago Midway	Capital	0.021
+Chicago Midway	Stapleton Intl	0.0894
+Chicago Midway	Indianapolis Intl	0.0211
+Chicago Midway	Kansas City Intl	0.0427
+Chicago Midway	Washington National	0.0613
+Chicago Midway	Lambert-St Louis Intl	0.0319
+Chicago Midway	Nashville Intll	0.0544
+Chicago Midway	Mc Carran Intl	0.1499
+Chicago Midway	The William B Hartsfield Atlan	0.0796
+Chicago Midway	Dallas/Fort Worth Intl	0.0973
+Chicago Midway	Savannah Intll	0.0981
+Chicago Midway	William P Hobby	0.1222
+Chicago Midway	Orlando Intl	0.1317
+Chicago Midway	Tampa Intl	0.1347
+Chicago Midway	St Petersburg/Clearwater Intl	0.1351
+Chicago Midway	Southwest Florida Intl	0.1489
+Chicago Midway	Fort Lauderdale/Hollywood Intl	0.1551
+Jack Mc Namara Field	Arcata	0.0076
+Jack Mc Namara Field	San Francisco Intl	0.0408
+Theodore Francis Green State	Cleveland-Hopkins Intl	0.0532
+Theodore Francis Green State	Newark Intl	0.0171
+Theodore Francis Green State	Pittsburgh Intll	0.0463
+Theodore Francis Green State	Philadelphia Intl	0.0263
+Theodore Francis Green State	Atlantic City Intll	0.027
+Theodore Francis Green State	Baltimore-Washington Intl	0.0362
+Theodore Francis Green State	Washington Dulles Intl	0.0406
+Theodore Francis Green State	Washington National	0.0396
+Theodore Francis Green State	Raleigh-Durham Intll	0.0673
+Theodore Francis Green State	Charlotte/Douglas Intl	0.0789
+Theodore Francis Green State	The William B Hartsfield Atlan	0.1017
+Theodore Francis Green State	Orlando Intl	0.1366
+Michiana Rgnl Transportation C	Fort Wayne Intll	0.0089
+Michiana Rgnl Transportation C	Pittsburgh Intll	0.0331
+Michiana Rgnl Transportation C	James M Cox Dayton Intl	0.0203
+Michiana Rgnl Transportation C	Cincinnati/Northern Kentucky I	0.0268
+Michiana Rgnl Transportation C	Lambert-St Louis Intl	0.0349
+Michiana Rgnl Transportation C	Nashville Intll	0.0533
+Toledo Express	Fort Wayne Intll	0.0092
+Toledo Express	Pittsburgh Intll	0.021
+Toledo Express	The William B Hartsfield Atlan	0.076
+Des Moines Intl	Eppley Airfield	0.0116
+Des Moines Intl	Elko Muni-J.C. Harris Field	0.1129
+Des Moines Intl	Pittsburgh Intll	0.0691
+Des Moines Intl	Stapleton Intl	0.0596
+Des Moines Intl	Lambert-St Louis Intl	0.0315
+Des Moines Intl	Phoenix Sky Harbor Intl	0.1214
+Des Moines Intl	Dallas/Fort Worth Intl	0.0844
+Stewart Int'l	Pittsburgh Intll	0.0327
+Stewart Int'l	Raleigh-Durham Intll	0.0589
+Stewart Int'l	The William B Hartsfield Atlan	0.0917
+Quad-City	Burlington Regional	0.0071
+Quad-City	Greater Peoria Regional	0.0086
+Quad-City	Quincy Muni Baldwin Field	0.0148
+Quad-City	Stapleton Intl	0.0749
+Quad-City	Lambert-St Louis Intl	0.0258
+Quad-City	Phoenix Sky Harbor Intl	0.1336
+Cleveland-Hopkins Intl	La Guardia	0.0412
+Cleveland-Hopkins Intl	Newark Intl	0.0398
+Cleveland-Hopkins Intl	John F Kennedy Intl	0.0418
+Cleveland-Hopkins Intl	Pittsburgh Intll	0.0121
+Cleveland-Hopkins Intl	Yampa Valley	0.1295
+Cleveland-Hopkins Intl	Philadelphia Intl	0.0368
+Cleveland-Hopkins Intl	Stapleton Intl	0.1183
+Cleveland-Hopkins Intl	Indianapolis Intl	0.0278
+Cleveland-Hopkins Intl	Atlantic City Intll	0.0415
+Cleveland-Hopkins Intl	Kansas City Intl	0.0685
+Cleveland-Hopkins Intl	Baltimore-Washington Intl	0.034
+Cleveland-Hopkins Intl	Cincinnati/Northern Kentucky I	0.0267
+Cleveland-Hopkins Intl	Washington Dulles Intl	0.0325
+Cleveland-Hopkins Intl	Washington National	0.0346
+Cleveland-Hopkins Intl	Lambert-St Louis Intl	0.0502
+Cleveland-Hopkins Intl	Louisville Intl	0.0367
+Cleveland-Hopkins Intl	San Francisco Intl	0.2095
+Cleveland-Hopkins Intl	Norfolk Intl	0.0519
+Cleveland-Hopkins Intl	Nashville Intll	0.0562
+Cleveland-Hopkins Intl	Mc Carran Intl	0.1771
+Cleveland-Hopkins Intl	Raleigh-Durham Intll	0.0552
+Cleveland-Hopkins Intl	Charlotte/Douglas Intl	0.0594
+Cleveland-Hopkins Intl	Los Angeles Intl	0.1993
+Cleveland-Hopkins Intl	The William B Hartsfield Atlan	0.0753
+Cleveland-Hopkins Intl	Phoenix Sky Harbor Intl	0.1715
+Cleveland-Hopkins Intl	Dallas/Fort Worth Intl	0.1123
+Cleveland-Hopkins Intl	New Orleans Intl/Moisant Fld/	0.1172
+Cleveland-Hopkins Intl	Houston Intercontinental	0.129
+Cleveland-Hopkins Intl	Orlando Intl	0.124
+Cleveland-Hopkins Intl	Tampa Intl	0.1284
+Cleveland-Hopkins Intl	Sarasota/Bradenton Intl	0.1339
+Cleveland-Hopkins Intl	Palm Beach Intl	0.141
+Cleveland-Hopkins Intl	Southwest Florida Intl	0.1421
+Cleveland-Hopkins Intl	Fort Lauderdale/Hollywood Intl	0.1469
+Cleveland-Hopkins Intl	Miami Intl	0.1494
+Wilkes-Barre/Scranton Intl	Pittsburgh Intll	0.0243
+Wilkes-Barre/Scranton Intl	Baltimore-Washington Intl	0.0212
+Wilkes-Barre/Scranton Intl	Charlotte/Douglas Intl	0.0643
+Wilkes-Barre/Scranton Intl	The William B Hartsfield Atlan	0.0858
+Eppley Airfield	Lincoln Muni	0.0062
+Eppley Airfield	Salt Lake City Intl	0.0821
+Eppley Airfield	Pittsburgh Intll	0.0802
+Eppley Airfield	Stapleton Intl	0.0481
+Eppley Airfield	Kansas City Intl	0.0201
+Eppley Airfield	Lambert-St Louis Intl	0.0373
+Eppley Airfield	Mc Carran Intl	0.1101
+Eppley Airfield	Memphis Intl	0.0669
+Eppley Airfield	The William B Hartsfield Atlan	0.0936
+Eppley Airfield	Phoenix Sky Harbor Intl	0.1113
+Eppley Airfield	Dallas/Fort Worth Intl	0.0806
+Eppley Airfield	Houston Intercontinental	0.1082
+Tweed-New Haven	Westchester County	0.0046
+Youngstown-Warren Regional	Akron-Canton Regional	0.005
+Westchester County	Pittsburgh Intll	0.0337
+Fort Wayne Intll	Akron-Canton Regional	0.0191
+Fort Wayne Intll	Pittsburgh Intll	0.0257
+Fort Wayne Intll	James M Cox Dayton Intl	0.0114
+Fort Wayne Intll	Cincinnati/Northern Kentucky I	0.0187
+Fort Wayne Intll	The William B Hartsfield Atlan	0.0702
+Arcata	Sacramento Metropolitan	0.0253
+Arcata	San Francisco Intl	0.0333
+Akron-Canton Regional	James M Cox Dayton Intl	0.0171
+Akron-Canton Regional	Philadelphia Intl	0.0331
+Akron-Canton Regional	Indianapolis Intl	0.0272
+Akron-Canton Regional	Washington Dulles Intl	0.0277
+Akron-Canton Regional	Charlotte/Douglas Intl	0.0546
+Lincoln Muni	Stapleton Intl	0.0426
+Lincoln Muni	Lambert-St Louis Intl	0.0382
+University Park	Harrisburg Intll	0.0083
+University Park	Washington Dulles Intl	0.0183
+Elko Muni-J.C. Harris Field	Salt Lake City Intl	0.0194
+Elko Muni-J.C. Harris Field	Stapleton Intl	0.0564
+Elko Muni-J.C. Harris Field	Kansas City Intl	0.1083
+Elko Muni-J.C. Harris Field	Wichita Mid-Continent	0.0983
+Elko Muni-J.C. Harris Field	Tulsa Intl	0.1105
+Elko Muni-J.C. Harris Field	Will Rogers World	0.1062
+Elko Muni-J.C. Harris Field	Amarillo Intl	0.0895
+Elko Muni-J.C. Harris Field	Albuquerque Intl	0.0724
+Elko Muni-J.C. Harris Field	Dallas/Fort Worth Intl	0.1219
+Elko Muni-J.C. Harris Field	Houston Intercontinental	0.1469
+Long Island Mac Arthur	Newark Intl	0.0055
+Long Island Mac Arthur	Pittsburgh Intll	0.0364
+Long Island Mac Arthur	Philadelphia Intl	0.014
+Long Island Mac Arthur	Atlantic City Intll	0.0148
+Long Island Mac Arthur	Baltimore-Washington Intl	0.0239
+Long Island Mac Arthur	Raleigh-Durham Intll	0.0552
+Long Island Mac Arthur	Charlotte/Douglas Intl	0.0666
+Long Island Mac Arthur	Orlando Intl	0.1253
+Long Island Mac Arthur	Palm Beach Intl	0.1394
+Long Island Mac Arthur	Fort Lauderdale/Hollywood Intl	0.1452
+Long Island Mac Arthur	Miami Intl	0.1479
+Salt Lake City Intl	John F Kennedy Intl	0.1945
+Salt Lake City Intl	Philadelphia Intl	0.1873
+Salt Lake City Intl	Stapleton Intl	0.0374
+Salt Lake City Intl	Eagle County Regional	0.028
+Salt Lake City Intl	Reno/Tahoe Intll	0.0416
+Salt Lake City Intl	Kansas City Intl	0.089
+Salt Lake City Intl	Cincinnati/Northern Kentucky I	0.1401
+Salt Lake City Intl	Washington Dulles Intl	0.1767
+Salt Lake City Intl	City Of Colorado Springs Muni	0.0416
+Salt Lake City Intl	Lambert-St Louis Intl	0.1118
+Salt Lake City Intl	Sacramento Metropolitan	0.0529
+Salt Lake City Intl	Metropolitan Oakland Intl	0.0599
+Salt Lake City Intl	San Francisco Intl	0.0609
+Salt Lake City Intl	San Jose Intll	0.0603
+Salt Lake City Intl	Fresno Air Terminal	0.0549
+Salt Lake City Intl	Tulsa Intl	0.0929
+Salt Lake City Intl	Mc Carran Intl	0.0477
+Salt Lake City Intl	Will Rogers World	0.0895
+Salt Lake City Intl	Albuquerque Intl	0.0613
+Salt Lake City Intl	Burbank-Glendale-Pasadena	0.0708
+Salt Lake City Intl	Ontario Intl	0.0704
+Salt Lake City Intl	Los Angeles Intl	0.0731
+Salt Lake City Intl	Palm Springs Regional	0.0704
+Salt Lake City Intl	John Wayne Airport-Orange Coun	0.0742
+Salt Lake City Intl	The William B Hartsfield Atlan	0.156
+Salt Lake City Intl	Phoenix Sky Harbor Intl	0.0702
+Salt Lake City Intl	Dallas/Fort Worth Intl	0.1071
+Salt Lake City Intl	San Diego Intl-Lindbergh Fld	0.0813
+Salt Lake City Intl	Tucson Intl	0.083
+Salt Lake City Intl	New Orleans Intl/Moisant Fld/	0.1512
+Salt Lake City Intl	Houston Intercontinental	0.1335
+Salt Lake City Intl	San Antonio Intl	0.1276
+Salt Lake City Intl	Orlando Intl	0.1958
+Burlington Regional	Greater Peoria Regional	0.0074
+Burlington Regional	Lambert-St Louis Intl	0.0198
+La Guardia	Newark Intl	0.0017
+La Guardia	John F Kennedy Intl	0.0014
+La Guardia	Pittsburgh Intll	0.0325
+La Guardia	Port Columbus Intl	0.0466
+La Guardia	James M Cox Dayton Intl	0.0533
+La Guardia	Stapleton Intl	0.1583
+La Guardia	Indianapolis Intl	0.0641
+La Guardia	Eagle County Regional	0.1686
+La Guardia	Kansas City Intl	0.1071
+La Guardia	Baltimore-Washington Intl	0.0209
+La Guardia	Cincinnati/Northern Kentucky I	0.0574
+La Guardia	Washington Dulles Intl	0.0253
+La Guardia	Washington National	0.0244
+La Guardia	Lambert-St Louis Intl	0.0862
+La Guardia	Louisville Intl	0.0654
+La Guardia	Richmond Intll	0.0358
+La Guardia	Norfolk Intl	0.039
+La Guardia	Nashville Intll	0.079
+La Guardia	Piedmont Triad Intll	0.0543
+La Guardia	Raleigh-Durham Intll	0.0531
+La Guardia	Charlotte/Douglas Intl	0.0642
+La Guardia	Memphis Intl	0.0987
+La Guardia	Greenville-Spartanburg	0.0704
+La Guardia	The William B Hartsfield Atlan	0.0868
+La Guardia	Charleston Afb/Intl	0.0815
+La Guardia	Dallas/Fort Worth Intl	0.14
+La Guardia	Jacksonville Intl	0.106
+La Guardia	New Orleans Intl/Moisant Fld/	0.1326
+La Guardia	Houston Intercontinental	0.1503
+La Guardia	Orlando Intl	0.1238
+La Guardia	Tampa Intl	0.13
+La Guardia	Sarasota/Bradenton Intl	0.1353
+La Guardia	Palm Beach Intl	0.1383
+La Guardia	Southwest Florida Intl	0.1418
+La Guardia	Fort Lauderdale/Hollywood Intl	0.1441
+La Guardia	Miami Intl	0.1468
+Newark Intl	John F Kennedy Intl	0.002
+Newark Intl	Pittsburgh Intll	0.031
+Newark Intl	Yampa Valley	0.1684
+Newark Intl	Port Columbus Intl	0.045
+Newark Intl	James M Cox Dayton Intl	0.0517
+Newark Intl	Philadelphia Intl	0.0095
+Newark Intl	Stapleton Intl	0.1567
+Newark Intl	Indianapolis Intl	0.0625
+Newark Intl	Kansas City Intl	0.1055
+Newark Intl	Baltimore-Washington Intl	0.0193
+Newark Intl	Cincinnati/Northern Kentucky I	0.0558
+Newark Intl	Washington Dulles Intl	0.0237
+Newark Intl	Washington National	0.0229
+Newark Intl	Lambert-St Louis Intl	0.0845
+Newark Intl	San Francisco Intl	0.2472
+Newark Intl	Richmond Intll	0.0344
+Newark Intl	Norfolk Intl	0.0378
+Newark Intl	Nashville Intll	0.0773
+Newark Intl	Piedmont Triad Intll	0.0528
+Newark Intl	Mc Carran Intl	0.2134
+Newark Intl	Raleigh-Durham Intll	0.0517
+Newark Intl	Charlotte/Douglas Intl	0.0627
+Newark Intl	Memphis Intl	0.097
+Newark Intl	Los Angeles Intl	0.2344
+Newark Intl	Columbia Metropolitan	0.0736
+Newark Intl	The William B Hartsfield Atlan	0.0852
+Newark Intl	Phoenix Sky Harbor Intl	0.2049
+Newark Intl	Charleston Afb/Intl	0.0802
+Newark Intl	Dallas/Fort Worth Intl	0.1383
+Newark Intl	Savannah Intll	0.0893
+Newark Intl	Jacksonville Intl	0.1047
+Newark Intl	New Orleans Intl/Moisant Fld/	0.131
+Newark Intl	Houston Intercontinental	0.1487
+Newark Intl	Daytona Beach Intl	0.1155
+Newark Intl	Orlando Intl	0.1226
+Newark Intl	Melbourne Intll	0.1247
+Newark Intl	Tampa Intl	0.1288
+Newark Intl	Sarasota/Bradenton Intl	0.134
+Newark Intl	Palm Beach Intl	0.1372
+Newark Intl	Southwest Florida Intl	0.1406
+Newark Intl	Fort Lauderdale/Hollywood Intl	0.143
+Newark Intl	Miami Intl	0.1457
+Newark Intl	Rafael Hernandez	0.2151
+Newark Intl	Luis Munoz Marin Intl	0.2166
+Newark Intl	Cyril E King	0.2187
+Newark Intl	Mercedita	0.2201
+Newark Intl	Alexander Hamilton	0.2247
+Greater Peoria Regional	University Of Illinois-Willard	0.0094
+Greater Peoria Regional	Stapleton Intl	0.0779
+Greater Peoria Regional	Lambert-St Louis Intl	0.0186
+Lehigh Valley Intll	Pittsburgh Intll	0.0244
+Lehigh Valley Intll	Harrisburg Intll	0.008
+Lehigh Valley Intll	Raleigh-Durham Intll	0.0487
+Lehigh Valley Intll	Charlotte/Douglas Intl	0.059
+Lehigh Valley Intll	The William B Hartsfield Atlan	0.0811
+John F Kennedy Intl	Pittsburgh Intll	0.0328
+John F Kennedy Intl	Port Columbus Intl	0.0468
+John F Kennedy Intl	Philadelphia Intl	0.0104
+John F Kennedy Intl	Stapleton Intl	0.1586
+John F Kennedy Intl	Indianapolis Intl	0.0643
+John F Kennedy Intl	Baltimore-Washington Intl	0.0203
+John F Kennedy Intl	Cincinnati/Northern Kentucky I	0.0574
+John F Kennedy Intl	Washington Dulles Intl	0.0247
+John F Kennedy Intl	Washington National	0.0238
+John F Kennedy Intl	Lambert-St Louis Intl	0.0863
+John F Kennedy Intl	San Francisco Intl	0.2491
+John F Kennedy Intl	Richmond Intll	0.0349
+John F Kennedy Intl	Norfolk Intl	0.0379
+John F Kennedy Intl	Mc Carran Intl	0.2151
+John F Kennedy Intl	Raleigh-Durham Intll	0.0522
+John F Kennedy Intl	Charlotte/Douglas Intl	0.0634
+John F Kennedy Intl	Los Angeles Intl	0.236
+John F Kennedy Intl	The William B Hartsfield Atlan	0.086
+John F Kennedy Intl	Phoenix Sky Harbor Intl	0.2065
+John F Kennedy Intl	Dallas/Fort Worth Intl	0.1396
+John F Kennedy Intl	San Diego Intl-Lindbergh Fld	0.2335
+John F Kennedy Intl	New Orleans Intl/Moisant Fld/	0.1318
+John F Kennedy Intl	William P Hobby	0.1517
+John F Kennedy Intl	Orlando Intl	0.1227
+John F Kennedy Intl	Tampa Intl	0.1289
+John F Kennedy Intl	Palm Beach Intl	0.1371
+John F Kennedy Intl	Fort Lauderdale/Hollywood Intl	0.1429
+John F Kennedy Intl	Miami Intl	0.1456
+John F Kennedy Intl	Rafael Hernandez	0.2143
+John F Kennedy Intl	Luis Munoz Marin Intl	0.2158
+John F Kennedy Intl	Cyril E King	0.2178
+John F Kennedy Intl	Mercedita	0.2193
+John F Kennedy Intl	Alexander Hamilton	0.2238
+Redding Muni	San Francisco Intl	0.0276
+Pittsburgh Intll	Mercer County	0.0277
+Pittsburgh Intll	Harrisburg Intll	0.0178
+Pittsburgh Intll	University Of Illinois-Willard	0.0412
+Pittsburgh Intll	Port Columbus Intl	0.0144
+Pittsburgh Intll	James M Cox Dayton Intl	0.0211
+Pittsburgh Intll	Philadelphia Intl	0.0261
+Pittsburgh Intll	Stapleton Intl	0.1258
+Pittsburgh Intll	Indianapolis Intl	0.0318
+Pittsburgh Intll	Atlantic City Intll	0.0305
+Pittsburgh Intll	Kansas City Intl	0.0747
+Pittsburgh Intll	Baltimore-Washington Intl	0.0221
+Pittsburgh Intll	Cincinnati/Northern Kentucky I	0.0265
+Pittsburgh Intll	Washington Dulles Intl	0.0204
+Pittsburgh Intll	Washington National	0.0225
+Pittsburgh Intll	Lambert-St Louis Intl	0.0542
+Pittsburgh Intll	Sacramento Metropolitan	0.2114
+Pittsburgh Intll	Yeager	0.0214
+Pittsburgh Intll	Tri-State/Milton J.Ferguson Fi	0.0235
+Pittsburgh Intll	Louisville Intl	0.0357
+Pittsburgh Intll	Evansville Regional	0.0439
+Pittsburgh Intll	Blue Grass	0.0323
+Pittsburgh Intll	Wichita Mid-Continent	0.0917
+Pittsburgh Intll	San Francisco Intl	0.2163
+Pittsburgh Intll	Richmond Intll	0.0321
+Pittsburgh Intll	Newport News/Williamsburg Inte	0.0373
+Pittsburgh Intll	Norfolk Intl	0.04
+Pittsburgh Intll	Tri-Cities Regional Tn/Va	0.04
+Pittsburgh Intll	Nashville Intll	0.0531
+Pittsburgh Intll	Piedmont Triad Intll	0.042
+Pittsburgh Intll	Mc Carran Intl	0.1828
+Pittsburgh Intll	Raleigh-Durham Intll	0.0447
+Pittsburgh Intll	Mc Ghee Tyson	0.0486
+Pittsburgh Intll	Charlotte/Douglas Intl	0.0505
+Pittsburgh Intll	Memphis Intl	0.0719
+Pittsburgh Intll	Albuquerque Intl	0.1441
+Pittsburgh Intll	Los Angeles Intl	0.2042
+Pittsburgh Intll	Myrtle Beach Intl	0.0654
+Pittsburgh Intll	The William B Hartsfield Atlan	0.0688
+Pittsburgh Intll	Birmingham Intl	0.0741
+Pittsburgh Intll	Phoenix Sky Harbor Intl	0.1754
+Pittsburgh Intll	Dallas/Fort Worth Intl	0.1122
+Pittsburgh Intll	San Diego Intl-Lindbergh Fld	0.2023
+Pittsburgh Intll	Jacksonville Intl	0.0958
+Pittsburgh Intll	Robert Mueller Muni	0.1319
+Pittsburgh Intll	New Orleans Intl/Moisant Fld/	0.1126
+Pittsburgh Intll	Houston Intercontinental	0.1265
+Pittsburgh Intll	San Antonio Intl	0.14
+Pittsburgh Intll	Orlando Intl	0.1153
+Pittsburgh Intll	Tampa Intl	0.1202
+Pittsburgh Intll	Sarasota/Bradenton Intl	0.1257
+Pittsburgh Intll	Palm Beach Intl	0.1319
+Pittsburgh Intll	Southwest Florida Intl	0.1335
+Pittsburgh Intll	Fort Lauderdale/Hollywood Intl	0.1378
+Pittsburgh Intll	Miami Intl	0.1404
+Yampa Valley	Stapleton Intl	0.0137
+Yampa Valley	San Jose Intll	0.0806
+Yampa Valley	Los Angeles Intl	0.0845
+Yampa Valley	Dallas/Fort Worth Intl	0.0892
+Yampa Valley	Houston Intercontinental	0.1171
+Bloomington/Normal	Decatur	0.0062
+Bloomington/Normal	Hulman Regional	0.0128
+Bloomington/Normal	Lambert-St Louis Intl	0.018
+Purdue University	Hulman Regional	0.0094
+Mercer County
+Harrisburg Intll	Washington Dulles Intl	0.0125
+Harrisburg Intll	Raleigh-Durham Intll	0.0426
+Harrisburg Intll	Charlotte/Douglas Intl	0.0521
+Harrisburg Intll	The William B Hartsfield Atlan	0.0738
+University Of Illinois-Willard	James M Cox Dayton Intl	0.0207
+University Of Illinois-Willard	Hulman Regional	0.0074
+University Of Illinois-Willard	Lambert-St Louis Intl	0.0162
+Port Columbus Intl	James M Cox Dayton Intl	0.0068
+Port Columbus Intl	Philadelphia Intl	0.039
+Port Columbus Intl	Stapleton Intl	0.112
+Port Columbus Intl	Indianapolis Intl	0.0175
+Port Columbus Intl	Baltimore-Washington Intl	0.0327
+Port Columbus Intl	Cincinnati/Northern Kentucky I	0.0128
+Port Columbus Intl	Washington National	0.0317
+Port Columbus Intl	Lambert-St Louis Intl	0.0398
+Port Columbus Intl	Nashville Intll	0.0417
+Port Columbus Intl	Mc Carran Intl	0.1685
+Port Columbus Intl	Charlotte/Douglas Intl	0.0468
+Port Columbus Intl	Los Angeles Intl	0.1898
+Port Columbus Intl	The William B Hartsfield Atlan	0.0612
+Port Columbus Intl	Phoenix Sky Harbor Intl	0.161
+Port Columbus Intl	Dallas/Fort Worth Intl	0.099
+Port Columbus Intl	Houston Intercontinental	0.1148
+Port Columbus Intl	Orlando Intl	0.1108
+Port Columbus Intl	Tampa Intl	0.1149
+Quincy Muni Baldwin Field	Lambert-St Louis Intl	0.0122
+James M Cox Dayton Intl	Philadelphia Intl	0.0457
+James M Cox Dayton Intl	Indianapolis Intl	0.0108
+James M Cox Dayton Intl	Baltimore-Washington Intl	0.039
+James M Cox Dayton Intl	Washington National	0.0378
+James M Cox Dayton Intl	Lambert-St Louis Intl	0.0332
+James M Cox Dayton Intl	Louisville Intl	0.0183
+James M Cox Dayton Intl	Evansville Regional	0.0245
+James M Cox Dayton Intl	Charlotte/Douglas Intl	0.0478
+James M Cox Dayton Intl	Los Angeles Intl	0.1832
+James M Cox Dayton Intl	The William B Hartsfield Atlan	0.0598
+James M Cox Dayton Intl	Dallas/Fort Worth Intl	0.0936
+James M Cox Dayton Intl	Orlando Intl	0.1106
+James M Cox Dayton Intl	Tampa Intl	0.1143
+Philadelphia Intl	Stapleton Intl	0.151
+Philadelphia Intl	Indianapolis Intl	0.0563
+Philadelphia Intl	Kansas City Intl	0.0994
+Philadelphia Intl	Baltimore-Washington Intl	0.0099
+Philadelphia Intl	Cincinnati/Northern Kentucky I	0.0486
+Philadelphia Intl	Washington Dulles Intl	0.0144
+Philadelphia Intl	Washington National	0.0134
+Philadelphia Intl	Lambert-St Louis Intl	0.0777
+Philadelphia Intl	San Francisco Intl	0.241
+Philadelphia Intl	Richmond Intll	0.025
+Philadelphia Intl	Norfolk Intl	0.0289
+Philadelphia Intl	Nashville Intll	0.0684
+Philadelphia Intl	Piedmont Triad Intll	0.0433
+Philadelphia Intl	Mc Carran Intl	0.2065
+Philadelphia Intl	Raleigh-Durham Intll	0.0423
+Philadelphia Intl	Charlotte/Douglas Intl	0.0532
+Philadelphia Intl	Memphis Intl	0.0881
+Philadelphia Intl	Greenville-Spartanburg	0.0593
+Philadelphia Intl	New Hanover Intll	0.0552
+Philadelphia Intl	Los Angeles Intl	0.227
+Philadelphia Intl	Columbia Metropolitan	0.0641
+Philadelphia Intl	Myrtle Beach Intl	0.0621
+Philadelphia Intl	The William B Hartsfield Atlan	0.0757
+Philadelphia Intl	Phoenix Sky Harbor Intl	0.1971
+Philadelphia Intl	Dallas/Fort Worth Intl	0.1295
+Philadelphia Intl	Savannah Intll	0.08
+Philadelphia Intl	Jacksonville Intl	0.0954
+Philadelphia Intl	Robert Mueller Muni	0.1465
+Philadelphia Intl	New Orleans Intl/Moisant Fld/	0.1215
+Philadelphia Intl	Houston Intercontinental	0.1393
+Philadelphia Intl	Orlando Intl	0.1136
+Philadelphia Intl	Tampa Intl	0.1196
+Philadelphia Intl	Sarasota/Bradenton Intl	0.1249
+Philadelphia Intl	Palm Beach Intl	0.1284
+Philadelphia Intl	Southwest Florida Intl	0.1317
+Philadelphia Intl	Fort Lauderdale/Hollywood Intl	0.1342
+Philadelphia Intl	Miami Intl	0.1369
+Philadelphia Intl	Luis Munoz Marin Intl	0.2101
+Capital	Lambert-St Louis Intl	0.011
+Decatur	Lambert-St Louis Intl	0.0128
+Chico Muni	San Francisco Intl	0.021
+Stapleton Intl	Indianapolis Intl	0.0947
+Stapleton Intl	Eagle County Regional	0.0104
+Stapleton Intl	Reno/Tahoe Intll	0.0758
+Stapleton Intl	Kansas City Intl	0.052
+Stapleton Intl	Aspen-Pitkin Co/Sardy Field	0.0114
+Stapleton Intl	Baltimore-Washington Intl	0.1438
+Stapleton Intl	Walker Field	0.0195
+Stapleton Intl	Cincinnati/Northern Kentucky I	0.1032
+Stapleton Intl	Washington Dulles Intl	0.1399
+Stapleton Intl	City Of Colorado Springs Muni	0.0094
+Stapleton Intl	Lambert-St Louis Intl	0.0746
+Stapleton Intl	Sacramento Metropolitan	0.0857
+Stapleton Intl	Gunnison County	0.0158
+Stapleton Intl	Metropolitan Oakland Intl	0.0905
+Stapleton Intl	Wichita Mid-Continent	0.0431
+Stapleton Intl	San Francisco Intl	0.0914
+Stapleton Intl	San Jose Intll	0.0898
+Stapleton Intl	Springfield Regional	0.0634
+Stapleton Intl	Fresno Air Terminal	0.0808
+Stapleton Intl	Tulsa Intl	0.0572
+Stapleton Intl	Nashville Intll	0.0991
+Stapleton Intl	Mc Carran Intl	0.0631
+Stapleton Intl	Will Rogers World	0.056
+Stapleton Intl	Charlotte/Douglas Intl	0.1295
+Stapleton Intl	Memphis Intl	0.0883
+Stapleton Intl	Albuquerque Intl	0.0461
+Stapleton Intl	Santa Barbara Muni	0.0917
+Stapleton Intl	Burbank-Glendale-Pasadena	0.0869
+Stapleton Intl	Ontario Intl	0.0847
+Stapleton Intl	Los Angeles Intl	0.0886
+Stapleton Intl	Palm Springs Regional	0.0821
+Stapleton Intl	Long Beach /Daugherty Field/	0.0883
+Stapleton Intl	John Wayne Airport-Orange Coun	0.0881
+Stapleton Intl	The William B Hartsfield Atlan	0.1195
+Stapleton Intl	Phoenix Sky Harbor Intl	0.0706
+Stapleton Intl	Dallas/Fort Worth Intl	0.077
+Stapleton Intl	San Diego Intl-Lindbergh Fld	0.0919
+Stapleton Intl	Tucson Intl	0.0794
+Stapleton Intl	El Paso Intl	0.0766
+Stapleton Intl	Robert Mueller Muni	0.0977
+Stapleton Intl	New Orleans Intl/Moisant Fld/	0.1196
+Stapleton Intl	Houston Intercontinental	0.1055
+Stapleton Intl	William P Hobby	0.1085
+Stapleton Intl	San Antonio Intl	0.1032
+Stapleton Intl	Orlando Intl	0.1618
+Stapleton Intl	Tampa Intl	0.1603
+Stapleton Intl	Miami Intl	0.1832
+Stapleton Intl	Honolulu Intl	0.3226
+Indianapolis Intl	Kansas City Intl	0.0431
+Indianapolis Intl	Baltimore-Washington Intl	0.0493
+Indianapolis Intl	Cincinnati/Northern Kentucky I	0.0105
+Indianapolis Intl	Washington National	0.0478
+Indianapolis Intl	Lambert-St Louis Intl	0.0227
+Indianapolis Intl	Louisville Intl	0.015
+Indianapolis Intl	Evansville Regional	0.0172
+Indianapolis Intl	San Francisco Intl	0.1848
+Indianapolis Intl	Nashville Intll	0.0344
+Indianapolis Intl	Mc Carran Intl	0.151
+Indianapolis Intl	Charlotte/Douglas Intl	0.0509
+Indianapolis Intl	Memphis Intl	0.0484
+Indianapolis Intl	Los Angeles Intl	0.1726
+Indianapolis Intl	The William B Hartsfield Atlan	0.0588
+Indianapolis Intl	Phoenix Sky Harbor Intl	0.1441
+Indianapolis Intl	Dallas/Fort Worth Intl	0.0851
+Indianapolis Intl	New Orleans Intl/Moisant Fld/	0.0951
+Indianapolis Intl	Houston Intercontinental	0.1038
+Indianapolis Intl	Orlando Intl	0.1108
+Indianapolis Intl	Tampa Intl	0.1138
+Indianapolis Intl	St Petersburg/Clearwater Intl	0.1143
+Indianapolis Intl	Southwest Florida Intl	0.128
+Indianapolis Intl	Fort Lauderdale/Hollywood Intl	0.1341
+Indianapolis Intl	Miami Intl	0.1365
+Eagle County Regional	Los Angeles Intl	0.08
+Eagle County Regional	Phoenix Sky Harbor Intl	0.0647
+Eagle County Regional	Dallas/Fort Worth Intl	0.0818
+Reno/Tahoe Intll	Sacramento Metropolitan	0.012
+Reno/Tahoe Intll	Metropolitan Oakland Intl	0.0211
+Reno/Tahoe Intll	San Francisco Intl	0.0222
+Reno/Tahoe Intll	San Jose Intll	0.0232
+Reno/Tahoe Intll	Fresno Air Terminal	0.026
+Reno/Tahoe Intll	Mc Carran Intl	0.0402
+Reno/Tahoe Intll	Ontario Intl	0.0532
+Reno/Tahoe Intll	Los Angeles Intl	0.0536
+Reno/Tahoe Intll	Phoenix Sky Harbor Intl	0.0701
+Reno/Tahoe Intll	Dallas/Fort Worth Intl	0.1319
+Reno/Tahoe Intll	San Diego Intl-Lindbergh Fld	0.0659
+Atlantic City Intll
+Hulman Regional
+Kansas City Intl	Baltimore-Washington Intl	0.0919
+Kansas City Intl	Cincinnati/Northern Kentucky I	0.0513
+Kansas City Intl	Washington National	0.0901
+Kansas City Intl	Lambert-St Louis Intl	0.0228
+Kansas City Intl	Wichita Mid-Continent	0.0209
+Kansas City Intl	San Francisco Intl	0.1417
+Kansas City Intl	Tulsa Intl	0.0302
+Kansas City Intl	Nashville Intll	0.0509
+Kansas City Intl	Mc Carran Intl	0.1085
+Kansas City Intl	Will Rogers World	0.0401
+Kansas City Intl	Charlotte/Douglas Intl	0.0802
+Kansas City Intl	Memphis Intl	0.0472
+Kansas City Intl	Los Angeles Intl	0.131
+Kansas City Intl	The William B Hartsfield Atlan	0.0752
+Kansas City Intl	Phoenix Sky Harbor Intl	0.1044
+Kansas City Intl	Dallas/Fort Worth Intl	0.0623
+Kansas City Intl	San Diego Intl-Lindbergh Fld	0.1305
+Kansas City Intl	Houston Intercontinental	0.0891
+Kansas City Intl	Orlando Intl	0.1243
+Aspen-Pitkin Co/Sardy Field	Los Angeles Intl	0.0774
+Aspen-Pitkin Co/Sardy Field	Dallas/Fort Worth Intl	0.0786
+Baltimore-Washington Intl	Cincinnati/Northern Kentucky I	0.0407
+Baltimore-Washington Intl	Washington Dulles Intl	0.0046
+Baltimore-Washington Intl	Lambert-St Louis Intl	0.0698
+Baltimore-Washington Intl	San Francisco Intl	0.2332
+Baltimore-Washington Intl	Richmond Intll	0.0162
+Baltimore-Washington Intl	Roanoke Regional/Woodrum Field	0.0243
+Baltimore-Washington Intl	Norfolk Intl	0.0219
+Baltimore-Washington Intl	Nashville Intll	0.0587
+Baltimore-Washington Intl	Piedmont Triad Intll	0.0338
+Baltimore-Washington Intl	Mc Carran Intl	0.1982
+Baltimore-Washington Intl	Raleigh-Durham Intll	0.0333
+Baltimore-Washington Intl	Charlotte/Douglas Intl	0.0436
+Baltimore-Washington Intl	Los Angeles Intl	0.2183
+Baltimore-Washington Intl	The William B Hartsfield Atlan	0.0659
+Baltimore-Washington Intl	Phoenix Sky Harbor Intl	0.1882
+Baltimore-Washington Intl	Dallas/Fort Worth Intl	0.1198
+Baltimore-Washington Intl	Savannah Intll	0.0712
+Baltimore-Washington Intl	Jacksonville Intl	0.0867
+Baltimore-Washington Intl	New Orleans Intl/Moisant Fld/	0.1117
+Baltimore-Washington Intl	Houston Intercontinental	0.1294
+Baltimore-Washington Intl	Orlando Intl	0.1053
+Baltimore-Washington Intl	Tampa Intl	0.1111
+Baltimore-Washington Intl	Sarasota/Bradenton Intl	0.1164
+Baltimore-Washington Intl	Palm Beach Intl	0.1206
+Baltimore-Washington Intl	Southwest Florida Intl	0.1234
+Baltimore-Washington Intl	Fort Lauderdale/Hollywood Intl	0.1264
+Baltimore-Washington Intl	Miami Intl	0.1291
+Baltimore-Washington Intl	Luis Munoz Marin Intl	0.2054
+Walker Field
+Cincinnati/Northern Kentucky I	Washington National	0.0388
+Cincinnati/Northern Kentucky I	Lambert-St Louis Intl	0.0291
+Cincinnati/Northern Kentucky I	Louisville Intl	0.01
+Cincinnati/Northern Kentucky I	Blue Grass	0.0096
+Cincinnati/Northern Kentucky I	San Francisco Intl	0.1925
+Cincinnati/Northern Kentucky I	Richmond Intll	0.0402
+Cincinnati/Northern Kentucky I	Norfolk Intl	0.0478
+Cincinnati/Northern Kentucky I	Nashville Intll	0.0297
+Cincinnati/Northern Kentucky I	Piedmont Triad Intll	0.0371
+Cincinnati/Northern Kentucky I	Mc Carran Intl	0.1579
+Cincinnati/Northern Kentucky I	Raleigh-Durham Intll	0.0426
+Cincinnati/Northern Kentucky I	Mc Ghee Tyson	0.0311
+Cincinnati/Northern Kentucky I	Charlotte/Douglas Intl	0.0412
+Cincinnati/Northern Kentucky I	Memphis Intl	0.0468
+Cincinnati/Northern Kentucky I	Albuquerque Intl	0.1182
+Cincinnati/Northern Kentucky I	Adams Field	0.0564
+Cincinnati/Northern Kentucky I	Los Angeles Intl	0.1786
+Cincinnati/Northern Kentucky I	The William B Hartsfield Atlan	0.0516
+Cincinnati/Northern Kentucky I	Birmingham Intl	0.0535
+Cincinnati/Northern Kentucky I	Phoenix Sky Harbor Intl	0.1493
+Cincinnati/Northern Kentucky I	Dallas/Fort Worth Intl	0.0862
+Cincinnati/Northern Kentucky I	San Diego Intl-Lindbergh Fld	0.1762
+Cincinnati/Northern Kentucky I	Jackson Intll	0.0701
+Cincinnati/Northern Kentucky I	Jacksonville Intl	0.0831
+Cincinnati/Northern Kentucky I	New Orleans Intl/Moisant Fld/	0.0911
+Cincinnati/Northern Kentucky I	William P Hobby	0.1048
+Cincinnati/Northern Kentucky I	Orlando Intl	0.1028
+Cincinnati/Northern Kentucky I	Tampa Intl	0.1064
+Cincinnati/Northern Kentucky I	Sarasota/Bradenton Intl	0.1118
+Cincinnati/Northern Kentucky I	Palm Beach Intl	0.1204
+Cincinnati/Northern Kentucky I	Southwest Florida Intl	0.1204
+Cincinnati/Northern Kentucky I	Fort Lauderdale/Hollywood Intl	0.1261
+Cincinnati/Northern Kentucky I	Miami Intl	0.1285
+Washington Dulles Intl	Washington National	0.0022
+Washington Dulles Intl	Lambert-St Louis Intl	0.0657
+Washington Dulles Intl	Charlottesville-Albemarle	0.0092
+Washington Dulles Intl	San Francisco Intl	0.229
+Washington Dulles Intl	Richmond Intll	0.0137
+Washington Dulles Intl	Roanoke Regional/Woodrum Field	0.02
+Washington Dulles Intl	Norfolk Intl	0.0206
+Washington Dulles Intl	Piedmont Triad Intll	0.03
+Washington Dulles Intl	Charlotte/Douglas Intl	0.0398
+Washington Dulles Intl	Huntsville Intl-Carl T Jones F	0.0627
+Washington Dulles Intl	Los Angeles Intl	0.2139
+Washington Dulles Intl	The William B Hartsfield Atlan	0.0618
+Washington Dulles Intl	Phoenix Sky Harbor Intl	0.1837
+Washington Dulles Intl	Charleston Afb/Intl	0.0592
+Washington Dulles Intl	Dallas/Fort Worth Intl	0.1152
+Washington Dulles Intl	San Diego Intl-Lindbergh Fld	0.2108
+Washington Dulles Intl	Savannah Intll	0.0678
+Washington Dulles Intl	New Orleans Intl/Moisant Fld/	0.1075
+Washington Dulles Intl	Houston Intercontinental	0.125
+Washington Dulles Intl	Orlando Intl	0.1023
+Washington Dulles Intl	Tampa Intl	0.1079
+Washington Dulles Intl	Fort Lauderdale/Hollywood Intl	0.1238
+Washington Dulles Intl	Miami Intl	0.1264
+Washington Dulles Intl	Luis Munoz Marin Intl	0.2044
+Lake Tahoe	San Francisco Intl	0.0171
+Washington National	Lambert-St Louis Intl	0.0678
+Washington National	Louisville Intl	0.0448
+Washington National	Nashville Intll	0.0556
+Washington National	Piedmont Triad Intll	0.0302
+Washington National	Raleigh-Durham Intll	0.0299
+Washington National	Charlotte/Douglas Intl	0.0401
+Washington National	Memphis Intl	0.0753
+Washington National	The William B Hartsfield Atlan	0.0624
+Washington National	Charleston Afb/Intl	0.0589
+Washington National	Dallas/Fort Worth Intl	0.1167
+Washington National	New Orleans Intl/Moisant Fld/	0.1082
+Washington National	Houston Intercontinental	0.126
+Washington National	Orlando Intl	0.1019
+Washington National	Tampa Intl	0.1077
+Washington National	Palm Beach Intl	0.1173
+Washington National	Southwest Florida Intl	0.1201
+Washington National	Fort Lauderdale/Hollywood Intl	0.1232
+Washington National	Miami Intl	0.1259
+Columbia Regional	Lambert-St Louis Intl	0.0095
+City Of Colorado Springs Muni	Lambert-St Louis Intl	0.073
+City Of Colorado Springs Muni	Pueblo Memorial	0.005
+City Of Colorado Springs Muni	Mc Carran Intl	0.0593
+City Of Colorado Springs Muni	Phoenix Sky Harbor Intl	0.0634
+City Of Colorado Springs Muni	Dallas/Fort Worth Intl	0.0687
+Lambert-St Louis Intl	Louisville Intl	0.0241
+Lambert-St Louis Intl	Evansville Regional	0.0159
+Lambert-St Louis Intl	Blue Grass	0.0301
+Lambert-St Louis Intl	Williamson County Regional	0.0118
+Lambert-St Louis Intl	Forney Aaf	0.0133
+Lambert-St Louis Intl	Wichita Mid-Continent	0.0375
+Lambert-St Louis Intl	San Francisco Intl	0.1634
+Lambert-St Louis Intl	San Jose Intll	0.1613
+Lambert-St Louis Intl	Springfield Regional	0.0211
+Lambert-St Louis Intl	Cape Girardeau Regional	0.0151
+Lambert-St Louis Intl	Joplin Regional	0.0261
+Lambert-St Louis Intl	Barkley Regional	0.0181
+Lambert-St Louis Intl	Norfolk Intl	0.0743
+Lambert-St Louis Intl	Tulsa Intl	0.0373
+Lambert-St Louis Intl	Nashville Intll	0.0313
+Lambert-St Louis Intl	Mc Carran Intl	0.1288
+Lambert-St Louis Intl	Drake Field	0.0327
+Lambert-St Louis Intl	Raleigh-Durham Intll	0.065
+Lambert-St Louis Intl	Mc Ghee Tyson	0.0429
+Lambert-St Louis Intl	Will Rogers World	0.0489
+Lambert-St Louis Intl	Fort Smith Regional	0.0385
+Lambert-St Louis Intl	Charlotte/Douglas Intl	0.0586
+Lambert-St Louis Intl	Memphis Intl	0.0355
+Lambert-St Louis Intl	Albuquerque Intl	0.0901
+Lambert-St Louis Intl	Adams Field	0.0396
+Lambert-St Louis Intl	Ontario Intl	0.1458
+Lambert-St Louis Intl	Los Angeles Intl	0.15
+Lambert-St Louis Intl	Palm Springs Regional	0.1413
+Lambert-St Louis Intl	John Wayne Airport-Orange Coun	0.1483
+Lambert-St Louis Intl	The William B Hartsfield Atlan	0.0574
+Lambert-St Louis Intl	Birmingham Intl	0.0529
+Lambert-St Louis Intl	Phoenix Sky Harbor Intl	0.1214
+Lambert-St Louis Intl	Dallas/Fort Worth Intl	0.0655
+Lambert-St Louis Intl	San Diego Intl-Lindbergh Fld	0.1482
+Lambert-St Louis Intl	Tucson Intl	0.1225
+Lambert-St Louis Intl	Jacksonville Intl	0.0904
+Lambert-St Louis Intl	New Orleans Intl/Moisant Fld/	0.0837
+Lambert-St Louis Intl	Houston Intercontinental	0.0876
+Lambert-St Louis Intl	William P Hobby	0.0905
+Lambert-St Louis Intl	San Antonio Intl	0.0973
+Lambert-St Louis Intl	Orlando Intl	0.1088
+Lambert-St Louis Intl	Tampa Intl	0.1105
+Lambert-St Louis Intl	Sarasota/Bradenton Intl	0.1155
+Lambert-St Louis Intl	Palm Beach Intl	0.1266
+Lambert-St Louis Intl	Southwest Florida Intl	0.1246
+Lambert-St Louis Intl	Fort Lauderdale/Hollywood Intl	0.1319
+Lambert-St Louis Intl	Miami Intl	0.134
+Lambert-St Louis Intl	Honolulu Intl	0.3823
+Lambert-St Louis Intl	Luis Munoz Marin Intl	0.2303
+Sacramento Metropolitan	Metropolitan Oakland Intl	0.0099
+Sacramento Metropolitan	San Francisco Intl	0.011
+Sacramento Metropolitan	San Jose Intll	0.0129
+Sacramento Metropolitan	Fresno Air Terminal	0.0208
+Sacramento Metropolitan	Mc Carran Intl	0.0412
+Sacramento Metropolitan	Meadows Field	0.0338
+Sacramento Metropolitan	Burbank-Glendale-Pasadena	0.0461
+Sacramento Metropolitan	Ontario Intl	0.0489
+Sacramento Metropolitan	Los Angeles Intl	0.0483
+Sacramento Metropolitan	John Wayne Airport-Orange Coun	0.0516
+Sacramento Metropolitan	Phoenix Sky Harbor Intl	0.0701
+Sacramento Metropolitan	Dallas/Fort Worth Intl	0.1369
+Sacramento Metropolitan	San Diego Intl-Lindbergh Fld	0.0613
+Sacramento Metropolitan	Houston Intercontinental	0.1575
+Gunnison County	The William B Hartsfield Atlan	0.1237
+Gunnison County	Dallas/Fort Worth Intl	0.0738
+Gunnison County	Houston Intercontinental	0.1008
+Sonoma County	San Francisco Intl	0.0088
+Yeager	Blue Grass	0.0156
+Yeager	Charlotte/Douglas Intl	0.0304
+Tri-State/Milton J.Ferguson Fi
+Pueblo Memorial
+Louisville Intl	Blue Grass	0.0059
+Louisville Intl	Nashville Intll	0.0202
+Louisville Intl	Charlotte/Douglas Intl	0.0374
+Louisville Intl	Memphis Intl	0.0369
+Louisville Intl	The William B Hartsfield Atlan	0.0438
+Louisville Intl	Birmingham Intl	0.0444
+Louisville Intl	Dallas/Fort Worth Intl	0.0765
+Charlottesville-Albemarle	Richmond Intll	0.0083
+Charlottesville-Albemarle	Charlotte/Douglas Intl	0.0307
+Evansville Regional
+Blue Grass	Roanoke Regional/Woodrum Field	0.0246
+Blue Grass	Nashville Intll	0.0211
+Blue Grass	Mc Ghee Tyson	0.0215
+Blue Grass	The William B Hartsfield Atlan	0.042
+Stockton Metropolitan	San Francisco Intl	0.0063
+Greenbrier Valley	Raleigh-Durham Intll	0.0207
+Williamson County Regional	Cape Girardeau Regional	0.0058
+Forney Aaf
+Metropolitan Oakland Intl	San Francisco Intl	0.0011
+Metropolitan Oakland Intl	Fresno Air Terminal	0.0156
+Metropolitan Oakland Intl	Mc Carran Intl	0.0392
+Metropolitan Oakland Intl	Burbank-Glendale-Pasadena	0.0389
+Metropolitan Oakland Intl	Ontario Intl	0.0422
+Metropolitan Oakland Intl	Los Angeles Intl	0.041
+Metropolitan Oakland Intl	Palm Springs Regional	0.0472
+Metropolitan Oakland Intl	Long Beach /Daugherty Field/	0.0427
+Metropolitan Oakland Intl	John Wayne Airport-Orange Coun	0.0445
+Metropolitan Oakland Intl	Phoenix Sky Harbor Intl	0.0662
+Metropolitan Oakland Intl	Dallas/Fort Worth Intl	0.1363
+Metropolitan Oakland Intl	San Diego Intl-Lindbergh Fld	0.0541
+Wichita Mid-Continent	Springfield Regional	0.021
+Wichita Mid-Continent	Tulsa Intl	0.0159
+Wichita Mid-Continent	Mc Carran Intl	0.0915
+Wichita Mid-Continent	Memphis Intl	0.0453
+Wichita Mid-Continent	Phoenix Sky Harbor Intl	0.0845
+Wichita Mid-Continent	Dallas/Fort Worth Intl	0.0455
+Modesto City-County--Harry Sha	San Francisco Intl	0.0072
+Modesto City-County--Harry Sha	Fresno Air Terminal	0.0103
+Mammoth Lakes	Fresno Air Terminal	0.0093
+San Francisco Intl	San Jose Intll	0.0033
+San Francisco Intl	Merced Municipal/Macready Fiel	0.0099
+San Francisco Intl	Fresno Air Terminal	0.0157
+San Francisco Intl	Monterey Peninsula	0.0103
+San Francisco Intl	Nashville Intll	0.1823
+San Francisco Intl	Mc Carran Intl	0.0395
+San Francisco Intl	Meadows Field	0.0268
+San Francisco Intl	San Luis Obispo County-Mc Ches	0.0244
+San Francisco Intl	Charlotte/Douglas Intl	0.2122
+San Francisco Intl	Memphis Intl	0.1667
+San Francisco Intl	Albuquerque Intl	0.0839
+San Francisco Intl	Santa Maria Pub/Capt G Allan H	0.0278
+San Francisco Intl	Santa Barbara Muni	0.0331
+San Francisco Intl	Burbank-Glendale-Pasadena	0.0385
+San Francisco Intl	Ontario Intl	0.0419
+San Francisco Intl	Los Angeles Intl	0.0406
+San Francisco Intl	Palm Springs Regional	0.047
+San Francisco Intl	Long Beach /Daugherty Field/	0.0423
+San Francisco Intl	John Wayne Airport-Orange Coun	0.0441
+San Francisco Intl	The William B Hartsfield Atlan	0.1969
+San Francisco Intl	Phoenix Sky Harbor Intl	0.0662
+San Francisco Intl	Dallas/Fort Worth Intl	0.1367
+San Francisco Intl	San Diego Intl-Lindbergh Fld	0.0536
+San Francisco Intl	El Paso Intl	0.0986
+San Francisco Intl	New Orleans Intl/Moisant Fld/	0.179
+San Francisco Intl	Houston Intercontinental	0.1558
+San Francisco Intl	Orlando Intl	0.2268
+San Francisco Intl	Miami Intl	0.2423
+San Francisco Intl	Honolulu Intl	0.2389
+San Francisco Intl	Kahului	0.2359
+San Francisco Intl	Keahole-Kona Intll	0.2421
+Richmond Intll	Roanoke Regional/Woodrum Field	0.0136
+Richmond Intll	Norfolk Intl	0.0082
+Richmond Intll	Nashville Intll	0.0495
+Richmond Intll	Raleigh-Durham Intll	0.0173
+Richmond Intll	Charlotte/Douglas Intl	0.0287
+Richmond Intll	The William B Hartsfield Atlan	0.0517
+Richmond Intll	Dallas/Fort Worth Intl	0.1097
+San Jose Intll	Mc Carran Intl	0.0366
+San Jose Intll	Burbank-Glendale-Pasadena	0.0353
+San Jose Intll	Ontario Intl	0.0386
+San Jose Intll	Los Angeles Intl	0.0373
+San Jose Intll	Palm Springs Regional	0.0436
+San Jose Intll	Long Beach /Daugherty Field/	0.039
+San Jose Intll	John Wayne Airport-Orange Coun	0.0408
+San Jose Intll	Phoenix Sky Harbor Intl	0.0629
+San Jose Intll	Dallas/Fort Worth Intl	0.1338
+San Jose Intll	San Diego Intl-Lindbergh Fld	0.0504
+San Jose Intll	Robert Mueller Muni	0.1407
+San Jose Intll	Houston Intercontinental	0.1527
+San Jose Intll	Miami Intl	0.2392
+Roanoke Regional/Woodrum Field	Piedmont Triad Intll	0.0118
+Roanoke Regional/Woodrum Field	Charlotte/Douglas Intl	0.0208
+Merced Municipal/Macready Fiel	Fresno Air Terminal	0.0064
+Springfield Regional	Joplin Regional	0.0058
+Springfield Regional	Adams Field	0.0247
+Springfield Regional	Dallas/Fort Worth Intl	0.0456
+Cape Girardeau Regional
+Durango-La Plata County	Phoenix Sky Harbor Intl	0.0416
+Joplin Regional
+Newport News/Williamsburg Inte
+Barkley Regional
+Norfolk Intl	Nashville Intll	0.0539
+Norfolk Intl	Raleigh-Durham Intll	0.0164
+Norfolk Intl	Charlotte/Douglas Intl	0.029
+Norfolk Intl	The William B Hartsfield Atlan	0.0521
+Norfolk Intl	Dallas/Fort Worth Intl	0.1128
+Fresno Air Terminal	Burbank-Glendale-Pasadena	0.0255
+Fresno Air Terminal	Ontario Intl	0.0282
+Fresno Air Terminal	Los Angeles Intl	0.0279
+Fresno Air Terminal	John Wayne Airport-Orange Coun	0.0311
+Fresno Air Terminal	Dallas/Fort Worth Intl	0.1213
+Fresno Air Terminal	San Diego Intl-Lindbergh Fld	0.0407
+Monterey Peninsula	Los Angeles Intl	0.0308
+Tri-Cities Regional Tn/Va	Charlotte/Douglas Intl	0.0141
+Tri-Cities Regional Tn/Va	The William B Hartsfield Atlan	0.0289
+Tulsa Intl	Will Rogers World	0.0116
+Tulsa Intl	Memphis Intl	0.032
+Tulsa Intl	Adams Field	0.0234
+Tulsa Intl	The William B Hartsfield Atlan	0.0633
+Tulsa Intl	Phoenix Sky Harbor Intl	0.0862
+Tulsa Intl	Dallas/Fort Worth Intl	0.0321
+Tulsa Intl	Dallas Love Field	0.0324
+Tulsa Intl	Houston Intercontinental	0.0595
+Tulsa Intl	William P Hobby	0.0627
+Nashville Intll	Piedmont Triad Intll	0.0344
+Nashville Intll	Mc Carran Intl	0.145
+Nashville Intll	Raleigh-Durham Intll	0.0403
+Nashville Intll	Mc Ghee Tyson	0.014
+Nashville Intll	Charlotte/Douglas Intl	0.0305
+Nashville Intll	Memphis Intl	0.0197
+Nashville Intll	Adams Field	0.0312
+Nashville Intll	Huntsville Intl-Carl T Jones F	0.0142
+Nashville Intll	Los Angeles Intl	0.1628
+Nashville Intll	The William B Hartsfield Atlan	0.0263
+Nashville Intll	Birmingham Intl	0.0245
+Nashville Intll	Phoenix Sky Harbor Intl	0.1315
+Nashville Intll	Dallas/Fort Worth Intl	0.0611
+Nashville Intll	San Diego Intl-Lindbergh Fld	0.1586
+Nashville Intll	Jackson Intll	0.0404
+Nashville Intll	Mobile Regional	0.0525
+Nashville Intll	Baton Rouge Metropolitan, Ryan	0.058
+Nashville Intll	Jacksonville Intl	0.0595
+Nashville Intll	Pensacola Regional	0.0541
+Nashville Intll	New Orleans Intl/Moisant Fld/	0.0614
+Nashville Intll	Houston Intercontinental	0.0734
+Nashville Intll	William P Hobby	0.0758
+Nashville Intll	San Antonio Intl	0.087
+Nashville Intll	Orlando Intl	0.0784
+Nashville Intll	Tampa Intl	0.0807
+Nashville Intll	Palm Beach Intl	0.0963
+Nashville Intll	Southwest Florida Intl	0.095
+Nashville Intll	Fort Lauderdale/Hollywood Intl	0.1017
+Nashville Intll	Miami Intl	0.1039
+Nashville Intll	Luis Munoz Marin Intl	0.1991
+Piedmont Triad Intll	Raleigh-Durham Intll	0.0062
+Piedmont Triad Intll	Charlotte/Douglas Intl	0.0099
+Piedmont Triad Intll	Fayetteville Regional/Grannis	0.0118
+Piedmont Triad Intll	Columbia Metropolitan	0.0215
+Piedmont Triad Intll	The William B Hartsfield Atlan	0.0327
+Piedmont Triad Intll	Dallas/Fort Worth Intl	0.0923
+Piedmont Triad Intll	Orlando Intl	0.0735
+Mc Carran Intl	Charlotte/Douglas Intl	0.1744
+Mc Carran Intl	Memphis Intl	0.1286
+Mc Carran Intl	Albuquerque Intl	0.0446
+Mc Carran Intl	Burbank-Glendale-Pasadena	0.0243
+Mc Carran Intl	Ontario Intl	0.023
+Mc Carran Intl	Los Angeles Intl	0.0263
+Mc Carran Intl	Palm Springs Regional	0.0227
+Mc Carran Intl	John Wayne Airport-Orange Coun	0.0268
+Mc Carran Intl	The William B Hartsfield Atlan	0.1582
+Mc Carran Intl	Phoenix Sky Harbor Intl	0.0299
+Mc Carran Intl	Dallas/Fort Worth Intl	0.0972
+Mc Carran Intl	San Diego Intl-Lindbergh Fld	0.0336
+Mc Carran Intl	Tucson Intl	0.0436
+Mc Carran Intl	El Paso Intl	0.0606
+Mc Carran Intl	Houston Intercontinental	0.1165
+Mc Carran Intl	San Antonio Intl	0.1056
+Mc Carran Intl	Orlando Intl	0.1873
+Mc Carran Intl	Tampa Intl	0.1834
+Mc Carran Intl	Honolulu Intl	0.2595
+Drake Field	Fort Smith Regional	0.0064
+Drake Field	Dallas/Fort Worth Intl	0.0331
+Raleigh-Durham Intll	Charlotte/Douglas Intl	0.0127
+Raleigh-Durham Intll	Greenville-Spartanburg	0.0197
+Raleigh-Durham Intll	New Hanover Intll	0.0159
+Raleigh-Durham Intll	Columbia Metropolitan	0.0219
+Raleigh-Durham Intll	Myrtle Beach Intl	0.021
+Raleigh-Durham Intll	The William B Hartsfield Atlan	0.0357
+Raleigh-Durham Intll	Charleston Afb/Intl	0.0291
+Raleigh-Durham Intll	Dallas/Fort Worth Intl	0.0972
+Raleigh-Durham Intll	Savannah Intll	0.0379
+Raleigh-Durham Intll	Jacksonville Intl	0.0535
+Raleigh-Durham Intll	Daytona Beach Intl	0.065
+Raleigh-Durham Intll	Orlando Intl	0.0722
+Raleigh-Durham Intll	Melbourne Intll	0.0749
+Raleigh-Durham Intll	Tampa Intl	0.0779
+Raleigh-Durham Intll	Sarasota/Bradenton Intl	0.0832
+Raleigh-Durham Intll	Palm Beach Intl	0.088
+Raleigh-Durham Intll	Southwest Florida Intl	0.0905
+Raleigh-Durham Intll	Fort Lauderdale/Hollywood Intl	0.094
+Raleigh-Durham Intll	Miami Intl	0.0966
+Raleigh-Durham Intll	Luis Munoz Marin Intl	0.1789
+Raleigh-Durham Intll	Cyril E King	0.1818
+Raleigh-Durham Intll	Alexander Hamilton	0.1877
+Mc Ghee Tyson	Charlotte/Douglas Intl	0.0165
+Mc Ghee Tyson	Memphis Intl	0.0314
+Mc Ghee Tyson	The William B Hartsfield Atlan	0.0208
+Mc Ghee Tyson	Dallas/Fort Worth Intl	0.072
+Asheville Regional	Charlotte/Douglas Intl	0.0084
+Asheville Regional	The William B Hartsfield Atlan	0.0196
+Meadows Field	Santa Barbara Muni	0.0104
+Meadows Field	Dallas/Fort Worth Intl	0.1148
+Will Rogers World	Memphis Intl	0.0389
+Will Rogers World	The William B Hartsfield Atlan	0.0691
+Will Rogers World	Phoenix Sky Harbor Intl	0.0757
+Will Rogers World	Dallas/Fort Worth Intl	0.0241
+Will Rogers World	Dallas Love Field	0.0246
+Will Rogers World	Houston Intercontinental	0.053
+Will Rogers World	William P Hobby	0.0562
+Fort Smith Regional	Dallas/Fort Worth Intl	0.0271
+Kinston Regional Jetport At St	Charlotte/Douglas Intl	0.017
+San Luis Obispo County-Mc Ches	Santa Maria Pub/Capt G Allan H	0.0033
+Amarillo Intl	Albuquerque Intl	0.0251
+Amarillo Intl	Lubbock Intl	0.0148
+Amarillo Intl	Dallas/Fort Worth Intl	0.0325
+Amarillo Intl	Dallas Love Field	0.0335
+Amarillo Intl	Tucson Intl	0.0555
+Charlotte/Douglas Intl	Memphis Intl	0.046
+Charlotte/Douglas Intl	Lovell Field	0.0217
+Charlotte/Douglas Intl	Fayetteville Regional/Grannis	0.0108
+Charlotte/Douglas Intl	Greenville-Spartanburg	0.0071
+Charlotte/Douglas Intl	Albert J Ellis	0.0174
+Charlotte/Douglas Intl	Adams Field	0.0576
+Charlotte/Douglas Intl	Huntsville Intl-Carl T Jones F	0.0301
+Charlotte/Douglas Intl	New Hanover Intll	0.0179
+Charlotte/Douglas Intl	Los Angeles Intl	0.1911
+Charlotte/Douglas Intl	Columbia Metropolitan	0.0122
+Charlotte/Douglas Intl	Myrtle Beach Intl	0.0179
+Charlotte/Douglas Intl	The William B Hartsfield Atlan	0.0232
+Charlotte/Douglas Intl	Birmingham Intl	0.0335
+Charlotte/Douglas Intl	Phoenix Sky Harbor Intl	0.1591
+Charlotte/Douglas Intl	Bush Field	0.0184
+Charlotte/Douglas Intl	Charleston Afb/Intl	0.0226
+Charlotte/Douglas Intl	Dallas/Fort Worth Intl	0.0849
+Charlotte/Douglas Intl	San Diego Intl-Lindbergh Fld	0.186
+Charlotte/Douglas Intl	Dannelly Field	0.0393
+Charlotte/Douglas Intl	Savannah Intll	0.0295
+Charlotte/Douglas Intl	Mobile Regional	0.0569
+Charlotte/Douglas Intl	Jacksonville Intl	0.0453
+Charlotte/Douglas Intl	Pensacola Regional	0.0553
+Charlotte/Douglas Intl	Tallahassee Regional	0.0491
+Charlotte/Douglas Intl	Robert Mueller Muni	0.0974
+Charlotte/Douglas Intl	New Orleans Intl/Moisant Fld/	0.0688
+Charlotte/Douglas Intl	Houston Intercontinental	0.0887
+Charlotte/Douglas Intl	Gainesville Regional	0.0532
+Charlotte/Douglas Intl	San Antonio Intl	0.1044
+Charlotte/Douglas Intl	Daytona Beach Intl	0.0577
+Charlotte/Douglas Intl	Orlando Intl	0.0648
+Charlotte/Douglas Intl	Melbourne Intll	0.068
+Charlotte/Douglas Intl	Tampa Intl	0.0697
+Charlotte/Douglas Intl	Sarasota/Bradenton Intl	0.0751
+Charlotte/Douglas Intl	Palm Beach Intl	0.0816
+Charlotte/Douglas Intl	Southwest Florida Intl	0.083
+Charlotte/Douglas Intl	Fort Lauderdale/Hollywood Intl	0.0875
+Charlotte/Douglas Intl	Miami Intl	0.0901
+Charlotte/Douglas Intl	Luis Munoz Marin Intl	0.1774
+Flagstaff Pulliam	Phoenix Sky Harbor Intl	0.0164
+Memphis Intl	Adams Field	0.0118
+Memphis Intl	Huntsville Intl-Carl T Jones F	0.0169
+Memphis Intl	Los Angeles Intl	0.1451
+Memphis Intl	The William B Hartsfield Atlan	0.0313
+Memphis Intl	Birmingham Intl	0.0218
+Memphis Intl	Phoenix Sky Harbor Intl	0.1133
+Memphis Intl	Dallas/Fort Worth Intl	0.0414
+Memphis Intl	Baton Rouge Metropolitan, Ryan	0.0435
+Memphis Intl	Eglin Afb	0.047
+Memphis Intl	Robert Mueller Muni	0.06
+Memphis Intl	New Orleans Intl/Moisant Fld/	0.0483
+Memphis Intl	William P Hobby	0.0582
+Memphis Intl	San Antonio Intl	0.0681
+Memphis Intl	Orlando Intl	0.0771
+Memphis Intl	Tampa Intl	0.0775
+Memphis Intl	Southwest Florida Intl	0.0915
+Memphis Intl	Fort Lauderdale/Hollywood Intl	0.0994
+Memphis Intl	Miami Intl	0.1013
+Albuquerque Intl	Los Angeles Intl	0.0609
+Albuquerque Intl	Lubbock Intl	0.0277
+Albuquerque Intl	The William B Hartsfield Atlan	0.1138
+Albuquerque Intl	Phoenix Sky Harbor Intl	0.0315
+Albuquerque Intl	Dallas/Fort Worth Intl	0.0529
+Albuquerque Intl	Dallas Love Field	0.0539
+Albuquerque Intl	San Diego Intl-Lindbergh Fld	0.0581
+Albuquerque Intl	Tucson Intl	0.0355
+Albuquerque Intl	Midland Intll	0.0372
+Albuquerque Intl	El Paso Intl	0.0309
+Albuquerque Intl	Houston Intercontinental	0.075
+Albuquerque Intl	William P Hobby	0.0773
+Lovell Field	The William B Hartsfield Atlan	0.0139
+Fayetteville Regional/Grannis
+Santa Maria Pub/Capt G Allan H
+Greenville-Spartanburg	The William B Hartsfield Atlan	0.0165
+Albert J Ellis
+Adams Field	The William B Hartsfield Atlan	0.041
+Adams Field	Dallas/Fort Worth Intl	0.0302
+Adams Field	Dallas Love Field	0.0297
+Huntsville Intl-Carl T Jones F	The William B Hartsfield Atlan	0.0152
+Huntsville Intl-Carl T Jones F	Birmingham Intl	0.0103
+Huntsville Intl-Carl T Jones F	Dallas/Fort Worth Intl	0.0549
+Lawton Muni	Dallas/Fort Worth Intl	0.0175
+Santa Barbara Muni	Burbank-Glendale-Pasadena	0.0078
+Santa Barbara Muni	Los Angeles Intl	0.0087
+Santa Barbara Muni	Long Beach /Daugherty Field/	0.0104
+Santa Barbara Muni	Dallas/Fort Worth Intl	0.117
+New Hanover Intll
+Oxnard	Los Angeles Intl	0.0048
+Burbank-Glendale-Pasadena	Ontario Intl	0.0041
+Burbank-Glendale-Pasadena	Los Angeles Intl	0.0025
+Burbank-Glendale-Pasadena	John Wayne Airport-Orange Coun	0.0056
+Burbank-Glendale-Pasadena	Phoenix Sky Harbor Intl	0.0331
+Burbank-Glendale-Pasadena	Dallas/Fort Worth Intl	0.1093
+Burbank-Glendale-Pasadena	San Diego Intl-Lindbergh Fld	0.0152
+Ontario Intl	Palm Springs Regional	0.0059
+Ontario Intl	John Wayne Airport-Orange Coun	0.0039
+Ontario Intl	The William B Hartsfield Atlan	0.1689
+Ontario Intl	Phoenix Sky Harbor Intl	0.029
+Ontario Intl	Dallas/Fort Worth Intl	0.1053
+Ontario Intl	San Diego Intl-Lindbergh Fld	0.0128
+Ontario Intl	Houston Intercontinental	0.1198
+Ontario Intl	Honolulu Intl	0.2387
+Sheppard Afb/Wichita Falls Mun	Dallas/Fort Worth Intl	0.0128
+Los Angeles Intl	Palm Springs Regional	0.0097
+Los Angeles Intl	John Wayne Airport-Orange Coun	0.0037
+Los Angeles Intl	The William B Hartsfield Atlan	0.173
+Los Angeles Intl	Phoenix Sky Harbor Intl	0.0329
+Los Angeles Intl	Dallas/Fort Worth Intl	0.1093
+Los Angeles Intl	San Diego Intl-Lindbergh Fld	0.0131
+Los Angeles Intl	Tucson Intl	0.0418
+Los Angeles Intl	El Paso Intl	0.0645
+Los Angeles Intl	New Orleans Intl/Moisant Fld/	0.1482
+Los Angeles Intl	Houston Intercontinental	0.1233
+Los Angeles Intl	Orlando Intl	0.1961
+Los Angeles Intl	Tampa Intl	0.1914
+Los Angeles Intl	Miami Intl	0.2091
+Los Angeles Intl	Honolulu Intl	0.2347
+Los Angeles Intl	Kahului	0.2303
+Los Angeles Intl	Keahole-Kona Intll	0.2349
+Los Angeles Intl	Pago Pago Intl	0.5326
+Columbia Metropolitan	The William B Hartsfield Atlan	0.0171
+Columbia Metropolitan	Bush Field	0.007
+Columbia Metropolitan	Charleston Afb/Intl	0.0113
+Palm Springs Regional	Phoenix Sky Harbor Intl	0.0232
+Palm Springs Regional	Dallas/Fort Worth Intl	0.0996
+Palm Springs Regional	San Diego Intl-Lindbergh Fld	0.0109
+Palm Springs Regional	Tucson Intl	0.0327
+Long Beach /Daugherty Field/	Phoenix Sky Harbor Intl	0.0314
+Long Beach /Daugherty Field/	Dallas/Fort Worth Intl	0.1079
+Myrtle Beach Intl
+John Wayne Airport-Orange Coun	The William B Hartsfield Atlan	0.1703
+John Wayne Airport-Orange Coun	Phoenix Sky Harbor Intl	0.0299
+John Wayne Airport-Orange Coun	Dallas/Fort Worth Intl	0.1064
+John Wayne Airport-Orange Coun	San Diego Intl-Lindbergh Fld	0.0097
+John Wayne Airport-Orange Coun	Houston Intercontinental	0.12
+Lubbock Intl	Dallas/Fort Worth Intl	0.0255
+Lubbock Intl	Dallas Love Field	0.0265
+Lubbock Intl	El Paso Intl	0.0292
+Lubbock Intl	Robert Mueller Muni	0.0384
+The William B Hartsfield Atlan	Birmingham Intl	0.0118
+The William B Hartsfield Atlan	Phoenix Sky Harbor Intl	0.1405
+The William B Hartsfield Atlan	Bush Field	0.0128
+The William B Hartsfield Atlan	Charleston Afb/Intl	0.0234
+The William B Hartsfield Atlan	Dallas/Fort Worth Intl	0.0646
+The William B Hartsfield Atlan	San Diego Intl-Lindbergh Fld	0.167
+The William B Hartsfield Atlan	Columbus Metropolitan	0.0111
+The William B Hartsfield Atlan	Monroe Regional	0.0403
+The William B Hartsfield Atlan	Shreveport Regional	0.0493
+The William B Hartsfield Atlan	Jackson Intll	0.0315
+The William B Hartsfield Atlan	Dannelly Field	0.0163
+The William B Hartsfield Atlan	Savannah Intll	0.0219
+The William B Hartsfield Atlan	El Paso Intl	0.1132
+The William B Hartsfield Atlan	Mobile Regional	0.0342
+The William B Hartsfield Atlan	Baton Rouge Metropolitan, Ryan	0.0453
+The William B Hartsfield Atlan	Jacksonville Intl	0.0332
+The William B Hartsfield Atlan	Pensacola Regional	0.0334
+The William B Hartsfield Atlan	Tallahassee Regional	0.031
+The William B Hartsfield Atlan	Robert Mueller Muni	0.0748
+The William B Hartsfield Atlan	Panama City-Bay Co Intl	0.0334
+The William B Hartsfield Atlan	New Orleans Intl/Moisant Fld/	0.0458
+The William B Hartsfield Atlan	Houston Intercontinental	0.0657
+The William B Hartsfield Atlan	Gainesville Regional	0.0394
+The William B Hartsfield Atlan	William P Hobby	0.0672
+The William B Hartsfield Atlan	San Antonio Intl	0.0816
+The William B Hartsfield Atlan	Daytona Beach Intl	0.046
+The William B Hartsfield Atlan	Orlando Intl	0.0523
+The William B Hartsfield Atlan	Melbourne Intll	0.0564
+The William B Hartsfield Atlan	Tampa Intl	0.0551
+The William B Hartsfield Atlan	Sarasota/Bradenton Intl	0.0605
+The William B Hartsfield Atlan	Palm Beach Intl	0.0701
+The William B Hartsfield Atlan	Southwest Florida Intl	0.0692
+The William B Hartsfield Atlan	Fort Lauderdale/Hollywood Intl	0.0756
+The William B Hartsfield Atlan	Miami Intl	0.0779
+The William B Hartsfield Atlan	Honolulu Intl	0.3924
+The William B Hartsfield Atlan	Luis Munoz Marin Intl	0.1729
+The William B Hartsfield Atlan	Cyril E King	0.1767
+Birmingham Intl	Dallas/Fort Worth Intl	0.0528
+Birmingham Intl	Shreveport Regional	0.0377
+Birmingham Intl	Jackson Intll	0.0208
+Birmingham Intl	Dannelly Field	0.0122
+Birmingham Intl	New Orleans Intl/Moisant Fld/	0.0385
+Birmingham Intl	William P Hobby	0.0574
+Birmingham Intl	Orlando Intl	0.0563
+Texarkana Regional-Webb Field	Dallas/Fort Worth Intl	0.0164
+Phoenix Sky Harbor Intl	Dallas/Fort Worth Intl	0.0765
+Phoenix Sky Harbor Intl	San Diego Intl-Lindbergh Fld	0.0271
+Phoenix Sky Harbor Intl	Yuma Mcas/Yuma Intl	0.0151
+Phoenix Sky Harbor Intl	Tucson Intl	0.0137
+Phoenix Sky Harbor Intl	El Paso Intl	0.0327
+Phoenix Sky Harbor Intl	Robert Mueller Muni	0.0788
+Phoenix Sky Harbor Intl	Houston Intercontinental	0.0911
+Phoenix Sky Harbor Intl	William P Hobby	0.0926
+Phoenix Sky Harbor Intl	San Antonio Intl	0.0784
+Phoenix Sky Harbor Intl	Orlando Intl	0.1635
+Phoenix Sky Harbor Intl	Honolulu Intl	0.2609
+Bush Field	Savannah Intll	0.0125
+Charleston Afb/Intl	Savannah Intll	0.0095
+Charleston Afb/Intl	Jacksonville Intl	0.0245
+Dallas/Fort Worth Intl	San Diego Intl-Lindbergh Fld	0.1026
+Dallas/Fort Worth Intl	Monroe Regional	0.0257
+Dallas/Fort Worth Intl	Shreveport Regional	0.0169
+Dallas/Fort Worth Intl	Abilene Regional	0.0143
+Dallas/Fort Worth Intl	Gregg County	0.0127
+Dallas/Fort Worth Intl	Tyler Pounds Field	0.0097
+Dallas/Fort Worth Intl	Jackson Intll	0.0358
+Dallas/Fort Worth Intl	Savannah Intll	0.0809
+Dallas/Fort Worth Intl	Tucson Intl	0.0712
+Dallas/Fort Worth Intl	Midland Intll	0.0278
+Dallas/Fort Worth Intl	El Paso Intl	0.0487
+Dallas/Fort Worth Intl	Waco Regional	0.0122
+Dallas/Fort Worth Intl	Alexandria Esler Regional	0.028
+Dallas/Fort Worth Intl	Mathis Field	0.0229
+Dallas/Fort Worth Intl	Killeen Muni	0.0176
+Dallas/Fort Worth Intl	Mobile Regional	0.0495
+Dallas/Fort Worth Intl	Easterwood Field	0.0223
+Dallas/Fort Worth Intl	Baton Rouge Metropolitan, Ryan	0.0375
+Dallas/Fort Worth Intl	Jacksonville Intl	0.0815
+Dallas/Fort Worth Intl	Pensacola Regional	0.0553
+Dallas/Fort Worth Intl	Robert Mueller Muni	0.025
+Dallas/Fort Worth Intl	Lafayette Regional	0.0363
+Dallas/Fort Worth Intl	Lake Charles Regional	0.0328
+Dallas/Fort Worth Intl	New Orleans Intl/Moisant Fld/	0.0442
+Dallas/Fort Worth Intl	Houston Intercontinental	0.0291
+Dallas/Fort Worth Intl	Jefferson County	0.032
+Dallas/Fort Worth Intl	William P Hobby	0.0323
+Dallas/Fort Worth Intl	San Antonio Intl	0.0329
+Dallas/Fort Worth Intl	Orlando Intl	0.0907
+Dallas/Fort Worth Intl	Tampa Intl	0.0876
+Dallas/Fort Worth Intl	Corpus Christi Intl	0.049
+Dallas/Fort Worth Intl	Laredo Intl	0.0526
+Dallas/Fort Worth Intl	Sarasota/Bradenton Intl	0.0905
+Dallas/Fort Worth Intl	Palm Beach Intl	0.1047
+Dallas/Fort Worth Intl	Southwest Florida Intl	0.0987
+Dallas/Fort Worth Intl	Rio Grande Valley Intl	0.0638
+Dallas/Fort Worth Intl	Mc Allen Miller Intl	0.0645
+Dallas/Fort Worth Intl	Fort Lauderdale/Hollywood Intl	0.1079
+Dallas/Fort Worth Intl	Miami Intl	0.109
+Dallas/Fort Worth Intl	Honolulu Intl	0.3292
+Dallas/Fort Worth Intl	Luis Munoz Marin Intl	0.2098
+Dallas Love Field	Midland Intll	0.0286
+Dallas Love Field	El Paso Intl	0.0495
+Dallas Love Field	Robert Mueller Muni	0.0248
+Dallas Love Field	New Orleans Intl/Moisant Fld/	0.0433
+Dallas Love Field	Houston Intercontinental	0.0285
+Dallas Love Field	William P Hobby	0.0316
+Dallas Love Field	San Antonio Intl	0.0327
+San Diego Intl-Lindbergh Fld	El Paso Intl	0.0557
+San Diego Intl-Lindbergh Fld	Houston Intercontinental	0.1143
+San Diego Intl-Lindbergh Fld	Miami Intl	0.1993
+San Diego Intl-Lindbergh Fld	Honolulu Intl	0.2344
+Yuma Mcas/Yuma Intl
+Columbus Metropolitan
+Monroe Regional	Shreveport Regional	0.0091
+Monroe Regional	Jackson Intll	0.0102
+Monroe Regional	Dannelly Field	0.0289
+Monroe Regional	Mobile Regional	0.0261
+Monroe Regional	Pensacola Regional	0.0315
+Shreveport Regional	Jackson Intll	0.0191
+Shreveport Regional	Mobile Regional	0.033
+Shreveport Regional	Baton Rouge Metropolitan, Ryan	0.0228
+Abilene Regional
+Gregg County	Tyler Pounds Field	0.0035
+Tyler Pounds Field
+Jackson Intll	Mobile Regional	0.018
+Jackson Intll	Baton Rouge Metropolitan, Ryan	0.0177
+Dannelly Field	Baton Rouge Metropolitan, Ryan	0.0295
+Savannah Intll	Jacksonville Intl	0.0158
+Savannah Intll	Orlando Intl	0.0353
+Savannah Intll	Cyril E King	0.1556
+Savannah Intll	Alexander Hamilton	0.1612
+Tucson Intl	Houston Intercontinental	0.082
+Midland Intll	El Paso Intl	0.0213
+Midland Intll	Robert Mueller Muni	0.0278
+Midland Intll	William P Hobby	0.0415
+El Paso Intl	Robert Mueller Muni	0.0465
+El Paso Intl	Houston Intercontinental	0.0588
+El Paso Intl	William P Hobby	0.0601
+El Paso Intl	San Antonio Intl	0.0458
+Waco Regional
+Alexandria Esler Regional
+Mathis Field
+Killeen Muni
+Mobile Regional	Baton Rouge Metropolitan, Ryan	0.0149
+Mobile Regional	Pensacola Regional	0.0058
+Mobile Regional	Houston Intercontinental	0.0368
+Easterwood Field
+Baton Rouge Metropolitan, Ryan	Houston Intercontinental	0.022
+Jacksonville Intl	Pensacola Regional	0.028
+Jacksonville Intl	Houston Intercontinental	0.0698
+Jacksonville Intl	Daytona Beach Intl	0.013
+Jacksonville Intl	Orlando Intl	0.0198
+Jacksonville Intl	Melbourne Intll	0.0235
+Jacksonville Intl	Palm Beach Intl	0.0373
+Jacksonville Intl	Miami Intl	0.0455
+Eglin Afb
+Pensacola Regional	Houston Intercontinental	0.0419
+Pensacola Regional	Orlando Intl	0.0357
+Pensacola Regional	Tampa Intl	0.0337
+Tallahassee Regional	Orlando Intl	0.0244
+Tallahassee Regional	Tampa Intl	0.025
+Tallahassee Regional	Miami Intl	0.0486
+Robert Mueller Muni	Houston Intercontinental	0.0124
+Robert Mueller Muni	William P Hobby	0.0138
+Robert Mueller Muni	San Antonio Intl	0.0083
+Robert Mueller Muni	Rio Grande Valley Intl	0.0389
+Panama City-Bay Co Intl
+Lafayette Regional	Houston Intercontinental	0.0172
+Lake Charles Regional
+New Orleans Intl/Moisant Fld/	Houston Intercontinental	0.0259
+New Orleans Intl/Moisant Fld/	William P Hobby	0.0258
+New Orleans Intl/Moisant Fld/	San Antonio Intl	0.042
+New Orleans Intl/Moisant Fld/	Orlando Intl	0.048
+New Orleans Intl/Moisant Fld/	Tampa Intl	0.0439
+New Orleans Intl/Moisant Fld/	Fort Lauderdale/Hollywood Intl	0.0637
+New Orleans Intl/Moisant Fld/	Miami Intl	0.0647
+Houston Intercontinental	William P Hobby	0.0032
+Houston Intercontinental	San Antonio Intl	0.0165
+Houston Intercontinental	Orlando Intl	0.073
+Houston Intercontinental	Tampa Intl	0.0681
+Houston Intercontinental	Corpus Christi Intl	0.0238
+Houston Intercontinental	Sarasota/Bradenton Intl	0.0696
+Houston Intercontinental	Palm Beach Intl	0.0838
+Houston Intercontinental	Southwest Florida Intl	0.0766
+Houston Intercontinental	Rio Grande Valley Intl	0.0378
+Houston Intercontinental	Mc Allen Miller Intl	0.0393
+Houston Intercontinental	Fort Lauderdale/Hollywood Intl	0.086
+Houston Intercontinental	Miami Intl	0.0865
+Jefferson County
+Gainesville Regional
+William P Hobby	San Antonio Intl	0.0162
+William P Hobby	Corpus Christi Intl	0.0212
+William P Hobby	Rio Grande Valley Intl	0.0349
+William P Hobby	Miami Intl	0.0848
+San Antonio Intl	Rio Grande Valley Intl	0.0319
+Daytona Beach Intl	Orlando Intl	0.0072
+Daytona Beach Intl	Melbourne Intll	0.0105
+Orlando Intl	Tampa Intl	0.0076
+Orlando Intl	Sarasota/Bradenton Intl	0.0118
+Orlando Intl	Palm Beach Intl	0.0178
+Orlando Intl	Southwest Florida Intl	0.0182
+Orlando Intl	Fort Lauderdale/Hollywood Intl	0.0234
+Orlando Intl	Miami Intl	0.0257
+Orlando Intl	Luis Munoz Marin Intl	0.1232
+Orlando Intl	Cyril E King	0.1274
+Orlando Intl	Alexander Hamilton	0.1326
+Melbourne Intll	Tampa Intl	0.0097
+Melbourne Intll	Southwest Florida Intl	0.016
+Tampa Intl	Sarasota/Bradenton Intl	0.0055
+Tampa Intl	Palm Beach Intl	0.0175
+Tampa Intl	Southwest Florida Intl	0.0142
+Tampa Intl	Fort Lauderdale/Hollywood Intl	0.0219
+Tampa Intl	Miami Intl	0.0237
+Tampa Intl	Luis Munoz Marin Intl	0.124
+St Petersburg/Clearwater Intl	Fort Lauderdale/Hollywood Intl	0.0218
+Corpus Christi Intl
+Laredo Intl
+Sarasota/Bradenton Intl	Southwest Florida Intl	0.0092
+Sarasota/Bradenton Intl	Miami Intl	0.0192
+Palm Beach Intl	Southwest Florida Intl	0.0086
+Palm Beach Intl	Fort Lauderdale/Hollywood Intl	0.0059
+Palm Beach Intl	Miami Intl	0.0086
+Southwest Florida Intl	Fort Lauderdale/Hollywood Intl	0.0094
+Southwest Florida Intl	Miami Intl	0.0103
+Rio Grande Valley Intl
+Mc Allen Miller Intl
+Fort Lauderdale/Hollywood Intl	Miami Intl	0.0027
+Miami Intl	Rafael Hernandez	0.0968
+Miami Intl	Luis Munoz Marin Intl	0.1011
+Miami Intl	Cyril E King	0.1057
+Miami Intl	Mercedita	0.1021
+Miami Intl	Alexander Hamilton	0.1105
+Lihue	Honolulu Intl	0.0096
+Lihue	Kahului	0.018
+Lihue	Keahole-Kona Intll	0.0272
+Honolulu Intl	Molokai	0.0045
+Honolulu Intl	Kapalua	0.0072
+Honolulu Intl	Kahului	0.0086
+Honolulu Intl	Lanai	0.0071
+Honolulu Intl	Keahole-Kona Intll	0.0179
+Honolulu Intl	Hilo Intll	0.0212
+Honolulu Intl	Johnston Atoll	0.0736
+Honolulu Intl	Guam Intll	0.3011
+Honolulu Intl	Pago Pago Intl	0.3468
+Molokai	Kahului	0.0042
+Molokai	Lanai	0.0036
+Kapalua	Kahului	0.0013
+Kapalua	Lanai	0.0022
+Kahului	Lanai	0.0028
+Kahului	Keahole-Kona Intll	0.0113
+Kahului	Hilo Intll	0.0133
+Lanai
+Keahole-Kona Intll	Hilo Intll	0.0051
+Hilo Intll
+Rafael Hernandez	Mercedita	0.0054
+Luis Munoz Marin Intl	Cyril E King	0.0054
+Luis Munoz Marin Intl	Eugenio Maria De Hostos	0.0061
+Luis Munoz Marin Intl	Mercedita	0.005
+Luis Munoz Marin Intl	Alexander Hamilton	0.0094
+Cyril E King	Alexander Hamilton	0.0061
+Eugenio Maria De Hostos
+Mercedita
+Alexander Hamilton
+Johnston Atoll
+Saipan Intl	Rota Intl	0.0093
+Saipan Intl	Guam Intll	0.0163
+Saipan Intl	Babelthuap/Koror	0.0935
+Saipan Intl	West Tinian	0.0013
+Rota Intl	Guam Intll	0.007
+Guam Intll	Babelthuap/Koror	0.0784
+Babelthuap/Koror
+Pago Pago Intl
+West Tinian

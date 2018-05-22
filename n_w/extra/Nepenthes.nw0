@@ -1,0 +1,25 @@
+{ Food web in the pitcher plant Nepenthes albomarginata in West Malaysia.
+{
+{ Beaver RA. 1985. Geographical variation in food web structure in Nepenthes pitcher plants.
+{ Ecological Entomology 10:241-248. 
+{
+19
+MisumenopsNepenthicola	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Encyrtid	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ToxorhynchiesKlossi	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LestodiplosisSyingopais	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+MagaseliaNepenthina	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+EndonepenthiniaSchuitemakeri	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TriperoidesTenax	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TriperoidesBambusa	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DasyheleaNepenthicola	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+NepenthosyrphusSp.	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+PierretiaUrceola	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CulexCurtipalpis	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CurtexLucaris	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+AnotidaeSp.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+AnotidaeSp.2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria&Protozoa	0	0	0	0	0	0	1	1	1	0	0	1	1	1	1	0	0	0	0
+LiveInsects	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DrownedInsects	0	0	0	0	1	1	1	1	0	1	1	0	0	0	0	1	0	0	0
+OrganicDebris	0	0	0	0	0	0	0	0	1	0	0	0	0	1	1	1	0	0	0

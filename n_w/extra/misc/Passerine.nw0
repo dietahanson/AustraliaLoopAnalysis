@@ -1,0 +1,13 @@
+{ Life cycle of passerine species (2 age classes, female-based).
+{
+{ Legendre S, J Clobert, AP Moller & G Sorci. 1999.
+{ Demographic stochasticty and social mating system in the process of extinction
+{ of small populations: The case of passerines introduced to New Zealand.
+{ American Naturalist 153:449-463.
+{
+{ The generation time of the population model is T = 1.669
+{ The weighted cycle time of the first node age1 (newborn class) is equal to T.
+{
+2
+age1	0.7	0.7
+age2	0.35	0.5

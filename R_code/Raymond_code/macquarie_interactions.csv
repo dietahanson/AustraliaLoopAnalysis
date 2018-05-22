@@ -1,0 +1,91 @@
+From,To,Importance,Type
+Cats,Burrow-nesting seabirds,Major,Predator-prey
+Cats,Rabbits,Unknown,Negative
+Cats,Rats,Major,Predator-prey
+Cats,Mice,Major,Predator-prey
+Cats,Penguins,Minor,Scavenging
+Cats,Redpolls Starlings,Minor,Predator-prey
+Cats,Cats,Major,Limiting
+Rabbits,Cats,Major,Positive
+Penguins,Penguins,Major,Limiting
+Small surface-nesting seabirds,Small surface-nesting seabirds,Major,Limiting
+Burrow-nesting seabirds,Burrow-nesting seabirds,Major,Limiting
+Albatrosses,Albatrosses,Major,Limiting
+Skuas,Penguins,Major,Predator-prey
+Skuas,Burrow-nesting seabirds,Major,Predator-prey
+Skuas,Burrow-nesting seabirds,Minor,Scavenging
+Skuas,Rabbits,Major,Predator-prey
+Skuas,Rats,Unknown,Predator-prey
+Skuas,Mice,Unknown,Predator-prey
+Skuas,Skuas,Major,Limiting
+Skuas,Small surface-nesting seabirds,Unknown,Predator-prey
+Skuas,Albatrosses,Minor,Predator-prey
+Rabbits,Tall tussock vegetation,Major,Predator-prey
+Rabbits,Herbfield,Major,Predator-prey
+Grassland,Rabbits,Major,Positive
+Rabbits,Burrow-nesting seabirds,Major,Negative
+Rabbits,Rabbits,Major,Limiting
+Myxoma,Rabbits,Unknown,Negative
+Myxoma,Myxoma,Major,Limiting
+Rats,Macro-invertebrates,Major,Predator-prey
+Macro-invertebrates,Rats,Minor,Positive
+Rats,Tall tussock vegetation,Major,Predator-prey
+Burrow-nesting seabirds,Rats,Minor,Positive
+Rats,Burrow-nesting seabirds,Unknown,Negative
+Herbfield,Rats,Unknown,Habitat
+Rats,Rats,Major,Limiting
+Mice,Rats,Minor,Positive
+Rats,Mice,Major,Negative
+Rats,Small surface-nesting seabirds,Unknown,Negative
+Small surface-nesting seabirds,Rats,Minor,Positive
+Rats,Albatrosses,Unknown,Negative
+Albatrosses,Rats,Minor,Positive
+Mice,Macro-invertebrates,Major,Predator-prey
+Mice,Tall tussock vegetation,Major,Predator-prey
+Mice,Herbfield,Unknown,Negative
+Herbfield,Mice,Major,Positive
+Mice,Mice,Major,Limiting
+Mice,Burrow-nesting seabirds,Unknown,Negative
+Burrow-nesting seabirds,Mice,Minor,Positive
+Mice,Small surface-nesting seabirds,Unknown,Negative
+Small surface-nesting seabirds,Mice,Minor,Positive
+Mice,Albatrosses,Unknown,Negative
+Albatrosses,Mice,Minor,Positive
+Redpolls Starlings,Tall tussock vegetation,Unknown,Negative
+Redpolls Starlings,Herbfield,Unknown,Negative
+Redpolls Starlings,Grassland,Minor,Negative
+Redpolls Starlings,Macro-invertebrates,Major,Predator-prey
+Tall tussock vegetation,Redpolls Starlings,Major,Positive
+Herbfield,Redpolls Starlings,Major,Positive
+Grassland,Redpolls Starlings,Major,Positive
+Redpolls Starlings,Redpolls Starlings,Major,Limiting
+Macro-invertebrates,Macro-invertebrates,Major,Limiting
+Tall tussock vegetation,Herbfield,Minor,Negative
+Tall tussock vegetation,Tall tussock vegetation,Major,Limiting
+Herbfield,Herbfield,Major,Limiting
+Grassland,Grassland,Major,Limiting
+Tall tussock vegetation,Macro-invertebrates,Major,Positive
+Herbfield,Macro-invertebrates,Major,Positive
+Grassland,Macro-invertebrates,Major,Positive
+Tall tussock vegetation,Giant petrels,Major,Positive
+Grassland,Giant petrels,Major,Positive
+Tall tussock vegetation,Burrow-nesting seabirds,Major,Positive
+Grassland,Skuas,Minor,Positive
+Tall tussock vegetation,Albatrosses,Major,Positive
+Herbfield,Albatrosses,Major,Positive
+Giant petrels,Giant petrels,Major,Limiting
+Giant petrels,Penguins,Major,Predator-prey
+Giant petrels,Rabbits,Minor,Predator-prey
+Giant petrels,Burrow-nesting seabirds,Minor,Predator-prey
+Skuas,Giant petrels,Minor,Predator-prey
+Giant petrels,Skuas,Minor,Positive
+Tall tussock vegetation,Skuas,Major,Negative
+Tall tussock vegetation,Cats,Major,Negative
+Antarctic prions,Antarctic prions,Major,Limiting
+Skuas,Antarctic prions,Major,Predator-prey
+Grassland,Antarctic prions,Major,Positive
+Cats,Antarctic prions,Major,Predator-prey
+Antarctic prions,Rats,Minor,Positive
+Rats,Antarctic prions,Unknown,Negative
+Antarctic prions,Mice,Minor,Positive
+Mice,Antarctic prions,Unknown,Negative

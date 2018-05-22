@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1526588163491.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1284593779",
+    "id" : "62155AB4",
+    "lastKnownWriteTime" : 1526600525,
+    "last_content_update" : 1526600525852,
+    "path" : "~/Documents/Australia/R_code/loop_model_raymond.R",
+    "project_path" : "loop_model_raymond.R",
+    "properties" : {
+        "cursorPosition" : "151,129",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
