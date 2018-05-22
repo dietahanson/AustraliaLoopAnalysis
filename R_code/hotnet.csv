@@ -225,7 +225,7 @@ Corvus cecilae,Diptera,5
 Corvus cecilae,Enchylaena tomentosa,3
 Corvus cecilae,Formicidae,5
 Corvus cecilae,Heteroptera,5
-Corvus cecilae,human,2
+Corvus cecilae,Homo sapiens,2
 Corvus cecilae,Lagorchestes hirsutus,5
 Corvus cecilae,Leiolopisma metallicum,2
 Corvus cecilae,Mantodea,2
@@ -866,7 +866,7 @@ Varanus giganteus,Blattodea,3
 Varanus giganteus,Chilopoda,5.6
 Varanus giganteus,Coleoptera,7
 Varanus giganteus,Hemiergis peronii,4.5
-Varanus giganteus,human,5
+Varanus giganteus,Homo sapiens,5
 Varanus giganteus,Leiolopisma metallicum,2.1
 Varanus giganteus,Leiolopisma trilineatum,4.4
 Varanus giganteus,Lepidoptera,0.5
@@ -883,7 +883,7 @@ Varanus gouldii,Blattodea,4
 Varanus gouldii,Chilopoda,6
 Varanus gouldii,Coleoptera,9
 Varanus gouldii,Hemiergis peronii,3
-Varanus gouldii,human,2
+Varanus gouldii,Homo sapiens,2
 Varanus gouldii,Leiolopisma metallicum,2
 Varanus gouldii,Leiolopisma trilineatum,5
 Varanus gouldii,Lepidoptera,1
@@ -900,7 +900,7 @@ Varanus panoptes,Blattodea,3
 Varanus panoptes,Chilopoda,5.6
 Varanus panoptes,Coleoptera,7
 Varanus panoptes,Hemiergis peronii,4.5
-Varanus panoptes,human,5
+Varanus panoptes,Homo sapiens,5
 Varanus panoptes,Leiolopisma metallicum,2.1
 Varanus panoptes,Leiolopisma trilineatum,4.4
 Varanus panoptes,Lepidoptera,0.5
@@ -975,7 +975,7 @@ Canis lupus dingo,Coleoptera,2
 Canis lupus dingo,Ctenophorus caudicinctus,1
 Canis lupus dingo,Ctenotus isolepis,1
 Canis lupus dingo,Felis catus,5
-Canis lupus dingo,human,1
+Canis lupus dingo,Homo sapiens,1
 Canis lupus dingo,Lagorchestes hirsutus,11
 Canis lupus dingo,Lophognatus gilberti,1
 Canis lupus dingo,Macropus robustus,10
@@ -1034,92 +1034,92 @@ Felis catus,Notoryctes caurinus,20
 Felis catus,Ocyphaps lophotes,1
 Felis catus,Petrogale lateralis,1
 Felis catus,Tachyglossus aculeatus,1
-human,Acacia acradenia,0.15
-human,Acacia aneura,2
-human,Acacia coriacea,2
-human,Acacia cowleana,0.25
-human,Acacia cuthbertsoni,0.25
-human,Acacia dictyophleba,0.15
-human,Acacia kempeana,2
-human,Acacia ligulata,0.25
-human,Acacia pruinocarpa,0.25
-human,Acacia spondylophylla,0.15
-human,Acacia tetragonophylla,0.15
-human,Allocasuarina decaisneana,0.25
-human,Amyema sp.,0.25
-human,Anas superciliosa,1
-human,Antaresia stimsoni,0.15
-human,Aquila audax,1
-human,Ardeotis australis,0.25
-human,Aspidites melanocephalus,0.15
-human,Aspidites ramsayii,0.25
-human,Bettongia lesueur,10
-human,Blattodea,0.15
-human,Calyptorhynchus roseicapilla,0.25
-human,Camelus dromedarius,0.25
-human,Canis lupus dingo,0.15
-human,Canthium attenuatum,0.25
-human,Canthium latifolium,1
-human,Capparis loranthifolia,0.15
-human,Capparis umbonata,0.25
-human,Chaeropus ecaudatus,0.25
-human,Chioromyces aboriginum,0.15
-human,Corvus cecilae,0.25
-human,Ctenotus isolepis,0.25
-human,Cucumis melo (agrestis),0.15
-human,Cynanchum floribundum,1
-human,Dactyloctenium radulans,0.25
-human,Dasycercus cristicauda,0.15
-human,Dasycercus hilleri,0.15
-human,Dasyurus hallucatus,0.15
-human,Dromaius novaehollandiae,0.15
-human,Egernia kintorei,1
-human,Egernia striata,0.25
-human,Enchylaena tomentosa,1
-human,Eucalyptus opaca,0.15
-human,Falco longipennis,0.15
-human,Felis catus,1
-human,Fulica atra,0.15
-human,Hakea leucoptera,1
-human,Hakea suberea,1
-human,human,0.25
-human,Isodon auratus,0.25
-human,Lagorchestes hirsutus,9
-human,Macropus robustus,5
-human,Macropus rufus,0.15
-human,Macrotis lagotis,0.25
-human,Melopsittacus undulatus,0.25
-human,Moloch horridus,0.15
-human,Mycoclelandia bulundarii,0.15
-human,Notomys sp.,1
-human,Notoryctes caurinus,0.15
-human,Ocyphaps lophotes,0.15
-human,Oryctolagus cuniculus,1
-human,Panicum decompositum,0.25
-human,Perameles eremiana,0.25
-human,Petrogale lateralis,0.25
-human,Psylla eucalypti,0.15
-human,Rhyncharrhena linearis,0.15
-human,Santalum acuminatum,1
-human,Santalum lanceolatum,0.5
-human,Senna sp.,0.25
-human,Solanum centrale,1.75
-human,Solanum chippendalei,10
-human,Solanum cleistogamum,0.15
-human,Solanum diversiflorum,3
-human,Solanum gilesii,0.15
-human,Tachyglossus aculeatus,0.25
-human,Taeniopygia guttata,0.25
-human,Tecticornia verrucosa,0.25
-human,Tiliqua multifasciata,4
-human,Tiliqua occipitalis,0.15
-human,Trichosurus vulpecula,1
-human,Turnix velox,0.15
-human,Varanus giganteus,5
-human,Varanus gouldii,20
-human,Varanus panoptes,1
-human,Vulpes vulpes,0.15
-human,Yakirra australiensis,0.25
+Homo sapiens,Acacia acradenia,0.15
+Homo sapiens,Acacia aneura,2
+Homo sapiens,Acacia coriacea,2
+Homo sapiens,Acacia cowleana,0.25
+Homo sapiens,Acacia cuthbertsoni,0.25
+Homo sapiens,Acacia dictyophleba,0.15
+Homo sapiens,Acacia kempeana,2
+Homo sapiens,Acacia ligulata,0.25
+Homo sapiens,Acacia pruinocarpa,0.25
+Homo sapiens,Acacia spondylophylla,0.15
+Homo sapiens,Acacia tetragonophylla,0.15
+Homo sapiens,Allocasuarina decaisneana,0.25
+Homo sapiens,Amyema sp.,0.25
+Homo sapiens,Anas superciliosa,1
+Homo sapiens,Antaresia stimsoni,0.15
+Homo sapiens,Aquila audax,1
+Homo sapiens,Ardeotis australis,0.25
+Homo sapiens,Aspidites melanocephalus,0.15
+Homo sapiens,Aspidites ramsayii,0.25
+Homo sapiens,Bettongia lesueur,10
+Homo sapiens,Blattodea,0.15
+Homo sapiens,Calyptorhynchus roseicapilla,0.25
+Homo sapiens,Camelus dromedarius,0.25
+Homo sapiens,Canis lupus dingo,0.15
+Homo sapiens,Canthium attenuatum,0.25
+Homo sapiens,Canthium latifolium,1
+Homo sapiens,Capparis loranthifolia,0.15
+Homo sapiens,Capparis umbonata,0.25
+Homo sapiens,Chaeropus ecaudatus,0.25
+Homo sapiens,Chioromyces aboriginum,0.15
+Homo sapiens,Corvus cecilae,0.25
+Homo sapiens,Ctenotus isolepis,0.25
+Homo sapiens,Cucumis melo (agrestis),0.15
+Homo sapiens,Cynanchum floribundum,1
+Homo sapiens,Dactyloctenium radulans,0.25
+Homo sapiens,Dasycercus cristicauda,0.15
+Homo sapiens,Dasycercus hilleri,0.15
+Homo sapiens,Dasyurus hallucatus,0.15
+Homo sapiens,Dromaius novaehollandiae,0.15
+Homo sapiens,Egernia kintorei,1
+Homo sapiens,Egernia striata,0.25
+Homo sapiens,Enchylaena tomentosa,1
+Homo sapiens,Eucalyptus opaca,0.15
+Homo sapiens,Falco longipennis,0.15
+Homo sapiens,Felis catus,1
+Homo sapiens,Fulica atra,0.15
+Homo sapiens,Hakea leucoptera,1
+Homo sapiens,Hakea suberea,1
+Homo sapiens,Homo sapiens,0.25
+Homo sapiens,Isodon auratus,0.25
+Homo sapiens,Lagorchestes hirsutus,9
+Homo sapiens,Macropus robustus,5
+Homo sapiens,Macropus rufus,0.15
+Homo sapiens,Macrotis lagotis,0.25
+Homo sapiens,Melopsittacus undulatus,0.25
+Homo sapiens,Moloch horridus,0.15
+Homo sapiens,Mycoclelandia bulundarii,0.15
+Homo sapiens,Notomys sp.,1
+Homo sapiens,Notoryctes caurinus,0.15
+Homo sapiens,Ocyphaps lophotes,0.15
+Homo sapiens,Oryctolagus cuniculus,1
+Homo sapiens,Panicum decompositum,0.25
+Homo sapiens,Perameles eremiana,0.25
+Homo sapiens,Petrogale lateralis,0.25
+Homo sapiens,Psylla eucalypti,0.15
+Homo sapiens,Rhyncharrhena linearis,0.15
+Homo sapiens,Santalum acuminatum,1
+Homo sapiens,Santalum lanceolatum,0.5
+Homo sapiens,Senna sp.,0.25
+Homo sapiens,Solanum centrale,1.75
+Homo sapiens,Solanum chippendalei,10
+Homo sapiens,Solanum cleistogamum,0.15
+Homo sapiens,Solanum diversiflorum,3
+Homo sapiens,Solanum gilesii,0.15
+Homo sapiens,Tachyglossus aculeatus,0.25
+Homo sapiens,Taeniopygia guttata,0.25
+Homo sapiens,Tecticornia verrucosa,0.25
+Homo sapiens,Tiliqua multifasciata,4
+Homo sapiens,Tiliqua occipitalis,0.15
+Homo sapiens,Trichosurus vulpecula,1
+Homo sapiens,Turnix velox,0.15
+Homo sapiens,Varanus giganteus,5
+Homo sapiens,Varanus gouldii,20
+Homo sapiens,Varanus panoptes,1
+Homo sapiens,Vulpes vulpes,0.15
+Homo sapiens,Yakirra australiensis,0.25
 Lagorchestes hirsutus,Araneidae,3
 Lagorchestes hirsutus,Blattodea,3
 Lagorchestes hirsutus,Chilopoda,3
