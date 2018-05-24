@@ -56,14 +56,14 @@ hotnet$weight <- NULL #take away weights
 ##Change which groups you want to use (stefani's, tg, or aic) by changing the
 ##groups column that is selected
 
-hotnet$From <- as.factor(groups$tg[match(hotnet$predator, #match predators
+hotnet$From <- as.factor(groups$stefgroup[match(hotnet$predator, #match predators
                                                groups$latin)])
 
 cat(sum(is.na(hotnet$From)), #print how many did not match
     "predators with missing matches:")
 hotnet[is.na(hotnet$From),]
 
-hotnet$To <- as.factor(groups$tg[match(hotnet$prey,   #match prey
+hotnet$To <- as.factor(groups$stefgroup[match(hotnet$prey,   #match prey
                                            groups$latin)])
 
 cat(sum(is.na(hotnet$To)), #print how many did not match
@@ -71,6 +71,8 @@ cat(sum(is.na(hotnet$To)), #print how many did not match
     hotnet[is.na(hotnet$To),]
 
 hotnet$Type <- "Predator-prey" #add interaction type
+
+hotnetsmall <- hotnet[!duplicated(hotnet[c("From","To")]), c("From", "To", "Type")]
 
 #write.csv(hotnet, file = "hotgrouped.csv", row.names = F)
 
