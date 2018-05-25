@@ -1,6 +1,9 @@
-# In this example, we ignore "uncertain" links in our model, and evaluate only one model (using just the links that we are certain about).
-# This demonstrates the method used to evaluate a single model. See example2.R to see how this is embedded within the evaluation of 
-#  structural uncertainty (i.e. taking "uncertain" links into account).
+###############################################################################
+# Loop model based on Raymond's code, with first model including humans and 
+# second model without humans (with same interaction strengths). Then we want to
+# compare population trends between the two models and see which ones are valid 
+# based on known population trends of certain species
+###############################################################################
 
 #------------------------------------------------------------------------------
 # read in the interactions data
@@ -12,59 +15,61 @@ x=read.table('hotgrouped.csv',sep=',',header=T)
 #------------------------------------------------------------------------------
 # initialise variables and settings
 
-nwrand=1000 # number of randomisations with different random weights on interaction strengths
-max_nwrand=20*nwrand #try a maximum of this many realisations to get the nwrand results
-
+nwrand=1000 # number of randomisations with different interaction strengths
+max_nwrand=20*nwrand #try a maximum of this many realisations 
 
 # validation data: what can we use to ground-truth our models?
-# these are responses to suppression of cats and myxoma (i.e. rabbits increased, tall tussock decreased, and cats decreased)
-model_validation=matrix(c('camel',1,'invasive small mammal',1,'human',-1),nrow=3,ncol=2,byrow=TRUE)
+# these are responses to removal of humans 
+model_validation=matrix(c('camel',1,'fox',1,'betong',-1),
+                        nrow=3,ncol=2,byrow=TRUE)
+
 colnames(model_validation)=c('response_node','response_value')
 
 model_validation
-#     response_node             response_value
-#[1,] "Rabbits"                 "1"           
-#[2,] "Tall tussock vegetation" "-1"          
-#[3,] "Cats"                    "-1"          
+# response_node response_value
+# [1,] "camel"       "1"           
+# [2,] "fox"         "1"           
+# [3,] "betong"      "-1"         
 
 
 # get the list of unique names within these interactions
 node_names=unique(union(x$To,x$From))
 
 # initialise some variables that will keep track of various things as we go
-#  suffixes of _cm indicate that this variable applies to the cat/myxo suppression simulations
-#  suffixes of _pcm indicate that this variable applied to the eradication project simulations (i.e. post cats and myxo)
+#  suffixes of _h indicate that this variable applies to the human model
+#  suffixes of _ph indicate that this variable applies to the post human model
 
-stable_count_cm=0 # number of realisations that were stable
-
-# summary of predictions for each element in the model
-rsummary_cm=matrix(0,nrow=3,ncol=length(node_names))
-rownames(rsummary_cm)=c('Negative','Zero','Positive')
-colnames(rsummary_cm)=node_names
-
-cm_idx=grep('(human)',node_names,ignore.case=T)
-pcm_idx=grep('[^(human)]',node_names,ignore.case=T) #which elements in the model are relevant for the eradication project (not cats or myxo)
-
-pcm_node_names=node_names[pcm_idx]
-
-stable_count_pcm=0 # number of realisations that passed the additional stability test (after the removal of cats and myxo from the model)
-
-pcm_results_cols=grep('(emu|goanna|small mammal)',node_names,ignore.case=T) # the columns in the A matrix that give the responses to perturbations of our eradication target species
+stable_count_h=0 # number of realisations that were stable
 
 # summary of predictions for each element in the model
-rsummary_pcm=matrix(0,nrow=3,ncol=length(pcm_node_names))
-rownames(rsummary_pcm)=c('Negative','Zero','Positive')
-colnames(rsummary_pcm)=pcm_node_names
 
-# summary of predictions for each element in the model, but only for the subset of simulations in which the target species were actually suppressed
-rsummary_pcm_subset=matrix(0,nrow=3,ncol=length(pcm_node_names)) #summary for successful runs
-rownames(rsummary_pcm_subset)=c('Negative','Zero','Positive')
-colnames(rsummary_pcm_subset)=pcm_node_names
+rsummary_h=matrix(0,nrow=3,ncol=length(node_names))
+rownames(rsummary_h)=c('Negative','Zero','Positive')
+colnames(rsummary_h)=node_names
+
+#h_idx=grep('(human)',node_names,ignore.case=T) #don't think we need this anymore
+ph_idx=grep('[^(human)]',node_names,ignore.case=T) # all node names except humans
+
+ph_node_names=node_names[ph_idx]
+
+stable_count_ph=0 # number of models that passed the stability test post humans 
+
+ph_results_cols=grep('(camel|fox|betong)',node_names,ignore.case=T) # the columns in the A matrix that give the responses to perturbations of our eradication target species
+
+# summary of predictions for each element in the model
+rsummary_ph=matrix(0,nrow=3,ncol=length(ph_node_names))
+rownames(rsummary_ph)=c('Negative','Zero','Positive')
+colnames(rsummary_ph)=ph_node_names
+
+# # summary of predictions for each element in the model, but only for the subset of simulations in which the target species were actually suppressed
+# rsummary_pcm_subset=matrix(0,nrow=3,ncol=length(pcm_node_names)) #summary for successful runs
+# rownames(rsummary_pcm_subset)=c('Negative','Zero','Positive')
+# colnames(rsummary_pcm_subset)=pcm_node_names
 
 diagval_max=-0.25 # maximum allowable value for self-limitation links
 
 n=length(node_names) #number of nodes
-n_pcm=length(pcm_node_names) #number of nodes once cats and myxo removed
+n_ph=length(ph_node_names) #number of nodes once humans removed
 
 
 #------------------------------------------------------------------------------
@@ -78,7 +83,7 @@ A=matrix(0,nrow=n,ncol=n)
 colnames(A)=node_names
 rownames(A)=node_names
 
-# computations expect convention A[i,j] is the effect on i from j
+# computations expect convention A[i,j] is the effect on i row from j column
 
 for (k in (1:dim(x)[1])) {
   
@@ -118,36 +123,36 @@ for (twi in 1:max_nwrand) {
   adjwA=-solve(wA) #negative inverse of wA
   adjwA[abs(adjwA)<1e-07]=0 # set very small responses to zero
   
-  # check that response fits validation data
-  this_valid=1
-  # check all validation criteria: if any fail, then this model is not valid
-  for (k in 1:dim(model_validation)[1]) {
-    temp_response=-adjwA[,cm_idx]
-    if (is.matrix(temp_response)) {  #had to change this--previous code didn't work if only one column (if only one taxon is removed)
-      # sum response over the individual responses
-      temp_response=rowSums(temp_response)
-    }
-    temp_response=sign(temp_response)
-    if (temp_response[model_validation[k,'response_node']] != model_validation[k,'response_value']) {
-      this_valid=0 #not valid
-      break
-    }
-  }
-  
-  if (!this_valid) next # not valid, so discard this realisation
-  
+  # # check that response fits validation data
+  # this_valid=1
+  # # check all validation criteria: if any fail, then this model is not valid
+  # for (k in 1:dim(model_validation)[1]) {
+  #   temp_response=-adjwA[,h_idx]
+  #   if (is.matrix(temp_response)) {  #had to change this--previous code didn't work if only one column (if only one taxon is removed)
+  #     # sum response over the individual responses
+  #     temp_response=rowSums(temp_response)
+  #   }
+  #   temp_response=sign(temp_response)
+  #   if (temp_response[model_validation[k,'response_node']] != model_validation[k,'response_value']) {
+  #     this_valid=0 #not valid
+  #     break
+  #   }
+  # }
+  # 
+  # if (!this_valid) next # not valid, so discard this realisation
+  # 
   # ok, this realisation is valid: is it also stable?
   if (!all(Re(eigen(wA,only.values=T)$values)<0)) {
     # not stable
     next
   }  
   
-  # so if we got this far, this realisation is both valid and stable
-  stable_count_cm=stable_count_cm+1
-  this_valid_count=this_valid_count+1
+  # so if we got this far, this realisation is stable
+  stable_count_h=stable_count_h+1
+  # this_valid_count=this_valid_count+1
   
   # find the predicted response to cat/myxo suppression
-  temp=-adjwA[,cm_idx] 
+  temp=-adjwA[,h_idx] 
   if (is.matrix(temp))   temp=rowSums(temp)    # sum response over the individual responses (i.e. total response is the sum of responses to cat and myxo suppression)
                                                 #had to change this as above in cases where there is only one taxa removed (human)
   temp=sign(temp) # only interested in signs of responses

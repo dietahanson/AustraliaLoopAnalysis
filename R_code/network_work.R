@@ -79,7 +79,7 @@ hotnet$Type <- "Predator-prey" #add interaction type
 hotnetsmall <- hotnet[!duplicated(hotnet[c("From","To")]), 
                       c("From", "To", "Type")]
 
-#write.csv(hotnet, file = "hotgrouped.csv", row.names = F)
+#write.csv(hotnetsmall, file = "hotgrouped.csv", row.names = F)
 
 
 
