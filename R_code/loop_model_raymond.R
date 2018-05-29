@@ -1,8 +1,6 @@
 ###############################################################################
-# Loop model based on Raymond's code, with first model including humans and 
-# second model without humans (with same interaction strengths). Then we want to
-# compare population trends between the two models and see which ones are valid 
-# based on known population trends of certain species
+# Loop model based on Raymond's code, with the model predicting the effect of
+# removing humans. 
 ###############################################################################
 
 #------------------------------------------------------------------------------
@@ -20,16 +18,16 @@ max_nwrand=20*nwrand #try a maximum of this many realisations
 
 # validation data: what can we use to ground-truth our models?
 # these are responses to removal of humans 
-model_validation=matrix(c('camel',1,'fox',1,'betong',-1),
+model_validation=matrix(c('human',-1,'fox',1,'camel',1),
                         nrow=3,ncol=2,byrow=TRUE)
 
 colnames(model_validation)=c('response_node','response_value')
 
 model_validation
 # response_node response_value
-# [1,] "camel"       "1"           
+# [1,] "human"       "-1"           
 # [2,] "fox"         "1"           
-# [3,] "betong"      "-1"         
+# [3,] "camel"      "1"         
 
 
 # get the list of unique names within these interactions
@@ -47,14 +45,14 @@ rsummary_h=matrix(0,nrow=3,ncol=length(node_names))
 rownames(rsummary_h)=c('Negative','Zero','Positive')
 colnames(rsummary_h)=node_names
 
-#h_idx=grep('(human)',node_names,ignore.case=T) #don't think we need this anymore
+h_idx=grep('(human)',node_names,ignore.case=T) 
 ph_idx=grep('[^(human)]',node_names,ignore.case=T) # all node names except humans
 
 ph_node_names=node_names[ph_idx]
 
 stable_count_ph=0 # number of models that passed the stability test post humans 
 
-ph_results_cols=grep('(camel|fox|betong)',node_names,ignore.case=T) # the columns in the A matrix that give the responses to perturbations of our eradication target species
+ph_results_cols=grep('(human|fox|camel)',node_names,ignore.case=T) # the columns in the A matrix that give the responses to perturbations of our eradication target species
 
 # summary of predictions for each element in the model
 rsummary_ph=matrix(0,nrow=3,ncol=length(ph_node_names))
@@ -62,9 +60,9 @@ rownames(rsummary_ph)=c('Negative','Zero','Positive')
 colnames(rsummary_ph)=ph_node_names
 
 # # summary of predictions for each element in the model, but only for the subset of simulations in which the target species were actually suppressed
-# rsummary_pcm_subset=matrix(0,nrow=3,ncol=length(pcm_node_names)) #summary for successful runs
-# rownames(rsummary_pcm_subset)=c('Negative','Zero','Positive')
-# colnames(rsummary_pcm_subset)=pcm_node_names
+rsummary_ph_subset=matrix(0,nrow=3,ncol=length(ph_node_names)) #summary for successful runs
+rownames(rsummary_ph_subset)=c('Negative','Zero','Positive')
+colnames(rsummary_ph_subset)=ph_node_names
 
 diagval_max=-0.25 # maximum allowable value for self-limitation links
 
@@ -123,24 +121,24 @@ for (twi in 1:max_nwrand) {
   adjwA=-solve(wA) #negative inverse of wA
   adjwA[abs(adjwA)<1e-07]=0 # set very small responses to zero
   
-  # # check that response fits validation data
-  # this_valid=1
-  # # check all validation criteria: if any fail, then this model is not valid
-  # for (k in 1:dim(model_validation)[1]) {
-  #   temp_response=-adjwA[,h_idx]
-  #   if (is.matrix(temp_response)) {  #had to change this--previous code didn't work if only one column (if only one taxon is removed)
-  #     # sum response over the individual responses
-  #     temp_response=rowSums(temp_response)
-  #   }
-  #   temp_response=sign(temp_response)
-  #   if (temp_response[model_validation[k,'response_node']] != model_validation[k,'response_value']) {
-  #     this_valid=0 #not valid
-  #     break
-  #   }
-  # }
-  # 
-  # if (!this_valid) next # not valid, so discard this realisation
-  # 
+  # check that response fits validation data
+  this_valid=1
+  # check all validation criteria: if any fail, then this model is not valid
+  for (k in 1:dim(model_validation)[1]) {
+    temp_response=-adjwA[,h_idx]
+    if (is.matrix(temp_response)) {  #had to change this--previous code didn't work if only one column (if only one taxon is removed)
+      # sum response over the individual responses
+      temp_response=rowSums(temp_response)
+    }
+    temp_response=sign(temp_response)
+    if (temp_response[model_validation[k,'response_node']] != model_validation[k,'response_value']) {
+      this_valid=0 #not valid
+      break
+    }
+  }
+
+  if (!this_valid) next # not valid, so discard this realisation
+
   # ok, this realisation is valid: is it also stable?
   if (!all(Re(eigen(wA,only.values=T)$values)<0)) {
     # not stable
@@ -149,7 +147,7 @@ for (twi in 1:max_nwrand) {
   
   # so if we got this far, this realisation is stable
   stable_count_h=stable_count_h+1
-  # this_valid_count=this_valid_count+1
+  this_valid_count=this_valid_count+1
   
   # find the predicted response to cat/myxo suppression
   temp=-adjwA[,h_idx] 
@@ -158,47 +156,47 @@ for (twi in 1:max_nwrand) {
   temp=sign(temp) # only interested in signs of responses
   
   # keep tabs on summary results
-  rsummary_cm[1,]=rsummary_cm[1,]+as.double(temp==-1)
-  rsummary_cm[2,]=rsummary_cm[2,]+as.double(temp==0)
-  rsummary_cm[3,]=rsummary_cm[3,]+as.double(temp==1)
+  rsummary_h[1,]=rsummary_h[1,]+as.double(temp==-1)
+  rsummary_h[2,]=rsummary_h[2,]+as.double(temp==0)
+  rsummary_h[3,]=rsummary_h[3,]+as.double(temp==1)
   
   
-  # now simulate the eradication project
-  
-  wA=wA[pcm_idx,pcm_idx] #drop the columns and rows associated with cats and myxo
-  
-  #check stability of model with cats and myxo and their associated links removed
-  this_pcm_stable=1
-  if (!all(Re(eigen(wA,only.values=T)$values)<0)) {
-    this_pcm_stable=0
-  }  
-  
-  if (this_pcm_stable) {
-    stable_count_pcm=stable_count_pcm+1
-    
-    adjwA=-solve(wA) #negative inverse of wA
-    adjwA[abs(adjwA)<1e-07]=0 # set very small responses to zero
-    
-    # predicted response to eradication project
-    temp=-adjwA[,pcm_results_cols]
-    if (dim(temp)[2]>1) temp=rowSums(temp)
-    temp=sign(temp)
-    
-    rsummary_pcm[1,]=rsummary_pcm[1,]+as.double(temp==-1)
-    rsummary_pcm[2,]=rsummary_pcm[2,]+as.double(temp==0)
-    rsummary_pcm[3,]=rsummary_pcm[3,]+as.double(temp==1)
-    
-    # also keep separate count of results for models in which target species were actually suppressed
-    if (all(temp[pcm_results_cols]<0)) {
-      rsummary_pcm_subset[1,]=rsummary_pcm_subset[1,]+as.double(temp==-1)
-      rsummary_pcm_subset[2,]=rsummary_pcm_subset[2,]+as.double(temp==0)
-      rsummary_pcm_subset[3,]=rsummary_pcm_subset[3,]+as.double(temp==1)
-    }          
-  } # if this_pcm_stable
-  if (this_valid_count==nwrand) {
-    # we are trying up to max_nwrand times, but if we've achieved our target of nwrand valid configurations, bail out
-    break
-  }
+  # # now simulate the eradication project
+  # 
+  # wA=wA[ph_idx,ph_idx] #drop the columns and rows associated with cats and myxo
+  # 
+  # #check stability of model with cats and myxo and their associated links removed
+  # this_pcm_stable=1
+  # if (!all(Re(eigen(wA,only.values=T)$values)<0)) {
+  #   this_pcm_stable=0
+  # }  
+  # 
+  # if (this_pcm_stable) {
+  #   stable_count_pcm=stable_count_pcm+1
+  #   
+  #   adjwA=-solve(wA) #negative inverse of wA
+  #   adjwA[abs(adjwA)<1e-07]=0 # set very small responses to zero
+  #   
+  #   # predicted response to eradication project
+  #   temp=-adjwA[,pcm_results_cols]
+  #   if (dim(temp)[2]>1) temp=rowSums(temp)
+  #   temp=sign(temp)
+  #   
+  #   rsummary_pcm[1,]=rsummary_pcm[1,]+as.double(temp==-1)
+  #   rsummary_pcm[2,]=rsummary_pcm[2,]+as.double(temp==0)
+  #   rsummary_pcm[3,]=rsummary_pcm[3,]+as.double(temp==1)
+  #   
+  #   # also keep separate count of results for models in which target species were actually suppressed
+  #   if (all(temp[pcm_results_cols]<0)) {
+  #     rsummary_pcm_subset[1,]=rsummary_pcm_subset[1,]+as.double(temp==-1)
+  #     rsummary_pcm_subset[2,]=rsummary_pcm_subset[2,]+as.double(temp==0)
+  #     rsummary_pcm_subset[3,]=rsummary_pcm_subset[3,]+as.double(temp==1)
+  #   }          
+  # } # if this_pcm_stable
+  # if (this_valid_count==nwrand) {
+  #   # we are trying up to max_nwrand times, but if we've achieved our target of nwrand valid configurations, bail out
+  #   break
+  # }
 } #end twi loop
 
 cat(sprintf('\n'))
@@ -211,21 +209,21 @@ flush.console()
 # outcomes of cat/myxo suppression
 dev.new()
 par(mfrow=c(2,1),fig=c(0.02,0.98,0.2,0.8))
-barplot(rsummary_cm/stable_count_cm,cex.names=0.7,las=2,legend=T,xpd=T,args.legend=list(horiz=T,y=1.25),ylab="Proportion")
-title("Cat/myxoma suppression",line=3)
+barplot(rsummary_h/stable_count_h,cex.names=0.7,las=2,legend=T,xpd=T,args.legend=list(horiz=T,y=1.25),ylab="Proportion")
+title("Human suppression",line=3)
 
-# outcomes of eradication project
-# all simulation runs
-dev.new()
-par(mfrow=c(2,1),fig=c(0.02,0.98,0.2,0.8))
-barplot(rsummary_pcm/stable_count_pcm,cex.names=0.7,las=2,legend=T,xpd=T,args.legend=list(horiz=T,y=1.25),ylab="Proportion")
-title("Eradication project predictions",line=3)
-
-# also show only those in which the target species were actually suppressed
-dev.new()
-par(mfrow=c(2,1),fig=c(0.02,0.98,0.2,0.8))
-barplot(rsummary_pcm_subset/unique(colSums(rsummary_pcm_subset)),cex.names=0.7,las=2,legend=T,xpd=T,args.legend=list(horiz=T,y=1.25),ylab="Proportion")
-title("Eradication project predictions (subset)",line=3)
+# # outcomes of eradication project
+# # all simulation runs
+# dev.new()
+# par(mfrow=c(2,1),fig=c(0.02,0.98,0.2,0.8))
+# barplot(rsummary_pcm/stable_count_pcm,cex.names=0.7,las=2,legend=T,xpd=T,args.legend=list(horiz=T,y=1.25),ylab="Proportion")
+# title("Eradication project predictions",line=3)
+# 
+# # also show only those in which the target species were actually suppressed
+# dev.new()
+# par(mfrow=c(2,1),fig=c(0.02,0.98,0.2,0.8))
+# barplot(rsummary_pcm_subset/unique(colSums(rsummary_pcm_subset)),cex.names=0.7,las=2,legend=T,xpd=T,args.legend=list(horiz=T,y=1.25),ylab="Proportion")
+# title("Eradication project predictions (subset)",line=3)
 
 
 
