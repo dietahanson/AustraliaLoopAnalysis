@@ -1,0 +1,177 @@
+common,latin,stefgroup,tg,aic,agg
+Acacia,Acacia acradenia,Acacia,25,18,23
+Acacia,Acacia aneura,Acacia,25,18,23
+Acacia,Acacia coriacea,Acacia,25,18,23
+Acacia,Acacia cowleana,Acacia,25,18,23
+Acacia,Acacia cuthbertsoni,Acacia,25,18,23
+Acacia,Acacia dictyophleba,Acacia,25,18,23
+Acacia,Acacia kempeana,Acacia,25,18,23
+Acacia,Acacia ligulata,Acacia,25,18,23
+Acacia,Acacia pruinocarpa,Acacia,25,18,23
+Acacia,Acacia spondylophylla,Acacia,25,18,23
+Acacia,Acacia tetragonophylla,Acacia,25,18,23
+Desert oak,Allocasuarina decaisneana,Acacia,28,7,23
+Eucaluptus,Eucalyptus opaca,Acacia,28,7,23
+Pacific black duck,Anas superciliosa,bird,43,21,16
+Galah,Calyptorhynchus roseicapilla,bird,39,10,18
+Crows,Corvus cecilae,bird,15,12,6
+Australian hobby,Falco longipennis,bird,14,14,8
+Eurasian coot,Fulica atra,bird,29,3,18
+Budgie parakeet,Melopsittacus undulatus,bird,39,10,16
+creseted pigeon,Ocyphaps lophotes,bird,35,21,16
+Australian pratincole,Stiltia isabella,bird,23,6,16
+zebra finch,Taeniopygia guttata,bird,24,15,16
+Little buttonquail,Turnix velox,bird,24,15,16
+Round leaf caper,Capparis loranthifolia,bush,27,9,23
+Wild orange,Capparis umbonata,bush,27,9,23
+Dumara bush,Cynanchum floribundum,bush,27,9,23
+barrier saltbush,Enchylaena tomentosa,bush,31,7,23
+Flowering saltbush,Leptosema chambersii,bush,21,7,23
+Nitre bush,Nitraria billardierei,bush,42,7,23
+Desert quandong,Santalum acuminatum,bush,4,7,23
+Northern sandalwood,Santalum lanceolatum,bush,21,7,23
+Camel weed,Scaevola parvifolia,bush,20,9,23
+flowering plant,Senna sp.,bush,20,9,23
+tall sida,Sida calyxhymenia,bush,6,4,23
+purple flower bush,Tecticornia verrucosa,bush,27,9,23
+Desert heath myrtle,Thryptomene maisonneuve,bush,21,7,23
+bird shell,Bird egg shell,eggs,3,2,19
+reptile eggs,Reptile eggs,eggs,3,2,19
+Purslane,Calandrinia polyandra,forb,19,7,23
+Amaranth,Chenopodium curvispicatum,forb,31,7,23
+buttongrass,Dactyloctenium radulans,forb,21,7,23
+Australian carrot,Daucus glochidiatus,forb,42,7,23
+native fuscia,Eremophila latrobei,forb,4,7,23
+flowering figwort,Eremophila longifolia,forb,42,7,23
+common purslane,Portulaca oleracea,forb,19,9,23
+pink mulla mulla,Ptilotus exaltatus,forb,6,4,23
+green pussytail,Ptilotus macrocephalus,forb,6,4,23
+Prince of Wales feather grass,Ptilotus polystachyus,forb,6,4,23
+plant,Rhyncharrhena linearis,forb,32,9,23
+short herb,Tetragonia eremaea,forb,20,9,23
+truffle,Chioromyces aboriginum,fungus,31,7,23
+fungus,Mycoclelandia bulundarii,fungus,28,7,23
+Varanid,Varanus acanthurus,goanna,43,6,16
+Varanid,Varanus giganteus,goanna,9,8,20
+Varanid,Varanus gouldii,goanna,9,8,20
+Varanid,Varanus panoptes,goanna,9,8,20
+Varanid,Varanus tristis,goanna,43,14,5
+Australian moth,Endoxyla cinerea,grub,39,10,13
+Cossid moth,Endoxyla leucomochla,grub,39,10,13
+Spiders,Araneidae,insect,41,1,7
+Freshwater rotifers,Bdelloid,insect,1,7,14
+Cockroaches and Termites,Blattodea,insect,33,1,7
+Freshwater plankton,Brachionus sp.,insect,1,7,14
+Honey ant,Camponotus inflatus,insect,33,20,9
+Rotifer,Cephalodella sp.,insect,1,7,14
+centipede,Chilopoda,insect,41,1,7
+Plague locust,Chortoicetes terminifera,insect,30,20,15
+beetles,Coleoptera,insect,41,1,7
+True flies,Diptera,insect,37,16,15
+Ants,Formicidae,insect,33,1,7
+True bugs,Heteroptera,insect,37,16,15
+pond scum,Lemna disperma,insect,1,7,14
+Butterflies and moths,Lepidoptera,insect,41,1,7
+Mantis,Mantodea,insect,37,16,15
+roundworms,Nematodes,insect,1,7,14
+lacewing,Neuroptera,insect,37,16,15
+"grasshopper, locust, cricket",Orthoptera,insect,33,1,7
+micro crustaceans,Ostracods,insect,1,7,14
+stick bug,Phasmatodea,insect,37,16,15
+Protozoa,Protozoans (ciliates),insect,1,7,14
+scorpions,Scorpionida,insect,30,20,9
+stingless bees,Trigona sp.,insect,30,20,9
+silverfish insect,Zygentoma ,insect,37,16,15
+Cat,Felis catus,cat,5,5,22
+fox,Vulpes vulpes,fox,43,14,20
+European rabbit,Oryctolagus cuniculus,rabbit,24,15,16
+Hill kangaroo,Macropus robustus,kangaroo,24,15,16
+Red kangaroo,Macropus rufus,kangaroo,24,15,16
+Bush Onion,Cyperus bulbosus,rush,NA,NA,NA
+water milfoil,Myriophyllum crispatum,rush,1,7,14
+southern cattail,Typha dominguensis,rush,1,7,14
+bullrush,Typha orientalis,rush,1,7,14
+Lizard,Amphibolurus burnsi,skinks,16,6,16
+Striated worm-lizard,Aprasia striolata,skinks,3,2,3
+ring tailed dragon,Ctenophorus caudicinctus,skinks,36,17,16
+Military dragon,Ctenotus isolepis,skinks,36,17,16
+Leonhardi's lizard,Ctenotus leonhardii,skinks,36,17,16
+Eastern striped skink,Ctenotus robustus,skinks,36,17,16
+Eastern Barred Wedgesnoutæ,Ctenotus strauchii,skinks,36,17,16
+Great desert skink,Egernia kintorei,skinks,38,21,16
+Nocturnal desert skink,Egernia striata,skinks,38,21,16
+Australian tree skink,Egernia striolata,skinks,38,21,16
+Four toed earless skink,Hemiergis peronii,skinks,2,2,16
+Bynoe's gecko,Heteronotia binoei,skinks,16,6,16
+skink,Leiolopisma metallicum,skinks,2,2,16
+skink,Leiolopisma trilineatum,skinks,2,2,16
+Bougainville's skink,Lerista bougainvillea,skinks,13,2,16
+Gilbert's dragon,Lophognatus gilberti,skinks,8,6,16
+common dwarf skink,Menetia greyii,skinks,13,2,16
+thorny devil,Moloch horridus,skinks,22,6,16
+West coat Morethia skink,Morethia lineoocellatus,skinks,13,2,16
+desert spadefoot toad,Notaden nichollsi,skinks,22,6,2
+marbled gecko,Oedura marmorata,skinks,16,14,16
+dwarf bearded dragon,Pogona minor,skinks,8,6,16
+central bearded dragon,Pogona vitticeps,skinks,8,6,16
+eastern hooded scaly foot,Pygopus schraderi,skinks,23,6,16
+blue tongued skink,Tiliqua multifasciata,skinks,12,6,16
+blue tongued lizard,Tiliqua occipitalis,skinks,12,6,16
+eastern blue tongued lizard,Tiliqua scincoides,skinks,12,6,16
+Eyrean earless dragon,Tympanocryptis tetraporophora,skinks,22,6,16
+Burrowing betong,Bettongia lesueur,betong,24,15,16
+pig-footed bandicoot,Chaeropus ecaudatus,bandicoot,24,15,16
+crest-tailed mulgara,Dasycercus cristicauda,small mammal,26,17,10
+carniverous marsupial,Dasycercus hilleri,small mammal,26,17,10
+carniverous marsupial,Dasyurus hallucatus,small mammal,40,5,11
+golden bandicoot,Isodon auratus,bandicoot,39,12,16
+mala,Lagorchestes hirsutus,mala,43,21,16
+Forrest's mouse,Leggadina forresti,small mammal,35,21,17
+Greater bilby,Macrotis lagotis,Bilby,43,6,16
+native mouse,Notomys sp.,small mammal,35,21,16
+Northern marsupial mole,Notoryctes caurinus,small mammal,43,6,16
+desert bandicoot,Perameles eremiana,bandicoot,24,15,16
+black-flanked rock wallabee,Petrogale lateralis,small mammal,35,21,16
+stripe-faced dunnart,Sminthopsis macroura,small mammal,23,6,17
+short-beaked echidna,Tachyglossus aculeatus,small mammal,22,6,16
+brushtail possum,Trichosurus vulpecula,small mammal,34,3,18
+Stimson's python,Antaresia stimsoni,Snakes,18,19,1
+black-headed python,Aspidites melanocephalus,Snakes,18,19,6
+Ramsay's python,Aspidites ramsayii,Snakes,18,19,6
+mulga snake,Pseudechis australis,Snakes,14,14,4
+venomous snake,Suta suta,Snakes,14,14,4
+Solanum fruits,Solanum centrale,solanum,17,9,23
+Solanum fruits,Solanum chippendalei,solanum,17,9,23
+Solanum fruits,Solanum cleistogamum,solanum,17,9,23
+Solanum fruits,Solanum diversiflorum,solanum,17,9,23
+Solanum fruits,Solanum gilesii,solanum,17,9,23
+Solanum fruits,Solanum lasiophyllum,solanum,20,9,23
+Woolybutt grass,Eragrostis eriopoda,spinifex,10,4,23
+Canegrass,Eragrostis lanipes,spinifex,10,4,23
+Canegrass,Eragrostis setifolia,spinifex,10,4,23
+australian millet,Panicum decompositum,spinifex,10,4,23
+Soft spinifex,Plectrachne schinzii,spinifex,10,4,23
+spinifex,Triodia basedownii,spinifex,11,4,23
+spinifex,Triodia longiceps,spinifex,11,4,23
+spinifex,Triodia pungens,spinifex,11,4,23
+Lazarides grass,Yakirra australiensis,spinifex,32,9,23
+grass,Thyridolepis multiculmis,spinifex,32,9,23
+parasitic shrub,Amyema sp.,vine,27,9,23
+Australian myrtle,Canthium attenuatum,vine,27,9,23
+myrtle,Canthium latifolium,vine,27,9,23
+Musk melon,Cucumis melo (agrestis),vine,31,7,23
+Ficus,Ficus brachypoda,vine,4,7,23
+Tree growth parasite,Psylla eucalypti,vine,31,7,23
+Pencil Yam,Vigna lanceolata,vine,NA,NA,NA
+plant,Grevillea eriostachya,wama,7,7,23
+plant,Grevillea stenobotrya,wama,7,7,23
+plant,Grevillea wickhamii,wama,7,7,23
+plant,Hakea leucoptera,wama,7,7,23
+plant,Hakea suberea,wama,4,7,23
+Wedge-tailed eagle,Aquila audax,eagle,40,5,21
+bustard,Ardeotis australis,bustard,5,5,6
+Camel,Camelus dromedarius,camel,34,3,18
+Dingo,Canis lupus dingo,dingo,40,5,21
+Emu,Dromaius novaehollandiae,emu,34,3,12
+human,Homo sapiens,human,15,11,21
+Fire,Fire,fire,34,13,24

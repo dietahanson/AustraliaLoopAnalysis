@@ -2,6 +2,8 @@
 ###Make an nw1 input file for n_w
 ################################################
 
+#remember: From = predator, To = prey
+
 hotnet<- read.csv("hotnet.csv", stringsAsFactors = F)
 
 nwfile <- data.frame(hotnet$prey, hotnet$predator)
@@ -9,8 +11,8 @@ nwfile$hotnet.prey <- gsub(" ", "_", nwfile$hotnet.prey, fixed = TRUE)
 nwfile$hotnet.predator <- gsub(" ", "_", nwfile$hotnet.predator, fixed = TRUE)
 
 
-nnodes <- length(unique(union(nwfile$hotnet.prey,
-                              nwfile$hotnet.predator)))
+nnodes <- length(unique(union(nwfile$hotnet.predator,
+                              nwfile$hotnet.prey)))
 
 cat(nnodes,"\n", file="martu.nw1")
 write.table(nwfile,

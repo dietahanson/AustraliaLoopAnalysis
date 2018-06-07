@@ -3,6 +3,10 @@
 # removing humans. 
 ###############################################################################
 
+
+setwd("~/Documents/Australia/R_code")
+
+
 #------------------------------------------------------------------------------
 # read in the interactions data
 # adjust the path here to match where you put the data file
@@ -208,9 +212,15 @@ flush.console()
 
 # outcomes of cat/myxo suppression
 dev.new()
+dddd <- gsub("-", "", as.character(Sys.Date()))
+
+pdf(paste("australia_loop_outcome",dddd,".pdf", sep=''),  width=11, height=8.5)
 par(mfrow=c(2,1),fig=c(0.02,0.98,0.2,0.8))
 barplot(rsummary_h/stable_count_h,cex.names=0.7,las=2,legend=T,xpd=T,args.legend=list(horiz=T,y=1.25),ylab="Proportion")
 title("Human suppression",line=3)
+paste(cat("Number of valid and stable models:", stable_count_h, "Number of models tried:", max_nwrand))
+
+dev.off()
 
 # # outcomes of eradication project
 # # all simulation runs
