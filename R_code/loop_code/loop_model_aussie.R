@@ -4,28 +4,29 @@
 ###############################################################################
 
 
-setwd("~/Documents/Australia/R_code")
-
 
 #------------------------------------------------------------------------------
-# read in the interactions data
+# read in the interactions table
+#------------------------------------------------------------------------------
+
 # adjust the path here to match where you put the data file
-
-x=read.table('hotgrouped.csv',sep=',',header=T)
+setwd("~/Documents/Australia/R_code")
+x = read.table('hotgrouped.csv',
+             sep=',',
+             header=T)
 
 
 #------------------------------------------------------------------------------
-# initialise variables and settings
-
-nwrand=1000 # number of randomisations with different interaction strengths
-max_nwrand=20*nwrand #try a maximum of this many realisations 
-
 # validation data: what can we use to ground-truth our models?
-# these are responses to removal of humans 
-model_validation=matrix(c('human',-1,'fox',1,'camel',1),
-                        nrow=3,ncol=2,byrow=TRUE)
+#------------------------------------------------------------------------------
 
-colnames(model_validation)=c('response_node','response_value')
+# these are responses to removal of humans 
+model_validation = matrix(c('human',-1,'fox',1,'camel',1),
+                        nrow = 3,
+                        ncol = 2,
+                        byrow = T)
+
+colnames(model_validation) = c('response_node','response_value')
 
 model_validation
 # response_node response_value
@@ -34,12 +35,16 @@ model_validation
 # [3,] "camel"      "1"         
 
 
-# get the list of unique names within these interactions
-node_names=unique(union(x$To,x$From))
+#------------------------------------------------------------------------------
+# initialise some variables and settings
+#------------------------------------------------------------------------------
 
-# initialise some variables that will keep track of various things as we go
-#  suffixes of _h indicate that this variable applies to the human model
-#  suffixes of _ph indicate that this variable applies to the post human model
+nwrand = 1000  # number of randomisations with different interaction strengths
+max_nwrand = 20*nwrand  # try a maximum of this many realisations 
+
+# get the list of unique names within the interactions
+node_names = unique(union(x$To,x$From))
+
 
 stable_count_h=0 # number of realisations that were stable
 
@@ -49,29 +54,24 @@ rsummary_h=matrix(0,nrow=3,ncol=length(node_names))
 rownames(rsummary_h)=c('Negative','Zero','Positive')
 colnames(rsummary_h)=node_names
 
-h_idx=grep('(human)',node_names,ignore.case=T) 
-ph_idx=grep('[^(human)]',node_names,ignore.case=T) # all node names except humans
-
-ph_node_names=node_names[ph_idx]
-
-stable_count_ph=0 # number of models that passed the stability test post humans 
+h_idx=grep('(human)',node_names,ignore.case=T)  # just humans
 
 ph_results_cols=grep('(human|fox|camel)',node_names,ignore.case=T) # the columns in the A matrix that give the responses to perturbations of our eradication target species
 
-# summary of predictions for each element in the model
-rsummary_ph=matrix(0,nrow=3,ncol=length(ph_node_names))
-rownames(rsummary_ph)=c('Negative','Zero','Positive')
-colnames(rsummary_ph)=ph_node_names
+# # summary of predictions for each element in the model
+# rsummary_ph=matrix(0,nrow=3,ncol=length(ph_node_names))
+# rownames(rsummary_ph)=c('Negative','Zero','Positive')
+# colnames(rsummary_ph)=ph_node_names
 
-# # summary of predictions for each element in the model, but only for the subset of simulations in which the target species were actually suppressed
-rsummary_ph_subset=matrix(0,nrow=3,ncol=length(ph_node_names)) #summary for successful runs
-rownames(rsummary_ph_subset)=c('Negative','Zero','Positive')
-colnames(rsummary_ph_subset)=ph_node_names
+# # # summary of predictions for each element in the model, but only for the subset of simulations in which the target species were actually suppressed
+# rsummary_ph_subset=matrix(0,nrow=3,ncol=length(ph_node_names)) #summary for successful runs
+# rownames(rsummary_ph_subset)=c('Negative','Zero','Positive')
+# colnames(rsummary_ph_subset)=ph_node_names
 
-diagval_max=-0.25 # maximum allowable value for self-limitation links
+
 
 n=length(node_names) #number of nodes
-n_ph=length(ph_node_names) #number of nodes once humans removed
+# n_ph=length(ph_node_names) #number of nodes once humans removed
 
 
 #------------------------------------------------------------------------------
@@ -80,10 +80,19 @@ n_ph=length(ph_node_names) #number of nodes once humans removed
 cat(sprintf('Main loop started at: %s\n',date()))
 flush.console()
 
-# initialise the interactions matrix A   
-A=matrix(0,nrow=n,ncol=n)
-colnames(A)=node_names
-rownames(A)=node_names
+# initialise the interactions matrix A (signs) for trophic interactions   
+Atro=matrix(0,nrow=n,ncol=n)
+colnames(Atro)=node_names
+rownames(Atro)=node_names
+
+# initialise the interactions matrix B (strengths) for trophic interactions   
+Btro=matrix(0,nrow=n,ncol=n)
+colnames(Btro)=node_names
+rownames(Btro)=node_names
+
+# set conversion efficiency (how much a predator gets from a prey)
+
+e <- 0.1
 
 # computations expect convention A[i,j] is the effect on i row from j column
 
@@ -92,19 +101,19 @@ for (k in (1:dim(x)[1])) {
   this_from=as.character(x[k,]$From) # the "from" element of the interaction
   this_to=as.character(x[k,]$To) # the "to" element of the interaction
   if (grepl('competition',x[k,]$Type,ignore.case=T)) {
-    A[this_from,this_to]=-1
-    A[this_to,this_from]=-1
+    Atro[this_from,this_to]=-1
+    Atro[this_to,this_from]=-1
   } else if (grepl('habitat',x[k,]$Type,ignore.case=T) || grepl('positive',x[k,]$Type,ignore.case=T)) {
-    A[this_to,this_from]=1
+    Atro[this_to,this_from]=1
   } else if (grepl('limiting',x[k,]$Type,ignore.case=T)) {
-    A[this_to,this_from]=-1
+    Atro[this_to,this_from]=-1
   } else if (grepl('negative',x[k,]$Type,ignore.case=T)) {
-    A[this_to,this_from]=-1
+    Atro[this_to,this_from]=-1
   } else if (grepl('predator-prey',x[k,]$Type,ignore.case=T)) {
-    A[this_from,this_to]=1
-    A[this_to,this_from]=-1
+    Atro[this_from,this_to]=1
+    Atro[this_to,this_from]=-1
   } else if (grepl('scavenging',x[k,]$Type,ignore.case=T)) {
-    A[this_from,this_to]=1
+    Atro[this_from,this_to]=1
   } else {
     stop(sprintf('unrecognised link type %s (%s to %s)',x[k,]$Type,this_from,this_to))
   }
@@ -112,17 +121,44 @@ for (k in (1:dim(x)[1])) {
 
 this_valid_count=0
 
-# now loop many times, each time generating new (random) weights in A
+# now loop many times, each time generating new (random) weights in Btro
 for (twi in 1:max_nwrand) {
-  # randomisation of weights in A, in range 0.01-1
-  wA=matrix(runif(n^2),nrow=n)*0.99+0.01
-  wA=wA*sign(A)
-  # but make sure diagonals are between -1 and diagval_max
-  temp=diag(rep(1,dim(A)[1])) 
-  wA=wA*(1-temp)+(-1-diagval_max)*diag(runif(n))+diagval_max*temp
   
+  for (p in (1:dim(x)[1])) {
+    
+    this_from=as.character(x[p,]$From) # the "from" element of the interaction
+    this_to=as.character(x[p,]$To) # the "to" element of the interaction
+    
+    
+    # randomisation of weights in Btro
+    
+    if (grepl('predator-prey',x[p,]$Type,ignore.case=T)) {
+      Btro[this_to,this_from] = rbeta(1, shape1 = 1, shape2 = 4)
+      Btro[this_from,this_to] = e * Btro[this_to,this_from]
+       } else {
+        Btro[this_from, this_to] = 0
+        Btro[this_to, this_from] = 0
+      }
+    }
+  
+
+  Ctro=Btro*sign(Atro)
+  
+  
+  # make diagonals -1 for basal species and -0.001 for consumers 
+  
+  for (m in (1:length(node_names))) {
+    
+    sp <- node_names[m] # the "from" element of the interaction
+    
+    if (sp %in% x$From) {
+      Ctro[sp, sp] <- -0.001
+    } else { Ctro[sp, sp] <- -1}
+  }
+  
+  Ctro[abs(Ctro)<0.001] = 0.001
   # calculate the response, and check the validation criteria
-  adjwA=-solve(wA) #negative inverse of wA
+  adjwA=-solve(Ctro) #negative inverse of wA
   adjwA[abs(adjwA)<1e-07]=0 # set very small responses to zero
   
   # check that response fits validation data
@@ -144,7 +180,7 @@ for (twi in 1:max_nwrand) {
   if (!this_valid) next # not valid, so discard this realisation
 
   # ok, this realisation is valid: is it also stable?
-  if (!all(Re(eigen(wA,only.values=T)$values)<0)) {
+  if (!all(Re(eigen(Ctro,only.values=T)$values)<0)) {
     # not stable
     next
   }  
@@ -197,10 +233,10 @@ for (twi in 1:max_nwrand) {
   #     rsummary_pcm_subset[3,]=rsummary_pcm_subset[3,]+as.double(temp==1)
   #   }          
   # } # if this_pcm_stable
-  # if (this_valid_count==nwrand) {
-  #   # we are trying up to max_nwrand times, but if we've achieved our target of nwrand valid configurations, bail out
-  #   break
-  # }
+  if (this_valid_count==nwrand) {
+    # we are trying up to max_nwrand times, but if we've achieved our target of nwrand valid configurations, bail out
+    break
+  }
 } #end twi loop
 
 cat(sprintf('\n'))
