@@ -64,7 +64,7 @@ Bayes.test <- function(edges,samplers,model,perturb,monitor,n.samples=1000) {
 }
 
 
-n.sims <- 100
+n.sims <- 10
 ## Pick one node to perturb and 2 others to monitor
 n.perturb <- 1
 n.monitor <- 2

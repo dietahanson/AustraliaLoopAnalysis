@@ -1,0 +1,10 @@
+From,To,Class
+skinks,insect,Predator-prey
+bird,insect,Predator-prey
+bird,spinifex,Predator-prey
+Snakes,skinks,Predator-prey
+Snakes,mala,Predator-prey
+Snakes,small mammal,Predator-prey
+bustard,skinks,Predator-prey
+spinifex,insect,habitat
+skinks,Snakes,competition
