@@ -71,26 +71,19 @@ Bayes.test <- function(model,perturb,monitor,n.samples=1000, y) {
 }
 
 
-# n.sims <- 10
-# ## Pick one node to perturb and 2 others to monitor
-# n.perturb <- 1
-# n.monitor <- 2
-# P <- array(0,c(length(edges),n.sims,length(edges)))
-# for(model in 1:5) {
-#   for(k in 1:n.sims) {
-#     ## Random perturbation and monitoring
-#     nodes <- levels(edges[[model]]$From)
-#     perturb <- rep(1,length=n.perturb)
-#     names(perturb) <- sample(nodes,length(perturb))
-#     monitor <- rep(1,length=n.monitor)
-#     names(monitor) <- sample(setdiff(nodes,names(perturb)),length(monitor))
-# 
-#     ## Compute posterior probabilities
-#     fit <- Bayes.test(edges,s,model,perturb,monitor,n.samples=1000)
-#     P[,k,model] <- fit$p
-#   }
-# }
-# 
+n.sims <- 5
+P <- array(0,c(nrow(y),n.sims,nrow(y)))
+
+perturb = setNames(1, "human")
+monitor = setNames(1, "human")
+for(model in 1:5) {
+  for(k in 1:n.sims) {
+    ## Compute posterior probabilities
+    fit <- Bayes.test(model,perturb,monitor,n.samples=10, y)
+    P[,k,model] <- fit$p
+  }
+}
+
 # ## Generate a confusion matrix
 # CM <- matrix(0,dim(P)[3],dim(P)[1])
 # for(model in 1:(dim(P)[3]))
