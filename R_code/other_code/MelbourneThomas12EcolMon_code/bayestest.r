@@ -64,7 +64,7 @@ Bayes.test <- function(edges,samplers,model,perturb,monitor,n.samples=1000) {
 }
 
 
-n.sims <- 10
+n.sims <- 5
 ## Pick one node to perturb and 2 others to monitor
 n.perturb <- 1
 n.monitor <- 2
@@ -79,7 +79,7 @@ for(model in 1:5) {
     names(monitor) <- sample(setdiff(nodes,names(perturb)),length(monitor))
 
     ## Compute posterior probabilities
-    fit <- Bayes.test(edges,s,model,perturb,monitor,n.samples=1000)
+    fit <- Bayes.test(edges,s,model,perturb,monitor,n.samples=10)
     P[,k,model] <- fit$p
   }
 }

@@ -10,8 +10,8 @@ dingo,insect,Predatorprey
 dingo,skinks,Predatorprey
 dingo,human,Predatorprey
 dingo,small mammal,Predatorprey
-human,bird,Predatorprey
-human,dingo,Predatorprey
+human,bird,positive
+human,dingo,positive
 human,dingo,positive
 spinifex,insect,habitat
 human,dingo,competition

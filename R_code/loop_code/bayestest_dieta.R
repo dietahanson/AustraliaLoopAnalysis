@@ -11,7 +11,7 @@ source("preamble.R")
 
 ## Function to estimate posterior probabilities of model correctness, 
 ## assuming uniform priors
-Bayes.test <- function(model,perturb,monitor,n.samples=1000, y) {
+Bayes.test <- function(model,perturb,monitor,n.samples, y) {
 
   
     # get a list of the types of interactions this model needs
@@ -33,10 +33,10 @@ Bayes.test <- function(model,perturb,monitor,n.samples=1000, y) {
     observed <- signum(impact(W))
     names(observed) <- names(monitor)
 
-    prop <- double(nrow(y)) #edges here is a list, so length is # of models
+    prop <- double(nrow(y)) 
     
     ## Loop over models
-    for(k in 1:nrow(y)) { #edges here is a list, so length is # of models
+    for(k in 1:nrow(y)) { 
         n.stable <- 0
         n.valid <- 0
         
@@ -71,6 +71,8 @@ Bayes.test <- function(model,perturb,monitor,n.samples=1000, y) {
 }
 
 
+cat(sprintf('Main loop started at: %s\n',date()))
+
 n.sims <- 5
 P <- array(0,c(nrow(y),n.sims,nrow(y)))
 
@@ -79,45 +81,45 @@ monitor = setNames(1, "human")
 for(model in 1:nrow(y)) {
   for(k in 1:n.sims) {
     ## Compute posterior probabilities
-    fit <- Bayes.test(model,perturb,monitor,n.samples=10, y)
+    fit <- Bayes.test(model,perturb,monitor,n.samples=1000, y)
     P[,k,model] <- fit$p
   }
 }
 
-# ## Generate a confusion matrix
-# CM <- matrix(0,dim(P)[3],dim(P)[1])
-# for(model in 1:(dim(P)[3]))
-#   CM[model,] <- tabulate(unlist(apply(P[,,model],2,function(x) which(x==max(x)))),dim(P)[1])
-# ## Columns: correct model, Rows: highest ranking model
-# t(CM)
-# 
-# ## Determine how often the correct model is most likely, second most
-# ## likely etc.
-# Q <- matrix(0,dim(P)[3],dim(P)[1])
-# for(model in 1:(dim(P)[3]))
-#   Q[model,] <- tabulate(apply(-P[,,model],2,
-# 	function(x) which(order(x,c(model,rep(0,dim(P)[1]-1)))==model)),dim(P)[1])
-# 
-# ## Plot how often the correct model is most likely, second most likely
-# ## etc, separately for each correct model and overall.
-# opar <- par(mfrow=c(3,2))
-# for(model in 1:nrow(Q)) {
-#   p <- Q[model,]
-#   names(p) <- 1:ncol(Q)
-#   barplot(p/sum(p),main=model,ylim=c(0,1))
-# }
-# p <- colSums(Q)
-# names(p) <- 1:ncol(Q)
-# barplot(p/sum(p),main="all",ylim=c(0,1))
-# 
-# ## Use clustering to show model similarity
-# opar <- par(mfrow=c(3,2))
-# method <- "complete"
-# for(model in 1:(dim(P)[3])) {
-#   plot(hclust(dist(P[,,model]),method=method),ann=F)
-#   title(model)
-# }
-# plot(hclust(dist(matrix(P,dim(P)[1],prod(dim(P)[-1]))),method=method),ann=F)
-# title("All")
-# par(opar)
-# 
+## Generate a confusion matrix
+CM <- matrix(0,dim(P)[3],dim(P)[1])
+for(model in 1:(dim(P)[3]))
+  CM[model,] <- tabulate(unlist(apply(P[,,model],2,function(x) which(x==max(x)))),dim(P)[1])
+## Columns: correct model, Rows: highest ranking model
+t(CM)
+
+## Determine how often the correct model is most likely, second most
+## likely etc.
+Q <- matrix(0,dim(P)[3],dim(P)[1])
+for(model in 1:(dim(P)[3]))
+  Q[model,] <- tabulate(apply(-P[,,model],2,
+	function(x) which(order(x,c(model,rep(0,dim(P)[1]-1)))==model)),dim(P)[1])
+
+## Plot how often the correct model is most likely, second most likely
+## etc, separately for each correct model and overall.
+opar <- par(mfrow=c(3,2))
+for(model in 1:nrow(Q)) {
+  p <- Q[model,]
+  names(p) <- 1:ncol(Q)
+  barplot(p/sum(p),main=model,ylim=c(0,1))
+}
+p <- colSums(Q)
+names(p) <- 1:ncol(Q)
+barplot(p/sum(p),main="all",ylim=c(0,1))
+
+## Use clustering to show model similarity
+opar <- par(mfrow=c(3,2))
+method <- "complete"
+for(model in 1:(dim(P)[3])) {
+  plot(hclust(dist(P[,,model]),method=method),ann=F)
+  title(model)
+}
+plot(hclust(dist(matrix(P,dim(P)[1],prod(dim(P)[-1]))),method=method),ann=F)
+title("All")
+par(opar)
+

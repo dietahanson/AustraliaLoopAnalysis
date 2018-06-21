@@ -107,7 +107,7 @@ x = read.table("hotgrouped_fake.csv",  # interactions table
                header = T,
                stringsAsFactors = F)
 
-y = read.csv("models.csv", header = T, stringsAsFactors = F)
+y = read.table("models.csv", sep = ",", header = T, stringsAsFactors = F)
 
 
 node_names = unique(union(x$To,x$From))  # get the list of nodes
