@@ -3,51 +3,58 @@
 ## originally developed by Dambacher et al. (2003, Ecologial
 ## Modelling).
 
-source("dia.r")
+
 source("community.r")
+source("preamble.R")
 
-files <- paste("fivevariable",1:5,".dia",sep="")
 
-## Read model specification
-edges <- lapply(files,model.dia)
-names(edges) <- files
-
-## Examine unweighted adjacency matrices
-A <- lapply(edges,adjacency.matrix)
-A
-
-## Function to generate community matrices
-s <- lapply(edges,community.sampler)
 
 ## Function to estimate posterior probabilities of model correctness, 
 ## assuming uniform priors
-Bayes.test <- function(edges,samplers,model,perturb,monitor,n.samples=1000) {
+Bayes.test <- function(edges,s,model,perturb,monitor,n.samples=1000, y) {
 
+  
+    # get a list of the types of interactions this model needs
+    need = as.numeric(y[model,])
+    names(need) = colnames(y)
+    need = names(need[need > 0])
+    
+    
     ## Simulate a stable weight matrix from the selected model
-    W <- s[[model]]$community()
-    while(!stable.community(W)) {
-        W <- s[[model]]$community()  # doesn't this mean only unstable matrices???????
+    H <- sampler(need, n, node_names, am, x)
+    W <- H$cmat
+    while(!stable.community(W)) {  
+      H <- sampler(need, n, node_names, am, x)
+      W <- H$cmat  
     }
 
     ## Determine the outcome of the press perturbation
-    impact <- press.impact(edges[[model]],perturb=perturb,monitor=monitor)
+    impact <- press.impact(H$edges,perturb=perturb,monitor=monitor)
     observed <- signum(impact(W))
     names(observed) <- names(monitor)
 
-    prop <- double(length(edges)) #edges here is a list, so length is # of models
+    prop <- double(nrow(y)) #edges here is a list, so length is # of models
     
     ## Loop over models
-    for(k in 1:length(edges)) { #edges here is a list, so length is # of models
+    for(k in 1:nrow(y)) { #edges here is a list, so length is # of models
         n.stable <- 0
         n.valid <- 0
+        
+        # get a list of the types of interactions this model needs
+        need = as.numeric(y[k,])
+        names(need) = colnames(y)
+        need = names(need[need > 0])
 
-        ## Function to validate press condition
-        press <- press.validate(edges[[k]],perturb=perturb, monitor=observed)
+
 
         while(n.stable < n.samples) {
 
             ## Sample community matrix
-            W <- s[[k]]$community()
+          H <- sampler(need, n, node_names, am, x)
+          W <- H$cmat
+          
+          ## Function to validate press condition
+          press <- press.validate(H$edges,perturb=perturb, monitor=observed)
 
             ## Check stability
             if(!stable.community(W)) next
