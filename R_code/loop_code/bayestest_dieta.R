@@ -11,7 +11,7 @@ source("preamble.R")
 
 ## Function to estimate posterior probabilities of model correctness, 
 ## assuming uniform priors
-Bayes.test <- function(edges,s,model,perturb,monitor,n.samples=1000, y) {
+Bayes.test <- function(model,perturb,monitor,n.samples=1000, y) {
 
   
     # get a list of the types of interactions this model needs
@@ -71,60 +71,60 @@ Bayes.test <- function(edges,s,model,perturb,monitor,n.samples=1000, y) {
 }
 
 
-n.sims <- 10
-## Pick one node to perturb and 2 others to monitor
-n.perturb <- 1
-n.monitor <- 2
-P <- array(0,c(length(edges),n.sims,length(edges)))
-for(model in 1:5) {
-  for(k in 1:n.sims) {
-    ## Random perturbation and monitoring
-    nodes <- levels(edges[[model]]$From)
-    perturb <- rep(1,length=n.perturb)
-    names(perturb) <- sample(nodes,length(perturb))
-    monitor <- rep(1,length=n.monitor)
-    names(monitor) <- sample(setdiff(nodes,names(perturb)),length(monitor))
-
-    ## Compute posterior probabilities
-    fit <- Bayes.test(edges,s,model,perturb,monitor,n.samples=1000)
-    P[,k,model] <- fit$p
-  }
-}
-
-## Generate a confusion matrix
-CM <- matrix(0,dim(P)[3],dim(P)[1])
-for(model in 1:(dim(P)[3]))
-  CM[model,] <- tabulate(unlist(apply(P[,,model],2,function(x) which(x==max(x)))),dim(P)[1])
-## Columns: correct model, Rows: highest ranking model
-t(CM)
-
-## Determine how often the correct model is most likely, second most
-## likely etc.
-Q <- matrix(0,dim(P)[3],dim(P)[1])
-for(model in 1:(dim(P)[3]))
-  Q[model,] <- tabulate(apply(-P[,,model],2,
-	function(x) which(order(x,c(model,rep(0,dim(P)[1]-1)))==model)),dim(P)[1])
-
-## Plot how often the correct model is most likely, second most likely
-## etc, separately for each correct model and overall.
-opar <- par(mfrow=c(3,2))
-for(model in 1:nrow(Q)) {
-  p <- Q[model,]
-  names(p) <- 1:ncol(Q)
-  barplot(p/sum(p),main=model,ylim=c(0,1))
-}
-p <- colSums(Q)
-names(p) <- 1:ncol(Q)
-barplot(p/sum(p),main="all",ylim=c(0,1))
-
-## Use clustering to show model similarity
-opar <- par(mfrow=c(3,2))
-method <- "complete"
-for(model in 1:(dim(P)[3])) {
-  plot(hclust(dist(P[,,model]),method=method),ann=F)
-  title(model)
-}
-plot(hclust(dist(matrix(P,dim(P)[1],prod(dim(P)[-1]))),method=method),ann=F)
-title("All")
-par(opar)
-
+# n.sims <- 10
+# ## Pick one node to perturb and 2 others to monitor
+# n.perturb <- 1
+# n.monitor <- 2
+# P <- array(0,c(length(edges),n.sims,length(edges)))
+# for(model in 1:5) {
+#   for(k in 1:n.sims) {
+#     ## Random perturbation and monitoring
+#     nodes <- levels(edges[[model]]$From)
+#     perturb <- rep(1,length=n.perturb)
+#     names(perturb) <- sample(nodes,length(perturb))
+#     monitor <- rep(1,length=n.monitor)
+#     names(monitor) <- sample(setdiff(nodes,names(perturb)),length(monitor))
+# 
+#     ## Compute posterior probabilities
+#     fit <- Bayes.test(edges,s,model,perturb,monitor,n.samples=1000)
+#     P[,k,model] <- fit$p
+#   }
+# }
+# 
+# ## Generate a confusion matrix
+# CM <- matrix(0,dim(P)[3],dim(P)[1])
+# for(model in 1:(dim(P)[3]))
+#   CM[model,] <- tabulate(unlist(apply(P[,,model],2,function(x) which(x==max(x)))),dim(P)[1])
+# ## Columns: correct model, Rows: highest ranking model
+# t(CM)
+# 
+# ## Determine how often the correct model is most likely, second most
+# ## likely etc.
+# Q <- matrix(0,dim(P)[3],dim(P)[1])
+# for(model in 1:(dim(P)[3]))
+#   Q[model,] <- tabulate(apply(-P[,,model],2,
+# 	function(x) which(order(x,c(model,rep(0,dim(P)[1]-1)))==model)),dim(P)[1])
+# 
+# ## Plot how often the correct model is most likely, second most likely
+# ## etc, separately for each correct model and overall.
+# opar <- par(mfrow=c(3,2))
+# for(model in 1:nrow(Q)) {
+#   p <- Q[model,]
+#   names(p) <- 1:ncol(Q)
+#   barplot(p/sum(p),main=model,ylim=c(0,1))
+# }
+# p <- colSums(Q)
+# names(p) <- 1:ncol(Q)
+# barplot(p/sum(p),main="all",ylim=c(0,1))
+# 
+# ## Use clustering to show model similarity
+# opar <- par(mfrow=c(3,2))
+# method <- "complete"
+# for(model in 1:(dim(P)[3])) {
+#   plot(hclust(dist(P[,,model]),method=method),ann=F)
+#   title(model)
+# }
+# plot(hclust(dist(matrix(P,dim(P)[1],prod(dim(P)[-1]))),method=method),ann=F)
+# title("All")
+# par(opar)
+# 
