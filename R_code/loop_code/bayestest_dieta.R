@@ -76,7 +76,7 @@ P <- array(0,c(nrow(y),n.sims,nrow(y)))
 
 perturb = setNames(1, "human")
 monitor = setNames(1, "human")
-for(model in 1:5) {
+for(model in 1:3) {
   for(k in 1:n.sims) {
     ## Compute posterior probabilities
     fit <- Bayes.test(model,perturb,monitor,n.samples=10, y)
