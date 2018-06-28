@@ -24,7 +24,7 @@ labels <- node.labels(edges[[1]])
 n.models <- length(files)
 
 ## Use 100000 simulations
-n.samples <- 100000
+n.samples <- 10
 
 ## Model indicator
 model <- integer(n.samples)
