@@ -239,10 +239,12 @@ t = unique(x$Type)  # how many different interaction types there are
 
 # set the perturbed nodes, which can be a vector with relative maginitudes of 
 # the perturbations
-perturb = setNames(1, "human")
+perturb = setNames(-1, "human")
 
 # set the monitored nodes, whose sign represents the expected outcome
-monitor = setNames(c(-1,1,-1), c("human", "Snakes", "small mammal"))
+monitor = setNames(c(-1,1,1,1,-1,-1,-1,-1,-1,1), 
+                   c("human","cat","fox","goanna","dingo","mala","bandicoot",
+                     "betong","bilby","camel"))
 
 
 
@@ -366,18 +368,20 @@ while(accepted < n.samples) {
   if(!stable.community(W)) next
   
   stable = stable +1
-  # generate a function to determine the outcome of the press perturbation
-  impact <- press.impact(H$edges,perturb = perturb,monitor = NULL)
+
   
   
   # generate a function to see if the impact of the press perturbation is the
-  # same as "observed" above for the model
+  # same as the expected outcomes "monitor"
   press = press.validate(H$edges,perturb = perturb, monitor = monitor)
   
   # call the function to check press condition 
   if(!press(W)) next  # skip if not valid
   
   accepted = accepted+1  # count if valid
+  
+  # generate a function to determine the outcome of the press perturbation
+  impact <- press.impact(H$edges,perturb = perturb,monitor = NULL)
   
   ## Monitor impact post press
   imp <- impact(W)

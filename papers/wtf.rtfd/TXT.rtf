@@ -1,0 +1,161 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;\f2\fnil\fcharset0 AppleSymbols;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red21\green22\blue23;\red255\green255\blue255;
+\red8\green64\blue97;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c10980\c11373\c11765;\cssrgb\c100000\c100000\c100000;
+\cssrgb\c0\c32157\c45490;}
+\margl1440\margr1440\vieww22240\viewh13420\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Melbourne-Thomas 2012 say to use the inverse matrix to get the response to a press:\
+\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\f1 \cf2 \expnd0\expndtw0\kerning0
+Most importantly, the response of the system to a press perturbation, defined as a sustained shift in the per capita growth rate of a population (Bender et al. 1984), can be determined from the inverse community matrix A
+\f2\fs16 \up10 \uc0\u56319 \u56322 
+\f1 1 
+\fs24 \up0 (Puccia and Levins 1985). \
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 Which is what she does in her code (take the inverse, then switches the signs because of a decrease) \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\
+But Raymond says to use the negative inverse: \
+\
+\pard\pardeftab720\sl260\sa240\partightenfactor0
+
+\f1\fs21\fsmilli10667 \cf2 \expnd0\expndtw0\kerning0
+At equilibrium, the negative inverse of the matrix A (which has elements a
+\fs16 \dn3 ij
+\fs21\fsmilli10667 \up0 ) can be used to estimate the long-term effects of a press perturbation (Bender, Case & Gilpin 1984; Nakajima 1992), which is defined as a sustained shift in the magnitude of a growth parameter c
+\fs16 \dn3 h 
+\fs21\fsmilli10667 \up0 of a species (Puccia & Levins 1985). 
+\fs24 \
+\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 Which is what he does in his code (takes the negative inverse, then switches the sign because of a decrease) \
+\
+Raymond cites Nakajima, who says it is the negative inverse:\
+\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Therefore, we have the following simple relationship between the sensitivity matrix S and the community matrix A: S = -A^-1 The same result was derived by Yodzis (1988). \
+\
+\
+
+\f0 Novak says negative inverse:\
+\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\f1 \cf2 \outl0\strokewidth0 Each element of  -
+\f2 \uc0\u56319 \u56322 
+\f1\fs16 \up10 #
+\fs24 \up0 A-
+\f2\fs16 \up10 \uc0\u56319 \u56322 
+\f1 1 
+\fs24 \up0 reflects the direction and relative (within-column) magnitude by which the local equilibrium abundance of a species in row i (N
+\fs16 \cf2 \dn6 i
+\f2\fs24 \up8 \uc0\u56319 \u56353 
+\f1 \cf2 \up0 ) will respond to a sustained small input of individuals to the species in column j (I
+\fs16 \cf2 \dn3 j
+\fs24 \cf2 \up0 ) because \
+]N
+\f2 \cf2 \up8 \uc0\u56319 \u56353 
+\f1  
+\f2 \cf2 \up0 \uc0\u56319 \u56322 
+\f1 \'f0
+\fs16 \up10 #
+\fs24 \up0 A
+\f2\fs16 \up10 \uc0\u56319 \u56322 
+\f1 1
+\fs24 \up0 \'de
+\fs16 \cf2 \dn8 ij 
+\fs24 \cf2 \up0 1\uc0\u8260 4 
+\fs16 \up10 i 
+\fs24 \up0 ]I
+\fs16 \cf2 \dn3 j 
+\fs24 \cf2 \up0 \
+obtained using the differentiation of f
+\fs16 \cf2 \dn3 i
+\fs24 \cf2 \up0 (N
+\fs16 \cf2 \dn3 1
+\fs24 \cf2 \up0 , N
+\fs16 \cf2 \dn3 2
+\fs24 \cf2 \up0 , . . .) 1\uc0\u8260 4 0 for all i 61\u8260 4 j and f
+\fs16 \cf2 \dn3 j
+\fs24 \cf2 \up0 (N
+\fs16 \cf2 \dn3 1
+\fs24 \cf2 \up0 , N
+\fs16 \cf2 \dn3 2
+\fs24 \cf2 \up0 , ...)\'feI
+\fs16 \cf2 \dn3 j 
+\fs24 \cf2 \up0 1\uc0\u8260 40 with respect to I
+\fs16 \cf2 \dn3 j 
+\fs24 \cf2 \up0 (Benderetal.1984,Yodzis1988b).Thatis,since]N
+\fs16 \cf2 \dn6 i
+\f2\fs24 \up8 \uc0\u56319 \u56353 
+\f1 \cf2 \up0 1\uc0\u8260 4 
+\f2 \uc0\u56319 \u56322 
+\f1 (-
+\fs16 \up10 #
+\fs24 \up0 A-
+\f2\fs16 \up10 \uc0\u56319 \u56322 
+\f1 1
+\fs24 \up0 )
+\fs16 \cf2 \dn6 ij 
+\fs24 \cf2 \up0 3 ]I
+\fs16 \cf2 \dn6 j
+\fs24 \cf2 \up0 , a small press perturbation I
+\fs16 \cf2 \dn6 j 
+\fs24 \cf2 \up0 will cause a change in species i\'92s equilibrium abundance that is proportional to 
+\f2 \uc0\u56319 \u56322 
+\f1 (-
+\fs16 \up10 #
+\fs24 \up0 A
+\f2\fs16 \up10 \uc0\u56319 \u56322 -
+\f1 1
+\fs24 \up0 )
+\fs16 \cf2 \dn6 ij
+\fs24 \cf2 \up0 . The net effects expressed by the ijth element of -
+\f2 \uc0\u56319 \u56322 
+\f1\fs16 \up10 #
+\fs24 \up0 A-
+\f2\fs16 \up10 \uc0\u56319 \u56322 
+\f1 1 
+\fs24 \up0 occur via all the direct and indirect chains of interactions linking the two species (Yodzis 1988b). \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \outl0\strokewidth0 \strokec2 \
+\
+\
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf0 And Dambacher seems to say both! :\
+\
+\pard\pardeftab720\sl480\sa320\partightenfactor0
+
+\f1 \cf3 \cb4 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 The inverse of the community matrix provides an estimate of the change in equilibrium abundance of each community member resulting from sustained input to the birth or death rates (
+\i Ch
+\i0 ) of an\'a0
+\i h
+\i0 th species (where\'a0
+\i h
+\i0 th =\'a0
+\i j
+\i0 th species), such that its carrying capacity is altered:\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf3 \cb1 \cf2 \strokec2 dNi/dCh = -Aij^-1\cf3 \strokec3 \
+\cb4 In derivation of the effects of sustained positive input to a variable (i.e., increase in birth rate or decrease in death rate), the inverse of the negative community matrix (\uc0\u8722 
+\b A
+\b0 \uc0\u8722 1) is obtained ({\field{\*\fldinst{HYPERLINK "https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/0012-9658%282002%29083%5B1372%3AROCSIA%5D2.0.CO%3B2#i0012-9658-83-5-1372-nakajima1"}}{\fldrslt \cf5 \strokec5 Nakajima 1992}}). Taking the inverse of the negative community matrix maintains a sign convention for both even\uc0\u8208  and odd\u8208 sized systems, whereby positive input at species\'a0
+\i j
+\i0 \'a0is read down the columns of the inverse, and response of species\'a0
+\i i
+\i0 \'a0along the rows. When input is negative (decreased birth rate or increased death rate), the response signs are reversed.\'a0
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+}
