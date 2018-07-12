@@ -1,7 +1,7 @@
 ###############################################
 ###Add groups to network
 ###############################################
-
+library(splitstackshape)
 
 stefgroup <- read.csv("stefgroups.csv",  # get stefanis groups 
                       header = T,

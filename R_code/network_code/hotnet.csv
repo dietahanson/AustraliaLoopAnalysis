@@ -1195,21 +1195,75 @@ Fire,Triodia basedownii,,predator-prey
 Fire,Triodia longiceps,,predator-prey
 Fire,Triodia pungens,,predator-prey
 Fire,Yakirra australiensis,,predator-prey
-Fire,Bird egg shell,,predator-prey
-Fire,Reptile eggs,,predator-prey
-Fire,Blattodea,,predator-prey
-Fire,Araneidae,,predator-prey
-Fire,Chilopoda,,predator-prey
-Fire,Phasmatodea,,predator-prey
-Fire,Tiliqua multifasciata,30%  casualty,predator-prey
-Fire,Tiliqua occipitalis,30%  casualty,predator-prey
-Fire,Tiliqua scincoides,30%  casualty,predator-prey
-Fire,Ctenophorus caudicinctus,30%  casualty,predator-prey
-Fire,Moloch horridus,30%  casualty,predator-prey
-Fire,Ctenotus isolepis,30%  casualty,predator-prey
-Fire,Ctenotus leonhardii,30%  casualty,predator-prey
-Fire,Ctenotus robustus,30%  casualty,predator-prey
-Fire,Ctenotus strauchii,30%  casualty,predator-prey
-Fire,Pogona minor,30%  casualty,predator-prey
-Fire,Pogona vitticeps,30%  casualty,predator-prey
-human,Fire,,positive
+Camponotus inflatus,Acacia acradenia,,predator-prey
+Camponotus inflatus,Acacia aneura,,predator-prey
+Camponotus inflatus,Acacia coriacea,,predator-prey
+Camponotus inflatus,Acacia cowleana,,predator-prey
+Camponotus inflatus,Acacia cuthbertsoni,,predator-prey
+Camponotus inflatus,Acacia dictyophleba,,predator-prey
+Camponotus inflatus,Acacia kempeana,,predator-prey
+Camponotus inflatus,Acacia ligulata,,predator-prey
+Camponotus inflatus,Acacia pruinocarpa,,predator-prey
+Camponotus inflatus,Acacia spondylophylla,,predator-prey
+Camponotus inflatus,Acacia tetragonophylla,,predator-prey
+Camponotus inflatus,Eremophila latrobei,,predator-prey
+Camponotus inflatus,Hakea suberea,,predator-prey
+Camponotus inflatus,Ptilotus exaltatus,,predator-prey
+Camponotus inflatus,Ptilotus macrocephalus,,predator-prey
+Amphibolurus burnsi,Camponotus inflatus,,predator-prey
+Aprasia striolata,Camponotus inflatus,,predator-prey
+Ardeotis australis,Camponotus inflatus,,predator-prey
+Corvus cecilae,Camponotus inflatus,,predator-prey
+Ctenotus isolepis,Camponotus inflatus,,predator-prey
+Ctenotus robustus,Camponotus inflatus,,predator-prey
+Dasycercus cristicauda,Camponotus inflatus,,predator-prey
+Dasyurus hallucatus,Camponotus inflatus,,predator-prey
+Egernia striata,Camponotus inflatus,,predator-prey
+Falco longipennis,Camponotus inflatus,,predator-prey
+Fulica atra,Camponotus inflatus,,predator-prey
+Heteronotia binoei,Camponotus inflatus,,predator-prey
+Isodon auratus,Camponotus inflatus,,predator-prey
+Leggadina forresti,Camponotus inflatus,,predator-prey
+Leiolopisma trilineatum,Camponotus inflatus,,predator-prey
+Lophognatus gilberti,Camponotus inflatus,,predator-prey
+Menetia greyii,Camponotus inflatus,,predator-prey
+Morethia lineoocellatus,Camponotus inflatus,,predator-prey
+Notomys sp.,Camponotus inflatus,,predator-prey
+Ocyphaps lophotes,Camponotus inflatus,,predator-prey
+Perameles eremiana,Camponotus inflatus,,predator-prey
+Pogona vitticeps,Camponotus inflatus,,predator-prey
+Sminthopsis macroura,Camponotus inflatus,,predator-prey
+Tachyglossus aculeatus,Camponotus inflatus,,predator-prey
+Tiliqua occipitalis,Camponotus inflatus,,predator-prey
+Tympanocryptis tetraporophora,Camponotus inflatus,,predator-prey
+Varanus giganteus,Camponotus inflatus,,predator-prey
+Varanus panoptes,Camponotus inflatus,,predator-prey
+Vulpes vulpes,Camponotus inflatus,,predator-prey
+Anas superciliosa,Camponotus inflatus,,predator-prey
+Aquila audax,Camponotus inflatus,,predator-prey
+Canis lupus dingo,Camponotus inflatus,,predator-prey
+Ctenophorus caudicinctus,Camponotus inflatus,,predator-prey
+Ctenotus leonhardii,Camponotus inflatus,,predator-prey
+Ctenotus strauchii,Camponotus inflatus,,predator-prey
+Dasycercus hilleri,Camponotus inflatus,,predator-prey
+Egernia kintorei,Camponotus inflatus,,predator-prey
+Egernia striolata,Camponotus inflatus,,predator-prey
+Hemiergis peronii,Camponotus inflatus,,predator-prey
+Homo sapiens,Camponotus inflatus,,predator-prey
+Lagorchestes hirsutus,Camponotus inflatus,,predator-prey
+Leiolopisma metallicum,Camponotus inflatus,,predator-prey
+Lerista bougainvillea,Camponotus inflatus,,predator-prey
+Macrotis lagotis,Camponotus inflatus,,predator-prey
+Moloch horridus,Camponotus inflatus,,predator-prey
+Notaden nichollsi,Camponotus inflatus,,predator-prey
+Notoryctes caurinus,Camponotus inflatus,,predator-prey
+Oedura marmorata,Camponotus inflatus,,predator-prey
+Pogona minor,Camponotus inflatus,,predator-prey
+Pygopus schraderi,Camponotus inflatus,,predator-prey
+Stiltia isabella,Camponotus inflatus,,predator-prey
+Tiliqua multifasciata,Camponotus inflatus,,predator-prey
+Tiliqua multifasciata,Camponotus inflatus,,predator-prey
+Tiliqua scincoides,Camponotus inflatus,,predator-prey
+Varanus acanthurus,Camponotus inflatus,,predator-prey
+Varanus gouldii,Camponotus inflatus,,predator-prey
+Varanus tristis,Camponotus inflatus,,predator-prey

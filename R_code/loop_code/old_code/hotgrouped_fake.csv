@@ -1,0 +1,17 @@
+From,To,Type
+skinks,insect,Predator-prey
+bird,insect,Predator-prey
+bird,spinifex,Predator-prey
+Snakes,skinks,Predator-prey
+Snakes,small mammal,Predator-prey
+bustard,skinks,Predator-prey
+dingo,bustard,Predator-prey
+dingo,insect,Predator-prey
+dingo,skinks,Predator-prey
+dingo,human,Predator-prey
+dingo,small mammal,Predator-prey
+human,bird,positive
+human,dingo,positive
+human,dingo,positive
+spinifex,insect,habitat
+human,dingo,competition

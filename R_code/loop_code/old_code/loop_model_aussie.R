@@ -1,5 +1,5 @@
 ###############################################################################
-# Loop model based on Raymond's code, with the model predicting the effect of
+# Loop model, with the model predicting the effect of
 # removing humans. 
 ###############################################################################
 
@@ -10,8 +10,8 @@
 #------------------------------------------------------------------------------
 
 # adjust the path here to match where you put the data file
-setwd("~/Documents/Australia/R_code/loop_code/")
-x = read.table('hotgrouped_fake.csv',
+setwd("~/Documents/Australia/R_code/loop_code/old_code/")
+x = read.table('hotgrouped.csv',
              sep=',',
              header = T)
 
@@ -21,7 +21,7 @@ x = read.table('hotgrouped_fake.csv',
 #------------------------------------------------------------------------------
 
 # these are responses to removal of humans 
-model_validation = matrix(c('human',-1,'fox',1,'camel',1),
+model_validation = matrix(c('human',-1,'dingo',1,'skinks',-1),
                         nrow = 3,
                         ncol = 2,
                         byrow = T)
@@ -31,15 +31,15 @@ colnames(model_validation) = c('response_node','response_value')
 model_validation
 # response_node response_value
 # [1,] "human"       "-1"           
-# [2,] "fox"         "1"           
-# [3,] "camel"      "1"         
+# [2,] "dingo"         "1"           
+# [3,] "skinks"      "1"         
 
 
 #------------------------------------------------------------------------------
 # initialise some variables and settings
 #------------------------------------------------------------------------------
 
-nwrand = 1000  # number of randomisations with different interaction strengths
+nwrand = 100  # number of randomisations with different interaction strengths
 max_nwrand = 20*nwrand  # try a maximum of this many realisations 
 
 node_names = unique(union(x$To,x$From))  # get the list of nodes
@@ -281,15 +281,14 @@ v = paste("Number of valid models:", this_valid_count,
 
 print(v)
 
-dev.off()
 
 barplot(rsummary_h/stable_count_h,
         cex.names = 0.7,
         las = 2,
         legend = T,
         xpd = T,
-        args.legend = list(x = 'topright', inset = c(-.1,0)),
+        args.legend = list(x = 'topright', inset = c(-.1,0), cex = 0.7),
         ylab = "Proportion")
 
-title(main = v, cex.main= .9, line = 2)
+title(main = v, cex.main = .9, line = 2)
 

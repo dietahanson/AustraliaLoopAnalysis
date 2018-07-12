@@ -121,14 +121,8 @@ sampler = function(need, n, node_names, am, x) {
   setnames(edges,
            old = c("Var1", "Var2", "Freq", "Pair"),
            new = c("From", "To", "Type", "Pair"))
-  for (i in 1:nrow(edges)) {
-    if (edges$From[i]==edges$To[i]) {edges$Type[i]="N"} else {
-      if (edges$Type[i] < 0) {edges$Type[i] = "P"} else {
-        edges$Type[i] = "N"}
-      }
-    }
-  
-
+  edges$Type = sapply(edges$Type,
+                      function(x) if (x < 0) { x = "N"} else {x = "P"})
   
   # create a list containing the community matrix and the edges table
   res = list(cmat = popmod, edges = edges)
@@ -224,12 +218,12 @@ press.impact = function(edges,perturb,monitor) {
 
 setwd("~/Documents/Australia/R_code/loop_code/")  # adjust as needed
 
-x = read.table("hotgrouped.csv",  # interactions table 
+x = read.table("hotgrouped_fakelc.csv",  # interactions table 
                sep = ",",
                header = T,
                stringsAsFactors = F)
 
-y = read.table("modelst.csv", sep = ",", header = T, stringsAsFactors = F)
+y = read.table("modelslc.csv", sep = ",", header = T, stringsAsFactors = F)
 
 
 node_names = unique(union(x$To,x$From))  # get the list of nodes
@@ -336,7 +330,7 @@ for (f in 1:length(t)) {
 cat(sprintf('Main loop started at: %s\n',date()))
 
 # set how many stable and valid realizations you want to achieve
-n.samples = 5
+n.samples = 10
 
 ## Model indicator
 model = integer(n.samples)
@@ -345,7 +339,6 @@ model = integer(n.samples)
 impacts = matrix(0,n.samples,n)
 accepted = 0
 tried = 0
-stable = 0
 
 while(accepted < n.samples) {
   
@@ -356,7 +349,7 @@ while(accepted < n.samples) {
   names(need) = colnames(y)
   need = names(need[need > 0])
   
-
+  
   # simulate a matrix W for the model
   H = sampler(need, n, node_names, am, x)
   W = H$cmat
@@ -365,12 +358,16 @@ while(accepted < n.samples) {
   # check stability and exit if not stable
   if(!stable.community(W)) next
   
-  stable = stable +1
+  
   # generate a function to determine the outcome of the press perturbation
-  impact <- press.impact(H$edges,perturb = perturb,monitor = NULL)
+  impact <- press.impact(H$edges,perturb = perturb,monitor = monitor)
   
+  # call the function, and store the sign of the impact on the monitored nodes
+  # as "observed"
+  ob <- signum(impact(W))
+  names(ob) <- names(monitor)
   
-  # generate a function to see if the impact of the press perturbation is the
+  # generate a function to see if the impact of the press perturbation is the 
   # same as "observed" above for the model
   press = press.validate(H$edges,perturb = perturb, monitor = monitor)
   
@@ -390,4 +387,3 @@ colnames(impacts) <- node_names
 
 ## Posterior probabilities of model correctness
 table(model)/n.samples
-
