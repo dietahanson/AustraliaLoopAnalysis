@@ -229,6 +229,8 @@ x = read.table("hotgrouped.csv",  # interactions table
                header = T,
                stringsAsFactors = F)
 
+x[] = lapply(x, tolower)  # change everything to lowercase
+
 y = read.table("modelst.csv", sep = ",", header = T, stringsAsFactors = F)
 
 
