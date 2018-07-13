@@ -224,14 +224,39 @@ press.impact = function(edges,perturb,monitor) {
 
 setwd("~/Documents/Australia/R_code/loop_code/")  # adjust as needed
 
-x = read.table("hotgrouped.csv",  # interactions table 
-               sep = ",",
-               header = T,
-               stringsAsFactors = F)
+networktable = "~/Documents/Australia/R_code/loop_code/hotgrouped.csv"
 
+models = "~/Documents/Australia/R_code/loop_code/modelst.csv"
+
+outcomes = "~/Documents/Australia/R_code/loop_code/outcomes.csv"
+
+x = read.csv(networktable, stringsAsFactors = F)  # interactions table
 x[] = lapply(x, tolower)  # change everything to lowercase
 
-y = read.table("modelst.csv", sep = ",", header = T, stringsAsFactors = F)
+y = read.csv(models, stringsAsFactors = F)  # models table
+y[] = lapply(y, tolower)  # change everything to lowercase
+
+z = read.csv(outcomes, stringsAsFactors = F, header = F)  # outcomes table
+z[] = lapply(z, tolower) # change everything to lowercase
+
+# check that there are no nodes or interactions appearing in y or z that are 
+# not in x
+
+if (sum(!z$V1 %in% union(x$from, x$to))>0) {
+  print(paste("Error:",
+              z[!z$V1 %in% union(x$from, x$to),]$V1, 
+              "in outcomes table is not found in network table"))}
+
+if (sum(!colnames(y) %in% x$type)>0) {
+  print(paste("Error:",
+               colnames(y)[!colnames(y) %in% x$type], 
+               "in models table is not found in network table"))}
+
+if (sum(!unique(x$type) %in% colnames(y))>0) {
+  print(paste("Error:", 
+              unique(x$type)[!unique(x$type) %in% colnames(y)], 
+              "in network table is not found in models table"))}
+
 
 
 node_names = unique(union(x$to,x$from))  # get the list of nodes
@@ -239,14 +264,26 @@ n = length(node_names)  # number of nodes
 
 t = unique(x$type)  # how many different interaction types there are
 
-# set the perturbed nodes, which can be a vector with relative maginitudes of 
-# the perturbations
-perturb = setNames(-1, "human")
+
+# set how many stable and valid realizations you want to achieve
+n.samples = 2
+n.max = 3000  # try a maximum of this many times (to prevent runaways)
+
+# set the perturbed node
+
+perturb = setNames(as.numeric(z$V2[1]), z$V1[1])
+print(paste((z$V1[1]),
+            "is being",
+            if (sign(as.numeric(z$V2[1]))<0) {
+              "decreased"
+              } else {
+                "increased"
+                }))
 
 # set the monitored nodes, whose sign represents the expected outcome
-monitor = setNames(c(-1,1,1,1,-1,-1,-1,-1,-1,1), 
-                   c("human","cat","fox","goanna","dingo","mala","bandicoot",
-                     "betong","bilby","camel"))
+monitor = setNames(as.numeric(z$V2), z$V1)
+
+
 
 
 
@@ -339,9 +376,6 @@ for (f in 1:length(t)) {
 
 cat(sprintf('Main loop started at: %s\n',date()))
 
-# set how many stable and valid realizations you want to achieve
-n.samples = 2
-
 ## Model indicator
 model = integer(n.samples)
 
@@ -351,7 +385,7 @@ accepted = 0
 tried = 0
 stable = 0
 
-while(accepted < n.samples) {
+while((accepted < n.samples) && (tried < n.max)) {
   
   m = sample(nrow(y),1)  # randomly select a model
   

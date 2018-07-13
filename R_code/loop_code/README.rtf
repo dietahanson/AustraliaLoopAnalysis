@@ -43,8 +43,8 @@ This step uses the \'93model_select.R\'94 script to select which model most ofte
 \
 Input:\
 \
-	a) Network csv table from step 1\
-	b) csv table describing the different models you want to test. This should have one row for each model and one column for each possible interaction type you want to include. Inclusion of a interaction type in a model is coded with a \'931\'94 and exclusion is coded with a \'930\'94. The interaction types in this table must match the interaction types in the network table.\
+	a) \'93networktable\'94: the csv table describing network from step 1\
+	b) \'93models\'94: a csv table describing the different models you want to test. This should have one row for each model and one column for each possible interaction type you want to include. Inclusion of a interaction type in a model is coded with a \'931\'94 and exclusion is coded with a \'930\'94. The interaction types in this table must match the interaction types in the network table.\
 \
 	Example:\
 \
@@ -53,7 +53,7 @@ Input:\
 	1,0,1\
 	1,1,1\
 \
-	c) csv table of the known outcomes which will be used to validate the models. No column headers are needed. The first column should contain the species (or groups) for which you have known outcomes, and the second column should contain 1 or -1 to specify the direction of the known outcome.\
+	c) \'93outcomes\'94: a csv table of the known outcomes which will be used to validate the models. No column headers are needed. The first column should contain the species (or groups) for which you have known outcomes, and the second column should contain 1 or -1 to specify the direction of the known outcome.\
 \
 	Example:\
 \
