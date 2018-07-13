@@ -1,4 +1,4 @@
-From,To,Type
+from,to,type
 skinks,insect,predatorprey
 bird,insect,predatorprey
 bird,spinifex,predatorprey

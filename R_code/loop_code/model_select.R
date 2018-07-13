@@ -1,7 +1,7 @@
 ## Code to produce loop models and to choose the best model.
 ## The only two required inputs are x: a table of all interactions, with 3 
-## columns; From = first species in interaction, To = second species in 
-## interaction, and Type = category of interaction (predatorprey, habitat, etc) 
+## columns; from = first species in interaction, to = second species in 
+## interaction, and type = category of interaction (predatorprey, habitat, etc) 
 ## and y: a table of models, with each row being a model and each column being 
 ## an interaction type to include in the model. Interaction types are included 
 ## with a 1 and excluded with a 0.
@@ -41,10 +41,10 @@ trophic = function(n, node_names, A, x) {
   # last, populate diagonal elements 
   for (m in (1:length(node_names))) {
     
-    sp = node_names[m]  
+    sp = node_names[m] 
     
-    # only predators will be in the From column (for predatorprey interactions)
-    if (sp %in% x[x$Type=="predatorprey",]$From) {     
+    # only predators will be in the from column (for predatorprey interactions)
+    if (sp %in% x[grepl("predatorprey", x$type, ignore.case=TRUE),]$from) {  
       Ct[sp, sp] = -.1  # if a predator  
     } else { Ct[sp, sp] = -1}  # if basal
   }
@@ -106,12 +106,12 @@ sampler = function(need, n, node_names, am, x) {
   # then add all type matrices
   popmod = Reduce("+", sm)  
   
-  # now create a table "edges" that has columns; From = first species in 
-  # interaction, To = second species in interaction, Type = "N" for negative or
+  # now create a table "edges" that has columns; from = first species in 
+  # interaction, to = second species in interaction, type = "N" for negative or
   # "P" for positive, and Pair = unique pair name where ij and ji are both 
   # called ij. Note this is not exactly the same format as the master 
   # interactions table x as it will only contain the interactions called by the 
-  # particular model, the Type is only negative or positive, and Pairs is added.
+  # particular model, the type is only negative or positive, and Pairs is added.
   # Also, each two-way interaction is expanded to two rows, so one predatorprey 
   # interaction in x will here be one positive interaction from prey to predator
   # and one negative interaction for predator to prey
@@ -120,11 +120,11 @@ sampler = function(need, n, node_names, am, x) {
   edges = edges[abs(edges$Freq)>0,]  # we only need non-zero interactions
   setnames(edges,
            old = c("Var1", "Var2", "Freq", "Pair"),
-           new = c("From", "To", "Type", "Pair"))
+           new = c("from", "to", "type", "Pair"))
   for (i in 1:nrow(edges)) {
-    if (edges$From[i]==edges$To[i]) {edges$Type[i]="N"} else {
-      if (edges$Type[i] < 0) {edges$Type[i] = "P"} else {
-        edges$Type[i] = "N"}
+    if (edges$from[i]==edges$to[i]) {edges$type[i]="N"} else {
+      if (edges$type[i] < 0) {edges$type[i] = "P"} else {
+        edges$type[i] = "N"}
       }
     }
   
@@ -159,9 +159,9 @@ signum = function(s,epsilon = 1.0E-5) {
 press.validate = function(edges,perturb,monitor,epsilon = 1.0E-5) {
   
   # first make a function that calls the name of a node and retrieves its index
-  # in the edges "From" levels
+  # in the edges "from" levels
   index = function(name) {   
-    k = match(name,levels(edges$From))
+    k = match(name,levels(edges$from))
     if(any(is.na(k)))
       warning("Unknown nodes:",paste(name[is.na(k)],collapse = " "))
     k
@@ -173,7 +173,7 @@ press.validate = function(edges,perturb,monitor,epsilon = 1.0E-5) {
   
   # make a vector the length of the edges table and make the the pertubed node 
   # element the negative of the perturbation
-  S.press = double(nlevels(edges$From))
+  S.press = double(nlevels(edges$from))
   S.press[k.perturb] = -perturb
   monitor = sign(monitor) 
   
@@ -190,9 +190,9 @@ press.validate = function(edges,perturb,monitor,epsilon = 1.0E-5) {
 # press perturbation
 press.impact = function(edges,perturb,monitor) {
   
-  # get the index of a given node ("name") in the levels of the "From" column
+  # get the index of a given node ("name") in the levels of the "from" column
   index = function(name) {
-    k = match(name,levels(edges$From))
+    k = match(name,levels(edges$from))
     if(any(is.na(k)))  # give a warning if not found
       warning("Unknown nodes:",paste(name[is.na(k)],collapse=" "))
     k
@@ -202,7 +202,7 @@ press.impact = function(edges,perturb,monitor) {
   # nodes to -1 (or some x greater than -1 if there is more than perturbed 
   # node and the relative magnitude is x greater than some other perturbed node)
   k.perturb = index(names(perturb))
-  S.press = double(nlevels(edges$From))
+  S.press = double(nlevels(edges$from))
   S.press[k.perturb] = -perturb
   
   if(length(monitor)==0) {
@@ -232,10 +232,10 @@ x = read.table("hotgrouped.csv",  # interactions table
 y = read.table("modelst.csv", sep = ",", header = T, stringsAsFactors = F)
 
 
-node_names = unique(union(x$To,x$From))  # get the list of nodes
+node_names = unique(union(x$to,x$from))  # get the list of nodes
 n = length(node_names)  # number of nodes
 
-t = unique(x$Type)  # how many different interaction types there are
+t = unique(x$type)  # how many different interaction types there are
 
 # set the perturbed nodes, which can be a vector with relative maginitudes of 
 # the perturbations
@@ -267,10 +267,10 @@ for (f in 1:length(t)) {
     
     for (k in (1:dim(x)[1])) {  # loop through all links in table x
       
-      this_from = as.character(x[k,]$From)  
-      this_to = as.character(x[k,]$To)  
+      this_from = as.character(x[k,]$from)  
+      this_to = as.character(x[k,]$to)  
       
-      if (!grepl("predatorprey",x[k,]$Type,ignore.case = T))  
+      if (!grepl("predatorprey",x[k,]$type,ignore.case = T))  
         next  # skip if not a trophic interaction
       A[this_from,this_to] = 0.1  # predator conversion efficiency
       A[this_to,this_from] = -1
@@ -283,10 +283,10 @@ for (f in 1:length(t)) {
     
     for (k in (1:dim(x)[1])) {  # loop through all links in table x
       
-      this_from = as.character(x[k,]$From) 
-      this_to = as.character(x[k,]$To)  
+      this_from = as.character(x[k,]$from) 
+      this_to = as.character(x[k,]$to)  
       
-      if (!grepl("habitat",x[k,]$Type,ignore.case = T))  
+      if (!grepl("habitat",x[k,]$type,ignore.case = T))  
         next  # skip if not a habitat interaction
       A[this_to,this_from] = 1
       
@@ -298,10 +298,10 @@ for (f in 1:length(t)) {
     
     for (k in (1:dim(x)[1])) {  # loop through all links in table x
       
-      this_from = as.character(x[k,]$From) 
-      this_to = as.character(x[k,]$To)
+      this_from = as.character(x[k,]$from) 
+      this_to = as.character(x[k,]$to)
       
-      if (!grepl("positive",x[k,]$Type,ignore.case = T))  
+      if (!grepl("positive",x[k,]$type,ignore.case = T))  
         next  # skip if not a positive interaction
       A[this_to,this_from] = 1
       
@@ -313,10 +313,10 @@ for (f in 1:length(t)) {
     
     for (k in (1:dim(x)[1])) {  # loop through all links in table x
       
-      this_from = as.character(x[k,]$From)   
-      this_to = as.character(x[k,]$To) 
+      this_from = as.character(x[k,]$from)   
+      this_to = as.character(x[k,]$to) 
       
-      if (!grepl("competition",x[k,]$Type,ignore.case = T))  
+      if (!grepl("competition",x[k,]$type,ignore.case = T))  
         next  # skip if not a competitive interaction
       A[this_from, this_to] = -1
       A[this_to, this_from] = -1
@@ -338,7 +338,7 @@ for (f in 1:length(t)) {
 cat(sprintf('Main loop started at: %s\n',date()))
 
 # set how many stable and valid realizations you want to achieve
-n.samples = 5
+n.samples = 2
 
 ## Model indicator
 model = integer(n.samples)
