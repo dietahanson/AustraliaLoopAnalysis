@@ -1,10 +1,15 @@
 ## Code to produce loop models and to choose the best model.
-## The only two required inputs are x: a table of all interactions, with 3 
-## columns; from = first species in interaction, to = second species in 
-## interaction, and type = category of interaction (predatorprey, habitat, etc) 
-## and y: a table of models, with each row being a model and each column being 
-## an interaction type to include in the model. Interaction types are included 
-## with a 1 and excluded with a 0.
+## The only three required inputs are "networktable": a table of all 
+## interactions, with 3 columns; from = first species in interaction, 
+## to = second species in interaction, and type = category of interaction 
+## (predatorprey, habitat, etc), "models": a table of models, with each row 
+## being a model and each column being an interaction type to include in the 
+## model. Interaction types are included with a 1 and excluded with a 0, and 
+## "outcomes": a table of the known outcomes which will be used to validate the 
+## models. The first column contains the species for which you have known 
+## outcomes, and the second column should contain 1 or -1 to specify the 
+## direction of the known outcome. The first entry of this table must be the 
+## node which is being pressed. 
 
 
 
@@ -224,11 +229,11 @@ press.impact = function(edges,perturb,monitor) {
 
 setwd("~/Documents/Australia/R_code/loop_code/")  # adjust as needed
 
-networktable = "~/Documents/Australia/R_code/loop_code/hotgrouped.csv"
+networktable = "~/Documents/Australia/R_code/loop_code/hotgrouped_fake.csv"
 
-models = "~/Documents/Australia/R_code/loop_code/modelst.csv"
+models = "~/Documents/Australia/R_code/loop_code/models.csv"
 
-outcomes = "~/Documents/Australia/R_code/loop_code/outcomes.csv"
+outcomes = "~/Documents/Australia/R_code/loop_code/outcomes_fake.csv"
 
 x = read.csv(networktable, stringsAsFactors = F)  # interactions table
 x[] = lapply(x, tolower)  # change everything to lowercase
@@ -266,8 +271,8 @@ t = unique(x$type)  # how many different interaction types there are
 
 
 # set how many stable and valid realizations you want to achieve
-n.samples = 2
-n.max = 3000  # try a maximum of this many times (to prevent runaways)
+n.samples = 200
+n.max = 100*n.samples  # try a maximum of this many times (to prevent runaways)
 
 # set the perturbed node
 
@@ -282,9 +287,6 @@ print(paste((z$V1[1]),
 
 # set the monitored nodes, whose sign represents the expected outcome
 monitor = setNames(as.numeric(z$V2), z$V1)
-
-
-
 
 
 #------------------------------------------------------------------------------
@@ -429,5 +431,12 @@ while((accepted < n.samples) && (tried < n.max)) {
 colnames(impacts) <- node_names
 
 ## Posterior probabilities of model correctness
-table(model)/n.samples
+pp = table(model)/n.samples
 
+barplot(table(model)/n.samples,
+     ylab = "Posterior Probability of Correctness",
+     xlab = "Model")
+
+write.csv(pp, file = "pp.csv",
+          row.names = F, 
+          col.names = c("model", "posterior probability"))
