@@ -63,7 +63,7 @@ groups$agg <- agglong$group[match(groups$latin,
 
 groups[is.na(groups$tg),]  # returns species with no group match in tg
 groups[is.na(groups$aic),]  # returns species with no group match in aic
-groups[is.na(groups$agg),]  # returns species with no group match in aic
+groups[is.na(groups$agg),]  # returns species with no group match in agg
 
 # write.csv(groups,
 #           file = "compare_groups.csv",
@@ -77,37 +77,34 @@ groups[is.na(groups$agg),]  # returns species with no group match in aic
 
 hotnet <- read.csv("hotnet.csv",   # get network
                    header = T,
-                   stringsAsFactors = F) 
-
-hotnet$weight <- NULL  # take away weights
-
+                   stringsAsFactors = F)
 
 
 # Change which groups you want to use (stefani's, tg, or aic) by changing the
 # groups column that is selected
 
-hotnet$From <- as.factor(groups$stefgroup[match(hotnet$predator,  # match predators
+hotnet$from <- as.factor(groups$stefgroup[match(hotnet$predator,  # match predators
                                                groups$latin)])
 
-cat(sum(is.na(hotnet$From)),  # print how many did not match
+cat(sum(is.na(hotnet$from)),  # print how many did not match
     "predators with missing matches:")
-hotnet[is.na(hotnet$From),]
+hotnet[is.na(hotnet$from),]
 
-hotnet$To <- as.factor(groups$stefgroup[match(hotnet$prey,   # match prey
+hotnet$to <- as.factor(groups$stefgroup[match(hotnet$prey,   # match prey
                                            groups$latin)])
 
-cat(sum(is.na(hotnet$To)),  # print how many did not match
+cat(sum(is.na(hotnet$to)),  # print how many did not match
     "prey with missing matches:")
-    hotnet[is.na(hotnet$To),]
+    hotnet[is.na(hotnet$to),]
 
-hotnet$Type <- "Predator-prey" #add interaction type
+
 
 # now we have to take away duplicates because more than one member of a group
 # ate something from another group, so the link from group to group would be 
 # included multiple times
 
-hotnetsmall <- hotnet[!duplicated(hotnet[c("From","To")]), 
-                      c("From", "To", "Type")]
+hotnetsmall <- hotnet[!duplicated(hotnet[c("from","to")]), 
+                      c("from", "to", "type")]
 
 #write.csv(hotnetsmall, file = "hotgrouped.csv", row.names = F)
 

@@ -1,1269 +1,1651 @@
-﻿predator,prey,weight,type
-Amphibolurus burnsi,Araneidae,20,predator-prey
-Amphibolurus burnsi,Blattodea,20,predator-prey
-Amphibolurus burnsi,Chilopoda,20,predator-prey
-Amphibolurus burnsi,Coleoptera,20,predator-prey
-Amphibolurus burnsi,Lepidoptera,20,predator-prey
-Anas superciliosa,Blattodea,40,predator-prey
-Anas superciliosa,Coleoptera,40,predator-prey
-Anas superciliosa,Triodia basedownii,6,predator-prey
-Anas superciliosa,Triodia longiceps,7,predator-prey
-Anas superciliosa,Triodia pungens,7,predator-prey
-Antaresia stimsoni,Ctenotus robustus,2,predator-prey
-Antaresia stimsoni,Egernia kintorei,2,predator-prey
-Antaresia stimsoni,Egernia striata,2,predator-prey
-Antaresia stimsoni,Egernia striolata,2,predator-prey
-Antaresia stimsoni,Hemiergis peronii,2,predator-prey
-Antaresia stimsoni,Lagorchestes hirsutus,2,predator-prey
-Antaresia stimsoni,Leggadina forresti,2,predator-prey
-Antaresia stimsoni,Leiolopisma metallicum,2,predator-prey
-Antaresia stimsoni,Leiolopisma trilineatum,2,predator-prey
-Antaresia stimsoni,Lerista bougainvillea,2,predator-prey
-Antaresia stimsoni,Menetia greyii,2,predator-prey
-Antaresia stimsoni,Morethia lineoocellatus,3,predator-prey
-Antaresia stimsoni,Notaden nichollsi,20,predator-prey
-Antaresia stimsoni,Notomys sp.,20,predator-prey
-Antaresia stimsoni,Tiliqua multifasciata,3,predator-prey
-Antaresia stimsoni,Tiliqua occipitalis,3,predator-prey
-Antaresia stimsoni,Tiliqua scincoides,3,predator-prey
-Antaresia stimsoni,Notoryctes caurinus,20,predator-prey
-Antaresia stimsoni,Petrogale lateralis,3,predator-prey
-Antaresia stimsoni,Tachyglossus aculeatus,3,predator-prey
-Aprasia striolata,Formicidae,99,predator-prey
-Aprasia striolata,Lepidoptera,1,predator-prey
-Ardeotis australis,Amphibolurus burnsi,4,predator-prey
-Ardeotis australis,Blattodea,3,predator-prey
-Ardeotis australis,Chilopoda,3,predator-prey
-Ardeotis australis,Coleoptera,3,predator-prey
-Ardeotis australis,Ctenotus leonhardii,3,predator-prey
-Ardeotis australis,Ctenotus robustus,3,predator-prey
-Ardeotis australis,Ctenotus strauchii,3,predator-prey
-Ardeotis australis,Egernia striolata,3,predator-prey
-Ardeotis australis,Heteronotia binoei,5,predator-prey
-Ardeotis australis,Lepidoptera,3,predator-prey
-Ardeotis australis,Notomys sp.,4,predator-prey
-Ardeotis australis,Oedura marmorata,4,predator-prey
-Ardeotis australis,Pogona vitticeps,2,predator-prey
-Ardeotis australis,Pseudechis australis,2,predator-prey
-Ardeotis australis,Pygopus schraderi,2,predator-prey
-Ardeotis australis,Solanum centrale,2,predator-prey
-Ardeotis australis,Solanum chippendalei,2,predator-prey
-Ardeotis australis,Solanum cleistogamum,2,predator-prey
-Ardeotis australis,Solanum diversiflorum,2,predator-prey
-Ardeotis australis,Solanum gilesii,2,predator-prey
-Ardeotis australis,Stiltia isabella,2,predator-prey
-Ardeotis australis,Suta suta,4,predator-prey
-Ardeotis australis,Taeniopygia guttata,4,predator-prey
-Ardeotis australis,Tiliqua multifasciata,4,predator-prey
-Ardeotis australis,Tiliqua occipitalis,3,predator-prey
-Ardeotis australis,Triodia basedownii,1,predator-prey
-Ardeotis australis,Triodia longiceps,1,predator-prey
-Ardeotis australis,Triodia pungens,1,predator-prey
-Ardeotis australis,Turnix velox,3,predator-prey
-Ardeotis australis,Tympanocryptis tetraporophora,3,predator-prey
-Ardeotis australis,Varanus gouldii,2,predator-prey
-Ardeotis australis,Varanus tristis,3,predator-prey
-Ardeotis australis,Melopsittacus undulatus,4,predator-prey
-Ardeotis australis,Notoryctes caurinus,4,predator-prey
-Ardeotis australis,Ocyphaps lophotes,4,predator-prey
-Aspidites melanocephalus,Bettongia lesueur,3,predator-prey
-Aspidites melanocephalus,Ctenophorus caudicinctus,2,predator-prey
-Aspidites melanocephalus,Ctenophorus caudicinctus,2,predator-prey
-Aspidites melanocephalus,Ctenotus isolepis,2,predator-prey
-Aspidites melanocephalus,Ctenotus robustus,2,predator-prey
-Aspidites melanocephalus,Egernia kintorei,2,predator-prey
-Aspidites melanocephalus,Egernia striata,2,predator-prey
-Aspidites melanocephalus,Egernia striolata,2,predator-prey
-Aspidites melanocephalus,Hemiergis peronii,2,predator-prey
-Aspidites melanocephalus,Lagorchestes hirsutus,3,predator-prey
-Aspidites melanocephalus,Leiolopisma metallicum,2,predator-prey
-Aspidites melanocephalus,Leiolopisma trilineatum,2,predator-prey
-Aspidites melanocephalus,Lerista bougainvillea,2,predator-prey
-Aspidites melanocephalus,Lophognatus gilberti,4,predator-prey
-Aspidites melanocephalus,Menetia greyii,2,predator-prey
-Aspidites melanocephalus,Moloch horridus,2,predator-prey
-Aspidites melanocephalus,Morethia lineoocellatus,2,predator-prey
-Aspidites melanocephalus,Notomys sp.,6,predator-prey
-Aspidites melanocephalus,Pogona minor,2,predator-prey
-Aspidites melanocephalus,Pogona minor,2,predator-prey
-Aspidites melanocephalus,Pogona vitticeps,2,predator-prey
-Aspidites melanocephalus,Pogona vitticeps,2,predator-prey
-Aspidites melanocephalus,Pseudechis australis,2,predator-prey
-Aspidites melanocephalus,Pseudechis australis,5,predator-prey
-Aspidites melanocephalus,Reptile eggs,2,predator-prey
-Aspidites melanocephalus,Suta suta,2,predator-prey
-Aspidites melanocephalus,Taeniopygia guttata,2,predator-prey
-Aspidites melanocephalus,Tiliqua occipitalis,2,predator-prey
-Aspidites melanocephalus,Tiliqua scincoides,4,predator-prey
-Aspidites melanocephalus,Varanus acanthurus,14,predator-prey
-Aspidites melanocephalus,Varanus tristis,15,predator-prey
-Aspidites melanocephalus,Melopsittacus undulatus,2,predator-prey
-Aspidites melanocephalus,Notoryctes caurinus,6,predator-prey
-Aspidites melanocephalus,Ocyphaps lophotes,2,predator-prey
-Aspidites melanocephalus,Petrogale lateralis,3,predator-prey
-Aspidites melanocephalus,Tachyglossus aculeatus,3,predator-prey
-Aspidites ramsayii,Bettongia lesueur,8,predator-prey
-Aspidites ramsayii,Ctenophorus caudicinctus,2,predator-prey
-Aspidites ramsayii,Ctenophorus caudicinctus,2,predator-prey
-Aspidites ramsayii,Ctenotus isolepis,2,predator-prey
-Aspidites ramsayii,Egernia kintorei,1,predator-prey
-Aspidites ramsayii,Egernia striata,1,predator-prey
-Aspidites ramsayii,Egernia striolata,1,predator-prey
-Aspidites ramsayii,Hemiergis peronii,1,predator-prey
-Aspidites ramsayii,Lagorchestes hirsutus,8,predator-prey
-Aspidites ramsayii,Leiolopisma metallicum,1,predator-prey
-Aspidites ramsayii,Leiolopisma trilineatum,1,predator-prey
-Aspidites ramsayii,Lerista bougainvillea,1,predator-prey
-Aspidites ramsayii,Lophognatus gilberti,2,predator-prey
-Aspidites ramsayii,Menetia greyii,1,predator-prey
-Aspidites ramsayii,Morethia lineoocellatus,1,predator-prey
-Aspidites ramsayii,Notomys sp.,15,predator-prey
-Aspidites ramsayii,Oedura marmorata,2,predator-prey
-Aspidites ramsayii,Oryctolagus cuniculus,2,predator-prey
-Aspidites ramsayii,Pogona minor,2,predator-prey
-Aspidites ramsayii,Pogona minor,2,predator-prey
-Aspidites ramsayii,Pogona vitticeps,2,predator-prey
-Aspidites ramsayii,Pseudechis australis,2,predator-prey
-Aspidites ramsayii,Reptile eggs,2,predator-prey
-Aspidites ramsayii,Taeniopygia guttata,2,predator-prey
-Aspidites ramsayii,Tiliqua multifasciata,1,predator-prey
-Aspidites ramsayii,Tiliqua occipitalis,1,predator-prey
-Aspidites ramsayii,Tiliqua scincoides,1,predator-prey
-Aspidites ramsayii,Varanus acanthurus,2,predator-prey
-Aspidites ramsayii,Varanus gouldii,2,predator-prey
-Aspidites ramsayii,Varanus tristis,2,predator-prey
-Aspidites ramsayii,Melopsittacus undulatus,2,predator-prey
-Aspidites ramsayii,Notoryctes caurinus,10,predator-prey
-Aspidites ramsayii,Ocyphaps lophotes,2,predator-prey
-Aspidites ramsayii,Petrogale lateralis,5,predator-prey
-Aspidites ramsayii,Tachyglossus aculeatus,8,predator-prey
-Bettongia lesueur,Eragrostis eriopoda,10,predator-prey
-Bettongia lesueur,Eragrostis lanipes,10,predator-prey
-Bettongia lesueur,Eragrostis setifolia,10,predator-prey
-Bettongia lesueur,Panicum decompositum,10,predator-prey
-Bettongia lesueur,Plectrachne schinzii,10,predator-prey
-Bettongia lesueur,Ptilotus exaltatus,10,predator-prey
-Bettongia lesueur,Ptilotus macrocephalus,10,predator-prey
-Bettongia lesueur,Ptilotus polystachyus,10,predator-prey
-Bettongia lesueur,Sida calyxhymenia,10,predator-prey
-Bettongia lesueur,Triodia basedownii,3,predator-prey
-Bettongia lesueur,Triodia longiceps,4,predator-prey
-Bettongia lesueur,Triodia pungens,3,predator-prey
-Calyptorhynchus roseicapilla,Acacia acradenia,4,predator-prey
-Calyptorhynchus roseicapilla,Acacia aneura,19,predator-prey
-Calyptorhynchus roseicapilla,Acacia coriacea,4,predator-prey
-Calyptorhynchus roseicapilla,Acacia cowleana,4,predator-prey
-Calyptorhynchus roseicapilla,Acacia cuthbertsoni,4,predator-prey
-Calyptorhynchus roseicapilla,Acacia dictyophleba,4,predator-prey
-Calyptorhynchus roseicapilla,Acacia kempeana,4,predator-prey
-Calyptorhynchus roseicapilla,Acacia ligulata,3,predator-prey
-Calyptorhynchus roseicapilla,Acacia pruinocarpa,3,predator-prey
-Calyptorhynchus roseicapilla,Acacia spondylophylla,3,predator-prey
-Calyptorhynchus roseicapilla,Acacia tetragonophylla,3,predator-prey
-Calyptorhynchus roseicapilla,Allocasuarina decaisneana,15,predator-prey
-Calyptorhynchus roseicapilla,Eucalyptus opaca,30,predator-prey
-Camelus dromedarius,Amyema sp.,2,predator-prey
-Camelus dromedarius,Canthium attenuatum,1,predator-prey
-Camelus dromedarius,Canthium latifolium,1,predator-prey
-Camelus dromedarius,Capparis loranthifolia,1,predator-prey
-Camelus dromedarius,Capparis umbonata,1,predator-prey
-Camelus dromedarius,Cynanchum floribundum,1,predator-prey
-Camelus dromedarius,Dactyloctenium radulans,1,predator-prey
-Camelus dromedarius,Eragrostis eriopoda,3,predator-prey
-Camelus dromedarius,Eragrostis lanipes,3,predator-prey
-Camelus dromedarius,Eragrostis setifolia,4,predator-prey
-Camelus dromedarius,Hakea leucoptera,4,predator-prey
-Camelus dromedarius,Leptosema chambersii,4,predator-prey
-Camelus dromedarius,Panicum decompositum,4,predator-prey
-Camelus dromedarius,Plectrachne schinzii,4,predator-prey
-Camelus dromedarius,Ptilotus polystachyus,4,predator-prey
-Camelus dromedarius,Santalum acuminatum,4,predator-prey
-Camelus dromedarius,Santalum lanceolatum,4,predator-prey
-Camelus dromedarius,Sida calyxhymenia,4,predator-prey
-Camelus dromedarius,Solanum centrale,4,predator-prey
-Camelus dromedarius,Solanum chippendalei,4,predator-prey
-Camelus dromedarius,Solanum cleistogamum,4,predator-prey
-Camelus dromedarius,Solanum diversiflorum,4,predator-prey
-Camelus dromedarius,Solanum gilesii,4,predator-prey
-Camelus dromedarius,Solanum lasiophyllum,4,predator-prey
-Camelus dromedarius,Tecticornia verrucosa,1,predator-prey
-Camelus dromedarius,Thryptomene maisonneuve,4,predator-prey
-Camelus dromedarius,Thyridolepis multiculmis,4,predator-prey
-Camelus dromedarius,Triodia basedownii,1,predator-prey
-Camelus dromedarius,Triodia longiceps,2,predator-prey
-Camelus dromedarius,Triodia longiceps,3,predator-prey
-Camelus dromedarius,Triodia pungens,2,predator-prey
-Camelus dromedarius,Triodia pungens,3,predator-prey
-Camelus dromedarius,Yakirra australiensis,3,predator-prey
-Camelus dromedarius,Grevillea eriostachya,1,predator-prey
-Camelus dromedarius,Grevillea stenobotrya,1,predator-prey
-Camelus dromedarius,Grevillea wickhamii,1,predator-prey
-Chaeropus ecaudatus,Eragrostis eriopoda,11,predator-prey
-Chaeropus ecaudatus,Eragrostis lanipes,11,predator-prey
-Chaeropus ecaudatus,Eragrostis setifolia,11,predator-prey
-Chaeropus ecaudatus,Panicum decompositum,11,predator-prey
-Chaeropus ecaudatus,Plectrachne schinzii,11,predator-prey
-Chaeropus ecaudatus,Ptilotus polystachyus,11,predator-prey
-Chaeropus ecaudatus,Triodia basedownii,11,predator-prey
-Chaeropus ecaudatus,Triodia longiceps,12,predator-prey
-Chaeropus ecaudatus,Triodia pungens,11,predator-prey
-Corvus cecilae,Acacia acradenia,2,predator-prey
-Corvus cecilae,Acacia aneura,2,predator-prey
-Corvus cecilae,Acacia coriacea,2,predator-prey
-Corvus cecilae,Acacia cowleana,2,predator-prey
-Corvus cecilae,Acacia cuthbertsoni,2,predator-prey
-Corvus cecilae,Acacia dictyophleba,2,predator-prey
-Corvus cecilae,Acacia kempeana,2,predator-prey
-Corvus cecilae,Acacia ligulata,2,predator-prey
-Corvus cecilae,Acacia pruinocarpa,2,predator-prey
-Corvus cecilae,Acacia spondylophylla,2,predator-prey
-Corvus cecilae,Blattodea,1,predator-prey
-Corvus cecilae,Chenopodium curvispicatum,5,predator-prey
-Corvus cecilae,Coleoptera,5,predator-prey
-Corvus cecilae,Cucumis melo (agrestis),5,predator-prey
-Corvus cecilae,Diptera,5,predator-prey
-Corvus cecilae,Enchylaena tomentosa,3,predator-prey
-Corvus cecilae,Formicidae,5,predator-prey
-Corvus cecilae,Heteroptera,5,predator-prey
-Corvus cecilae,Homo sapiens,2,predator-prey
-Corvus cecilae,Lagorchestes hirsutus,5,predator-prey
-Corvus cecilae,Leiolopisma metallicum,2,predator-prey
-Corvus cecilae,Mantodea,2,predator-prey
-Corvus cecilae,Orthoptera,5,predator-prey
-Corvus cecilae,Pseudechis australis,2,predator-prey
-Corvus cecilae,Psylla eucalypti,2,predator-prey
-Corvus cecilae,Taeniopygia guttata,3,predator-prey
-Corvus cecilae,Triodia basedownii,2,predator-prey
-Corvus cecilae,Triodia longiceps,2,predator-prey
-Corvus cecilae,Triodia pungens,2,predator-prey
-Corvus cecilae,Falco longipennis,1,predator-prey
-Corvus cecilae,Varanus acanthurus,2,predator-prey
-Corvus cecilae,Melopsittacus undulatus,3,predator-prey
-Corvus cecilae,Ocyphaps lophotes,3,predator-prey
-Corvus cecilae,Petrogale lateralis,3,predator-prey
-Corvus cecilae,Tachyglossus aculeatus,3,predator-prey
-Corvus cecilae,Anas superciliosa,2,predator-prey
-Ctenophorus caudicinctus,Araneidae,13,predator-prey
-Ctenophorus caudicinctus,Blattodea,2.5,predator-prey
-Ctenophorus caudicinctus,Blattodea,28.6,predator-prey
-Ctenophorus caudicinctus,Chilopoda,1.4,predator-prey
-Ctenophorus caudicinctus,Coleoptera,7,predator-prey
-Ctenophorus caudicinctus,Ctenotus robustus,0.7,predator-prey
-Ctenophorus caudicinctus,Diptera,0.6,predator-prey
-Ctenophorus caudicinctus,Formicidae,17.9,predator-prey
-Ctenophorus caudicinctus,Heteroptera,2.5,predator-prey
-Ctenophorus caudicinctus,Lepidoptera,3.5,predator-prey
-Ctenophorus caudicinctus,Mantodea,1,predator-prey
-Ctenophorus caudicinctus,Neuroptera,0.5,predator-prey
-Ctenophorus caudicinctus,Orthoptera,4.7,predator-prey
-Ctenophorus caudicinctus,Phasmatodea,0.1,predator-prey
-Ctenophorus caudicinctus,Zygentoma ,16,predator-prey
-Ctenotus isolepis,Araneidae,13,predator-prey
-Ctenotus isolepis,Blattodea,2.5,predator-prey
-Ctenotus isolepis,Blattodea,28.6,predator-prey
-Ctenotus isolepis,Chilopoda,1.4,predator-prey
-Ctenotus isolepis,Coleoptera,7,predator-prey
-Ctenotus isolepis,Ctenotus robustus,0.7,predator-prey
-Ctenotus isolepis,Diptera,0.6,predator-prey
-Ctenotus isolepis,Formicidae,17.9,predator-prey
-Ctenotus isolepis,Heteroptera,2.5,predator-prey
-Ctenotus isolepis,Lepidoptera,3.5,predator-prey
-Ctenotus isolepis,Mantodea,1,predator-prey
-Ctenotus isolepis,Neuroptera,0.2,predator-prey
-Ctenotus isolepis,Orthoptera,5,predator-prey
-Ctenotus isolepis,Phasmatodea,0.1,predator-prey
-Ctenotus isolepis,Zygentoma ,16,predator-prey
-Ctenotus leonhardii,Araneidae,13,predator-prey
-Ctenotus leonhardii,Blattodea,2.5,predator-prey
-Ctenotus leonhardii,Blattodea,28.6,predator-prey
-Ctenotus leonhardii,Chilopoda,1.4,predator-prey
-Ctenotus leonhardii,Coleoptera,7,predator-prey
-Ctenotus leonhardii,Ctenotus robustus,1,predator-prey
-Ctenotus leonhardii,Diptera,1,predator-prey
-Ctenotus leonhardii,Formicidae,17.9,predator-prey
-Ctenotus leonhardii,Heteroptera,2.5,predator-prey
-Ctenotus leonhardii,Lepidoptera,3.5,predator-prey
-Ctenotus leonhardii,Mantodea,0.7,predator-prey
-Ctenotus leonhardii,Neuroptera,0.1,predator-prey
-Ctenotus leonhardii,Orthoptera,4.7,predator-prey
-Ctenotus leonhardii,Phasmatodea,0.1,predator-prey
-Ctenotus leonhardii,Zygentoma ,16,predator-prey
-Ctenotus robustus,Araneidae,13,predator-prey
-Ctenotus robustus,Blattodea,2.5,predator-prey
-Ctenotus robustus,Blattodea,28.6,predator-prey
-Ctenotus robustus,Chilopoda,1.4,predator-prey
-Ctenotus robustus,Coleoptera,6,predator-prey
-Ctenotus robustus,Ctenotus robustus,0.7,predator-prey
-Ctenotus robustus,Diptera,0.6,predator-prey
-Ctenotus robustus,Formicidae,17.9,predator-prey
-Ctenotus robustus,Heteroptera,3.5,predator-prey
-Ctenotus robustus,Lepidoptera,3.5,predator-prey
-Ctenotus robustus,Mantodea,1,predator-prey
-Ctenotus robustus,Neuroptera,0.2,predator-prey
-Ctenotus robustus,Orthoptera,5,predator-prey
-Ctenotus robustus,Phasmatodea,0.1,predator-prey
-Ctenotus robustus,Zygentoma ,16,predator-prey
-Ctenotus strauchii,Araneidae,13,predator-prey
-Ctenotus strauchii,Blattodea,3.5,predator-prey
-Ctenotus strauchii,Blattodea,28.6,predator-prey
-Ctenotus strauchii,Chilopoda,1.4,predator-prey
-Ctenotus strauchii,Coleoptera,6,predator-prey
-Ctenotus strauchii,Ctenotus robustus,0.7,predator-prey
-Ctenotus strauchii,Diptera,1,predator-prey
-Ctenotus strauchii,Formicidae,17.9,predator-prey
-Ctenotus strauchii,Heteroptera,2.5,predator-prey
-Ctenotus strauchii,Lepidoptera,3.5,predator-prey
-Ctenotus strauchii,Mantodea,1,predator-prey
-Ctenotus strauchii,Neuroptera,0.1,predator-prey
-Ctenotus strauchii,Orthoptera,4.7,predator-prey
-Ctenotus strauchii,Phasmatodea,0.1,predator-prey
-Ctenotus strauchii,Zygentoma ,16,predator-prey
-Dasycercus cristicauda,Araneidae,8,predator-prey
-Dasycercus cristicauda,Blattodea,7.5,predator-prey
-Dasycercus cristicauda,Camponotus inflatus,2,predator-prey
-Dasycercus cristicauda,Chilopoda,7.5,predator-prey
-Dasycercus cristicauda,Coleoptera,7.5,predator-prey
-Dasycercus cristicauda,Formicidae,7.5,predator-prey
-Dasycercus cristicauda,Lepidoptera,7.5,predator-prey
-Dasycercus cristicauda,Mantodea,7.5,predator-prey
-Dasycercus cristicauda,Neuroptera,7.5,predator-prey
-Dasycercus cristicauda,Orthoptera,7.5,predator-prey
-Dasycercus cristicauda,Phasmatodea,7.5,predator-prey
-Dasycercus cristicauda,Scorpionida,7.5,predator-prey
-Dasycercus cristicauda,Trigona sp.,7.5,predator-prey
-Dasycercus cristicauda,Zygentoma ,7.5,predator-prey
-Dasycercus hilleri,Araneidae,8,predator-prey
-Dasycercus hilleri,Blattodea,7.5,predator-prey
-Dasycercus hilleri,Camponotus inflatus,2,predator-prey
-Dasycercus hilleri,Chilopoda,7.5,predator-prey
-Dasycercus hilleri,Coleoptera,7.5,predator-prey
-Dasycercus hilleri,Formicidae,7.5,predator-prey
-Dasycercus hilleri,Lepidoptera,7.5,predator-prey
-Dasycercus hilleri,Mantodea,7.5,predator-prey
-Dasycercus hilleri,Neuroptera,7.5,predator-prey
-Dasycercus hilleri,Orthoptera,7.5,predator-prey
-Dasycercus hilleri,Phasmatodea,7.5,predator-prey
-Dasycercus hilleri,Scorpionida,7.5,predator-prey
-Dasycercus hilleri,Trigona sp.,7.5,predator-prey
-Dasycercus hilleri,Zygentoma ,7.5,predator-prey
-Dasyurus hallucatus,Bettongia lesueur,5,predator-prey
-Dasyurus hallucatus,Chaeropus ecaudatus,5,predator-prey
-Dasyurus hallucatus,Lagorchestes hirsutus,5,predator-prey
-Dasyurus hallucatus,Macrotis lagotis,5,predator-prey
-Dasyurus hallucatus,Notomys sp.,5,predator-prey
-Dasyurus hallucatus,Orthoptera,5,predator-prey
-Dasyurus hallucatus,Perameles eremiana,5,predator-prey
-Dasyurus hallucatus,Taeniopygia guttata,15,predator-prey
-Dasyurus hallucatus,Isodon auratus,5,predator-prey
-Dasyurus hallucatus,Melopsittacus undulatus,15,predator-prey
-Dasyurus hallucatus,Notoryctes caurinus,5,predator-prey
-Dasyurus hallucatus,Ocyphaps lophotes,15,predator-prey
-Dasyurus hallucatus,Petrogale lateralis,5,predator-prey
-Dasyurus hallucatus,Tachyglossus aculeatus,5,predator-prey
-Dromaius novaehollandiae,Acacia aneura,2,predator-prey
-Dromaius novaehollandiae,Allocasuarina decaisneana,2,predator-prey
-Dromaius novaehollandiae,Amyema sp.,2,predator-prey
-Dromaius novaehollandiae,Canthium attenuatum,2,predator-prey
-Dromaius novaehollandiae,Canthium latifolium,2,predator-prey
-Dromaius novaehollandiae,Capparis loranthifolia,2,predator-prey
-Dromaius novaehollandiae,Capparis umbonata,2,predator-prey
-Dromaius novaehollandiae,Chenopodium curvispicatum,2,predator-prey
-Dromaius novaehollandiae,Cynanchum floribundum,2,predator-prey
-Dromaius novaehollandiae,Daucus glochidiatus,2,predator-prey
-Dromaius novaehollandiae,Enchylaena tomentosa,5,predator-prey
-Dromaius novaehollandiae,Endoxyla cinerea,2,predator-prey
-Dromaius novaehollandiae,Eremophila longifolia,15,predator-prey
-Dromaius novaehollandiae,Grevillea eriostachya,10,predator-prey
-Dromaius novaehollandiae,Grevillea stenobotrya,2,predator-prey
-Dromaius novaehollandiae,Grevillea wickhamii,2,predator-prey
-Dromaius novaehollandiae,Hakea leucoptera,2,predator-prey
-Dromaius novaehollandiae,Hakea suberea,10,predator-prey
-Dromaius novaehollandiae,Leiolopisma metallicum,1,predator-prey
-Dromaius novaehollandiae,Leiolopisma trilineatum,1,predator-prey
-Dromaius novaehollandiae,Nitraria billardierei,2,predator-prey
-Dromaius novaehollandiae,Plectrachne schinzii,2,predator-prey
-Dromaius novaehollandiae,Ptilotus exaltatus,2,predator-prey
-Dromaius novaehollandiae,Santalum acuminatum,10,predator-prey
-Dromaius novaehollandiae,Tecticornia verrucosa,2,predator-prey
-Dromaius novaehollandiae,Tetragonia eremaea,10,predator-prey
-Dromaius novaehollandiae,Thyridolepis multiculmis,1,predator-prey
-Dromaius novaehollandiae,Eremophila latrobei,1,predator-prey
-Egernia kintorei,Blattodea,15,predator-prey
-Egernia kintorei,Formicidae,1,predator-prey
-Egernia kintorei,Plectrachne schinzii,6,predator-prey
-Egernia kintorei,Scaevola parvifolia,6,predator-prey
-Egernia kintorei,Senna sp.,6,predator-prey
-Egernia kintorei,Solanum centrale,6,predator-prey
-Egernia kintorei,Solanum chippendalei,6,predator-prey
-Egernia kintorei,Solanum cleistogamum,6,predator-prey
-Egernia kintorei,Solanum diversiflorum,6,predator-prey
-Egernia kintorei,Solanum gilesii,6,predator-prey
-Egernia kintorei,Solanum lasiophyllum,6,predator-prey
-Egernia kintorei,Tetragonia eremaea,6,predator-prey
-Egernia kintorei,Triodia basedownii,6,predator-prey
-Egernia kintorei,Triodia longiceps,6,predator-prey
-Egernia kintorei,Triodia pungens,6,predator-prey
-Egernia kintorei,Yakirra australiensis,6,predator-prey
-Egernia striata,Blattodea,45,predator-prey
-Egernia striata,Camponotus inflatus,3,predator-prey
-Egernia striata,Formicidae,45,predator-prey
-Egernia striata,Plectrachne schinzii,0.5,predator-prey
-Egernia striata,Scaevola parvifolia,0.5,predator-prey
-Egernia striata,Senna sp.,0.5,predator-prey
-Egernia striata,Solanum centrale,0.5,predator-prey
-Egernia striata,Solanum chippendalei,0.5,predator-prey
-Egernia striata,Solanum cleistogamum,0.5,predator-prey
-Egernia striata,Solanum diversiflorum,0.5,predator-prey
-Egernia striata,Solanum gilesii,0.5,predator-prey
-Egernia striata,Solanum lasiophyllum,0.5,predator-prey
-Egernia striata,Tetragonia eremaea,0.5,predator-prey
-Egernia striata,Triodia basedownii,0.5,predator-prey
-Egernia striata,Triodia longiceps,0.5,predator-prey
-Egernia striata,Triodia pungens,0.5,predator-prey
-Egernia striata,Yakirra australiensis,0.5,predator-prey
-Egernia striolata,Blattodea,45,predator-prey
-Egernia striolata,Camponotus inflatus,3,predator-prey
-Egernia striolata,Formicidae,45,predator-prey
-Egernia striolata,Plectrachne schinzii,0.5,predator-prey
-Egernia striolata,Scaevola parvifolia,0.5,predator-prey
-Egernia striolata,Senna sp.,0.5,predator-prey
-Egernia striolata,Solanum centrale,0.5,predator-prey
-Egernia striolata,Solanum chippendalei,0.5,predator-prey
-Egernia striolata,Solanum cleistogamum,0.5,predator-prey
-Egernia striolata,Solanum diversiflorum,0.5,predator-prey
-Egernia striolata,Solanum gilesii,0.5,predator-prey
-Egernia striolata,Solanum lasiophyllum,0.5,predator-prey
-Egernia striolata,Tetragonia eremaea,0.5,predator-prey
-Egernia striolata,Triodia basedownii,0.5,predator-prey
-Egernia striolata,Triodia longiceps,0.5,predator-prey
-Egernia striolata,Triodia pungens,0.5,predator-prey
-Egernia striolata,Yakirra australiensis,0.5,predator-prey
-Endoxyla cinerea,Acacia acradenia,10,predator-prey
-Endoxyla cinerea,Acacia aneura,9,predator-prey
-Endoxyla cinerea,Acacia coriacea,9,predator-prey
-Endoxyla cinerea,Acacia cowleana,9,predator-prey
-Endoxyla cinerea,Acacia cuthbertsoni,9,predator-prey
-Endoxyla cinerea,Acacia dictyophleba,9,predator-prey
-Endoxyla cinerea,Acacia kempeana,9,predator-prey
-Endoxyla cinerea,Acacia ligulata,9,predator-prey
-Endoxyla cinerea,Acacia pruinocarpa,9,predator-prey
-Endoxyla cinerea,Acacia spondylophylla,9,predator-prey
-Endoxyla cinerea,Acacia tetragonophylla,9,predator-prey
-Endoxyla leucomochla,Acacia acradenia,10,predator-prey
-Endoxyla leucomochla,Acacia aneura,9,predator-prey
-Endoxyla leucomochla,Acacia coriacea,9,predator-prey
-Endoxyla leucomochla,Acacia cowleana,9,predator-prey
-Endoxyla leucomochla,Acacia cuthbertsoni,9,predator-prey
-Endoxyla leucomochla,Acacia dictyophleba,9,predator-prey
-Endoxyla leucomochla,Acacia kempeana,9,predator-prey
-Endoxyla leucomochla,Acacia ligulata,9,predator-prey
-Endoxyla leucomochla,Acacia pruinocarpa,9,predator-prey
-Endoxyla leucomochla,Acacia spondylophylla,9,predator-prey
-Endoxyla leucomochla,Acacia tetragonophylla,9,predator-prey
-Falco longipennis,Amphibolurus burnsi,4.5,predator-prey
-Falco longipennis,Aprasia striolata,4.5,predator-prey
-Falco longipennis,Araneidae,4.5,predator-prey
-Falco longipennis,Bettongia lesueur,4.5,predator-prey
-Falco longipennis,Blattodea,4.5,predator-prey
-Falco longipennis,Chilopoda,4.5,predator-prey
-Falco longipennis,Coleoptera,4.5,predator-prey
-Falco longipennis,Ctenotus isolepis,2,predator-prey
-Falco longipennis,Ctenotus isolepis,4.5,predator-prey
-Falco longipennis,Ctenotus leonhardii,2.5,predator-prey
-Falco longipennis,Ctenotus leonhardii,4.5,predator-prey
-Falco longipennis,Ctenotus robustus,3,predator-prey
-Falco longipennis,Ctenotus robustus,4.5,predator-prey
-Falco longipennis,Ctenotus strauchii,2,predator-prey
-Falco longipennis,Dasycercus cristicauda,4.5,predator-prey
-Falco longipennis,Dasycercus hilleri,4.5,predator-prey
-Falco longipennis,Dasyurus hallucatus,4.5,predator-prey
-Falco longipennis,Formicidae,4.5,predator-prey
-Falco longipennis,Heteronotia binoei,2,predator-prey
-Falco longipennis,Leiolopisma metallicum,4.5,predator-prey
-Falco longipennis,Leiolopisma trilineatum,4.5,predator-prey
-Falco longipennis,Lepidoptera,4.5,predator-prey
-Falco longipennis,Oedura marmorata,3,predator-prey
-Falco longipennis,Orthoptera,4.5,predator-prey
-Falco longipennis,Suta suta,4.5,predator-prey
-Fulica atra,Bdelloid,10,predator-prey
-Fulica atra,Brachionus sp.,10,predator-prey
-Fulica atra,Cephalodella sp.,10,predator-prey
-Fulica atra,Lemna disperma,10,predator-prey
-Fulica atra,Myriophyllum crispatum,10,predator-prey
-Fulica atra,Nematodes,10,predator-prey
-Fulica atra,Ostracods,10,predator-prey
-Fulica atra,Protozoans (ciliates),10,predator-prey
-Fulica atra,Typha dominguensis,10,predator-prey
-Fulica atra,Typha orientalis,10,predator-prey
-Hemiergis peronii,Araneidae,11,predator-prey
-Hemiergis peronii,Chilopoda,11,predator-prey
-Hemiergis peronii,Chortoicetes terminifera,11,predator-prey
-Hemiergis peronii,Coleoptera,11,predator-prey
-Hemiergis peronii,Endoxyla cinerea,11,predator-prey
-Hemiergis peronii,Endoxyla leucomochla,11,predator-prey
-Hemiergis peronii,Lepidoptera,11,predator-prey
-Hemiergis peronii,Scorpionida,11,predator-prey
-Hemiergis peronii,Trigona sp.,12,predator-prey
-Heteronotia binoei,Chilopoda,25,predator-prey
-Heteronotia binoei,Chortoicetes terminifera,25,predator-prey
-Heteronotia binoei,Coleoptera,25,predator-prey
-Heteronotia binoei,Lepidoptera,25,predator-prey
-Isodon auratus,Acacia acradenia,1,predator-prey
-Isodon auratus,Acacia aneura,1,predator-prey
-Isodon auratus,Acacia coriacea,1,predator-prey
-Isodon auratus,Acacia cowleana,1,predator-prey
-Isodon auratus,Acacia cuthbertsoni,1,predator-prey
-Isodon auratus,Acacia dictyophleba,1,predator-prey
-Isodon auratus,Acacia kempeana,1,predator-prey
-Isodon auratus,Acacia ligulata,1,predator-prey
-Isodon auratus,Acacia pruinocarpa,1,predator-prey
-Isodon auratus,Acacia spondylophylla,1,predator-prey
-Isodon auratus,Acacia tetragonophylla,1,predator-prey
-Isodon auratus,Araneidae,20,predator-prey
-Isodon auratus,Blattodea,5,predator-prey
-Isodon auratus,Chilopoda,20,predator-prey
-Isodon auratus,Coleoptera,20,predator-prey
-Isodon auratus,Daucus glochidiatus,1,predator-prey
-Isodon auratus,Eremophila longifolia,1,predator-prey
-Isodon auratus,Formicidae,20,predator-prey
-Isodon auratus,Nitraria billardierei,1,predator-prey
-Isodon auratus,Tetragonia eremaea,1,predator-prey
-Leggadina forresti,Araneidae,10,predator-prey
-Leggadina forresti,Blattodea,10,predator-prey
-Leggadina forresti,Chilopoda,10,predator-prey
-Leggadina forresti,Coleoptera,10,predator-prey
-Leggadina forresti,Eragrostis eriopoda,5,predator-prey
-Leggadina forresti,Eragrostis lanipes,5,predator-prey
-Leggadina forresti,Eragrostis setifolia,5,predator-prey
-Leggadina forresti,Lepidoptera,10,predator-prey
-Leggadina forresti,Panicum decompositum,5,predator-prey
-Leggadina forresti,Plectrachne schinzii,5,predator-prey
-Leggadina forresti,Rhyncharrhena linearis,5,predator-prey
-Leggadina forresti,Thyridolepis multiculmis,5,predator-prey
-Leggadina forresti,Triodia longiceps,5,predator-prey
-Leggadina forresti,Triodia pungens,5,predator-prey
-Leggadina forresti,Yakirra australiensis,5,predator-prey
-Leiolopisma metallicum,Araneidae,11,predator-prey
-Leiolopisma metallicum,Chilopoda,11,predator-prey
-Leiolopisma metallicum,Chortoicetes terminifera,11,predator-prey
-Leiolopisma metallicum,Coleoptera,11,predator-prey
-Leiolopisma metallicum,Endoxyla cinerea,11,predator-prey
-Leiolopisma metallicum,Endoxyla leucomochla,11,predator-prey
-Leiolopisma metallicum,Lepidoptera,11,predator-prey
-Leiolopisma metallicum,Scorpionida,11,predator-prey
-Leiolopisma metallicum,Trigona sp.,12,predator-prey
-Leiolopisma trilineatum,Araneidae,11,predator-prey
-Leiolopisma trilineatum,Chilopoda,11,predator-prey
-Leiolopisma trilineatum,Chortoicetes terminifera,11,predator-prey
-Leiolopisma trilineatum,Coleoptera,11,predator-prey
-Leiolopisma trilineatum,Endoxyla cinerea,11,predator-prey
-Leiolopisma trilineatum,Endoxyla leucomochla,11,predator-prey
-Leiolopisma trilineatum,Lepidoptera,11,predator-prey
-Leiolopisma trilineatum,Scorpionida,11,predator-prey
-Leiolopisma trilineatum,Trigona sp.,12,predator-prey
-Lerista bougainvillea,Blattodea,15,predator-prey
-Lerista bougainvillea,Coleoptera,40,predator-prey
-Lerista bougainvillea,Formicidae,15,predator-prey
-Lerista bougainvillea,Heteroptera,15,predator-prey
-Lerista bougainvillea,Trigona sp.,15,predator-prey
-Lophognatus gilberti,Blattodea,50,predator-prey
-Lophognatus gilberti,Formicidae,50,predator-prey
-Macropus robustus,Calandrinia polyandra,9,predator-prey
-Macropus robustus,Eragrostis eriopoda,15,predator-prey
-Macropus robustus,Eragrostis lanipes,15,predator-prey
-Macropus robustus,Eragrostis setifolia,15,predator-prey
-Macropus robustus,Plectrachne schinzii,4,predator-prey
-Macropus robustus,Ptilotus exaltatus,8,predator-prey
-Macropus robustus,Ptilotus macrocephalus,8,predator-prey
-Macropus robustus,Ptilotus polystachyus,8,predator-prey
-Macropus robustus,Sida calyxhymenia,4,predator-prey
-Macropus robustus,Thyridolepis multiculmis,4,predator-prey
-Macropus robustus,Triodia basedownii,3,predator-prey
-Macropus robustus,Triodia longiceps,4,predator-prey
-Macropus robustus,Triodia pungens,3,predator-prey
-Macropus rufus,Eragrostis eriopoda,10,predator-prey
-Macropus rufus,Eragrostis lanipes,10,predator-prey
-Macropus rufus,Eragrostis setifolia,10,predator-prey
-Macropus rufus,Panicum decompositum,10,predator-prey
-Macropus rufus,Plectrachne schinzii,10,predator-prey
-Macropus rufus,Ptilotus exaltatus,10,predator-prey
-Macropus rufus,Ptilotus macrocephalus,10,predator-prey
-Macropus rufus,Ptilotus polystachyus,10,predator-prey
-Macropus rufus,Sida calyxhymenia,10,predator-prey
-Macropus rufus,Triodia basedownii,3,predator-prey
-Macropus rufus,Triodia longiceps,4,predator-prey
-Macropus rufus,Triodia pungens,3,predator-prey
-Macrotis lagotis,Araneidae,10,predator-prey
-Macrotis lagotis,Blattodea,40,predator-prey
-Macrotis lagotis,Coleoptera,20,predator-prey
-Macrotis lagotis,Formicidae,20,predator-prey
-Macrotis lagotis,Orthoptera,10,predator-prey
-Melopsittacus undulatus,Acacia acradenia,9,predator-prey
-Melopsittacus undulatus,Acacia aneura,9,predator-prey
-Melopsittacus undulatus,Acacia coriacea,9,predator-prey
-Melopsittacus undulatus,Acacia cowleana,9,predator-prey
-Melopsittacus undulatus,Acacia cuthbertsoni,9,predator-prey
-Melopsittacus undulatus,Acacia dictyophleba,9,predator-prey
-Melopsittacus undulatus,Acacia kempeana,9,predator-prey
-Melopsittacus undulatus,Acacia ligulata,9,predator-prey
-Melopsittacus undulatus,Acacia pruinocarpa,9,predator-prey
-Melopsittacus undulatus,Acacia spondylophylla,9,predator-prey
-Melopsittacus undulatus,Acacia tetragonophylla,10,predator-prey
-Menetia greyii,Blattodea,16,predator-prey
-Menetia greyii,Chilopoda,16,predator-prey
-Menetia greyii,Coleoptera,17,predator-prey
-Menetia greyii,Formicidae,17,predator-prey
-Menetia greyii,Lepidoptera,17,predator-prey
-Menetia greyii,Orthoptera,17,predator-prey
-Moloch horridus,Camponotus inflatus,10,predator-prey
-Moloch horridus,Formicidae,90,predator-prey
-Morethia lineoocellatus,Blattodea,16,predator-prey
-Morethia lineoocellatus,Chilopoda,16,predator-prey
-Morethia lineoocellatus,Coleoptera,17,predator-prey
-Morethia lineoocellatus,Formicidae,17,predator-prey
-Morethia lineoocellatus,Lepidoptera,17,predator-prey
-Morethia lineoocellatus,Orthoptera,17,predator-prey
-Notaden nichollsi,Blattodea,65,predator-prey
-Notaden nichollsi,Camponotus inflatus,5,predator-prey
-Notaden nichollsi,Formicidae,30,predator-prey
-Notomys sp.,Araneidae,10,predator-prey
-Notomys sp.,Blattodea,10,predator-prey
-Notomys sp.,Chilopoda,10,predator-prey
-Notomys sp.,Coleoptera,10,predator-prey
-Notomys sp.,Eragrostis eriopoda,5,predator-prey
-Notomys sp.,Eragrostis lanipes,5,predator-prey
-Notomys sp.,Eragrostis setifolia,5,predator-prey
-Notomys sp.,Lepidoptera,10,predator-prey
-Notomys sp.,Panicum decompositum,5,predator-prey
-Notomys sp.,Plectrachne schinzii,5,predator-prey
-Notomys sp.,Rhyncharrhena linearis,5,predator-prey
-Notomys sp.,Thyridolepis multiculmis,5,predator-prey
-Notomys sp.,Triodia longiceps,5,predator-prey
-Notomys sp.,Triodia pungens,5,predator-prey
-Notomys sp.,Yakirra australiensis,5,predator-prey
-Notoryctes caurinus,Araneidae,2,predator-prey
-Notoryctes caurinus,Blattodea,20,predator-prey
-Notoryctes caurinus,Coleoptera,50,predator-prey
-Notoryctes caurinus,Formicidae,14,predator-prey
-Notoryctes caurinus,Heteroptera,2,predator-prey
-Notoryctes caurinus,Lepidoptera,2,predator-prey
-Notoryctes caurinus,Orthoptera,6,predator-prey
-Notoryctes caurinus,Scorpionida,2,predator-prey
-Notoryctes caurinus,Trigona sp.,2,predator-prey
-Ocyphaps lophotes,Amyema sp.,,predator-prey
-Ocyphaps lophotes,Araneidae,0.2,predator-prey
-Ocyphaps lophotes,Blattodea,0.2,predator-prey
-Ocyphaps lophotes,Canthium attenuatum,5,predator-prey
-Ocyphaps lophotes,Canthium latifolium,5,predator-prey
-Ocyphaps lophotes,Capparis loranthifolia,5,predator-prey
-Ocyphaps lophotes,Capparis umbonata,5,predator-prey
-Ocyphaps lophotes,Chilopoda,0.2,predator-prey
-Ocyphaps lophotes,Coleoptera,0.2,predator-prey
-Ocyphaps lophotes,Cynanchum floribundum,5,predator-prey
-Ocyphaps lophotes,Eragrostis eriopoda,5,predator-prey
-Ocyphaps lophotes,Eragrostis lanipes,5,predator-prey
-Ocyphaps lophotes,Eragrostis setifolia,5,predator-prey
-Ocyphaps lophotes,Lepidoptera,0.2,predator-prey
-Ocyphaps lophotes,Panicum decompositum,5,predator-prey
-Ocyphaps lophotes,Plectrachne schinzii,5,predator-prey
-Ocyphaps lophotes,Rhyncharrhena linearis,5,predator-prey
-Ocyphaps lophotes,Tecticornia verrucosa,5,predator-prey
-Ocyphaps lophotes,Thyridolepis multiculmis,10,predator-prey
-Ocyphaps lophotes,Triodia longiceps,10,predator-prey
-Ocyphaps lophotes,Triodia pungens,10,predator-prey
-Ocyphaps lophotes,Yakirra australiensis,9,predator-prey
-Oedura marmorata,Blattodea,10,predator-prey
-Oedura marmorata,Chilopoda,10,predator-prey
-Oedura marmorata,Coleoptera,10,predator-prey
-Oedura marmorata,Formicidae,10,predator-prey
-Oedura marmorata,Lepidoptera,10,predator-prey
-Oedura marmorata,Menetia greyii,10,predator-prey
-Oedura marmorata,Morethia lineoocellatus,10,predator-prey
-Oedura marmorata,Orthoptera,10,predator-prey
-Oedura marmorata,Tiliqua multifasciata,10,predator-prey
-Oedura marmorata,Tiliqua occipitalis,10,predator-prey
-Oryctolagus cuniculus,Amyema sp.,2,predator-prey
-Oryctolagus cuniculus,Canthium attenuatum,2,predator-prey
-Oryctolagus cuniculus,Canthium latifolium,2,predator-prey
-Oryctolagus cuniculus,Capparis loranthifolia,2,predator-prey
-Oryctolagus cuniculus,Capparis umbonata,2,predator-prey
-Oryctolagus cuniculus,Cynanchum floribundum,2,predator-prey
-Oryctolagus cuniculus,Eragrostis eriopoda,7,predator-prey
-Oryctolagus cuniculus,Eragrostis lanipes,7,predator-prey
-Oryctolagus cuniculus,Eragrostis setifolia,7,predator-prey
-Oryctolagus cuniculus,Panicum decompositum,7,predator-prey
-Oryctolagus cuniculus,Plectrachne schinzii,7,predator-prey
-Oryctolagus cuniculus,Ptilotus exaltatus,10,predator-prey
-Oryctolagus cuniculus,Ptilotus macrocephalus,10,predator-prey
-Oryctolagus cuniculus,Ptilotus polystachyus,10,predator-prey
-Oryctolagus cuniculus,Sida calyxhymenia,10,predator-prey
-Oryctolagus cuniculus,Tecticornia verrucosa,3,predator-prey
-Oryctolagus cuniculus,Triodia basedownii,3,predator-prey
-Oryctolagus cuniculus,Triodia longiceps,4,predator-prey
-Oryctolagus cuniculus,Triodia pungens,3,predator-prey
-Perameles eremiana,Blattodea,20,predator-prey
-Perameles eremiana,Camponotus inflatus,21,predator-prey
-Perameles eremiana,Eragrostis eriopoda,5,predator-prey
-Perameles eremiana,Eragrostis lanipes,5,predator-prey
-Perameles eremiana,Eragrostis setifolia,5,predator-prey
-Perameles eremiana,Formicidae,20,predator-prey
-Perameles eremiana,Panicum decompositum,4,predator-prey
-Perameles eremiana,Plectrachne schinzii,4,predator-prey
-Perameles eremiana,Ptilotus polystachyus,4,predator-prey
-Perameles eremiana,Triodia basedownii,4,predator-prey
-Perameles eremiana,Triodia longiceps,4,predator-prey
-Perameles eremiana,Triodia pungens,4,predator-prey
-Petrogale lateralis,Eragrostis eriopoda,10,predator-prey
-Petrogale lateralis,Eragrostis lanipes,10,predator-prey
-Petrogale lateralis,Eragrostis setifolia,10,predator-prey
-Petrogale lateralis,Panicum decompositum,10,predator-prey
-Petrogale lateralis,Plectrachne schinzii,10,predator-prey
-Petrogale lateralis,Rhyncharrhena linearis,10,predator-prey
-Petrogale lateralis,Thyridolepis multiculmis,10,predator-prey
-Petrogale lateralis,Triodia longiceps,10,predator-prey
-Petrogale lateralis,Triodia pungens,10,predator-prey
-Petrogale lateralis,Yakirra australiensis,10,predator-prey
-Pogona minor,Blattodea,50,predator-prey
-Pogona minor,Camponotus inflatus,5,predator-prey
-Pogona minor,Formicidae,45,predator-prey
-Pogona vitticeps,Blattodea,90,predator-prey
-Pogona vitticeps,Camponotus inflatus,1,predator-prey
-Pogona vitticeps,Formicidae,9,predator-prey
-Pseudechis australis,Amphibolurus burnsi,5,predator-prey
-Pseudechis australis,Ctenotus isolepis,2,predator-prey
-Pseudechis australis,Ctenotus leonhardii,2,predator-prey
-Pseudechis australis,Ctenotus robustus,2,predator-prey
-Pseudechis australis,Ctenotus strauchii,2,predator-prey
-Pseudechis australis,Dasycercus cristicauda,5,predator-prey
-Pseudechis australis,Dasycercus hilleri,5,predator-prey
-Pseudechis australis,Egernia striolata,7,predator-prey
-Pseudechis australis,Hemiergis peronii,8,predator-prey
-Pseudechis australis,Heteronotia binoei,8,predator-prey
-Pseudechis australis,Leggadina forresti,10,predator-prey
-Pseudechis australis,Leiolopisma metallicum,8,predator-prey
-Pseudechis australis,Leiolopisma trilineatum,8,predator-prey
-Pseudechis australis,Notomys sp.,10,predator-prey
-Pseudechis australis,Oedura marmorata,8,predator-prey
-Pseudechis australis,Notoryctes caurinus,10,predator-prey
-Pygopus schraderi,Araneidae,20,predator-prey
-Pygopus schraderi,Blattodea,20,predator-prey
-Pygopus schraderi,Chilopoda,20,predator-prey
-Pygopus schraderi,Coleoptera,20,predator-prey
-Pygopus schraderi,Lepidoptera,20,predator-prey
-Sminthopsis macroura,Araneidae,33,predator-prey
-Sminthopsis macroura,Chilopoda,33,predator-prey
-Sminthopsis macroura,Coleoptera,34,predator-prey
-Stiltia isabella,Araneidae,20,predator-prey
-Stiltia isabella,Blattodea,20,predator-prey
-Stiltia isabella,Chilopoda,20,predator-prey
-Stiltia isabella,Coleoptera,20,predator-prey
-Stiltia isabella,Lepidoptera,20,predator-prey
-Suta suta,Amphibolurus burnsi,5,predator-prey
-Suta suta,Ctenotus isolepis,2,predator-prey
-Suta suta,Ctenotus leonhardii,2,predator-prey
-Suta suta,Ctenotus robustus,2,predator-prey
-Suta suta,Ctenotus strauchii,2,predator-prey
-Suta suta,Dasycercus cristicauda,5,predator-prey
-Suta suta,Dasycercus hilleri,5,predator-prey
-Suta suta,Egernia striolata,7,predator-prey
-Suta suta,Hemiergis peronii,8,predator-prey
-Suta suta,Heteronotia binoei,8,predator-prey
-Suta suta,Leggadina forresti,10,predator-prey
-Suta suta,Leiolopisma metallicum,8,predator-prey
-Suta suta,Leiolopisma trilineatum,8,predator-prey
-Suta suta,Notomys sp.,10,predator-prey
-Suta suta,Oedura marmorata,8,predator-prey
-Suta suta,Notoryctes caurinus,10,predator-prey
-Tachyglossus aculeatus,Blattodea,60,predator-prey
-Tachyglossus aculeatus,Camponotus inflatus,5,predator-prey
-Tachyglossus aculeatus,Formicidae,35,predator-prey
-Taeniopygia guttata,Amyema sp.,5,predator-prey
-Taeniopygia guttata,Canthium attenuatum,5,predator-prey
-Taeniopygia guttata,Canthium latifolium,5,predator-prey
-Taeniopygia guttata,Capparis loranthifolia,5,predator-prey
-Taeniopygia guttata,Capparis umbonata,5,predator-prey
-Taeniopygia guttata,Cynanchum floribundum,5,predator-prey
-Taeniopygia guttata,Eragrostis eriopoda,6,predator-prey
-Taeniopygia guttata,Eragrostis lanipes,6,predator-prey
-Taeniopygia guttata,Eragrostis setifolia,6,predator-prey
-Taeniopygia guttata,Panicum decompositum,6,predator-prey
-Taeniopygia guttata,Plectrachne schinzii,6,predator-prey
-Taeniopygia guttata,Ptilotus exaltatus,5,predator-prey
-Taeniopygia guttata,Ptilotus macrocephalus,5,predator-prey
-Taeniopygia guttata,Ptilotus polystachyus,5,predator-prey
-Taeniopygia guttata,Sida calyxhymenia,5,predator-prey
-Taeniopygia guttata,Tecticornia verrucosa,5,predator-prey
-Taeniopygia guttata,Triodia basedownii,5,predator-prey
-Taeniopygia guttata,Triodia longiceps,5,predator-prey
-Taeniopygia guttata,Triodia pungens,5,predator-prey
-Tiliqua multifasciata,Araneidae,11,predator-prey
-Tiliqua multifasciata,Chilopoda,11,predator-prey
-Tiliqua multifasciata,Chortoicetes terminifera,11,predator-prey
-Tiliqua multifasciata,Coleoptera,11,predator-prey
-Tiliqua multifasciata,Endoxyla cinerea,11,predator-prey
-Tiliqua multifasciata,Endoxyla leucomochla,11,predator-prey
-Tiliqua multifasciata,Lepidoptera,11,predator-prey
-Tiliqua multifasciata,Scorpionida,11,predator-prey
-Tiliqua multifasciata,Trigona sp.,12,predator-prey
-Tiliqua occipitalis,Araneidae,11,predator-prey
-Tiliqua occipitalis,Chilopoda,11,predator-prey
-Tiliqua occipitalis,Chortoicetes terminifera,11,predator-prey
-Tiliqua occipitalis,Coleoptera,11,predator-prey
-Tiliqua occipitalis,Endoxyla cinerea,11,predator-prey
-Tiliqua occipitalis,Endoxyla leucomochla,11,predator-prey
-Tiliqua occipitalis,Lepidoptera,11,predator-prey
-Tiliqua occipitalis,Scorpionida,11,predator-prey
-Tiliqua occipitalis,Trigona sp.,12,predator-prey
-Tiliqua scincoides,Araneidae,11,predator-prey
-Tiliqua scincoides,Chilopoda,11,predator-prey
-Tiliqua scincoides,Chortoicetes terminifera,11,predator-prey
-Tiliqua scincoides,Coleoptera,11,predator-prey
-Tiliqua scincoides,Endoxyla cinerea,11,predator-prey
-Tiliqua scincoides,Endoxyla leucomochla,11,predator-prey
-Tiliqua scincoides,Lepidoptera,11,predator-prey
-Tiliqua scincoides,Scorpionida,11,predator-prey
-Tiliqua scincoides,Trigona sp.,12,predator-prey
-Trichosurus vulpecula,Amyema sp.,2,predator-prey
-Trichosurus vulpecula,Canthium attenuatum,2,predator-prey
-Trichosurus vulpecula,Canthium latifolium,2,predator-prey
-Trichosurus vulpecula,Capparis loranthifolia,2,predator-prey
-Trichosurus vulpecula,Capparis umbonata,2,predator-prey
-Trichosurus vulpecula,Cynanchum floribundum,2,predator-prey
-Trichosurus vulpecula,Eremophila latrobei,2,predator-prey
-Trichosurus vulpecula,Eucalyptus opaca,60,predator-prey
-Trichosurus vulpecula,Ficus brachypoda,2,predator-prey
-Trichosurus vulpecula,Hakea suberea,2,predator-prey
-Trichosurus vulpecula,Leptosema chambersii,2,predator-prey
-Trichosurus vulpecula,Ptilotus exaltatus,5,predator-prey
-Trichosurus vulpecula,Ptilotus macrocephalus,5,predator-prey
-Trichosurus vulpecula,Santalum acuminatum,4,predator-prey
-Trichosurus vulpecula,Santalum lanceolatum,4,predator-prey
-Trichosurus vulpecula,Tecticornia verrucosa,2,predator-prey
-Turnix velox,Eragrostis eriopoda,10,predator-prey
-Turnix velox,Eragrostis lanipes,10,predator-prey
-Turnix velox,Eragrostis setifolia,10,predator-prey
-Turnix velox,Panicum decompositum,10,predator-prey
-Turnix velox,Plectrachne schinzii,10,predator-prey
-Turnix velox,Ptilotus exaltatus,10,predator-prey
-Turnix velox,Ptilotus macrocephalus,10,predator-prey
-Turnix velox,Ptilotus polystachyus,10,predator-prey
-Turnix velox,Sida calyxhymenia,10,predator-prey
-Turnix velox,Triodia basedownii,3,predator-prey
-Turnix velox,Triodia longiceps,4,predator-prey
-Turnix velox,Triodia pungens,3,predator-prey
-Tympanocryptis tetraporophora,Blattodea,50,predator-prey
-Tympanocryptis tetraporophora,Camponotus inflatus,5,predator-prey
-Tympanocryptis tetraporophora,Formicidae,45,predator-prey
-Varanus acanthurus,Araneidae,10,predator-prey
-Varanus acanthurus,Blattodea,10,predator-prey
-Varanus acanthurus,Coleoptera,30,predator-prey
-Varanus acanthurus,Lepidoptera,10,predator-prey
-Varanus acanthurus,Orthoptera,40,predator-prey
-Varanus giganteus,Aprasia striolata,14.9,predator-prey
-Varanus giganteus,Araneidae,5.9,predator-prey
-Varanus giganteus,Bird egg shell,2.8,predator-prey
-Varanus giganteus,Blattodea,3,predator-prey
-Varanus giganteus,Chilopoda,5.6,predator-prey
-Varanus giganteus,Coleoptera,7,predator-prey
-Varanus giganteus,Hemiergis peronii,4.5,predator-prey
-Varanus giganteus,Homo sapiens,5,predator-prey
-Varanus giganteus,Leiolopisma metallicum,2.1,predator-prey
-Varanus giganteus,Leiolopisma trilineatum,4.4,predator-prey
-Varanus giganteus,Lepidoptera,0.5,predator-prey
-Varanus giganteus,Lerista bougainvillea,11,predator-prey
-Varanus giganteus,Menetia greyii,2.1,predator-prey
-Varanus giganteus,Morethia lineoocellatus,10.6,predator-prey
-Varanus giganteus,Reptile eggs,15,predator-prey
-Varanus giganteus,Scorpionida,3.5,predator-prey
-Varanus giganteus,Varanus gouldii,2.1,predator-prey
-Varanus gouldii,Aprasia striolata,16,predator-prey
-Varanus gouldii,Araneidae,6,predator-prey
-Varanus gouldii,Bird egg shell,5,predator-prey
-Varanus gouldii,Blattodea,4,predator-prey
-Varanus gouldii,Chilopoda,6,predator-prey
-Varanus gouldii,Coleoptera,9,predator-prey
-Varanus gouldii,Hemiergis peronii,3,predator-prey
-Varanus gouldii,Homo sapiens,2,predator-prey
-Varanus gouldii,Leiolopisma metallicum,2,predator-prey
-Varanus gouldii,Leiolopisma trilineatum,5,predator-prey
-Varanus gouldii,Lepidoptera,1,predator-prey
-Varanus gouldii,Lerista bougainvillea,13,predator-prey
-Varanus gouldii,Menetia greyii,4,predator-prey
-Varanus gouldii,Morethia lineoocellatus,11,predator-prey
-Varanus gouldii,Reptile eggs,6,predator-prey
-Varanus gouldii,Scorpionida,4,predator-prey
-Varanus gouldii,Varanus gouldii,3,predator-prey
-Varanus panoptes,Aprasia striolata,14.9,predator-prey
-Varanus panoptes,Araneidae,5.9,predator-prey
-Varanus panoptes,Bird egg shell,2.8,predator-prey
-Varanus panoptes,Blattodea,3,predator-prey
-Varanus panoptes,Chilopoda,5.6,predator-prey
-Varanus panoptes,Coleoptera,7,predator-prey
-Varanus panoptes,Hemiergis peronii,4.5,predator-prey
-Varanus panoptes,Homo sapiens,5,predator-prey
-Varanus panoptes,Leiolopisma metallicum,2.1,predator-prey
-Varanus panoptes,Leiolopisma trilineatum,4.4,predator-prey
-Varanus panoptes,Lepidoptera,0.5,predator-prey
-Varanus panoptes,Lerista bougainvillea,11,predator-prey
-Varanus panoptes,Menetia greyii,2.1,predator-prey
-Varanus panoptes,Morethia lineoocellatus,10.6,predator-prey
-Varanus panoptes,Reptile eggs,15,predator-prey
-Varanus panoptes,Scorpionida,3.5,predator-prey
-Varanus panoptes,Varanus gouldii,2.1,predator-prey
-Varanus tristis,Araneidae,5,predator-prey
-Varanus tristis,Blattodea,10,predator-prey
-Varanus tristis,Coleoptera,5,predator-prey
-Varanus tristis,Ctenophorus caudicinctus,7,predator-prey
-Varanus tristis,Ctenotus isolepis,7,predator-prey
-Varanus tristis,Formicidae,5,predator-prey
-Varanus tristis,Lepidoptera,5,predator-prey
-Varanus tristis,Lophognatus gilberti,7,predator-prey
-Varanus tristis,Orthoptera,35,predator-prey
-Varanus tristis,Pogona minor,7,predator-prey
-Varanus tristis,Pogona vitticeps,7,predator-prey
-Vulpes vulpes,Araneidae,8,predator-prey
-Vulpes vulpes,Bird egg shell,12,predator-prey
-Vulpes vulpes,Blattodea,8,predator-prey
-Vulpes vulpes,Coleoptera,8,predator-prey
-Vulpes vulpes,Lepidoptera,8,predator-prey
-Vulpes vulpes,Notomys sp.,8,predator-prey
-Vulpes vulpes,Reptile eggs,8,predator-prey
-Vulpes vulpes,Trichosurus vulpecula,8,predator-prey
-Vulpes vulpes,Aquila audax,8,predator-prey
-Vulpes vulpes,Ardeotis australis,8,predator-prey
-Vulpes vulpes,Trichosurus vulpecula,8,predator-prey
-Vulpes vulpes,Notoryctes caurinus,8,predator-prey
-Aquila audax,Bettongia lesueur,7,predator-prey
-Aquila audax,Canis lupus dingo,10,predator-prey
-Aquila audax,Chaeropus ecaudatus,5,predator-prey
-Aquila audax,Ctenophorus caudicinctus,1,predator-prey
-Aquila audax,Ctenotus isolepis,1,predator-prey
-Aquila audax,Felis catus,5,predator-prey
-Aquila audax,Lagorchestes hirsutus,10,predator-prey
-Aquila audax,Lophognatus gilberti,1,predator-prey
-Aquila audax,Macropus robustus,15,predator-prey
-Aquila audax,Notomys sp.,5,predator-prey
-Aquila audax,Orthoptera,2,predator-prey
-Aquila audax,Perameles eremiana,2,predator-prey
-Aquila audax,Pogona minor,1,predator-prey
-Aquila audax,Pogona vitticeps,1,predator-prey
-Aquila audax,Taeniopygia guttata,5,predator-prey
-Aquila audax,Tiliqua multifasciata,5,predator-prey
-Aquila audax,Tiliqua occipitalis,5,predator-prey
-Aquila audax,Varanus gouldii,15,predator-prey
-Aquila audax,Corvus cecilae,1,predator-prey
-Aquila audax,Falco longipennis,1,predator-prey
-Aquila audax,Fulica atra,1,predator-prey
-Aquila audax,Anas superciliosa,1,predator-prey
-Bettongia lesueur,Eragrostis eriopoda,10,predator-prey
-Bettongia lesueur,Eragrostis lanipes,10,predator-prey
-Bettongia lesueur,Eragrostis setifolia,10,predator-prey
-Bettongia lesueur,Panicum decompositum,10,predator-prey
-Bettongia lesueur,Plectrachne schinzii,10,predator-prey
-Bettongia lesueur,Ptilotus exaltatus,10,predator-prey
-Bettongia lesueur,Ptilotus macrocephalus,10,predator-prey
-Bettongia lesueur,Ptilotus polystachyus,10,predator-prey
-Bettongia lesueur,Sida calyxhymenia,10,predator-prey
-Bettongia lesueur,Triodia basedownii,3,predator-prey
-Bettongia lesueur,Triodia longiceps,4,predator-prey
-Bettongia lesueur,Triodia pungens,3,predator-prey
-Canis lupus dingo,Ardeotis australis,2,predator-prey
-Canis lupus dingo,Bettongia lesueur,4,predator-prey
-Canis lupus dingo,Chaeropus ecaudatus,4,predator-prey
-Canis lupus dingo,Chilopoda,2,predator-prey
-Canis lupus dingo,Coleoptera,2,predator-prey
-Canis lupus dingo,Ctenophorus caudicinctus,1,predator-prey
-Canis lupus dingo,Ctenotus isolepis,1,predator-prey
-Canis lupus dingo,Felis catus,5,predator-prey
-Canis lupus dingo,Homo sapiens,1,predator-prey
-Canis lupus dingo,Lagorchestes hirsutus,11,predator-prey
-Canis lupus dingo,Lophognatus gilberti,1,predator-prey
-Canis lupus dingo,Macropus robustus,10,predator-prey
-Canis lupus dingo,Notomys sp.,15,predator-prey
-Canis lupus dingo,Orthoptera,4,predator-prey
-Canis lupus dingo,Perameles eremiana,5,predator-prey
-Canis lupus dingo,Pogona minor,1,predator-prey
-Canis lupus dingo,Pogona vitticeps,1,predator-prey
-Canis lupus dingo,Tiliqua multifasciata,1,predator-prey
-Canis lupus dingo,Tiliqua occipitalis,1,predator-prey
-Canis lupus dingo,Varanus gouldii,10,predator-prey
-Canis lupus dingo,Aquila audax,1,predator-prey
-Canis lupus dingo,Ardeotis australis,1,predator-prey
-Canis lupus dingo,Camelus dromedarius,1,predator-prey
-Canis lupus dingo,Dromaius novaehollandiae,1,predator-prey
-Canis lupus dingo,Fulica atra,1,predator-prey
-Canis lupus dingo,Vulpes vulpes,1,predator-prey
-Canis lupus dingo,Varanus acanthurus,1,predator-prey
-Canis lupus dingo,Tympanocryptis tetraporophora,1,predator-prey
-Canis lupus dingo,Trichosurus vulpecula,1,predator-prey
-Canis lupus dingo,Isodon auratus,1,predator-prey
-Canis lupus dingo,Macropus rufus,1,predator-prey
-Canis lupus dingo,Notoryctes caurinus,5,predator-prey
-Canis lupus dingo,Petrogale lateralis,1,predator-prey
-Canis lupus dingo,Tachyglossus aculeatus,1,predator-prey
-Felis catus,Amphibolurus burnsi,1,predator-prey
-Felis catus,Ctenotus isolepis,1,predator-prey
-Felis catus,Ctenotus leonhardii,1,predator-prey
-Felis catus,Ctenotus robustus,1,predator-prey
-Felis catus,Egernia striolata,1,predator-prey
-Felis catus,Heteronotia binoei,2,predator-prey
-Felis catus,Lagorchestes hirsutus,5,predator-prey
-Felis catus,Leggadina forresti,5,predator-prey
-Felis catus,Notomys sp.,30,predator-prey
-Felis catus,Oedura marmorata,1,predator-prey
-Felis catus,Pogona vitticeps,2,predator-prey
-Felis catus,Pseudechis australis,1,predator-prey
-Felis catus,Pygopus schraderi,1,predator-prey
-Felis catus,Reptile eggs,3,predator-prey
-Felis catus,Sminthopsis macroura,5,predator-prey
-Felis catus,Stiltia isabella,1,predator-prey
-Felis catus,Suta suta,1,predator-prey
-Felis catus,Taeniopygia guttata,2,predator-prey
-Felis catus,Turnix velox,2,predator-prey
-Felis catus,Tympanocryptis tetraporophora,2,predator-prey
-Felis catus,Varanus gouldii,1,predator-prey
-Felis catus,Ardeotis australis,1,predator-prey
-Felis catus,Corvus cecilae,1,predator-prey
-Felis catus,Fulica atra,1,predator-prey
-Felis catus,Vulpes vulpes,1,predator-prey
-Felis catus,Varanus acanthurus,1,predator-prey
-Felis catus,Tympanocryptis tetraporophora,1,predator-prey
-Felis catus,Trichosurus vulpecula,1,predator-prey
-Felis catus,Melopsittacus undulatus,1,predator-prey
-Felis catus,Notoryctes caurinus,20,predator-prey
-Felis catus,Ocyphaps lophotes,1,predator-prey
-Felis catus,Petrogale lateralis,1,predator-prey
-Felis catus,Tachyglossus aculeatus,1,predator-prey
-Homo sapiens,Acacia acradenia,0.15,predator-prey
-Homo sapiens,Acacia aneura,2,predator-prey
-Homo sapiens,Acacia coriacea,2,predator-prey
-Homo sapiens,Acacia cowleana,0.25,predator-prey
-Homo sapiens,Acacia cuthbertsoni,0.25,predator-prey
-Homo sapiens,Acacia dictyophleba,0.15,predator-prey
-Homo sapiens,Acacia kempeana,2,predator-prey
-Homo sapiens,Acacia ligulata,0.25,predator-prey
-Homo sapiens,Acacia pruinocarpa,0.25,predator-prey
-Homo sapiens,Acacia spondylophylla,0.15,predator-prey
-Homo sapiens,Acacia tetragonophylla,0.15,predator-prey
-Homo sapiens,Allocasuarina decaisneana,0.25,predator-prey
-Homo sapiens,Amyema sp.,0.25,predator-prey
-Homo sapiens,Anas superciliosa,1,predator-prey
-Homo sapiens,Antaresia stimsoni,0.15,predator-prey
-Homo sapiens,Aquila audax,1,predator-prey
-Homo sapiens,Ardeotis australis,0.25,predator-prey
-Homo sapiens,Aspidites melanocephalus,0.15,predator-prey
-Homo sapiens,Aspidites ramsayii,0.25,predator-prey
-Homo sapiens,Bettongia lesueur,10,predator-prey
-Homo sapiens,Blattodea,0.15,predator-prey
-Homo sapiens,Calyptorhynchus roseicapilla,0.25,predator-prey
-Homo sapiens,Camelus dromedarius,0.25,predator-prey
-Homo sapiens,Canis lupus dingo,0.15,predator-prey
-Homo sapiens,Canthium attenuatum,0.25,predator-prey
-Homo sapiens,Canthium latifolium,1,predator-prey
-Homo sapiens,Capparis loranthifolia,0.15,predator-prey
-Homo sapiens,Capparis umbonata,0.25,predator-prey
-Homo sapiens,Chaeropus ecaudatus,0.25,predator-prey
-Homo sapiens,Chioromyces aboriginum,0.15,predator-prey
-Homo sapiens,Corvus cecilae,0.25,predator-prey
-Homo sapiens,Ctenotus isolepis,0.25,predator-prey
-Homo sapiens,Cucumis melo (agrestis),0.15,predator-prey
-Homo sapiens,Cynanchum floribundum,1,predator-prey
-Homo sapiens,Dactyloctenium radulans,0.25,predator-prey
-Homo sapiens,Dasycercus cristicauda,0.15,predator-prey
-Homo sapiens,Dasycercus hilleri,0.15,predator-prey
-Homo sapiens,Dasyurus hallucatus,0.15,predator-prey
-Homo sapiens,Dromaius novaehollandiae,0.15,predator-prey
-Homo sapiens,Egernia kintorei,1,predator-prey
-Homo sapiens,Egernia striata,0.25,predator-prey
-Homo sapiens,Enchylaena tomentosa,1,predator-prey
-Homo sapiens,Eucalyptus opaca,0.15,predator-prey
-Homo sapiens,Falco longipennis,0.15,predator-prey
-Homo sapiens,Felis catus,1,predator-prey
-Homo sapiens,Fulica atra,0.15,predator-prey
-Homo sapiens,Hakea leucoptera,1,predator-prey
-Homo sapiens,Hakea suberea,1,predator-prey
-Homo sapiens,Homo sapiens,0.25,predator-prey
-Homo sapiens,Isodon auratus,0.25,predator-prey
-Homo sapiens,Lagorchestes hirsutus,9,predator-prey
-Homo sapiens,Macropus robustus,5,predator-prey
-Homo sapiens,Macropus rufus,0.15,predator-prey
-Homo sapiens,Macrotis lagotis,0.25,predator-prey
-Homo sapiens,Melopsittacus undulatus,0.25,predator-prey
-Homo sapiens,Moloch horridus,0.15,predator-prey
-Homo sapiens,Mycoclelandia bulundarii,0.15,predator-prey
-Homo sapiens,Notomys sp.,1,predator-prey
-Homo sapiens,Notoryctes caurinus,0.15,predator-prey
-Homo sapiens,Ocyphaps lophotes,0.15,predator-prey
-Homo sapiens,Oryctolagus cuniculus,1,predator-prey
-Homo sapiens,Panicum decompositum,0.25,predator-prey
-Homo sapiens,Perameles eremiana,0.25,predator-prey
-Homo sapiens,Petrogale lateralis,0.25,predator-prey
-Homo sapiens,Psylla eucalypti,0.15,predator-prey
-Homo sapiens,Rhyncharrhena linearis,0.15,predator-prey
-Homo sapiens,Santalum acuminatum,1,predator-prey
-Homo sapiens,Santalum lanceolatum,0.5,predator-prey
-Homo sapiens,Senna sp.,0.25,predator-prey
-Homo sapiens,Solanum centrale,1.75,predator-prey
-Homo sapiens,Solanum chippendalei,10,predator-prey
-Homo sapiens,Solanum cleistogamum,0.15,predator-prey
-Homo sapiens,Solanum diversiflorum,3,predator-prey
-Homo sapiens,Solanum gilesii,0.15,predator-prey
-Homo sapiens,Tachyglossus aculeatus,0.25,predator-prey
-Homo sapiens,Taeniopygia guttata,0.25,predator-prey
-Homo sapiens,Tecticornia verrucosa,0.25,predator-prey
-Homo sapiens,Tiliqua multifasciata,4,predator-prey
-Homo sapiens,Tiliqua occipitalis,0.15,predator-prey
-Homo sapiens,Trichosurus vulpecula,1,predator-prey
-Homo sapiens,Turnix velox,0.15,predator-prey
-Homo sapiens,Varanus giganteus,5,predator-prey
-Homo sapiens,Varanus gouldii,20,predator-prey
-Homo sapiens,Varanus panoptes,1,predator-prey
-Homo sapiens,Vulpes vulpes,0.15,predator-prey
-Homo sapiens,Yakirra australiensis,0.25,predator-prey
-Lagorchestes hirsutus,Araneidae,3,predator-prey
-Lagorchestes hirsutus,Blattodea,3,predator-prey
-Lagorchestes hirsutus,Chilopoda,3,predator-prey
-Lagorchestes hirsutus,Coleoptera,3,predator-prey
-Lagorchestes hirsutus,Formicidae,4,predator-prey
-Lagorchestes hirsutus,Lepidoptera,4,predator-prey
-Lagorchestes hirsutus,Portulaca oleracea,13,predator-prey
-Lagorchestes hirsutus,Ptilotus exaltatus,13,predator-prey
-Lagorchestes hirsutus,Ptilotus macrocephalus,14,predator-prey
-Lagorchestes hirsutus,Triodia basedownii,13,predator-prey
-Lagorchestes hirsutus,Triodia longiceps,14,predator-prey
-Lagorchestes hirsutus,Triodia pungens,13,predator-prey
-Fire,Acacia acradenia,,predator-prey
-Fire,Acacia aneura,,predator-prey
-Fire,Acacia coriacea,,predator-prey
-Fire,Acacia cowleana,,predator-prey
-Fire,Acacia cuthbertsoni,,predator-prey
-Fire,Acacia dictyophleba,,predator-prey
-Fire,Acacia kempeana,,predator-prey
-Fire,Acacia ligulata,,predator-prey
-Fire,Acacia pruinocarpa,50% casualty,predator-prey
-Fire,Acacia spondylophylla,,predator-prey
-Fire,Acacia tetragonophylla,100% casualty,predator-prey
-Fire,Amyema sp.,,predator-prey
-Fire,Calandrinia polyandra,,predator-prey
-Fire,Canthium attenuatum,,predator-prey
-Fire,Canthium latifolium,,predator-prey
-Fire,Capparis loranthifolia,,predator-prey
-Fire,Capparis umbonata,,predator-prey
-Fire,Chenopodium curvispicatum,,predator-prey
-Fire,Chioromyces aboriginum,,predator-prey
-Fire,Cucumis melo (agrestis),,predator-prey
-Fire,Cynanchum floribundum,,predator-prey
-Fire,Dactyloctenium radulans,,predator-prey
-Fire,Daucus glochidiatus,,predator-prey
-Fire,Enchylaena tomentosa,,predator-prey
-Fire,Eragrostis eriopoda,,predator-prey
-Fire,Eragrostis lanipes,,predator-prey
-Fire,Eragrostis setifolia,,predator-prey
-Fire,Eremophila latrobei,,predator-prey
-Fire,Eremophila longifolia,,predator-prey
-Fire,Ficus brachypoda,,predator-prey
-Fire,Grevillea eriostachya,,predator-prey
-Fire,Grevillea stenobotrya,,predator-prey
-Fire,Grevillea wickhamii,,predator-prey
-Fire,Hakea leucoptera,,predator-prey
-Fire,Hakea suberea,90% casualty,predator-prey
-Fire,Leptosema chambersii,,predator-prey
-Fire,Nitraria billardierei,,predator-prey
-Fire,Panicum decompositum,,predator-prey
-Fire,Plectrachne schinzii,,predator-prey
-Fire,Portulaca oleracea,,predator-prey
-Fire,Ptilotus exaltatus,,predator-prey
-Fire,Ptilotus macrocephalus,,predator-prey
-Fire,Ptilotus polystachyus,,predator-prey
-Fire,Rhyncharrhena linearis,,predator-prey
-Fire,Santalum acuminatum,,predator-prey
-Fire,Santalum lanceolatum,50% casualty,predator-prey
-Fire,Scaevola parvifolia,,predator-prey
-Fire,Senna sp.,,predator-prey
-Fire,Sida calyxhymenia,,predator-prey
-Fire,Solanum centrale,,predator-prey
-Fire,Solanum chippendalei,,predator-prey
-Fire,Solanum cleistogamum,,predator-prey
-Fire,Solanum diversiflorum,,predator-prey
-Fire,Solanum gilesii,,predator-prey
-Fire,Solanum lasiophyllum,,predator-prey
-Fire,Tecticornia verrucosa,,predator-prey
-Fire,Tetragonia eremaea,,predator-prey
-Fire,Thryptomene maisonneuve,,predator-prey
-Fire,Thyridolepis multiculmis,,predator-prey
-Fire,Triodia basedownii,,predator-prey
-Fire,Triodia longiceps,,predator-prey
-Fire,Triodia pungens,,predator-prey
-Fire,Yakirra australiensis,,predator-prey
-Camponotus inflatus,Acacia acradenia,,predator-prey
-Camponotus inflatus,Acacia aneura,,predator-prey
-Camponotus inflatus,Acacia coriacea,,predator-prey
-Camponotus inflatus,Acacia cowleana,,predator-prey
-Camponotus inflatus,Acacia cuthbertsoni,,predator-prey
-Camponotus inflatus,Acacia dictyophleba,,predator-prey
-Camponotus inflatus,Acacia kempeana,,predator-prey
-Camponotus inflatus,Acacia ligulata,,predator-prey
-Camponotus inflatus,Acacia pruinocarpa,,predator-prey
-Camponotus inflatus,Acacia spondylophylla,,predator-prey
-Camponotus inflatus,Acacia tetragonophylla,,predator-prey
-Camponotus inflatus,Eremophila latrobei,,predator-prey
-Camponotus inflatus,Hakea suberea,,predator-prey
-Camponotus inflatus,Ptilotus exaltatus,,predator-prey
-Camponotus inflatus,Ptilotus macrocephalus,,predator-prey
-Amphibolurus burnsi,Camponotus inflatus,,predator-prey
-Aprasia striolata,Camponotus inflatus,,predator-prey
-Ardeotis australis,Camponotus inflatus,,predator-prey
-Corvus cecilae,Camponotus inflatus,,predator-prey
-Ctenotus isolepis,Camponotus inflatus,,predator-prey
-Ctenotus robustus,Camponotus inflatus,,predator-prey
-Dasycercus cristicauda,Camponotus inflatus,,predator-prey
-Dasyurus hallucatus,Camponotus inflatus,,predator-prey
-Egernia striata,Camponotus inflatus,,predator-prey
-Falco longipennis,Camponotus inflatus,,predator-prey
-Fulica atra,Camponotus inflatus,,predator-prey
-Heteronotia binoei,Camponotus inflatus,,predator-prey
-Isodon auratus,Camponotus inflatus,,predator-prey
-Leggadina forresti,Camponotus inflatus,,predator-prey
-Leiolopisma trilineatum,Camponotus inflatus,,predator-prey
-Lophognatus gilberti,Camponotus inflatus,,predator-prey
-Menetia greyii,Camponotus inflatus,,predator-prey
-Morethia lineoocellatus,Camponotus inflatus,,predator-prey
-Notomys sp.,Camponotus inflatus,,predator-prey
-Ocyphaps lophotes,Camponotus inflatus,,predator-prey
-Perameles eremiana,Camponotus inflatus,,predator-prey
-Pogona vitticeps,Camponotus inflatus,,predator-prey
-Sminthopsis macroura,Camponotus inflatus,,predator-prey
-Tachyglossus aculeatus,Camponotus inflatus,,predator-prey
-Tiliqua occipitalis,Camponotus inflatus,,predator-prey
-Tympanocryptis tetraporophora,Camponotus inflatus,,predator-prey
-Varanus giganteus,Camponotus inflatus,,predator-prey
-Varanus panoptes,Camponotus inflatus,,predator-prey
-Vulpes vulpes,Camponotus inflatus,,predator-prey
-Anas superciliosa,Camponotus inflatus,,predator-prey
-Aquila audax,Camponotus inflatus,,predator-prey
-Canis lupus dingo,Camponotus inflatus,,predator-prey
-Ctenophorus caudicinctus,Camponotus inflatus,,predator-prey
-Ctenotus leonhardii,Camponotus inflatus,,predator-prey
-Ctenotus strauchii,Camponotus inflatus,,predator-prey
-Dasycercus hilleri,Camponotus inflatus,,predator-prey
-Egernia kintorei,Camponotus inflatus,,predator-prey
-Egernia striolata,Camponotus inflatus,,predator-prey
-Hemiergis peronii,Camponotus inflatus,,predator-prey
-Homo sapiens,Camponotus inflatus,,predator-prey
-Lagorchestes hirsutus,Camponotus inflatus,,predator-prey
-Leiolopisma metallicum,Camponotus inflatus,,predator-prey
-Lerista bougainvillea,Camponotus inflatus,,predator-prey
-Macrotis lagotis,Camponotus inflatus,,predator-prey
-Moloch horridus,Camponotus inflatus,,predator-prey
-Notaden nichollsi,Camponotus inflatus,,predator-prey
-Notoryctes caurinus,Camponotus inflatus,,predator-prey
-Oedura marmorata,Camponotus inflatus,,predator-prey
-Pogona minor,Camponotus inflatus,,predator-prey
-Pygopus schraderi,Camponotus inflatus,,predator-prey
-Stiltia isabella,Camponotus inflatus,,predator-prey
-Tiliqua multifasciata,Camponotus inflatus,,predator-prey
-Tiliqua multifasciata,Camponotus inflatus,,predator-prey
-Tiliqua scincoides,Camponotus inflatus,,predator-prey
-Varanus acanthurus,Camponotus inflatus,,predator-prey
-Varanus gouldii,Camponotus inflatus,,predator-prey
-Varanus tristis,Camponotus inflatus,,predator-prey
+﻿predator,prey,type
+Amphibolurus burnsi,Araneidae,predatorprey
+Amphibolurus burnsi,Blattodea,predatorprey
+Amphibolurus burnsi,Chilopoda,predatorprey
+Amphibolurus burnsi,Coleoptera,predatorprey
+Amphibolurus burnsi,Lepidoptera,predatorprey
+Anas superciliosa,Blattodea,predatorprey
+Anas superciliosa,Coleoptera,predatorprey
+Anas superciliosa,Triodia basedownii,predatorprey
+Anas superciliosa,Triodia longiceps,predatorprey
+Anas superciliosa,Triodia pungens,predatorprey
+Antaresia stimsoni,Ctenotus robustus,predatorprey
+Antaresia stimsoni,Egernia kintorei,predatorprey
+Antaresia stimsoni,Egernia striata,predatorprey
+Antaresia stimsoni,Egernia striolata,predatorprey
+Antaresia stimsoni,Hemiergis peronii,predatorprey
+Antaresia stimsoni,Lagorchestes hirsutus,predatorprey
+Antaresia stimsoni,Leggadina forresti,predatorprey
+Antaresia stimsoni,Leiolopisma metallicum,predatorprey
+Antaresia stimsoni,Leiolopisma trilineatum,predatorprey
+Antaresia stimsoni,Lerista bougainvillea,predatorprey
+Antaresia stimsoni,Menetia greyii,predatorprey
+Antaresia stimsoni,Morethia lineoocellatus,predatorprey
+Antaresia stimsoni,Notaden nichollsi,predatorprey
+Antaresia stimsoni,Notomys sp.,predatorprey
+Antaresia stimsoni,Tiliqua multifasciata,predatorprey
+Antaresia stimsoni,Tiliqua occipitalis,predatorprey
+Antaresia stimsoni,Tiliqua scincoides,predatorprey
+Antaresia stimsoni,Notoryctes caurinus,predatorprey
+Antaresia stimsoni,Petrogale lateralis,predatorprey
+Antaresia stimsoni,Tachyglossus aculeatus,predatorprey
+Aprasia striolata,Formicidae,predatorprey
+Aprasia striolata,Lepidoptera,predatorprey
+Ardeotis australis,Amphibolurus burnsi,predatorprey
+Ardeotis australis,Blattodea,predatorprey
+Ardeotis australis,Chilopoda,predatorprey
+Ardeotis australis,Coleoptera,predatorprey
+Ardeotis australis,Ctenotus leonhardii,predatorprey
+Ardeotis australis,Ctenotus robustus,predatorprey
+Ardeotis australis,Ctenotus strauchii,predatorprey
+Ardeotis australis,Egernia striolata,predatorprey
+Ardeotis australis,Heteronotia binoei,predatorprey
+Ardeotis australis,Lepidoptera,predatorprey
+Ardeotis australis,Notomys sp.,predatorprey
+Ardeotis australis,Oedura marmorata,predatorprey
+Ardeotis australis,Pogona vitticeps,predatorprey
+Ardeotis australis,Pseudechis australis,predatorprey
+Ardeotis australis,Pygopus schraderi,predatorprey
+Ardeotis australis,Solanum centrale,predatorprey
+Ardeotis australis,Solanum chippendalei,predatorprey
+Ardeotis australis,Solanum cleistogamum,predatorprey
+Ardeotis australis,Solanum diversiflorum,predatorprey
+Ardeotis australis,Solanum gilesii,predatorprey
+Ardeotis australis,Stiltia isabella,predatorprey
+Ardeotis australis,Suta suta,predatorprey
+Ardeotis australis,Taeniopygia guttata,predatorprey
+Ardeotis australis,Tiliqua multifasciata,predatorprey
+Ardeotis australis,Tiliqua occipitalis,predatorprey
+Ardeotis australis,Triodia basedownii,predatorprey
+Ardeotis australis,Triodia longiceps,predatorprey
+Ardeotis australis,Triodia pungens,predatorprey
+Ardeotis australis,Turnix velox,predatorprey
+Ardeotis australis,Tympanocryptis tetraporophora,predatorprey
+Ardeotis australis,Varanus gouldii,predatorprey
+Ardeotis australis,Varanus tristis,predatorprey
+Ardeotis australis,Melopsittacus undulatus,predatorprey
+Ardeotis australis,Notoryctes caurinus,predatorprey
+Ardeotis australis,Ocyphaps lophotes,predatorprey
+Aspidites melanocephalus,Bettongia lesueur,predatorprey
+Aspidites melanocephalus,Ctenophorus caudicinctus,predatorprey
+Aspidites melanocephalus,Ctenophorus caudicinctus,predatorprey
+Aspidites melanocephalus,Ctenotus isolepis,predatorprey
+Aspidites melanocephalus,Ctenotus robustus,predatorprey
+Aspidites melanocephalus,Egernia kintorei,predatorprey
+Aspidites melanocephalus,Egernia striata,predatorprey
+Aspidites melanocephalus,Egernia striolata,predatorprey
+Aspidites melanocephalus,Hemiergis peronii,predatorprey
+Aspidites melanocephalus,Lagorchestes hirsutus,predatorprey
+Aspidites melanocephalus,Leiolopisma metallicum,predatorprey
+Aspidites melanocephalus,Leiolopisma trilineatum,predatorprey
+Aspidites melanocephalus,Lerista bougainvillea,predatorprey
+Aspidites melanocephalus,Lophognatus gilberti,predatorprey
+Aspidites melanocephalus,Menetia greyii,predatorprey
+Aspidites melanocephalus,Moloch horridus,predatorprey
+Aspidites melanocephalus,Morethia lineoocellatus,predatorprey
+Aspidites melanocephalus,Notomys sp.,predatorprey
+Aspidites melanocephalus,Pogona minor,predatorprey
+Aspidites melanocephalus,Pogona minor,predatorprey
+Aspidites melanocephalus,Pogona vitticeps,predatorprey
+Aspidites melanocephalus,Pogona vitticeps,predatorprey
+Aspidites melanocephalus,Pseudechis australis,predatorprey
+Aspidites melanocephalus,Pseudechis australis,predatorprey
+Aspidites melanocephalus,Reptile eggs,predatorprey
+Aspidites melanocephalus,Suta suta,predatorprey
+Aspidites melanocephalus,Taeniopygia guttata,predatorprey
+Aspidites melanocephalus,Tiliqua occipitalis,predatorprey
+Aspidites melanocephalus,Tiliqua scincoides,predatorprey
+Aspidites melanocephalus,Varanus acanthurus,predatorprey
+Aspidites melanocephalus,Varanus tristis,predatorprey
+Aspidites melanocephalus,Melopsittacus undulatus,predatorprey
+Aspidites melanocephalus,Notoryctes caurinus,predatorprey
+Aspidites melanocephalus,Ocyphaps lophotes,predatorprey
+Aspidites melanocephalus,Petrogale lateralis,predatorprey
+Aspidites melanocephalus,Tachyglossus aculeatus,predatorprey
+Aspidites ramsayii,Bettongia lesueur,predatorprey
+Aspidites ramsayii,Ctenophorus caudicinctus,predatorprey
+Aspidites ramsayii,Ctenophorus caudicinctus,predatorprey
+Aspidites ramsayii,Ctenotus isolepis,predatorprey
+Aspidites ramsayii,Egernia kintorei,predatorprey
+Aspidites ramsayii,Egernia striata,predatorprey
+Aspidites ramsayii,Egernia striolata,predatorprey
+Aspidites ramsayii,Hemiergis peronii,predatorprey
+Aspidites ramsayii,Lagorchestes hirsutus,predatorprey
+Aspidites ramsayii,Leiolopisma metallicum,predatorprey
+Aspidites ramsayii,Leiolopisma trilineatum,predatorprey
+Aspidites ramsayii,Lerista bougainvillea,predatorprey
+Aspidites ramsayii,Lophognatus gilberti,predatorprey
+Aspidites ramsayii,Menetia greyii,predatorprey
+Aspidites ramsayii,Morethia lineoocellatus,predatorprey
+Aspidites ramsayii,Notomys sp.,predatorprey
+Aspidites ramsayii,Oedura marmorata,predatorprey
+Aspidites ramsayii,Oryctolagus cuniculus,predatorprey
+Aspidites ramsayii,Pogona minor,predatorprey
+Aspidites ramsayii,Pogona minor,predatorprey
+Aspidites ramsayii,Pogona vitticeps,predatorprey
+Aspidites ramsayii,Pseudechis australis,predatorprey
+Aspidites ramsayii,Reptile eggs,predatorprey
+Aspidites ramsayii,Taeniopygia guttata,predatorprey
+Aspidites ramsayii,Tiliqua multifasciata,predatorprey
+Aspidites ramsayii,Tiliqua occipitalis,predatorprey
+Aspidites ramsayii,Tiliqua scincoides,predatorprey
+Aspidites ramsayii,Varanus acanthurus,predatorprey
+Aspidites ramsayii,Varanus gouldii,predatorprey
+Aspidites ramsayii,Varanus tristis,predatorprey
+Aspidites ramsayii,Melopsittacus undulatus,predatorprey
+Aspidites ramsayii,Notoryctes caurinus,predatorprey
+Aspidites ramsayii,Ocyphaps lophotes,predatorprey
+Aspidites ramsayii,Petrogale lateralis,predatorprey
+Aspidites ramsayii,Tachyglossus aculeatus,predatorprey
+Bettongia lesueur,Eragrostis eriopoda,predatorprey
+Bettongia lesueur,Eragrostis lanipes,predatorprey
+Bettongia lesueur,Eragrostis setifolia,predatorprey
+Bettongia lesueur,Panicum decompositum,predatorprey
+Bettongia lesueur,Plectrachne schinzii,predatorprey
+Bettongia lesueur,Ptilotus exaltatus,predatorprey
+Bettongia lesueur,Ptilotus macrocephalus,predatorprey
+Bettongia lesueur,Ptilotus polystachyus,predatorprey
+Bettongia lesueur,Sida calyxhymenia,predatorprey
+Bettongia lesueur,Triodia basedownii,predatorprey
+Bettongia lesueur,Triodia longiceps,predatorprey
+Bettongia lesueur,Triodia pungens,predatorprey
+Calyptorhynchus roseicapilla,Acacia acradenia,predatorprey
+Calyptorhynchus roseicapilla,Acacia aneura,predatorprey
+Calyptorhynchus roseicapilla,Acacia coriacea,predatorprey
+Calyptorhynchus roseicapilla,Acacia cowleana,predatorprey
+Calyptorhynchus roseicapilla,Acacia cuthbertsoni,predatorprey
+Calyptorhynchus roseicapilla,Acacia dictyophleba,predatorprey
+Calyptorhynchus roseicapilla,Acacia kempeana,predatorprey
+Calyptorhynchus roseicapilla,Acacia ligulata,predatorprey
+Calyptorhynchus roseicapilla,Acacia pruinocarpa,predatorprey
+Calyptorhynchus roseicapilla,Acacia spondylophylla,predatorprey
+Calyptorhynchus roseicapilla,Acacia tetragonophylla,predatorprey
+Calyptorhynchus roseicapilla,Allocasuarina decaisneana,predatorprey
+Calyptorhynchus roseicapilla,Eucalyptus opaca,predatorprey
+Camelus dromedarius,Amyema sp.,predatorprey
+Camelus dromedarius,Canthium attenuatum,predatorprey
+Camelus dromedarius,Canthium latifolium,predatorprey
+Camelus dromedarius,Capparis loranthifolia,predatorprey
+Camelus dromedarius,Capparis umbonata,predatorprey
+Camelus dromedarius,Cynanchum floribundum,predatorprey
+Camelus dromedarius,Dactyloctenium radulans,predatorprey
+Camelus dromedarius,Eragrostis eriopoda,predatorprey
+Camelus dromedarius,Eragrostis lanipes,predatorprey
+Camelus dromedarius,Eragrostis setifolia,predatorprey
+Camelus dromedarius,Hakea leucoptera,predatorprey
+Camelus dromedarius,Leptosema chambersii,predatorprey
+Camelus dromedarius,Panicum decompositum,predatorprey
+Camelus dromedarius,Plectrachne schinzii,predatorprey
+Camelus dromedarius,Ptilotus polystachyus,predatorprey
+Camelus dromedarius,Santalum acuminatum,predatorprey
+Camelus dromedarius,Santalum lanceolatum,predatorprey
+Camelus dromedarius,Sida calyxhymenia,predatorprey
+Camelus dromedarius,Solanum centrale,predatorprey
+Camelus dromedarius,Solanum chippendalei,predatorprey
+Camelus dromedarius,Solanum cleistogamum,predatorprey
+Camelus dromedarius,Solanum diversiflorum,predatorprey
+Camelus dromedarius,Solanum gilesii,predatorprey
+Camelus dromedarius,Solanum lasiophyllum,predatorprey
+Camelus dromedarius,Tecticornia verrucosa,predatorprey
+Camelus dromedarius,Thryptomene maisonneuve,predatorprey
+Camelus dromedarius,Thyridolepis multiculmis,predatorprey
+Camelus dromedarius,Triodia basedownii,predatorprey
+Camelus dromedarius,Triodia longiceps,predatorprey
+Camelus dromedarius,Triodia longiceps,predatorprey
+Camelus dromedarius,Triodia pungens,predatorprey
+Camelus dromedarius,Triodia pungens,predatorprey
+Camelus dromedarius,Yakirra australiensis,predatorprey
+Camelus dromedarius,Grevillea eriostachya,predatorprey
+Camelus dromedarius,Grevillea stenobotrya,predatorprey
+Camelus dromedarius,Grevillea wickhamii,predatorprey
+Chaeropus ecaudatus,Eragrostis eriopoda,predatorprey
+Chaeropus ecaudatus,Eragrostis lanipes,predatorprey
+Chaeropus ecaudatus,Eragrostis setifolia,predatorprey
+Chaeropus ecaudatus,Panicum decompositum,predatorprey
+Chaeropus ecaudatus,Plectrachne schinzii,predatorprey
+Chaeropus ecaudatus,Ptilotus polystachyus,predatorprey
+Chaeropus ecaudatus,Triodia basedownii,predatorprey
+Chaeropus ecaudatus,Triodia longiceps,predatorprey
+Chaeropus ecaudatus,Triodia pungens,predatorprey
+Corvus cecilae,Acacia acradenia,predatorprey
+Corvus cecilae,Acacia aneura,predatorprey
+Corvus cecilae,Acacia coriacea,predatorprey
+Corvus cecilae,Acacia cowleana,predatorprey
+Corvus cecilae,Acacia cuthbertsoni,predatorprey
+Corvus cecilae,Acacia dictyophleba,predatorprey
+Corvus cecilae,Acacia kempeana,predatorprey
+Corvus cecilae,Acacia ligulata,predatorprey
+Corvus cecilae,Acacia pruinocarpa,predatorprey
+Corvus cecilae,Acacia spondylophylla,predatorprey
+Corvus cecilae,Blattodea,predatorprey
+Corvus cecilae,Chenopodium curvispicatum,predatorprey
+Corvus cecilae,Coleoptera,predatorprey
+Corvus cecilae,Cucumis melo (agrestis),predatorprey
+Corvus cecilae,Diptera,predatorprey
+Corvus cecilae,Enchylaena tomentosa,predatorprey
+Corvus cecilae,Formicidae,predatorprey
+Corvus cecilae,Heteroptera,predatorprey
+Corvus cecilae,Homo sapiens,predatorprey
+Corvus cecilae,Lagorchestes hirsutus,predatorprey
+Corvus cecilae,Leiolopisma metallicum,predatorprey
+Corvus cecilae,Mantodea,predatorprey
+Corvus cecilae,Orthoptera,predatorprey
+Corvus cecilae,Pseudechis australis,predatorprey
+Corvus cecilae,Psylla eucalypti,predatorprey
+Corvus cecilae,Taeniopygia guttata,predatorprey
+Corvus cecilae,Triodia basedownii,predatorprey
+Corvus cecilae,Triodia longiceps,predatorprey
+Corvus cecilae,Triodia pungens,predatorprey
+Corvus cecilae,Falco longipennis,predatorprey
+Corvus cecilae,Varanus acanthurus,predatorprey
+Corvus cecilae,Melopsittacus undulatus,predatorprey
+Corvus cecilae,Ocyphaps lophotes,predatorprey
+Corvus cecilae,Petrogale lateralis,predatorprey
+Corvus cecilae,Tachyglossus aculeatus,predatorprey
+Corvus cecilae,Anas superciliosa,predatorprey
+Ctenophorus caudicinctus,Araneidae,predatorprey
+Ctenophorus caudicinctus,Blattodea,predatorprey
+Ctenophorus caudicinctus,Blattodea,predatorprey
+Ctenophorus caudicinctus,Chilopoda,predatorprey
+Ctenophorus caudicinctus,Coleoptera,predatorprey
+Ctenophorus caudicinctus,Ctenotus robustus,predatorprey
+Ctenophorus caudicinctus,Diptera,predatorprey
+Ctenophorus caudicinctus,Formicidae,predatorprey
+Ctenophorus caudicinctus,Heteroptera,predatorprey
+Ctenophorus caudicinctus,Lepidoptera,predatorprey
+Ctenophorus caudicinctus,Mantodea,predatorprey
+Ctenophorus caudicinctus,Neuroptera,predatorprey
+Ctenophorus caudicinctus,Orthoptera,predatorprey
+Ctenophorus caudicinctus,Phasmatodea,predatorprey
+Ctenophorus caudicinctus,Zygentoma ,predatorprey
+Ctenotus isolepis,Araneidae,predatorprey
+Ctenotus isolepis,Blattodea,predatorprey
+Ctenotus isolepis,Blattodea,predatorprey
+Ctenotus isolepis,Chilopoda,predatorprey
+Ctenotus isolepis,Coleoptera,predatorprey
+Ctenotus isolepis,Ctenotus robustus,predatorprey
+Ctenotus isolepis,Diptera,predatorprey
+Ctenotus isolepis,Formicidae,predatorprey
+Ctenotus isolepis,Heteroptera,predatorprey
+Ctenotus isolepis,Lepidoptera,predatorprey
+Ctenotus isolepis,Mantodea,predatorprey
+Ctenotus isolepis,Neuroptera,predatorprey
+Ctenotus isolepis,Orthoptera,predatorprey
+Ctenotus isolepis,Phasmatodea,predatorprey
+Ctenotus isolepis,Zygentoma ,predatorprey
+Ctenotus leonhardii,Araneidae,predatorprey
+Ctenotus leonhardii,Blattodea,predatorprey
+Ctenotus leonhardii,Blattodea,predatorprey
+Ctenotus leonhardii,Chilopoda,predatorprey
+Ctenotus leonhardii,Coleoptera,predatorprey
+Ctenotus leonhardii,Ctenotus robustus,predatorprey
+Ctenotus leonhardii,Diptera,predatorprey
+Ctenotus leonhardii,Formicidae,predatorprey
+Ctenotus leonhardii,Heteroptera,predatorprey
+Ctenotus leonhardii,Lepidoptera,predatorprey
+Ctenotus leonhardii,Mantodea,predatorprey
+Ctenotus leonhardii,Neuroptera,predatorprey
+Ctenotus leonhardii,Orthoptera,predatorprey
+Ctenotus leonhardii,Phasmatodea,predatorprey
+Ctenotus leonhardii,Zygentoma ,predatorprey
+Ctenotus robustus,Araneidae,predatorprey
+Ctenotus robustus,Blattodea,predatorprey
+Ctenotus robustus,Blattodea,predatorprey
+Ctenotus robustus,Chilopoda,predatorprey
+Ctenotus robustus,Coleoptera,predatorprey
+Ctenotus robustus,Ctenotus robustus,predatorprey
+Ctenotus robustus,Diptera,predatorprey
+Ctenotus robustus,Formicidae,predatorprey
+Ctenotus robustus,Heteroptera,predatorprey
+Ctenotus robustus,Lepidoptera,predatorprey
+Ctenotus robustus,Mantodea,predatorprey
+Ctenotus robustus,Neuroptera,predatorprey
+Ctenotus robustus,Orthoptera,predatorprey
+Ctenotus robustus,Phasmatodea,predatorprey
+Ctenotus robustus,Zygentoma ,predatorprey
+Ctenotus strauchii,Araneidae,predatorprey
+Ctenotus strauchii,Blattodea,predatorprey
+Ctenotus strauchii,Blattodea,predatorprey
+Ctenotus strauchii,Chilopoda,predatorprey
+Ctenotus strauchii,Coleoptera,predatorprey
+Ctenotus strauchii,Ctenotus robustus,predatorprey
+Ctenotus strauchii,Diptera,predatorprey
+Ctenotus strauchii,Formicidae,predatorprey
+Ctenotus strauchii,Heteroptera,predatorprey
+Ctenotus strauchii,Lepidoptera,predatorprey
+Ctenotus strauchii,Mantodea,predatorprey
+Ctenotus strauchii,Neuroptera,predatorprey
+Ctenotus strauchii,Orthoptera,predatorprey
+Ctenotus strauchii,Phasmatodea,predatorprey
+Ctenotus strauchii,Zygentoma ,predatorprey
+Dasycercus cristicauda,Araneidae,predatorprey
+Dasycercus cristicauda,Blattodea,predatorprey
+Dasycercus cristicauda,Camponotus inflatus,predatorprey
+Dasycercus cristicauda,Chilopoda,predatorprey
+Dasycercus cristicauda,Coleoptera,predatorprey
+Dasycercus cristicauda,Formicidae,predatorprey
+Dasycercus cristicauda,Lepidoptera,predatorprey
+Dasycercus cristicauda,Mantodea,predatorprey
+Dasycercus cristicauda,Neuroptera,predatorprey
+Dasycercus cristicauda,Orthoptera,predatorprey
+Dasycercus cristicauda,Phasmatodea,predatorprey
+Dasycercus cristicauda,Scorpionida,predatorprey
+Dasycercus cristicauda,Trigona sp.,predatorprey
+Dasycercus cristicauda,Zygentoma ,predatorprey
+Dasycercus hilleri,Araneidae,predatorprey
+Dasycercus hilleri,Blattodea,predatorprey
+Dasycercus hilleri,Camponotus inflatus,predatorprey
+Dasycercus hilleri,Chilopoda,predatorprey
+Dasycercus hilleri,Coleoptera,predatorprey
+Dasycercus hilleri,Formicidae,predatorprey
+Dasycercus hilleri,Lepidoptera,predatorprey
+Dasycercus hilleri,Mantodea,predatorprey
+Dasycercus hilleri,Neuroptera,predatorprey
+Dasycercus hilleri,Orthoptera,predatorprey
+Dasycercus hilleri,Phasmatodea,predatorprey
+Dasycercus hilleri,Scorpionida,predatorprey
+Dasycercus hilleri,Trigona sp.,predatorprey
+Dasycercus hilleri,Zygentoma ,predatorprey
+Dasyurus hallucatus,Bettongia lesueur,predatorprey
+Dasyurus hallucatus,Chaeropus ecaudatus,predatorprey
+Dasyurus hallucatus,Lagorchestes hirsutus,predatorprey
+Dasyurus hallucatus,Macrotis lagotis,predatorprey
+Dasyurus hallucatus,Notomys sp.,predatorprey
+Dasyurus hallucatus,Orthoptera,predatorprey
+Dasyurus hallucatus,Perameles eremiana,predatorprey
+Dasyurus hallucatus,Taeniopygia guttata,predatorprey
+Dasyurus hallucatus,Isodon auratus,predatorprey
+Dasyurus hallucatus,Melopsittacus undulatus,predatorprey
+Dasyurus hallucatus,Notoryctes caurinus,predatorprey
+Dasyurus hallucatus,Ocyphaps lophotes,predatorprey
+Dasyurus hallucatus,Petrogale lateralis,predatorprey
+Dasyurus hallucatus,Tachyglossus aculeatus,predatorprey
+Dromaius novaehollandiae,Acacia aneura,predatorprey
+Dromaius novaehollandiae,Allocasuarina decaisneana,predatorprey
+Dromaius novaehollandiae,Amyema sp.,predatorprey
+Dromaius novaehollandiae,Canthium attenuatum,predatorprey
+Dromaius novaehollandiae,Canthium latifolium,predatorprey
+Dromaius novaehollandiae,Capparis loranthifolia,predatorprey
+Dromaius novaehollandiae,Capparis umbonata,predatorprey
+Dromaius novaehollandiae,Chenopodium curvispicatum,predatorprey
+Dromaius novaehollandiae,Cynanchum floribundum,predatorprey
+Dromaius novaehollandiae,Daucus glochidiatus,predatorprey
+Dromaius novaehollandiae,Enchylaena tomentosa,predatorprey
+Dromaius novaehollandiae,Endoxyla cinerea,predatorprey
+Dromaius novaehollandiae,Eremophila longifolia,predatorprey
+Dromaius novaehollandiae,Grevillea eriostachya,predatorprey
+Dromaius novaehollandiae,Grevillea stenobotrya,predatorprey
+Dromaius novaehollandiae,Grevillea wickhamii,predatorprey
+Dromaius novaehollandiae,Hakea leucoptera,predatorprey
+Dromaius novaehollandiae,Hakea suberea,predatorprey
+Dromaius novaehollandiae,Leiolopisma metallicum,predatorprey
+Dromaius novaehollandiae,Leiolopisma trilineatum,predatorprey
+Dromaius novaehollandiae,Nitraria billardierei,predatorprey
+Dromaius novaehollandiae,Plectrachne schinzii,predatorprey
+Dromaius novaehollandiae,Ptilotus exaltatus,predatorprey
+Dromaius novaehollandiae,Santalum acuminatum,predatorprey
+Dromaius novaehollandiae,Tecticornia verrucosa,predatorprey
+Dromaius novaehollandiae,Tetragonia eremaea,predatorprey
+Dromaius novaehollandiae,Thyridolepis multiculmis,predatorprey
+Dromaius novaehollandiae,Eremophila latrobei,predatorprey
+Egernia kintorei,Blattodea,predatorprey
+Egernia kintorei,Formicidae,predatorprey
+Egernia kintorei,Plectrachne schinzii,predatorprey
+Egernia kintorei,Scaevola parvifolia,predatorprey
+Egernia kintorei,Senna sp.,predatorprey
+Egernia kintorei,Solanum centrale,predatorprey
+Egernia kintorei,Solanum chippendalei,predatorprey
+Egernia kintorei,Solanum cleistogamum,predatorprey
+Egernia kintorei,Solanum diversiflorum,predatorprey
+Egernia kintorei,Solanum gilesii,predatorprey
+Egernia kintorei,Solanum lasiophyllum,predatorprey
+Egernia kintorei,Tetragonia eremaea,predatorprey
+Egernia kintorei,Triodia basedownii,predatorprey
+Egernia kintorei,Triodia longiceps,predatorprey
+Egernia kintorei,Triodia pungens,predatorprey
+Egernia kintorei,Yakirra australiensis,predatorprey
+Egernia striata,Blattodea,predatorprey
+Egernia striata,Camponotus inflatus,predatorprey
+Egernia striata,Formicidae,predatorprey
+Egernia striata,Plectrachne schinzii,predatorprey
+Egernia striata,Scaevola parvifolia,predatorprey
+Egernia striata,Senna sp.,predatorprey
+Egernia striata,Solanum centrale,predatorprey
+Egernia striata,Solanum chippendalei,predatorprey
+Egernia striata,Solanum cleistogamum,predatorprey
+Egernia striata,Solanum diversiflorum,predatorprey
+Egernia striata,Solanum gilesii,predatorprey
+Egernia striata,Solanum lasiophyllum,predatorprey
+Egernia striata,Tetragonia eremaea,predatorprey
+Egernia striata,Triodia basedownii,predatorprey
+Egernia striata,Triodia longiceps,predatorprey
+Egernia striata,Triodia pungens,predatorprey
+Egernia striata,Yakirra australiensis,predatorprey
+Egernia striolata,Blattodea,predatorprey
+Egernia striolata,Camponotus inflatus,predatorprey
+Egernia striolata,Formicidae,predatorprey
+Egernia striolata,Plectrachne schinzii,predatorprey
+Egernia striolata,Scaevola parvifolia,predatorprey
+Egernia striolata,Senna sp.,predatorprey
+Egernia striolata,Solanum centrale,predatorprey
+Egernia striolata,Solanum chippendalei,predatorprey
+Egernia striolata,Solanum cleistogamum,predatorprey
+Egernia striolata,Solanum diversiflorum,predatorprey
+Egernia striolata,Solanum gilesii,predatorprey
+Egernia striolata,Solanum lasiophyllum,predatorprey
+Egernia striolata,Tetragonia eremaea,predatorprey
+Egernia striolata,Triodia basedownii,predatorprey
+Egernia striolata,Triodia longiceps,predatorprey
+Egernia striolata,Triodia pungens,predatorprey
+Egernia striolata,Yakirra australiensis,predatorprey
+Endoxyla cinerea,Acacia acradenia,predatorprey
+Endoxyla cinerea,Acacia aneura,predatorprey
+Endoxyla cinerea,Acacia coriacea,predatorprey
+Endoxyla cinerea,Acacia cowleana,predatorprey
+Endoxyla cinerea,Acacia cuthbertsoni,predatorprey
+Endoxyla cinerea,Acacia dictyophleba,predatorprey
+Endoxyla cinerea,Acacia kempeana,predatorprey
+Endoxyla cinerea,Acacia ligulata,predatorprey
+Endoxyla cinerea,Acacia pruinocarpa,predatorprey
+Endoxyla cinerea,Acacia spondylophylla,predatorprey
+Endoxyla cinerea,Acacia tetragonophylla,predatorprey
+Endoxyla leucomochla,Acacia acradenia,predatorprey
+Endoxyla leucomochla,Acacia aneura,predatorprey
+Endoxyla leucomochla,Acacia coriacea,predatorprey
+Endoxyla leucomochla,Acacia cowleana,predatorprey
+Endoxyla leucomochla,Acacia cuthbertsoni,predatorprey
+Endoxyla leucomochla,Acacia dictyophleba,predatorprey
+Endoxyla leucomochla,Acacia kempeana,predatorprey
+Endoxyla leucomochla,Acacia ligulata,predatorprey
+Endoxyla leucomochla,Acacia pruinocarpa,predatorprey
+Endoxyla leucomochla,Acacia spondylophylla,predatorprey
+Endoxyla leucomochla,Acacia tetragonophylla,predatorprey
+Falco longipennis,Amphibolurus burnsi,predatorprey
+Falco longipennis,Aprasia striolata,predatorprey
+Falco longipennis,Araneidae,predatorprey
+Falco longipennis,Bettongia lesueur,predatorprey
+Falco longipennis,Blattodea,predatorprey
+Falco longipennis,Chilopoda,predatorprey
+Falco longipennis,Coleoptera,predatorprey
+Falco longipennis,Ctenotus isolepis,predatorprey
+Falco longipennis,Ctenotus isolepis,predatorprey
+Falco longipennis,Ctenotus leonhardii,predatorprey
+Falco longipennis,Ctenotus leonhardii,predatorprey
+Falco longipennis,Ctenotus robustus,predatorprey
+Falco longipennis,Ctenotus robustus,predatorprey
+Falco longipennis,Ctenotus strauchii,predatorprey
+Falco longipennis,Dasycercus cristicauda,predatorprey
+Falco longipennis,Dasycercus hilleri,predatorprey
+Falco longipennis,Dasyurus hallucatus,predatorprey
+Falco longipennis,Formicidae,predatorprey
+Falco longipennis,Heteronotia binoei,predatorprey
+Falco longipennis,Leiolopisma metallicum,predatorprey
+Falco longipennis,Leiolopisma trilineatum,predatorprey
+Falco longipennis,Lepidoptera,predatorprey
+Falco longipennis,Oedura marmorata,predatorprey
+Falco longipennis,Orthoptera,predatorprey
+Falco longipennis,Suta suta,predatorprey
+Fulica atra,Bdelloid,predatorprey
+Fulica atra,Brachionus sp.,predatorprey
+Fulica atra,Cephalodella sp.,predatorprey
+Fulica atra,Lemna disperma,predatorprey
+Fulica atra,Myriophyllum crispatum,predatorprey
+Fulica atra,Nematodes,predatorprey
+Fulica atra,Ostracods,predatorprey
+Fulica atra,Protozoans (ciliates),predatorprey
+Fulica atra,Typha dominguensis,predatorprey
+Fulica atra,Typha orientalis,predatorprey
+Hemiergis peronii,Araneidae,predatorprey
+Hemiergis peronii,Chilopoda,predatorprey
+Hemiergis peronii,Chortoicetes terminifera,predatorprey
+Hemiergis peronii,Coleoptera,predatorprey
+Hemiergis peronii,Endoxyla cinerea,predatorprey
+Hemiergis peronii,Endoxyla leucomochla,predatorprey
+Hemiergis peronii,Lepidoptera,predatorprey
+Hemiergis peronii,Scorpionida,predatorprey
+Hemiergis peronii,Trigona sp.,predatorprey
+Heteronotia binoei,Chilopoda,predatorprey
+Heteronotia binoei,Chortoicetes terminifera,predatorprey
+Heteronotia binoei,Coleoptera,predatorprey
+Heteronotia binoei,Lepidoptera,predatorprey
+Isodon auratus,Acacia acradenia,predatorprey
+Isodon auratus,Acacia aneura,predatorprey
+Isodon auratus,Acacia coriacea,predatorprey
+Isodon auratus,Acacia cowleana,predatorprey
+Isodon auratus,Acacia cuthbertsoni,predatorprey
+Isodon auratus,Acacia dictyophleba,predatorprey
+Isodon auratus,Acacia kempeana,predatorprey
+Isodon auratus,Acacia ligulata,predatorprey
+Isodon auratus,Acacia pruinocarpa,predatorprey
+Isodon auratus,Acacia spondylophylla,predatorprey
+Isodon auratus,Acacia tetragonophylla,predatorprey
+Isodon auratus,Araneidae,predatorprey
+Isodon auratus,Blattodea,predatorprey
+Isodon auratus,Chilopoda,predatorprey
+Isodon auratus,Coleoptera,predatorprey
+Isodon auratus,Daucus glochidiatus,predatorprey
+Isodon auratus,Eremophila longifolia,predatorprey
+Isodon auratus,Formicidae,predatorprey
+Isodon auratus,Nitraria billardierei,predatorprey
+Isodon auratus,Tetragonia eremaea,predatorprey
+Leggadina forresti,Araneidae,predatorprey
+Leggadina forresti,Blattodea,predatorprey
+Leggadina forresti,Chilopoda,predatorprey
+Leggadina forresti,Coleoptera,predatorprey
+Leggadina forresti,Eragrostis eriopoda,predatorprey
+Leggadina forresti,Eragrostis lanipes,predatorprey
+Leggadina forresti,Eragrostis setifolia,predatorprey
+Leggadina forresti,Lepidoptera,predatorprey
+Leggadina forresti,Panicum decompositum,predatorprey
+Leggadina forresti,Plectrachne schinzii,predatorprey
+Leggadina forresti,Rhyncharrhena linearis,predatorprey
+Leggadina forresti,Thyridolepis multiculmis,predatorprey
+Leggadina forresti,Triodia longiceps,predatorprey
+Leggadina forresti,Triodia pungens,predatorprey
+Leggadina forresti,Yakirra australiensis,predatorprey
+Leiolopisma metallicum,Araneidae,predatorprey
+Leiolopisma metallicum,Chilopoda,predatorprey
+Leiolopisma metallicum,Chortoicetes terminifera,predatorprey
+Leiolopisma metallicum,Coleoptera,predatorprey
+Leiolopisma metallicum,Endoxyla cinerea,predatorprey
+Leiolopisma metallicum,Endoxyla leucomochla,predatorprey
+Leiolopisma metallicum,Lepidoptera,predatorprey
+Leiolopisma metallicum,Scorpionida,predatorprey
+Leiolopisma metallicum,Trigona sp.,predatorprey
+Leiolopisma trilineatum,Araneidae,predatorprey
+Leiolopisma trilineatum,Chilopoda,predatorprey
+Leiolopisma trilineatum,Chortoicetes terminifera,predatorprey
+Leiolopisma trilineatum,Coleoptera,predatorprey
+Leiolopisma trilineatum,Endoxyla cinerea,predatorprey
+Leiolopisma trilineatum,Endoxyla leucomochla,predatorprey
+Leiolopisma trilineatum,Lepidoptera,predatorprey
+Leiolopisma trilineatum,Scorpionida,predatorprey
+Leiolopisma trilineatum,Trigona sp.,predatorprey
+Lerista bougainvillea,Blattodea,predatorprey
+Lerista bougainvillea,Coleoptera,predatorprey
+Lerista bougainvillea,Formicidae,predatorprey
+Lerista bougainvillea,Heteroptera,predatorprey
+Lerista bougainvillea,Trigona sp.,predatorprey
+Lophognatus gilberti,Blattodea,predatorprey
+Lophognatus gilberti,Formicidae,predatorprey
+Macropus robustus,Calandrinia polyandra,predatorprey
+Macropus robustus,Eragrostis eriopoda,predatorprey
+Macropus robustus,Eragrostis lanipes,predatorprey
+Macropus robustus,Eragrostis setifolia,predatorprey
+Macropus robustus,Plectrachne schinzii,predatorprey
+Macropus robustus,Ptilotus exaltatus,predatorprey
+Macropus robustus,Ptilotus macrocephalus,predatorprey
+Macropus robustus,Ptilotus polystachyus,predatorprey
+Macropus robustus,Sida calyxhymenia,predatorprey
+Macropus robustus,Thyridolepis multiculmis,predatorprey
+Macropus robustus,Triodia basedownii,predatorprey
+Macropus robustus,Triodia longiceps,predatorprey
+Macropus robustus,Triodia pungens,predatorprey
+Macropus rufus,Eragrostis eriopoda,predatorprey
+Macropus rufus,Eragrostis lanipes,predatorprey
+Macropus rufus,Eragrostis setifolia,predatorprey
+Macropus rufus,Panicum decompositum,predatorprey
+Macropus rufus,Plectrachne schinzii,predatorprey
+Macropus rufus,Ptilotus exaltatus,predatorprey
+Macropus rufus,Ptilotus macrocephalus,predatorprey
+Macropus rufus,Ptilotus polystachyus,predatorprey
+Macropus rufus,Sida calyxhymenia,predatorprey
+Macropus rufus,Triodia basedownii,predatorprey
+Macropus rufus,Triodia longiceps,predatorprey
+Macropus rufus,Triodia pungens,predatorprey
+Macrotis lagotis,Araneidae,predatorprey
+Macrotis lagotis,Blattodea,predatorprey
+Macrotis lagotis,Coleoptera,predatorprey
+Macrotis lagotis,Formicidae,predatorprey
+Macrotis lagotis,Orthoptera,predatorprey
+Melopsittacus undulatus,Acacia acradenia,predatorprey
+Melopsittacus undulatus,Acacia aneura,predatorprey
+Melopsittacus undulatus,Acacia coriacea,predatorprey
+Melopsittacus undulatus,Acacia cowleana,predatorprey
+Melopsittacus undulatus,Acacia cuthbertsoni,predatorprey
+Melopsittacus undulatus,Acacia dictyophleba,predatorprey
+Melopsittacus undulatus,Acacia kempeana,predatorprey
+Melopsittacus undulatus,Acacia ligulata,predatorprey
+Melopsittacus undulatus,Acacia pruinocarpa,predatorprey
+Melopsittacus undulatus,Acacia spondylophylla,predatorprey
+Melopsittacus undulatus,Acacia tetragonophylla,predatorprey
+Menetia greyii,Blattodea,predatorprey
+Menetia greyii,Chilopoda,predatorprey
+Menetia greyii,Coleoptera,predatorprey
+Menetia greyii,Formicidae,predatorprey
+Menetia greyii,Lepidoptera,predatorprey
+Menetia greyii,Orthoptera,predatorprey
+Moloch horridus,Camponotus inflatus,predatorprey
+Moloch horridus,Formicidae,predatorprey
+Morethia lineoocellatus,Blattodea,predatorprey
+Morethia lineoocellatus,Chilopoda,predatorprey
+Morethia lineoocellatus,Coleoptera,predatorprey
+Morethia lineoocellatus,Formicidae,predatorprey
+Morethia lineoocellatus,Lepidoptera,predatorprey
+Morethia lineoocellatus,Orthoptera,predatorprey
+Notaden nichollsi,Blattodea,predatorprey
+Notaden nichollsi,Camponotus inflatus,predatorprey
+Notaden nichollsi,Formicidae,predatorprey
+Notomys sp.,Araneidae,predatorprey
+Notomys sp.,Blattodea,predatorprey
+Notomys sp.,Chilopoda,predatorprey
+Notomys sp.,Coleoptera,predatorprey
+Notomys sp.,Eragrostis eriopoda,predatorprey
+Notomys sp.,Eragrostis lanipes,predatorprey
+Notomys sp.,Eragrostis setifolia,predatorprey
+Notomys sp.,Lepidoptera,predatorprey
+Notomys sp.,Panicum decompositum,predatorprey
+Notomys sp.,Plectrachne schinzii,predatorprey
+Notomys sp.,Rhyncharrhena linearis,predatorprey
+Notomys sp.,Thyridolepis multiculmis,predatorprey
+Notomys sp.,Triodia longiceps,predatorprey
+Notomys sp.,Triodia pungens,predatorprey
+Notomys sp.,Yakirra australiensis,predatorprey
+Notoryctes caurinus,Araneidae,predatorprey
+Notoryctes caurinus,Blattodea,predatorprey
+Notoryctes caurinus,Coleoptera,predatorprey
+Notoryctes caurinus,Formicidae,predatorprey
+Notoryctes caurinus,Heteroptera,predatorprey
+Notoryctes caurinus,Lepidoptera,predatorprey
+Notoryctes caurinus,Orthoptera,predatorprey
+Notoryctes caurinus,Scorpionida,predatorprey
+Notoryctes caurinus,Trigona sp.,predatorprey
+Ocyphaps lophotes,Amyema sp.,predatorprey
+Ocyphaps lophotes,Araneidae,predatorprey
+Ocyphaps lophotes,Blattodea,predatorprey
+Ocyphaps lophotes,Canthium attenuatum,predatorprey
+Ocyphaps lophotes,Canthium latifolium,predatorprey
+Ocyphaps lophotes,Capparis loranthifolia,predatorprey
+Ocyphaps lophotes,Capparis umbonata,predatorprey
+Ocyphaps lophotes,Chilopoda,predatorprey
+Ocyphaps lophotes,Coleoptera,predatorprey
+Ocyphaps lophotes,Cynanchum floribundum,predatorprey
+Ocyphaps lophotes,Eragrostis eriopoda,predatorprey
+Ocyphaps lophotes,Eragrostis lanipes,predatorprey
+Ocyphaps lophotes,Eragrostis setifolia,predatorprey
+Ocyphaps lophotes,Lepidoptera,predatorprey
+Ocyphaps lophotes,Panicum decompositum,predatorprey
+Ocyphaps lophotes,Plectrachne schinzii,predatorprey
+Ocyphaps lophotes,Rhyncharrhena linearis,predatorprey
+Ocyphaps lophotes,Tecticornia verrucosa,predatorprey
+Ocyphaps lophotes,Thyridolepis multiculmis,predatorprey
+Ocyphaps lophotes,Triodia longiceps,predatorprey
+Ocyphaps lophotes,Triodia pungens,predatorprey
+Ocyphaps lophotes,Yakirra australiensis,predatorprey
+Oedura marmorata,Blattodea,predatorprey
+Oedura marmorata,Chilopoda,predatorprey
+Oedura marmorata,Coleoptera,predatorprey
+Oedura marmorata,Formicidae,predatorprey
+Oedura marmorata,Lepidoptera,predatorprey
+Oedura marmorata,Menetia greyii,predatorprey
+Oedura marmorata,Morethia lineoocellatus,predatorprey
+Oedura marmorata,Orthoptera,predatorprey
+Oedura marmorata,Tiliqua multifasciata,predatorprey
+Oedura marmorata,Tiliqua occipitalis,predatorprey
+Oryctolagus cuniculus,Amyema sp.,predatorprey
+Oryctolagus cuniculus,Canthium attenuatum,predatorprey
+Oryctolagus cuniculus,Canthium latifolium,predatorprey
+Oryctolagus cuniculus,Capparis loranthifolia,predatorprey
+Oryctolagus cuniculus,Capparis umbonata,predatorprey
+Oryctolagus cuniculus,Cynanchum floribundum,predatorprey
+Oryctolagus cuniculus,Eragrostis eriopoda,predatorprey
+Oryctolagus cuniculus,Eragrostis lanipes,predatorprey
+Oryctolagus cuniculus,Eragrostis setifolia,predatorprey
+Oryctolagus cuniculus,Panicum decompositum,predatorprey
+Oryctolagus cuniculus,Plectrachne schinzii,predatorprey
+Oryctolagus cuniculus,Ptilotus exaltatus,predatorprey
+Oryctolagus cuniculus,Ptilotus macrocephalus,predatorprey
+Oryctolagus cuniculus,Ptilotus polystachyus,predatorprey
+Oryctolagus cuniculus,Sida calyxhymenia,predatorprey
+Oryctolagus cuniculus,Tecticornia verrucosa,predatorprey
+Oryctolagus cuniculus,Triodia basedownii,predatorprey
+Oryctolagus cuniculus,Triodia longiceps,predatorprey
+Oryctolagus cuniculus,Triodia pungens,predatorprey
+Perameles eremiana,Blattodea,predatorprey
+Perameles eremiana,Camponotus inflatus,predatorprey
+Perameles eremiana,Eragrostis eriopoda,predatorprey
+Perameles eremiana,Eragrostis lanipes,predatorprey
+Perameles eremiana,Eragrostis setifolia,predatorprey
+Perameles eremiana,Formicidae,predatorprey
+Perameles eremiana,Panicum decompositum,predatorprey
+Perameles eremiana,Plectrachne schinzii,predatorprey
+Perameles eremiana,Ptilotus polystachyus,predatorprey
+Perameles eremiana,Triodia basedownii,predatorprey
+Perameles eremiana,Triodia longiceps,predatorprey
+Perameles eremiana,Triodia pungens,predatorprey
+Petrogale lateralis,Eragrostis eriopoda,predatorprey
+Petrogale lateralis,Eragrostis lanipes,predatorprey
+Petrogale lateralis,Eragrostis setifolia,predatorprey
+Petrogale lateralis,Panicum decompositum,predatorprey
+Petrogale lateralis,Plectrachne schinzii,predatorprey
+Petrogale lateralis,Rhyncharrhena linearis,predatorprey
+Petrogale lateralis,Thyridolepis multiculmis,predatorprey
+Petrogale lateralis,Triodia longiceps,predatorprey
+Petrogale lateralis,Triodia pungens,predatorprey
+Petrogale lateralis,Yakirra australiensis,predatorprey
+Pogona minor,Blattodea,predatorprey
+Pogona minor,Camponotus inflatus,predatorprey
+Pogona minor,Formicidae,predatorprey
+Pogona vitticeps,Blattodea,predatorprey
+Pogona vitticeps,Camponotus inflatus,predatorprey
+Pogona vitticeps,Formicidae,predatorprey
+Pseudechis australis,Amphibolurus burnsi,predatorprey
+Pseudechis australis,Ctenotus isolepis,predatorprey
+Pseudechis australis,Ctenotus leonhardii,predatorprey
+Pseudechis australis,Ctenotus robustus,predatorprey
+Pseudechis australis,Ctenotus strauchii,predatorprey
+Pseudechis australis,Dasycercus cristicauda,predatorprey
+Pseudechis australis,Dasycercus hilleri,predatorprey
+Pseudechis australis,Egernia striolata,predatorprey
+Pseudechis australis,Hemiergis peronii,predatorprey
+Pseudechis australis,Heteronotia binoei,predatorprey
+Pseudechis australis,Leggadina forresti,predatorprey
+Pseudechis australis,Leiolopisma metallicum,predatorprey
+Pseudechis australis,Leiolopisma trilineatum,predatorprey
+Pseudechis australis,Notomys sp.,predatorprey
+Pseudechis australis,Oedura marmorata,predatorprey
+Pseudechis australis,Notoryctes caurinus,predatorprey
+Pygopus schraderi,Araneidae,predatorprey
+Pygopus schraderi,Blattodea,predatorprey
+Pygopus schraderi,Chilopoda,predatorprey
+Pygopus schraderi,Coleoptera,predatorprey
+Pygopus schraderi,Lepidoptera,predatorprey
+Sminthopsis macroura,Araneidae,predatorprey
+Sminthopsis macroura,Chilopoda,predatorprey
+Sminthopsis macroura,Coleoptera,predatorprey
+Stiltia isabella,Araneidae,predatorprey
+Stiltia isabella,Blattodea,predatorprey
+Stiltia isabella,Chilopoda,predatorprey
+Stiltia isabella,Coleoptera,predatorprey
+Stiltia isabella,Lepidoptera,predatorprey
+Suta suta,Amphibolurus burnsi,predatorprey
+Suta suta,Ctenotus isolepis,predatorprey
+Suta suta,Ctenotus leonhardii,predatorprey
+Suta suta,Ctenotus robustus,predatorprey
+Suta suta,Ctenotus strauchii,predatorprey
+Suta suta,Dasycercus cristicauda,predatorprey
+Suta suta,Dasycercus hilleri,predatorprey
+Suta suta,Egernia striolata,predatorprey
+Suta suta,Hemiergis peronii,predatorprey
+Suta suta,Heteronotia binoei,predatorprey
+Suta suta,Leggadina forresti,predatorprey
+Suta suta,Leiolopisma metallicum,predatorprey
+Suta suta,Leiolopisma trilineatum,predatorprey
+Suta suta,Notomys sp.,predatorprey
+Suta suta,Oedura marmorata,predatorprey
+Suta suta,Notoryctes caurinus,predatorprey
+Tachyglossus aculeatus,Blattodea,predatorprey
+Tachyglossus aculeatus,Camponotus inflatus,predatorprey
+Tachyglossus aculeatus,Formicidae,predatorprey
+Taeniopygia guttata,Amyema sp.,predatorprey
+Taeniopygia guttata,Canthium attenuatum,predatorprey
+Taeniopygia guttata,Canthium latifolium,predatorprey
+Taeniopygia guttata,Capparis loranthifolia,predatorprey
+Taeniopygia guttata,Capparis umbonata,predatorprey
+Taeniopygia guttata,Cynanchum floribundum,predatorprey
+Taeniopygia guttata,Eragrostis eriopoda,predatorprey
+Taeniopygia guttata,Eragrostis lanipes,predatorprey
+Taeniopygia guttata,Eragrostis setifolia,predatorprey
+Taeniopygia guttata,Panicum decompositum,predatorprey
+Taeniopygia guttata,Plectrachne schinzii,predatorprey
+Taeniopygia guttata,Ptilotus exaltatus,predatorprey
+Taeniopygia guttata,Ptilotus macrocephalus,predatorprey
+Taeniopygia guttata,Ptilotus polystachyus,predatorprey
+Taeniopygia guttata,Sida calyxhymenia,predatorprey
+Taeniopygia guttata,Tecticornia verrucosa,predatorprey
+Taeniopygia guttata,Triodia basedownii,predatorprey
+Taeniopygia guttata,Triodia longiceps,predatorprey
+Taeniopygia guttata,Triodia pungens,predatorprey
+Tiliqua multifasciata,Araneidae,predatorprey
+Tiliqua multifasciata,Chilopoda,predatorprey
+Tiliqua multifasciata,Chortoicetes terminifera,predatorprey
+Tiliqua multifasciata,Coleoptera,predatorprey
+Tiliqua multifasciata,Endoxyla cinerea,predatorprey
+Tiliqua multifasciata,Endoxyla leucomochla,predatorprey
+Tiliqua multifasciata,Lepidoptera,predatorprey
+Tiliqua multifasciata,Scorpionida,predatorprey
+Tiliqua multifasciata,Trigona sp.,predatorprey
+Tiliqua occipitalis,Araneidae,predatorprey
+Tiliqua occipitalis,Chilopoda,predatorprey
+Tiliqua occipitalis,Chortoicetes terminifera,predatorprey
+Tiliqua occipitalis,Coleoptera,predatorprey
+Tiliqua occipitalis,Endoxyla cinerea,predatorprey
+Tiliqua occipitalis,Endoxyla leucomochla,predatorprey
+Tiliqua occipitalis,Lepidoptera,predatorprey
+Tiliqua occipitalis,Scorpionida,predatorprey
+Tiliqua occipitalis,Trigona sp.,predatorprey
+Tiliqua scincoides,Araneidae,predatorprey
+Tiliqua scincoides,Chilopoda,predatorprey
+Tiliqua scincoides,Chortoicetes terminifera,predatorprey
+Tiliqua scincoides,Coleoptera,predatorprey
+Tiliqua scincoides,Endoxyla cinerea,predatorprey
+Tiliqua scincoides,Endoxyla leucomochla,predatorprey
+Tiliqua scincoides,Lepidoptera,predatorprey
+Tiliqua scincoides,Scorpionida,predatorprey
+Tiliqua scincoides,Trigona sp.,predatorprey
+Trichosurus vulpecula,Amyema sp.,predatorprey
+Trichosurus vulpecula,Canthium attenuatum,predatorprey
+Trichosurus vulpecula,Canthium latifolium,predatorprey
+Trichosurus vulpecula,Capparis loranthifolia,predatorprey
+Trichosurus vulpecula,Capparis umbonata,predatorprey
+Trichosurus vulpecula,Cynanchum floribundum,predatorprey
+Trichosurus vulpecula,Eremophila latrobei,predatorprey
+Trichosurus vulpecula,Eucalyptus opaca,predatorprey
+Trichosurus vulpecula,Ficus brachypoda,predatorprey
+Trichosurus vulpecula,Hakea suberea,predatorprey
+Trichosurus vulpecula,Leptosema chambersii,predatorprey
+Trichosurus vulpecula,Ptilotus exaltatus,predatorprey
+Trichosurus vulpecula,Ptilotus macrocephalus,predatorprey
+Trichosurus vulpecula,Santalum acuminatum,predatorprey
+Trichosurus vulpecula,Santalum lanceolatum,predatorprey
+Trichosurus vulpecula,Tecticornia verrucosa,predatorprey
+Turnix velox,Eragrostis eriopoda,predatorprey
+Turnix velox,Eragrostis lanipes,predatorprey
+Turnix velox,Eragrostis setifolia,predatorprey
+Turnix velox,Panicum decompositum,predatorprey
+Turnix velox,Plectrachne schinzii,predatorprey
+Turnix velox,Ptilotus exaltatus,predatorprey
+Turnix velox,Ptilotus macrocephalus,predatorprey
+Turnix velox,Ptilotus polystachyus,predatorprey
+Turnix velox,Sida calyxhymenia,predatorprey
+Turnix velox,Triodia basedownii,predatorprey
+Turnix velox,Triodia longiceps,predatorprey
+Turnix velox,Triodia pungens,predatorprey
+Tympanocryptis tetraporophora,Blattodea,predatorprey
+Tympanocryptis tetraporophora,Camponotus inflatus,predatorprey
+Tympanocryptis tetraporophora,Formicidae,predatorprey
+Varanus acanthurus,Araneidae,predatorprey
+Varanus acanthurus,Blattodea,predatorprey
+Varanus acanthurus,Coleoptera,predatorprey
+Varanus acanthurus,Lepidoptera,predatorprey
+Varanus acanthurus,Orthoptera,predatorprey
+Varanus giganteus,Aprasia striolata,predatorprey
+Varanus giganteus,Araneidae,predatorprey
+Varanus giganteus,Bird egg shell,predatorprey
+Varanus giganteus,Blattodea,predatorprey
+Varanus giganteus,Chilopoda,predatorprey
+Varanus giganteus,Coleoptera,predatorprey
+Varanus giganteus,Hemiergis peronii,predatorprey
+Varanus giganteus,Homo sapiens,predatorprey
+Varanus giganteus,Leiolopisma metallicum,predatorprey
+Varanus giganteus,Leiolopisma trilineatum,predatorprey
+Varanus giganteus,Lepidoptera,predatorprey
+Varanus giganteus,Lerista bougainvillea,predatorprey
+Varanus giganteus,Menetia greyii,predatorprey
+Varanus giganteus,Morethia lineoocellatus,predatorprey
+Varanus giganteus,Reptile eggs,predatorprey
+Varanus giganteus,Scorpionida,predatorprey
+Varanus giganteus,Varanus gouldii,predatorprey
+Varanus gouldii,Aprasia striolata,predatorprey
+Varanus gouldii,Araneidae,predatorprey
+Varanus gouldii,Bird egg shell,predatorprey
+Varanus gouldii,Blattodea,predatorprey
+Varanus gouldii,Chilopoda,predatorprey
+Varanus gouldii,Coleoptera,predatorprey
+Varanus gouldii,Hemiergis peronii,predatorprey
+Varanus gouldii,Homo sapiens,predatorprey
+Varanus gouldii,Leiolopisma metallicum,predatorprey
+Varanus gouldii,Leiolopisma trilineatum,predatorprey
+Varanus gouldii,Lepidoptera,predatorprey
+Varanus gouldii,Lerista bougainvillea,predatorprey
+Varanus gouldii,Menetia greyii,predatorprey
+Varanus gouldii,Morethia lineoocellatus,predatorprey
+Varanus gouldii,Reptile eggs,predatorprey
+Varanus gouldii,Scorpionida,predatorprey
+Varanus gouldii,Varanus gouldii,predatorprey
+Varanus panoptes,Aprasia striolata,predatorprey
+Varanus panoptes,Araneidae,predatorprey
+Varanus panoptes,Bird egg shell,predatorprey
+Varanus panoptes,Blattodea,predatorprey
+Varanus panoptes,Chilopoda,predatorprey
+Varanus panoptes,Coleoptera,predatorprey
+Varanus panoptes,Hemiergis peronii,predatorprey
+Varanus panoptes,Homo sapiens,predatorprey
+Varanus panoptes,Leiolopisma metallicum,predatorprey
+Varanus panoptes,Leiolopisma trilineatum,predatorprey
+Varanus panoptes,Lepidoptera,predatorprey
+Varanus panoptes,Lerista bougainvillea,predatorprey
+Varanus panoptes,Menetia greyii,predatorprey
+Varanus panoptes,Morethia lineoocellatus,predatorprey
+Varanus panoptes,Reptile eggs,predatorprey
+Varanus panoptes,Scorpionida,predatorprey
+Varanus panoptes,Varanus gouldii,predatorprey
+Varanus tristis,Araneidae,predatorprey
+Varanus tristis,Blattodea,predatorprey
+Varanus tristis,Coleoptera,predatorprey
+Varanus tristis,Ctenophorus caudicinctus,predatorprey
+Varanus tristis,Ctenotus isolepis,predatorprey
+Varanus tristis,Formicidae,predatorprey
+Varanus tristis,Lepidoptera,predatorprey
+Varanus tristis,Lophognatus gilberti,predatorprey
+Varanus tristis,Orthoptera,predatorprey
+Varanus tristis,Pogona minor,predatorprey
+Varanus tristis,Pogona vitticeps,predatorprey
+Vulpes vulpes,Araneidae,predatorprey
+Vulpes vulpes,Bird egg shell,predatorprey
+Vulpes vulpes,Blattodea,predatorprey
+Vulpes vulpes,Coleoptera,predatorprey
+Vulpes vulpes,Lepidoptera,predatorprey
+Vulpes vulpes,Notomys sp.,predatorprey
+Vulpes vulpes,Reptile eggs,predatorprey
+Vulpes vulpes,Trichosurus vulpecula,predatorprey
+Vulpes vulpes,Aquila audax,predatorprey
+Vulpes vulpes,Ardeotis australis,predatorprey
+Vulpes vulpes,Trichosurus vulpecula,predatorprey
+Vulpes vulpes,Notoryctes caurinus,predatorprey
+Aquila audax,Bettongia lesueur,predatorprey
+Aquila audax,Canis lupus dingo,predatorprey
+Aquila audax,Chaeropus ecaudatus,predatorprey
+Aquila audax,Ctenophorus caudicinctus,predatorprey
+Aquila audax,Ctenotus isolepis,predatorprey
+Aquila audax,Felis catus,predatorprey
+Aquila audax,Lagorchestes hirsutus,predatorprey
+Aquila audax,Lophognatus gilberti,predatorprey
+Aquila audax,Macropus robustus,predatorprey
+Aquila audax,Notomys sp.,predatorprey
+Aquila audax,Orthoptera,predatorprey
+Aquila audax,Perameles eremiana,predatorprey
+Aquila audax,Pogona minor,predatorprey
+Aquila audax,Pogona vitticeps,predatorprey
+Aquila audax,Taeniopygia guttata,predatorprey
+Aquila audax,Tiliqua multifasciata,predatorprey
+Aquila audax,Tiliqua occipitalis,predatorprey
+Aquila audax,Varanus gouldii,predatorprey
+Aquila audax,Corvus cecilae,predatorprey
+Aquila audax,Falco longipennis,predatorprey
+Aquila audax,Fulica atra,predatorprey
+Aquila audax,Anas superciliosa,predatorprey
+Bettongia lesueur,Eragrostis eriopoda,predatorprey
+Bettongia lesueur,Eragrostis lanipes,predatorprey
+Bettongia lesueur,Eragrostis setifolia,predatorprey
+Bettongia lesueur,Panicum decompositum,predatorprey
+Bettongia lesueur,Plectrachne schinzii,predatorprey
+Bettongia lesueur,Ptilotus exaltatus,predatorprey
+Bettongia lesueur,Ptilotus macrocephalus,predatorprey
+Bettongia lesueur,Ptilotus polystachyus,predatorprey
+Bettongia lesueur,Sida calyxhymenia,predatorprey
+Bettongia lesueur,Triodia basedownii,predatorprey
+Bettongia lesueur,Triodia longiceps,predatorprey
+Bettongia lesueur,Triodia pungens,predatorprey
+Canis lupus dingo,Ardeotis australis,predatorprey
+Canis lupus dingo,Bettongia lesueur,predatorprey
+Canis lupus dingo,Chaeropus ecaudatus,predatorprey
+Canis lupus dingo,Chilopoda,predatorprey
+Canis lupus dingo,Coleoptera,predatorprey
+Canis lupus dingo,Ctenophorus caudicinctus,predatorprey
+Canis lupus dingo,Ctenotus isolepis,predatorprey
+Canis lupus dingo,Felis catus,predatorprey
+Canis lupus dingo,Homo sapiens,predatorprey
+Canis lupus dingo,Lagorchestes hirsutus,predatorprey
+Canis lupus dingo,Lophognatus gilberti,predatorprey
+Canis lupus dingo,Macropus robustus,predatorprey
+Canis lupus dingo,Notomys sp.,predatorprey
+Canis lupus dingo,Orthoptera,predatorprey
+Canis lupus dingo,Perameles eremiana,predatorprey
+Canis lupus dingo,Pogona minor,predatorprey
+Canis lupus dingo,Pogona vitticeps,predatorprey
+Canis lupus dingo,Tiliqua multifasciata,predatorprey
+Canis lupus dingo,Tiliqua occipitalis,predatorprey
+Canis lupus dingo,Varanus gouldii,predatorprey
+Canis lupus dingo,Aquila audax,predatorprey
+Canis lupus dingo,Ardeotis australis,predatorprey
+Canis lupus dingo,Camelus dromedarius,predatorprey
+Canis lupus dingo,Dromaius novaehollandiae,predatorprey
+Canis lupus dingo,Fulica atra,predatorprey
+Canis lupus dingo,Vulpes vulpes,predatorprey
+Canis lupus dingo,Varanus acanthurus,predatorprey
+Canis lupus dingo,Tympanocryptis tetraporophora,predatorprey
+Canis lupus dingo,Trichosurus vulpecula,predatorprey
+Canis lupus dingo,Isodon auratus,predatorprey
+Canis lupus dingo,Macropus rufus,predatorprey
+Canis lupus dingo,Notoryctes caurinus,predatorprey
+Canis lupus dingo,Petrogale lateralis,predatorprey
+Canis lupus dingo,Tachyglossus aculeatus,predatorprey
+Felis catus,Amphibolurus burnsi,predatorprey
+Felis catus,Ctenotus isolepis,predatorprey
+Felis catus,Ctenotus leonhardii,predatorprey
+Felis catus,Ctenotus robustus,predatorprey
+Felis catus,Egernia striolata,predatorprey
+Felis catus,Heteronotia binoei,predatorprey
+Felis catus,Lagorchestes hirsutus,predatorprey
+Felis catus,Leggadina forresti,predatorprey
+Felis catus,Notomys sp.,predatorprey
+Felis catus,Oedura marmorata,predatorprey
+Felis catus,Pogona vitticeps,predatorprey
+Felis catus,Pseudechis australis,predatorprey
+Felis catus,Pygopus schraderi,predatorprey
+Felis catus,Reptile eggs,predatorprey
+Felis catus,Sminthopsis macroura,predatorprey
+Felis catus,Stiltia isabella,predatorprey
+Felis catus,Suta suta,predatorprey
+Felis catus,Taeniopygia guttata,predatorprey
+Felis catus,Turnix velox,predatorprey
+Felis catus,Tympanocryptis tetraporophora,predatorprey
+Felis catus,Varanus gouldii,predatorprey
+Felis catus,Ardeotis australis,predatorprey
+Felis catus,Corvus cecilae,predatorprey
+Felis catus,Fulica atra,predatorprey
+Felis catus,Vulpes vulpes,predatorprey
+Felis catus,Varanus acanthurus,predatorprey
+Felis catus,Tympanocryptis tetraporophora,predatorprey
+Felis catus,Trichosurus vulpecula,predatorprey
+Felis catus,Melopsittacus undulatus,predatorprey
+Felis catus,Notoryctes caurinus,predatorprey
+Felis catus,Ocyphaps lophotes,predatorprey
+Felis catus,Petrogale lateralis,predatorprey
+Felis catus,Tachyglossus aculeatus,predatorprey
+Homo sapiens,Acacia acradenia,predatorprey
+Homo sapiens,Acacia aneura,predatorprey
+Homo sapiens,Acacia coriacea,predatorprey
+Homo sapiens,Acacia cowleana,predatorprey
+Homo sapiens,Acacia cuthbertsoni,predatorprey
+Homo sapiens,Acacia dictyophleba,predatorprey
+Homo sapiens,Acacia kempeana,predatorprey
+Homo sapiens,Acacia ligulata,predatorprey
+Homo sapiens,Acacia pruinocarpa,predatorprey
+Homo sapiens,Acacia spondylophylla,predatorprey
+Homo sapiens,Acacia tetragonophylla,predatorprey
+Homo sapiens,Allocasuarina decaisneana,predatorprey
+Homo sapiens,Amyema sp.,predatorprey
+Homo sapiens,Anas superciliosa,predatorprey
+Homo sapiens,Antaresia stimsoni,predatorprey
+Homo sapiens,Aquila audax,predatorprey
+Homo sapiens,Ardeotis australis,predatorprey
+Homo sapiens,Aspidites melanocephalus,predatorprey
+Homo sapiens,Aspidites ramsayii,predatorprey
+Homo sapiens,Bettongia lesueur,predatorprey
+Homo sapiens,Blattodea,predatorprey
+Homo sapiens,Calyptorhynchus roseicapilla,predatorprey
+Homo sapiens,Camelus dromedarius,predatorprey
+Homo sapiens,Canis lupus dingo,predatorprey
+Homo sapiens,Canthium attenuatum,predatorprey
+Homo sapiens,Canthium latifolium,predatorprey
+Homo sapiens,Capparis loranthifolia,predatorprey
+Homo sapiens,Capparis umbonata,predatorprey
+Homo sapiens,Chaeropus ecaudatus,predatorprey
+Homo sapiens,Chioromyces aboriginum,predatorprey
+Homo sapiens,Corvus cecilae,predatorprey
+Homo sapiens,Ctenotus isolepis,predatorprey
+Homo sapiens,Cucumis melo (agrestis),predatorprey
+Homo sapiens,Cynanchum floribundum,predatorprey
+Homo sapiens,Dactyloctenium radulans,predatorprey
+Homo sapiens,Dasycercus cristicauda,predatorprey
+Homo sapiens,Dasycercus hilleri,predatorprey
+Homo sapiens,Dasyurus hallucatus,predatorprey
+Homo sapiens,Dromaius novaehollandiae,predatorprey
+Homo sapiens,Egernia kintorei,predatorprey
+Homo sapiens,Egernia striata,predatorprey
+Homo sapiens,Enchylaena tomentosa,predatorprey
+Homo sapiens,Eucalyptus opaca,predatorprey
+Homo sapiens,Falco longipennis,predatorprey
+Homo sapiens,Felis catus,predatorprey
+Homo sapiens,Fulica atra,predatorprey
+Homo sapiens,Hakea leucoptera,predatorprey
+Homo sapiens,Hakea suberea,predatorprey
+Homo sapiens,Homo sapiens,predatorprey
+Homo sapiens,Isodon auratus,predatorprey
+Homo sapiens,Lagorchestes hirsutus,predatorprey
+Homo sapiens,Macropus robustus,predatorprey
+Homo sapiens,Macropus rufus,predatorprey
+Homo sapiens,Macrotis lagotis,predatorprey
+Homo sapiens,Melopsittacus undulatus,predatorprey
+Homo sapiens,Moloch horridus,predatorprey
+Homo sapiens,Mycoclelandia bulundarii,predatorprey
+Homo sapiens,Notomys sp.,predatorprey
+Homo sapiens,Notoryctes caurinus,predatorprey
+Homo sapiens,Ocyphaps lophotes,predatorprey
+Homo sapiens,Oryctolagus cuniculus,predatorprey
+Homo sapiens,Panicum decompositum,predatorprey
+Homo sapiens,Perameles eremiana,predatorprey
+Homo sapiens,Petrogale lateralis,predatorprey
+Homo sapiens,Psylla eucalypti,predatorprey
+Homo sapiens,Rhyncharrhena linearis,predatorprey
+Homo sapiens,Santalum acuminatum,predatorprey
+Homo sapiens,Santalum lanceolatum,predatorprey
+Homo sapiens,Senna sp.,predatorprey
+Homo sapiens,Solanum centrale,predatorprey
+Homo sapiens,Solanum chippendalei,predatorprey
+Homo sapiens,Solanum cleistogamum,predatorprey
+Homo sapiens,Solanum diversiflorum,predatorprey
+Homo sapiens,Solanum gilesii,predatorprey
+Homo sapiens,Tachyglossus aculeatus,predatorprey
+Homo sapiens,Taeniopygia guttata,predatorprey
+Homo sapiens,Tecticornia verrucosa,predatorprey
+Homo sapiens,Tiliqua multifasciata,predatorprey
+Homo sapiens,Tiliqua occipitalis,predatorprey
+Homo sapiens,Trichosurus vulpecula,predatorprey
+Homo sapiens,Turnix velox,predatorprey
+Homo sapiens,Varanus giganteus,predatorprey
+Homo sapiens,Varanus gouldii,predatorprey
+Homo sapiens,Varanus panoptes,predatorprey
+Homo sapiens,Vulpes vulpes,predatorprey
+Homo sapiens,Yakirra australiensis,predatorprey
+Lagorchestes hirsutus,Araneidae,predatorprey
+Lagorchestes hirsutus,Blattodea,predatorprey
+Lagorchestes hirsutus,Chilopoda,predatorprey
+Lagorchestes hirsutus,Coleoptera,predatorprey
+Lagorchestes hirsutus,Formicidae,predatorprey
+Lagorchestes hirsutus,Lepidoptera,predatorprey
+Lagorchestes hirsutus,Portulaca oleracea,predatorprey
+Lagorchestes hirsutus,Ptilotus exaltatus,predatorprey
+Lagorchestes hirsutus,Ptilotus macrocephalus,predatorprey
+Lagorchestes hirsutus,Triodia basedownii,predatorprey
+Lagorchestes hirsutus,Triodia longiceps,predatorprey
+Lagorchestes hirsutus,Triodia pungens,predatorprey
+Fire,Acacia acradenia,simplefire
+Fire,Acacia aneura,simplefire
+Fire,Acacia coriacea,simplefire
+Fire,Acacia cowleana,simplefire
+Fire,Acacia cuthbertsoni,simplefire
+Fire,Acacia dictyophleba,simplefire
+Fire,Acacia kempeana,simplefire
+Fire,Acacia ligulata,simplefire
+Fire,Acacia pruinocarpa,simplefire
+Fire,Acacia spondylophylla,simplefire
+Fire,Acacia tetragonophylla,simplefire
+Fire,Amyema sp.,simplefire
+Fire,Calandrinia polyandra,simplefire
+Fire,Canthium attenuatum,simplefire
+Fire,Canthium latifolium,simplefire
+Fire,Capparis loranthifolia,simplefire
+Fire,Capparis umbonata,simplefire
+Fire,Chenopodium curvispicatum,simplefire
+Fire,Chioromyces aboriginum,simplefire
+Fire,Cucumis melo (agrestis),simplefire
+Fire,Cynanchum floribundum,simplefire
+Fire,Dactyloctenium radulans,simplefire
+Fire,Daucus glochidiatus,simplefire
+Fire,Enchylaena tomentosa,simplefire
+Fire,Eragrostis eriopoda,simplefire
+Fire,Eragrostis lanipes,simplefire
+Fire,Eragrostis setifolia,simplefire
+Fire,Eremophila latrobei,simplefire
+Fire,Eremophila longifolia,simplefire
+Fire,Ficus brachypoda,simplefire
+Fire,Grevillea eriostachya,simplefire
+Fire,Grevillea stenobotrya,simplefire
+Fire,Grevillea wickhamii,simplefire
+Fire,Hakea leucoptera,simplefire
+Fire,Hakea suberea,simplefire
+Fire,Leptosema chambersii,simplefire
+Fire,Nitraria billardierei,simplefire
+Fire,Panicum decompositum,simplefire
+Fire,Plectrachne schinzii,simplefire
+Fire,Portulaca oleracea,simplefire
+Fire,Ptilotus exaltatus,simplefire
+Fire,Ptilotus macrocephalus,simplefire
+Fire,Ptilotus polystachyus,simplefire
+Fire,Rhyncharrhena linearis,simplefire
+Fire,Santalum acuminatum,simplefire
+Fire,Santalum lanceolatum,simplefire
+Fire,Scaevola parvifolia,simplefire
+Fire,Senna sp.,simplefire
+Fire,Sida calyxhymenia,simplefire
+Fire,Solanum centrale,simplefire
+Fire,Solanum chippendalei,simplefire
+Fire,Solanum cleistogamum,simplefire
+Fire,Solanum diversiflorum,simplefire
+Fire,Solanum gilesii,simplefire
+Fire,Solanum lasiophyllum,simplefire
+Fire,Tecticornia verrucosa,simplefire
+Fire,Tetragonia eremaea,simplefire
+Fire,Thryptomene maisonneuve,simplefire
+Fire,Thyridolepis multiculmis,simplefire
+Fire,Triodia basedownii,simplefire
+Fire,Triodia longiceps,simplefire
+Fire,Triodia pungens,simplefire
+Fire,Yakirra australiensis,simplefire
+Camponotus inflatus,Acacia acradenia,predatorprey
+Camponotus inflatus,Acacia aneura,predatorprey
+Camponotus inflatus,Acacia coriacea,predatorprey
+Camponotus inflatus,Acacia cowleana,predatorprey
+Camponotus inflatus,Acacia cuthbertsoni,predatorprey
+Camponotus inflatus,Acacia dictyophleba,predatorprey
+Camponotus inflatus,Acacia kempeana,predatorprey
+Camponotus inflatus,Acacia ligulata,predatorprey
+Camponotus inflatus,Acacia pruinocarpa,predatorprey
+Camponotus inflatus,Acacia spondylophylla,predatorprey
+Camponotus inflatus,Acacia tetragonophylla,predatorprey
+Camponotus inflatus,Eremophila latrobei,predatorprey
+Camponotus inflatus,Hakea suberea,predatorprey
+Camponotus inflatus,Ptilotus exaltatus,predatorprey
+Camponotus inflatus,Ptilotus macrocephalus,predatorprey
+Amphibolurus burnsi,Camponotus inflatus,predatorprey
+Aprasia striolata,Camponotus inflatus,predatorprey
+Ardeotis australis,Camponotus inflatus,predatorprey
+Corvus cecilae,Camponotus inflatus,predatorprey
+Ctenotus isolepis,Camponotus inflatus,predatorprey
+Ctenotus robustus,Camponotus inflatus,predatorprey
+Dasycercus cristicauda,Camponotus inflatus,predatorprey
+Dasyurus hallucatus,Camponotus inflatus,predatorprey
+Egernia striata,Camponotus inflatus,predatorprey
+Falco longipennis,Camponotus inflatus,predatorprey
+Fulica atra,Camponotus inflatus,predatorprey
+Heteronotia binoei,Camponotus inflatus,predatorprey
+Isodon auratus,Camponotus inflatus,predatorprey
+Leggadina forresti,Camponotus inflatus,predatorprey
+Leiolopisma trilineatum,Camponotus inflatus,predatorprey
+Lophognatus gilberti,Camponotus inflatus,predatorprey
+Menetia greyii,Camponotus inflatus,predatorprey
+Morethia lineoocellatus,Camponotus inflatus,predatorprey
+Notomys sp.,Camponotus inflatus,predatorprey
+Ocyphaps lophotes,Camponotus inflatus,predatorprey
+Perameles eremiana,Camponotus inflatus,predatorprey
+Pogona vitticeps,Camponotus inflatus,predatorprey
+Sminthopsis macroura,Camponotus inflatus,predatorprey
+Tachyglossus aculeatus,Camponotus inflatus,predatorprey
+Tiliqua occipitalis,Camponotus inflatus,predatorprey
+Tympanocryptis tetraporophora,Camponotus inflatus,predatorprey
+Varanus giganteus,Camponotus inflatus,predatorprey
+Varanus panoptes,Camponotus inflatus,predatorprey
+Vulpes vulpes,Camponotus inflatus,predatorprey
+Anas superciliosa,Camponotus inflatus,predatorprey
+Aquila audax,Camponotus inflatus,predatorprey
+Canis lupus dingo,Camponotus inflatus,predatorprey
+Ctenophorus caudicinctus,Camponotus inflatus,predatorprey
+Ctenotus leonhardii,Camponotus inflatus,predatorprey
+Ctenotus strauchii,Camponotus inflatus,predatorprey
+Dasycercus hilleri,Camponotus inflatus,predatorprey
+Egernia kintorei,Camponotus inflatus,predatorprey
+Egernia striolata,Camponotus inflatus,predatorprey
+Hemiergis peronii,Camponotus inflatus,predatorprey
+Homo sapiens,Camponotus inflatus,predatorprey
+Lagorchestes hirsutus,Camponotus inflatus,predatorprey
+Leiolopisma metallicum,Camponotus inflatus,predatorprey
+Lerista bougainvillea,Camponotus inflatus,predatorprey
+Macrotis lagotis,Camponotus inflatus,predatorprey
+Moloch horridus,Camponotus inflatus,predatorprey
+Notaden nichollsi,Camponotus inflatus,predatorprey
+Notoryctes caurinus,Camponotus inflatus,predatorprey
+Oedura marmorata,Camponotus inflatus,predatorprey
+Pogona minor,Camponotus inflatus,predatorprey
+Pygopus schraderi,Camponotus inflatus,predatorprey
+Stiltia isabella,Camponotus inflatus,predatorprey
+Tiliqua multifasciata,Camponotus inflatus,predatorprey
+Tiliqua multifasciata,Camponotus inflatus,predatorprey
+Tiliqua scincoides,Camponotus inflatus,predatorprey
+Varanus acanthurus,Camponotus inflatus,predatorprey
+Varanus gouldii,Camponotus inflatus,predatorprey
+Varanus tristis,Camponotus inflatus,predatorprey
+human fire,Eragrostis lanipes,complexfire
+human fire,Eragrostis setifolia,complexfire
+human fire,Plectrachne schinzii,complexfire
+human fire,Triodia basedownii,complexfire
+human fire,Triodia longiceps,complexfire
+human fire,Triodia pungens,complexfire
+human fire,Panicum decompositum,complexfire
+human fire,Thyridolepis multiculmis,complexfire
+human fire,Yakirra australiensis,complexfire
+lightning fire,Eragrostis lanipes,complexfire
+lightning fire,Eragrostis setifolia,complexfire
+lightning fire,Plectrachne schinzii,complexfire
+lightning fire,Triodia basedownii,complexfire
+lightning fire,Triodia longiceps,complexfire
+lightning fire,Triodia pungens,complexfire
+lightning fire,Panicum decompositum,complexfire
+lightning fire,Thyridolepis multiculmis,complexfire
+lightning fire,Yakirra australiensis,complexfire
+lightning fire,Canis lupus dingo,complexfire
+lightning fire,Lagorchestes hirsutus,complexfire
+lightning fire,Macrotis lagotis,complexfire
+lightning fire,Varanus acanthurus,complexfire
+lightning fire,Varanus giganteus,complexfire
+lightning fire,Varanus gouldii,complexfire
+lightning fire,Varanus panoptes,complexfire
+lightning fire,Varanus tristis,complexfire
+lightning fire,Chaeropus ecaudatus,complexfire
+lightning fire,Isodon auratus,complexfire
+lightning fire,Perameles eremiana,complexfire
+Homo sapiens,Canis lupus dingo,positive
+Homo sapiens,Solanum centrale,positive
+Homo sapiens,Solanum chippendalei,positive
+Homo sapiens,Solanum cleistogamum,positive
+Homo sapiens,Solanum diversiflorum,positive
+Homo sapiens,Solanum gilesii,positive
+Homo sapiens,Solanum lasiophyllum,positive
+Eragrostis eriopoda,Lagorchestes hirsutus,positive
+Eragrostis lanipes,Lagorchestes hirsutus,positive
+Eragrostis setifolia,Lagorchestes hirsutus,positive
+Plectrachne schinzii,Lagorchestes hirsutus,positive
+Triodia basedownii,Lagorchestes hirsutus,positive
+Triodia longiceps,Lagorchestes hirsutus,positive
+Triodia pungens,Lagorchestes hirsutus,positive
+Eragrostis eriopoda,Varanus acanthurus,positive
+Eragrostis lanipes,Varanus acanthurus,positive
+Eragrostis setifolia,Varanus acanthurus,positive
+Plectrachne schinzii,Varanus acanthurus,positive
+Triodia basedownii,Varanus acanthurus,positive
+Triodia longiceps,Varanus acanthurus,positive
+Triodia pungens,Varanus acanthurus,positive
+Eragrostis eriopoda,Varanus giganteus,positive
+Eragrostis lanipes,Varanus giganteus,positive
+Eragrostis setifolia,Varanus giganteus,positive
+Plectrachne schinzii,Varanus giganteus,positive
+Triodia basedownii,Varanus giganteus,positive
+Triodia longiceps,Varanus giganteus,positive
+Triodia pungens,Varanus giganteus,positive
+Eragrostis eriopoda,Varanus gouldii,positive
+Eragrostis lanipes,Varanus gouldii,positive
+Eragrostis setifolia,Varanus gouldii,positive
+Plectrachne schinzii,Varanus gouldii,positive
+Triodia basedownii,Varanus gouldii,positive
+Triodia longiceps,Varanus gouldii,positive
+Triodia pungens,Varanus gouldii,positive
+Eragrostis eriopoda,Varanus panoptes,positive
+Eragrostis lanipes,Varanus panoptes,positive
+Eragrostis setifolia,Varanus panoptes,positive
+Plectrachne schinzii,Varanus panoptes,positive
+Triodia basedownii,Varanus panoptes,positive
+Triodia longiceps,Varanus panoptes,positive
+Triodia pungens,Varanus panoptes,positive
+Eragrostis eriopoda,Varanus tristis,positive
+Eragrostis lanipes,Varanus tristis,positive
+Eragrostis setifolia,Varanus tristis,positive
+Plectrachne schinzii,Varanus tristis,positive
+Triodia basedownii,Varanus tristis,positive
+Triodia longiceps,Varanus tristis,positive
+Triodia pungens,Varanus tristis,positive
+Eragrostis eriopoda,Chaeropus ecaudatus,positive
+Eragrostis lanipes,Chaeropus ecaudatus,positive
+Eragrostis setifolia,Chaeropus ecaudatus,positive
+Plectrachne schinzii,Chaeropus ecaudatus,positive
+Triodia basedownii,Chaeropus ecaudatus,positive
+Triodia longiceps,Chaeropus ecaudatus,positive
+Triodia pungens,Chaeropus ecaudatus,positive
+Eragrostis eriopoda,Isodon auratus,positive
+Eragrostis lanipes,Isodon auratus,positive
+Eragrostis setifolia,Isodon auratus,positive
+Plectrachne schinzii,Isodon auratus,positive
+Triodia basedownii,Isodon auratus,positive
+Triodia longiceps,Isodon auratus,positive
+Triodia pungens,Isodon auratus,positive
+Eragrostis eriopoda,Perameles eremiana,positive
+Eragrostis lanipes,Perameles eremiana,positive
+Eragrostis setifolia,Perameles eremiana,positive
+Plectrachne schinzii,Perameles eremiana,positive
+Triodia basedownii,Perameles eremiana,positive
+Triodia longiceps,Perameles eremiana,positive
+Triodia pungens,Perameles eremiana,positive
+Eragrostis eriopoda,Macrotis lagotis,positive
+Eragrostis lanipes,Macrotis lagotis,positive
+Eragrostis setifolia,Macrotis lagotis,positive
+Plectrachne schinzii,Macrotis lagotis,positive
+Triodia basedownii,Macrotis lagotis,positive
+Triodia longiceps,Macrotis lagotis,positive
+Triodia pungens,Macrotis lagotis,positive
+Eragrostis eriopoda,Leggadina forresti,positive
+Eragrostis lanipes,Leggadina forresti,positive
+Eragrostis setifolia,Leggadina forresti,positive
+Plectrachne schinzii,Leggadina forresti,positive
+Triodia basedownii,Leggadina forresti,positive
+Triodia longiceps,Leggadina forresti,positive
+Triodia pungens,Leggadina forresti,positive
+Eragrostis eriopoda,Notomys sp.,positive
+Eragrostis lanipes,Notomys sp.,positive
+Eragrostis setifolia,Notomys sp.,positive
+Plectrachne schinzii,Notomys sp.,positive
+Triodia basedownii,Notomys sp.,positive
+Triodia longiceps,Notomys sp.,positive
+Triodia pungens,Notomys sp.,positive
+Eragrostis eriopoda,Notoryctes caurinus,positive
+Eragrostis lanipes,Notoryctes caurinus,positive
+Eragrostis setifolia,Notoryctes caurinus,positive
+Plectrachne schinzii,Notoryctes caurinus,positive
+Triodia basedownii,Notoryctes caurinus,positive
+Triodia longiceps,Notoryctes caurinus,positive
+Triodia pungens,Notoryctes caurinus,positive
+Eragrostis eriopoda,Oryctolagus cuniculus,positive
+Eragrostis lanipes,Oryctolagus cuniculus,positive
+Eragrostis setifolia,Oryctolagus cuniculus,positive
+Plectrachne schinzii,Oryctolagus cuniculus,positive
+Triodia basedownii,Oryctolagus cuniculus,positive
+Triodia longiceps,Oryctolagus cuniculus,positive
+Triodia pungens,Oryctolagus cuniculus,positive
+Eragrostis eriopoda,Petrogale lateralis,positive
+Eragrostis lanipes,Petrogale lateralis,positive
+Eragrostis setifolia,Petrogale lateralis,positive
+Plectrachne schinzii,Petrogale lateralis,positive
+Triodia basedownii,Petrogale lateralis,positive
+Triodia longiceps,Petrogale lateralis,positive
+Triodia pungens,Petrogale lateralis,positive
+Eragrostis eriopoda,Tachyglossus aculeatus,positive
+Eragrostis lanipes,Tachyglossus aculeatus,positive
+Eragrostis setifolia,Tachyglossus aculeatus,positive
+Plectrachne schinzii,Tachyglossus aculeatus,positive
+Triodia basedownii,Tachyglossus aculeatus,positive
+Triodia longiceps,Tachyglossus aculeatus,positive
+Triodia pungens,Tachyglossus aculeatus,positive
+Eragrostis eriopoda,Trichosurus vulpecula,positive
+Eragrostis lanipes,Trichosurus vulpecula,positive
+Eragrostis setifolia,Trichosurus vulpecula,positive
+Plectrachne schinzii,Trichosurus vulpecula,positive
+Triodia basedownii,Trichosurus vulpecula,positive
+Triodia longiceps,Trichosurus vulpecula,positive
+Triodia pungens,Trichosurus vulpecula,positive
+Eragrostis eriopoda,Felis catus,positive
+Eragrostis lanipes,Felis catus,positive
+Eragrostis setifolia,Felis catus,positive
+Plectrachne schinzii,Felis catus,positive
+Triodia basedownii,Felis catus,positive
+Triodia longiceps,Felis catus,positive
+Triodia pungens,Felis catus,positive
+Eragrostis eriopoda,Tiliqua multifasciata,positive
+Eragrostis lanipes,Tiliqua multifasciata,positive
+Eragrostis setifolia,Tiliqua multifasciata,positive
+Plectrachne schinzii,Tiliqua multifasciata,positive
+Triodia basedownii,Tiliqua multifasciata,positive
+Triodia longiceps,Tiliqua multifasciata,positive
+Triodia pungens,Tiliqua multifasciata,positive
+Eragrostis eriopoda,Tiliqua occipitalis,positive
+Eragrostis lanipes,Tiliqua occipitalis,positive
+Eragrostis setifolia,Tiliqua occipitalis,positive
+Plectrachne schinzii,Tiliqua occipitalis,positive
+Triodia basedownii,Tiliqua occipitalis,positive
+Triodia longiceps,Tiliqua occipitalis,positive
+Triodia pungens,Tiliqua occipitalis,positive
+Eragrostis eriopoda,Tiliqua scincoides,positive
+Eragrostis lanipes,Tiliqua scincoides,positive
+Eragrostis setifolia,Tiliqua scincoides,positive
+Plectrachne schinzii,Tiliqua scincoides,positive
+Triodia basedownii,Tiliqua scincoides,positive
+Triodia longiceps,Tiliqua scincoides,positive
+Triodia pungens,Tiliqua scincoides,positive
+Panicum decompositum,Lagorchestes hirsutus,positive
+Thyridolepis multiculmis,Lagorchestes hirsutus,positive
+Yakirra australiensis,Lagorchestes hirsutus,positive
+Panicum decompositum,Varanus acanthurus,positive
+Thyridolepis multiculmis,Varanus acanthurus,positive
+Yakirra australiensis,Varanus acanthurus,positive
+Panicum decompositum,Varanus giganteus,positive
+Thyridolepis multiculmis,Varanus giganteus,positive
+Yakirra australiensis,Varanus giganteus,positive
+Panicum decompositum,Varanus gouldii,positive
+Thyridolepis multiculmis,Varanus gouldii,positive
+Yakirra australiensis,Varanus gouldii,positive
+Panicum decompositum,Varanus panoptes,positive
+Thyridolepis multiculmis,Varanus panoptes,positive
+Yakirra australiensis,Varanus panoptes,positive
+Panicum decompositum,Varanus tristis,positive
+Thyridolepis multiculmis,Varanus tristis,positive
+Yakirra australiensis,Varanus tristis,positive
+Panicum decompositum,Chaeropus ecaudatus,positive
+Thyridolepis multiculmis,Chaeropus ecaudatus,positive
+Yakirra australiensis,Chaeropus ecaudatus,positive
+Panicum decompositum,Isodon auratus,positive
+Thyridolepis multiculmis,Isodon auratus,positive
+Yakirra australiensis,Isodon auratus,positive
+Panicum decompositum,Perameles eremiana,positive
+Thyridolepis multiculmis,Perameles eremiana,positive
+Yakirra australiensis,Perameles eremiana,positive
+Panicum decompositum,Macrotis lagotis,positive
+Thyridolepis multiculmis,Macrotis lagotis,positive
+Yakirra australiensis,Macrotis lagotis,positive
+Panicum decompositum,Leggadina forresti,positive
+Thyridolepis multiculmis,Leggadina forresti,positive
+Yakirra australiensis,Leggadina forresti,positive
+Panicum decompositum,Notomys sp.,positive
+Thyridolepis multiculmis,Notomys sp.,positive
+Yakirra australiensis,Notomys sp.,positive
+Panicum decompositum,Notoryctes caurinus,positive
+Thyridolepis multiculmis,Notoryctes caurinus,positive
+Yakirra australiensis,Notoryctes caurinus,positive
+Panicum decompositum,Oryctolagus cuniculus,positive
+Thyridolepis multiculmis,Oryctolagus cuniculus,positive
+Yakirra australiensis,Oryctolagus cuniculus,positive
+Panicum decompositum,Petrogale lateralis,positive
+Thyridolepis multiculmis,Petrogale lateralis,positive
+Yakirra australiensis,Petrogale lateralis,positive
+Panicum decompositum,Tachyglossus aculeatus,positive
+Thyridolepis multiculmis,Tachyglossus aculeatus,positive
+Yakirra australiensis,Tachyglossus aculeatus,positive
+Panicum decompositum,Trichosurus vulpecula,positive
+Thyridolepis multiculmis,Trichosurus vulpecula,positive
+Yakirra australiensis,Trichosurus vulpecula,positive
+Panicum decompositum,Felis catus,positive
+Thyridolepis multiculmis,Felis catus,positive
+Yakirra australiensis,Felis catus,positive
+Panicum decompositum,Tiliqua multifasciata,positive
+Thyridolepis multiculmis,Tiliqua multifasciata,positive
+Yakirra australiensis,Tiliqua multifasciata,positive
+Panicum decompositum,Tiliqua occipitalis,positive
+Thyridolepis multiculmis,Tiliqua occipitalis,positive
+Yakirra australiensis,Tiliqua occipitalis,positive
+Panicum decompositum,Tiliqua scincoides,positive
+Thyridolepis multiculmis,Tiliqua scincoides,positive
+Yakirra australiensis,Tiliqua scincoides,positive
+human fire,patchiness,complexpositive
+lightning fire,patchiness,complexnegative
+patchiness,Lagorchestes hirsutus,complexpositive
+patchiness,Varanus acanthurus,complexpositive
+patchiness,Varanus giganteus,complexpositive
+patchiness,Varanus gouldii,complexpositive
+patchiness,Varanus panoptes,complexpositive
+patchiness,Varanus tristis,complexpositive
+patchiness,Chaeropus ecaudatus,complexpositive
+patchiness,Isodon auratus,complexpositive
+patchiness,Perameles eremiana,complexpositive
+patchiness,Macrotis lagotis,complexpositive
+patchiness,Leggadina forresti,complexpositive
+patchiness,Notomys sp.,complexpositive
+patchiness,Notoryctes caurinus,complexpositive
+patchiness,Oryctolagus cuniculus,complexpositive
+patchiness,Petrogale lateralis,complexpositive
+patchiness,Tachyglossus aculeatus,complexpositive
+patchiness,Trichosurus vulpecula,complexpositive
+patchiness,Felis catus,complexpositive
+patchiness,Tiliqua multifasciata,complexpositive
+patchiness,Tiliqua occipitalis,complexpositive
+patchiness,Tiliqua scincoides,complexpositive
+patchiness,Canis lupus dingo,complexpositive
+Homo sapiens,human fire,complexpositive
+patchiness,lightning fire,complexnegative
+human fire,Acacia acradenia,complexfire
+human fire,Acacia aneura,complexfire
+human fire,Acacia coriacea,complexfire
+human fire,Acacia cowleana,complexfire
+human fire,Acacia cuthbertsoni,complexfire
+human fire,Acacia dictyophleba,complexfire
+human fire,Acacia kempeana,complexfire
+human fire,Acacia ligulata,complexfire
+human fire,Acacia pruinocarpa,complexfire
+human fire,Acacia spondylophylla,complexfire
+human fire,Acacia tetragonophylla,complexfire
+human fire,Amyema sp.,complexfire
+human fire,Calandrinia polyandra,complexfire
+human fire,Canthium attenuatum,complexfire
+human fire,Canthium latifolium,complexfire
+human fire,Capparis loranthifolia,complexfire
+human fire,Capparis umbonata,complexfire
+human fire,Chenopodium curvispicatum,complexfire
+human fire,Chioromyces aboriginum,complexfire
+human fire,Cucumis melo (agrestis),complexfire
+human fire,Cynanchum floribundum,complexfire
+human fire,Dactyloctenium radulans,complexfire
+human fire,Daucus glochidiatus,complexfire
+human fire,Enchylaena tomentosa,complexfire
+human fire,Eragrostis eriopoda,complexfire
+human fire,Eremophila latrobei,complexfire
+human fire,Eremophila longifolia,complexfire
+human fire,Ficus brachypoda,complexfire
+human fire,Grevillea eriostachya,complexfire
+human fire,Grevillea stenobotrya,complexfire
+human fire,Grevillea wickhamii,complexfire
+human fire,Hakea leucoptera,complexfire
+human fire,Hakea suberea,complexfire
+human fire,Leptosema chambersii,complexfire
+human fire,Nitraria billardierei,complexfire
+human fire,Portulaca oleracea,complexfire
+human fire,Ptilotus exaltatus,complexfire
+human fire,Ptilotus macrocephalus,complexfire
+human fire,Ptilotus polystachyus,complexfire
+human fire,Rhyncharrhena linearis,complexfire
+human fire,Santalum acuminatum,complexfire
+human fire,Santalum lanceolatum,complexfire
+human fire,Scaevola parvifolia,complexfire
+human fire,Senna sp.,complexfire
+human fire,Sida calyxhymenia,complexfire
+human fire,Solanum centrale,complexfire
+human fire,Solanum chippendalei,complexfire
+human fire,Solanum cleistogamum,complexfire
+human fire,Solanum diversiflorum,complexfire
+human fire,Solanum gilesii,complexfire
+human fire,Solanum lasiophyllum,complexfire
+human fire,Tecticornia verrucosa,complexfire
+human fire,Tetragonia eremaea,complexfire
+human fire,Thryptomene maisonneuve,complexfire
+lightning fire,Acacia acradenia,complexfire
+lightning fire,Acacia aneura,complexfire
+lightning fire,Acacia coriacea,complexfire
+lightning fire,Acacia cowleana,complexfire
+lightning fire,Acacia cuthbertsoni,complexfire
+lightning fire,Acacia dictyophleba,complexfire
+lightning fire,Acacia kempeana,complexfire
+lightning fire,Acacia ligulata,complexfire
+lightning fire,Acacia pruinocarpa,complexfire
+lightning fire,Acacia spondylophylla,complexfire
+lightning fire,Acacia tetragonophylla,complexfire
+lightning fire,Amyema sp.,complexfire
+lightning fire,Calandrinia polyandra,complexfire
+lightning fire,Canthium attenuatum,complexfire
+lightning fire,Canthium latifolium,complexfire
+lightning fire,Capparis loranthifolia,complexfire
+lightning fire,Capparis umbonata,complexfire
+lightning fire,Chenopodium curvispicatum,complexfire
+lightning fire,Chioromyces aboriginum,complexfire
+lightning fire,Cucumis melo (agrestis),complexfire
+lightning fire,Cynanchum floribundum,complexfire
+lightning fire,Dactyloctenium radulans,complexfire
+lightning fire,Daucus glochidiatus,complexfire
+lightning fire,Enchylaena tomentosa,complexfire
+lightning fire,Eragrostis eriopoda,complexfire
+lightning fire,Eremophila latrobei,complexfire
+lightning fire,Eremophila longifolia,complexfire
+lightning fire,Ficus brachypoda,complexfire
+lightning fire,Grevillea eriostachya,complexfire
+lightning fire,Grevillea stenobotrya,complexfire
+lightning fire,Grevillea wickhamii,complexfire
+lightning fire,Hakea leucoptera,complexfire
+lightning fire,Hakea suberea,complexfire
+lightning fire,Leptosema chambersii,complexfire
+lightning fire,Nitraria billardierei,complexfire
+lightning fire,Portulaca oleracea,complexfire
+lightning fire,Ptilotus exaltatus,complexfire
+lightning fire,Ptilotus macrocephalus,complexfire
+lightning fire,Ptilotus polystachyus,complexfire
+lightning fire,Rhyncharrhena linearis,complexfire
+lightning fire,Santalum acuminatum,complexfire
+lightning fire,Santalum lanceolatum,complexfire
+lightning fire,Scaevola parvifolia,complexfire
+lightning fire,Senna sp.,complexfire
+lightning fire,Sida calyxhymenia,complexfire
+lightning fire,Solanum centrale,complexfire
+lightning fire,Solanum chippendalei,complexfire
+lightning fire,Solanum cleistogamum,complexfire
+lightning fire,Solanum diversiflorum,complexfire
+lightning fire,Solanum gilesii,complexfire
+lightning fire,Solanum lasiophyllum,complexfire
+lightning fire,Tecticornia verrucosa,complexfire
+lightning fire,Tetragonia eremaea,complexfire
+lightning fire,Thryptomene maisonneuve,complexfire
+patchiness,Felis catus,complexnegative
+patchiness,Vulpes vulpes,complexnegative

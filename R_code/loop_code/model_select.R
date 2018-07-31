@@ -19,6 +19,7 @@
 
 
 library(data.table)
+library(svMisc)
 
 # Function to make a matrix symmetrical (used for trophic matrices)
 makeSymm = function(m) {
@@ -229,11 +230,11 @@ press.impact = function(edges,perturb,monitor) {
 
 setwd("~/Documents/Australia/R_code/loop_code/")  # adjust as needed
 
-networktable = "~/Documents/Australia/R_code/loop_code/hotgrouped_fake.csv"
+networktable = "~/Documents/Australia/R_code/loop_code/hotgrouped.csv"
 
 models = "~/Documents/Australia/R_code/loop_code/models.csv"
 
-outcomes = "~/Documents/Australia/R_code/loop_code/outcomes_fake.csv"
+outcomes = "~/Documents/Australia/R_code/loop_code/outcomes.csv"
 
 x = read.csv(networktable, stringsAsFactors = F)  # interactions table
 x[] = lapply(x, tolower)  # change everything to lowercase
@@ -271,8 +272,8 @@ t = unique(x$type)  # how many different interaction types there are
 
 
 # set how many stable and valid realizations you want to achieve
-n.samples = 200
-n.max = 100*n.samples  # try a maximum of this many times (to prevent runaways)
+n.samples = 1000
+n.max = 4000*n.samples  # try a maximum of this many times (to prevent runaways)
 
 # set the perturbed node
 
@@ -320,29 +321,30 @@ for (f in 1:length(t)) {
       names(am)[[f]] = t[f]
     }
     
-  } else if (grepl("habitat", t[f], ignore.case = T)) {
+  } else if (grepl("simplefire", t[f], ignore.case = T)) {
     
     for (k in (1:dim(x)[1])) {  # loop through all links in table x
       
       this_from = as.character(x[k,]$from) 
       this_to = as.character(x[k,]$to)  
       
-      if (!grepl("habitat",x[k,]$type,ignore.case = T))  
-        next  # skip if not a habitat interaction
-      A[this_to,this_from] = 1
+      if (!grepl("simplefire",x[k,]$type,ignore.case = T))  
+        next  # skip if not a simple fire interaction
+      A[this_from,this_to] = 1  
+      A[this_to,this_from] = -1
       
       am[[f]] = A
       names(am)[[f]] = t[f]
     }
     
-  } else if (grepl("positive", t[f], ignore.case = T)) {
+  } else if (grepl("\\bpositive\\b", t[f], ignore.case = T)) {
     
     for (k in (1:dim(x)[1])) {  # loop through all links in table x
       
       this_from = as.character(x[k,]$from) 
       this_to = as.character(x[k,]$to)
       
-      if (!grepl("positive",x[k,]$type,ignore.case = T))  
+      if (!grepl("\\bpositive\\b",x[k,]$type,ignore.case = T))  
         next  # skip if not a positive interaction
       A[this_to,this_from] = 1
       
@@ -350,16 +352,45 @@ for (f in 1:length(t)) {
       names(am)[[f]] = t[f]
     }
     
-  } else if (grepl("competition", t[f], ignore.case = T)) {
+  } else if (grepl("complexfire", t[f], ignore.case = T)) {
     
     for (k in (1:dim(x)[1])) {  # loop through all links in table x
       
       this_from = as.character(x[k,]$from)   
       this_to = as.character(x[k,]$to) 
       
-      if (!grepl("competition",x[k,]$type,ignore.case = T))  
-        next  # skip if not a competitive interaction
-      A[this_from, this_to] = -1
+      if (!grepl("complexfire",x[k,]$type,ignore.case = T))  
+        next  # skip if not a complex fire interaction
+      A[this_from, this_to] = 1
+      A[this_to, this_from] = -1
+      
+      am[[f]] = A
+      names(am)[[f]] = t[f]
+    }
+    
+  } else if (grepl("complexpositive", t[f], ignore.case = T)) {
+    
+    for (k in (1:dim(x)[1])) {  # loop through all links in table x
+      
+      this_from = as.character(x[k,]$from)   
+      this_to = as.character(x[k,]$to) 
+      
+      if (!grepl("complexpositive",x[k,]$type,ignore.case = T))  
+        next  # skip if not a complex positive interaction
+      A[this_to, this_from] = 1
+      
+      am[[f]] = A
+      names(am)[[f]] = t[f]
+    }
+  } else if (grepl("complexnegative", t[f], ignore.case = T)) {
+    
+    for (k in (1:dim(x)[1])) {  # loop through all links in table x
+      
+      this_from = as.character(x[k,]$from)   
+      this_to = as.character(x[k,]$to) 
+      
+      if (!grepl("complexnegative",x[k,]$type,ignore.case = T))  
+        next  # skip if not a complex negative interaction
       A[this_to, this_from] = -1
       
       am[[f]] = A
@@ -401,11 +432,13 @@ while((accepted < n.samples) && (tried < n.max)) {
   H = sampler(need, n, node_names, am, x)
   W = H$cmat
   tried = tried + 1  # count this towards attempted realizations
+  #print(paste("tried",tried))
   
   # check stability and exit if not stable
   if(!stable.community(W)) next
   
   stable = stable +1
+  #print(paste("stable",stable))
 
   
   
@@ -417,6 +450,8 @@ while((accepted < n.samples) && (tried < n.max)) {
   if(!press(W)) next  # skip if not valid
   
   accepted = accepted+1  # count if valid
+  #print(paste("accepted",accepted))
+  progress(accepted, max.value = 1000)
   
   # generate a function to determine the outcome of the press perturbation
   impact <- press.impact(H$edges,perturb = perturb,monitor = NULL)
@@ -425,6 +460,9 @@ while((accepted < n.samples) && (tried < n.max)) {
   imp <- impact(W)
   model[accepted] <- m
   impacts[accepted,] <- imp
+  
+  #flush.console()
+  
 }
 
 

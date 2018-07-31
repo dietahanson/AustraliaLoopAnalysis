@@ -1,0 +1,170 @@
+Source,Target
+skinks,insect
+bird,insect
+bird,spinifex
+Snakes,skinks
+Snakes,mala
+Snakes,small mammal
+bustard,skinks
+bustard,insect
+bustard,small mammal
+bustard,Snakes
+bustard,solanum
+bustard,bird
+bustard,spinifex
+bustard,goanna
+Snakes,betong
+Snakes,Snakes
+Snakes,eggs
+Snakes,bird
+Snakes,goanna
+Snakes,rabbit
+betong,spinifex
+betong,forb
+betong,bush
+bird,Acacia
+camel,vine
+camel,bush
+camel,forb
+camel,spinifex
+camel,wama
+camel,solanum
+bandicoot,spinifex
+bandicoot,forb
+bird,forb
+bird,vine
+bird,bush
+bird,human
+bird,mala
+bird,skinks
+bird,Snakes
+bird,bird
+bird,goanna
+bird,small mammal
+skinks,skinks
+small mammal,insect
+small mammal,betong
+small mammal,bandicoot
+small mammal,mala
+small mammal,small mammal
+small mammal,bird
+emu,Acacia
+emu,vine
+emu,bush
+emu,forb
+emu,grub
+emu,wama
+emu,skinks
+emu,spinifex
+skinks,spinifex
+skinks,bush
+skinks,solanum
+skinks,forb
+grub,Acacia
+bird,betong
+bird,rush
+skinks,grub
+bandicoot,Acacia
+bandicoot,insect
+bandicoot,bush
+small mammal,spinifex
+small mammal,forb
+kangaroo,forb
+kangaroo,spinifex
+kangaroo,bush
+rabbit,vine
+rabbit,bush
+rabbit,spinifex
+rabbit,forb
+small mammal,vine
+small mammal,bush
+small mammal,Acacia
+small mammal,wama
+goanna,insect
+goanna,skinks
+goanna,eggs
+goanna,human
+goanna,goanna
+fox,insect
+fox,eggs
+fox,small mammal
+fox,eagle
+fox,bustard
+eagle,betong
+eagle,dingo
+eagle,bandicoot
+eagle,skinks
+eagle,cat
+eagle,mala
+eagle,kangaroo
+eagle,small mammal
+eagle,insect
+eagle,bird
+eagle,goanna
+dingo,bustard
+dingo,betong
+dingo,bandicoot
+dingo,insect
+dingo,skinks
+dingo,cat
+dingo,human
+dingo,mala
+dingo,kangaroo
+dingo,small mammal
+dingo,goanna
+dingo,eagle
+dingo,camel
+dingo,emu
+dingo,bird
+dingo,fox
+cat,skinks
+cat,mala
+cat,small mammal
+cat,Snakes
+cat,eggs
+cat,bird
+cat,goanna
+cat,bustard
+cat,fox
+human,Acacia
+human,vine
+human,bird
+human,Snakes
+human,eagle
+human,bustard
+human,betong
+human,insect
+human,camel
+human,dingo
+human,bush
+human,bandicoot
+human,fungus
+human,skinks
+human,forb
+human,small mammal
+human,emu
+human,cat
+human,wama
+human,human
+human,mala
+human,kangaroo
+human,rabbit
+human,spinifex
+human,solanum
+human,goanna
+human,fox
+mala,insect
+mala,forb
+mala,spinifex
+fire,Acacia
+fire,vine
+fire,forb
+fire,bush
+fire,fungus
+fire,spinifex
+fire,wama
+fire,solanum
+fire,eggs
+fire,insect
+fire,skinks
+human,fire
