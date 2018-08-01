@@ -228,13 +228,16 @@ press.impact = function(edges,perturb,monitor) {
 #------------------------------------------------------------------------------
 
 
-setwd("~/Documents/Australia/R_code/loop_code/")  # adjust as needed
+#setwd("~/Documents/Australia/R_code/loop_code/")  # adjust as needed
 
-networktable = "~/Documents/Australia/R_code/loop_code/hotgrouped.csv"
+#networktable = "~/Documents/Australia/R_code/loop_code/hotgrouped.csv"
+networktable = "/home/dieta/Australia/loop_code/hotgrouped.csv"
 
-models = "~/Documents/Australia/R_code/loop_code/models.csv"
+#models = "~/Documents/Australia/R_code/loop_code/models.csv"
+models = "/home/dieta/Australia/loop_code/models.csv"
 
-outcomes = "~/Documents/Australia/R_code/loop_code/outcomes.csv"
+#outcomes = "~/Documents/Australia/R_code/loop_code/outcomes.csv"
+outcomes = "/home/dieta/Australia/loop_code/outcomes.csv"
 
 x = read.csv(networktable, stringsAsFactors = F)  # interactions table
 x[] = lapply(x, tolower)  # change everything to lowercase
@@ -272,7 +275,7 @@ t = unique(x$type)  # how many different interaction types there are
 
 
 # set how many stable and valid realizations you want to achieve
-n.samples = 1000
+n.samples = 100
 n.max = 4000*n.samples  # try a maximum of this many times (to prevent runaways)
 
 # set the perturbed node
@@ -432,13 +435,13 @@ while((accepted < n.samples) && (tried < n.max)) {
   H = sampler(need, n, node_names, am, x)
   W = H$cmat
   tried = tried + 1  # count this towards attempted realizations
-  #print(paste("tried",tried))
+  
   
   # check stability and exit if not stable
   if(!stable.community(W)) next
   
   stable = stable +1
-  #print(paste("stable",stable))
+  
 
   
   
@@ -450,7 +453,7 @@ while((accepted < n.samples) && (tried < n.max)) {
   if(!press(W)) next  # skip if not valid
   
   accepted = accepted+1  # count if valid
-  #print(paste("accepted",accepted))
+  
   progress(accepted, max.value = 1000)
   
   # generate a function to determine the outcome of the press perturbation
@@ -476,5 +479,13 @@ barplot(table(model)/n.samples,
      xlab = "Model")
 
 write.csv(pp, file = "pp.csv",
-          row.names = F, 
-          col.names = c("model", "posterior probability"))
+          row.names = F)
+
+print(paste("accepted:",accepted))
+print(paste("stable:",stable))
+print(paste("tried:",tried))
+
+print(paste("model:", model))
+
+write.csv(c(model, accepted, stable, tried), file = "raw_results",
+          row.names = F)

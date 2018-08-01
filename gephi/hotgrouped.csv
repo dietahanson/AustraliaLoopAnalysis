@@ -1,243 +1,261 @@
-Source,Target,type
-skinks,insect,predatorprey
-bird,insect,predatorprey
-bird,spinifex,predatorprey
-Snakes,skinks,predatorprey
-Snakes,mala,predatorprey
-Snakes,small mammal,predatorprey
-Snakes,tiliqua,predatorprey
-bustard,skinks,predatorprey
-bustard,insect,predatorprey
-bustard,small mammal,predatorprey
-bustard,Snakes,predatorprey
-bustard,solanum,predatorprey
-bustard,bird,predatorprey
-bustard,tiliqua,predatorprey
-bustard,spinifex,predatorprey
-bustard,goanna,predatorprey
-Snakes,betong,predatorprey
-Snakes,Snakes,predatorprey
-Snakes,eggs,predatorprey
-Snakes,bird,predatorprey
-Snakes,goanna,predatorprey
-betong,spinifex,predatorprey
-betong,grass,predatorprey
-betong,forb,predatorprey
-betong,bush,predatorprey
-bird,Acacia,predatorprey
-camel,misc_plant,predatorprey
-camel,shrub,predatorprey
-camel,bush,predatorprey
-camel,forb,predatorprey
-camel,spinifex,predatorprey
-camel,wama,predatorprey
-camel,grass,predatorprey
-camel,solanum,predatorprey
-bandicoot,spinifex,predatorprey
-bandicoot,grass,predatorprey
-bandicoot,forb,predatorprey
-bird,forb,predatorprey
-bird,misc_plant,predatorprey
-bird,bush,predatorprey
-bird,human,predatorprey
-bird,mala,predatorprey
-bird,skinks,predatorprey
-bird,Snakes,predatorprey
-bird,bird,predatorprey
-bird,goanna,predatorprey
-bird,small mammal,predatorprey
-skinks,skinks,predatorprey
-carnivorous_mammal,insect,predatorprey
-carnivorous_mammal,honeyant,predatorprey
-carnivorous_mammal,betong,predatorprey
-carnivorous_mammal,bandicoot,predatorprey
-carnivorous_mammal,mala,predatorprey
-carnivorous_mammal,bilby,predatorprey
-carnivorous_mammal,small mammal,predatorprey
-carnivorous_mammal,bird,predatorprey
-emu,Acacia,predatorprey
-emu,misc_plant,predatorprey
-emu,shrub,predatorprey
-emu,bush,predatorprey
-emu,forb,predatorprey
-emu,grub,predatorprey
-emu,wama,predatorprey
-emu,skinks,predatorprey
-emu,spinifex,predatorprey
-emu,grass,predatorprey
-skinks,spinifex,predatorprey
-skinks,forb,predatorprey
-skinks,shrub,predatorprey
-skinks,solanum,predatorprey
-skinks,grass,predatorprey
-skinks,honeyant,predatorprey
-grub,Acacia,predatorprey
-bird,betong,predatorprey
-bird,carnivorous_mammal,predatorprey
-bird,rush,predatorprey
-skinks,grub,predatorprey
-bandicoot,Acacia,predatorprey
-bandicoot,insect,predatorprey
-bandicoot,shrub,predatorprey
-bandicoot,bush,predatorprey
-small mammal,insect,predatorprey
-small mammal,spinifex,predatorprey
-small mammal,grass,predatorprey
-small mammal,forb,predatorprey
-kangaroo,forb,predatorprey
-kangaroo,spinifex,predatorprey
-kangaroo,bush,predatorprey
-kangaroo,grass,predatorprey
-bilby,insect,predatorprey
-bird,shrub,predatorprey
-bird,grass,predatorprey
-skinks,tiliqua,predatorprey
-small mammal,misc_plant,predatorprey
-small mammal,shrub,predatorprey
-small mammal,bush,predatorprey
-bandicoot,honeyant,predatorprey
-Snakes,carnivorous_mammal,predatorprey
-small mammal,honeyant,predatorprey
-tiliqua,insect,predatorprey
-tiliqua,grub,predatorprey
-small mammal,Acacia,predatorprey
-small mammal,wama,predatorprey
-goanna,insect,predatorprey
-goanna,skinks,predatorprey
-goanna,eggs,predatorprey
-goanna,human,predatorprey
-goanna,goanna,predatorprey
-fox,insect,predatorprey
-fox,eggs,predatorprey
-fox,small mammal,predatorprey
-fox,eagle,predatorprey
-fox,bustard,predatorprey
-eagle,betong,predatorprey
-eagle,dingo,predatorprey
-eagle,bandicoot,predatorprey
-eagle,skinks,predatorprey
-eagle,cat,predatorprey
-eagle,mala,predatorprey
-eagle,kangaroo,predatorprey
-eagle,small mammal,predatorprey
-eagle,insect,predatorprey
-eagle,bird,predatorprey
-eagle,tiliqua,predatorprey
-eagle,goanna,predatorprey
-dingo,bustard,predatorprey
-dingo,betong,predatorprey
-dingo,bandicoot,predatorprey
-dingo,insect,predatorprey
-dingo,skinks,predatorprey
-dingo,cat,predatorprey
-dingo,human,predatorprey
-dingo,mala,predatorprey
-dingo,kangaroo,predatorprey
-dingo,small mammal,predatorprey
-dingo,tiliqua,predatorprey
-dingo,goanna,predatorprey
-dingo,eagle,predatorprey
-dingo,camel,predatorprey
-dingo,emu,predatorprey
-dingo,bird,predatorprey
-dingo,fox,predatorprey
-cat,skinks,predatorprey
-cat,mala,predatorprey
-cat,small mammal,predatorprey
-cat,Snakes,predatorprey
-cat,eggs,predatorprey
-cat,carnivorous_mammal,predatorprey
-cat,bird,predatorprey
-cat,goanna,predatorprey
-cat,bustard,predatorprey
-cat,fox,predatorprey
-human,Acacia,predatorprey
-human,misc_plant,predatorprey
-human,bird,predatorprey
-human,Snakes,predatorprey
-human,eagle,predatorprey
-human,bustard,predatorprey
-human,betong,predatorprey
-human,insect,predatorprey
-human,camel,predatorprey
-human,dingo,predatorprey
-human,shrub,predatorprey
-human,bush,predatorprey
-human,bandicoot,predatorprey
-human,forb,predatorprey
-human,skinks,predatorprey
-human,carnivorous_mammal,predatorprey
-human,emu,predatorprey
-human,cat,predatorprey
-human,wama,predatorprey
-human,human,predatorprey
-human,mala,predatorprey
-human,kangaroo,predatorprey
-human,bilby,predatorprey
-human,small mammal,predatorprey
-human,grass,predatorprey
-human,solanum,predatorprey
-human,tiliqua,predatorprey
-human,goanna,predatorprey
-human,fox,predatorprey
-mala,insect,predatorprey
-mala,forb,predatorprey
-mala,spinifex,predatorprey
-fire,Acacia,simplefire
-fire,misc_plant,simplefire
-fire,forb,simplefire
-fire,shrub,simplefire
-fire,bush,simplefire
-fire,spinifex,simplefire
-fire,wama,simplefire
-fire,grass,simplefire
-fire,solanum,simplefire
-honeyant,Acacia,predatorprey
-honeyant,shrub,predatorprey
-honeyant,wama,predatorprey
-honeyant,forb,predatorprey
-bustard,honeyant,predatorprey
-bird,honeyant,predatorprey
-tiliqua,honeyant,predatorprey
-goanna,honeyant,predatorprey
-fox,honeyant,predatorprey
-eagle,honeyant,predatorprey
-dingo,honeyant,predatorprey
-human,honeyant,predatorprey
-mala,honeyant,predatorprey
-bilby,honeyant,predatorprey
-human fire,spinifex,complexfire
-human fire,grass,complexfire
-lightning fire,spinifex,complexfire
-lightning fire,grass,complexfire
-lightning fire,dingo,complexfire
-lightning fire,mala,complexfire
-lightning fire,bilby,complexfire
-lightning fire,goanna,complexfire
-lightning fire,bandicoot,complexfire
-spinifex,mala,positive
-spinifex,goanna,positive
-spinifex,bandicoot,positive
-spinifex,bilby,positive
-spinifex,small mammal,positive
-spinifex,cat,positive
-spinifex,tiliqua,positive
-grass,mala,positive
-grass,goanna,positive
-grass,bandicoot,positive
-grass,bilby,positive
-grass,small mammal,positive
-grass,cat,positive
-grass,tiliqua,positive
-human fire,patchiness,complexpositive
-lightning fire,patchiness,complexnegative
-patchiness,mala,complexpositive
-patchiness,goanna,complexpositive
-patchiness,bandicoot,complexpositive
-patchiness,bilby,complexpositive
-patchiness,small mammal,complexpositive
-patchiness,cat,complexpositive
-patchiness,tiliqua,complexpositive
-patchiness,dingo,complexpositive
-human,human fire,complexpositive
-patchiness,lightning fire,complexnegative
+Source,Target,type,include
+skinks,insect,predatorprey,1
+bird,insect,predatorprey,1
+bird,spinifex,predatorprey,1
+Snakes,skinks,predatorprey,1
+Snakes,mala,predatorprey,1
+Snakes,small mammal,predatorprey,1
+Snakes,tiliqua,predatorprey,1
+bustard,skinks,predatorprey,1
+bustard,insect,predatorprey,1
+bustard,small mammal,predatorprey,1
+bustard,Snakes,predatorprey,1
+bustard,solanum,predatorprey,1
+bustard,bird,predatorprey,1
+bustard,tiliqua,predatorprey,1
+bustard,spinifex,predatorprey,1
+bustard,goanna,predatorprey,1
+Snakes,betong,predatorprey,1
+Snakes,Snakes,predatorprey,1
+Snakes,eggs,predatorprey,1
+Snakes,bird,predatorprey,1
+Snakes,goanna,predatorprey,1
+betong,spinifex,predatorprey,1
+betong,grass,predatorprey,1
+betong,forb,predatorprey,1
+betong,bush,predatorprey,1
+bird,Acacia,predatorprey,1
+camel,misc_plant,predatorprey,1
+camel,shrub,predatorprey,1
+camel,bush,predatorprey,1
+camel,forb,predatorprey,1
+camel,spinifex,predatorprey,1
+camel,wama,predatorprey,1
+camel,grass,predatorprey,1
+camel,solanum,predatorprey,1
+bandicoot,spinifex,predatorprey,1
+bandicoot,grass,predatorprey,1
+bandicoot,forb,predatorprey,1
+bird,forb,predatorprey,1
+bird,misc_plant,predatorprey,1
+bird,bush,predatorprey,1
+bird,human,predatorprey,1
+bird,mala,predatorprey,1
+bird,skinks,predatorprey,1
+bird,Snakes,predatorprey,1
+bird,bird,predatorprey,1
+bird,goanna,predatorprey,1
+bird,small mammal,predatorprey,1
+skinks,skinks,predatorprey,1
+carnivorous_mammal,insect,predatorprey,1
+carnivorous_mammal,honeyant,predatorprey,1
+carnivorous_mammal,betong,predatorprey,1
+carnivorous_mammal,bandicoot,predatorprey,1
+carnivorous_mammal,mala,predatorprey,1
+carnivorous_mammal,bilby,predatorprey,1
+carnivorous_mammal,small mammal,predatorprey,1
+carnivorous_mammal,bird,predatorprey,1
+emu,Acacia,predatorprey,1
+emu,misc_plant,predatorprey,1
+emu,shrub,predatorprey,1
+emu,bush,predatorprey,1
+emu,forb,predatorprey,1
+emu,grub,predatorprey,1
+emu,wama,predatorprey,1
+emu,skinks,predatorprey,1
+emu,spinifex,predatorprey,1
+emu,grass,predatorprey,1
+skinks,spinifex,predatorprey,1
+skinks,forb,predatorprey,1
+skinks,shrub,predatorprey,1
+skinks,solanum,predatorprey,1
+skinks,grass,predatorprey,1
+skinks,honeyant,predatorprey,1
+grub,Acacia,predatorprey,1
+bird,betong,predatorprey,1
+bird,carnivorous_mammal,predatorprey,1
+bird,rush,predatorprey,1
+skinks,grub,predatorprey,1
+bandicoot,Acacia,predatorprey,1
+bandicoot,insect,predatorprey,1
+bandicoot,shrub,predatorprey,1
+bandicoot,bush,predatorprey,1
+small mammal,insect,predatorprey,1
+small mammal,spinifex,predatorprey,1
+small mammal,grass,predatorprey,1
+small mammal,forb,predatorprey,1
+kangaroo,forb,predatorprey,1
+kangaroo,spinifex,predatorprey,1
+kangaroo,bush,predatorprey,1
+kangaroo,grass,predatorprey,1
+bilby,insect,predatorprey,1
+bird,shrub,predatorprey,1
+bird,grass,predatorprey,1
+skinks,tiliqua,predatorprey,1
+small mammal,misc_plant,predatorprey,1
+small mammal,shrub,predatorprey,1
+small mammal,bush,predatorprey,1
+bandicoot,honeyant,predatorprey,1
+Snakes,carnivorous_mammal,predatorprey,1
+small mammal,honeyant,predatorprey,1
+tiliqua,insect,predatorprey,1
+tiliqua,grub,predatorprey,1
+small mammal,Acacia,predatorprey,1
+small mammal,wama,predatorprey,1
+goanna,insect,predatorprey,1
+goanna,skinks,predatorprey,1
+goanna,eggs,predatorprey,1
+goanna,human,predatorprey,1
+goanna,goanna,predatorprey,1
+fox,insect,predatorprey,1
+fox,eggs,predatorprey,1
+fox,small mammal,predatorprey,1
+fox,eagle,predatorprey,1
+fox,bustard,predatorprey,1
+eagle,betong,predatorprey,1
+eagle,dingo,predatorprey,1
+eagle,bandicoot,predatorprey,1
+eagle,skinks,predatorprey,1
+eagle,cat,predatorprey,1
+eagle,mala,predatorprey,1
+eagle,kangaroo,predatorprey,1
+eagle,small mammal,predatorprey,1
+eagle,insect,predatorprey,1
+eagle,bird,predatorprey,1
+eagle,tiliqua,predatorprey,1
+eagle,goanna,predatorprey,1
+dingo,bustard,predatorprey,1
+dingo,betong,predatorprey,1
+dingo,bandicoot,predatorprey,1
+dingo,insect,predatorprey,1
+dingo,skinks,predatorprey,1
+dingo,cat,predatorprey,1
+dingo,human,predatorprey,1
+dingo,mala,predatorprey,1
+dingo,kangaroo,predatorprey,1
+dingo,small mammal,predatorprey,1
+dingo,tiliqua,predatorprey,1
+dingo,goanna,predatorprey,1
+dingo,eagle,predatorprey,1
+dingo,camel,predatorprey,1
+dingo,emu,predatorprey,1
+dingo,bird,predatorprey,1
+dingo,fox,predatorprey,1
+cat,skinks,predatorprey,1
+cat,mala,predatorprey,1
+cat,small mammal,predatorprey,1
+cat,Snakes,predatorprey,1
+cat,eggs,predatorprey,1
+cat,carnivorous_mammal,predatorprey,1
+cat,bird,predatorprey,1
+cat,goanna,predatorprey,1
+cat,bustard,predatorprey,1
+cat,fox,predatorprey,1
+human,Acacia,predatorprey,1
+human,misc_plant,predatorprey,1
+human,bird,predatorprey,1
+human,Snakes,predatorprey,1
+human,eagle,predatorprey,1
+human,bustard,predatorprey,1
+human,betong,predatorprey,1
+human,insect,predatorprey,1
+human,camel,predatorprey,1
+human,dingo,predatorprey,1
+human,shrub,predatorprey,1
+human,bush,predatorprey,1
+human,bandicoot,predatorprey,1
+human,forb,predatorprey,1
+human,skinks,predatorprey,1
+human,carnivorous_mammal,predatorprey,1
+human,emu,predatorprey,1
+human,cat,predatorprey,1
+human,wama,predatorprey,1
+human,human,predatorprey,1
+human,mala,predatorprey,1
+human,kangaroo,predatorprey,1
+human,bilby,predatorprey,1
+human,small mammal,predatorprey,1
+human,grass,predatorprey,1
+human,solanum,predatorprey,1
+human,tiliqua,predatorprey,1
+human,goanna,predatorprey,1
+human,fox,predatorprey,1
+mala,insect,predatorprey,1
+mala,forb,predatorprey,1
+mala,spinifex,predatorprey,1
+fire,Acacia,simplefire,2
+fire,misc_plant,simplefire,2
+fire,forb,simplefire,2
+fire,shrub,simplefire,2
+fire,bush,simplefire,2
+fire,spinifex,simplefire,2
+fire,wama,simplefire,2
+fire,grass,simplefire,2
+fire,solanum,simplefire,2
+honeyant,Acacia,predatorprey,1
+honeyant,shrub,predatorprey,1
+honeyant,wama,predatorprey,1
+honeyant,forb,predatorprey,1
+bustard,honeyant,predatorprey,1
+bird,honeyant,predatorprey,1
+tiliqua,honeyant,predatorprey,1
+goanna,honeyant,predatorprey,1
+fox,honeyant,predatorprey,1
+eagle,honeyant,predatorprey,1
+dingo,honeyant,predatorprey,1
+human,honeyant,predatorprey,1
+mala,honeyant,predatorprey,1
+bilby,honeyant,predatorprey,1
+human fire,spinifex,complexfire,4
+human fire,grass,complexfire,4
+lightning fire,spinifex,complexfire,4
+lightning fire,grass,complexfire,4
+lightning fire,dingo,complexfire,4
+lightning fire,mala,complexfire,4
+lightning fire,bilby,complexfire,4
+lightning fire,goanna,complexfire,4
+lightning fire,bandicoot,complexfire,4
+human,dingo,positive,3
+human,solanum,positive,3
+spinifex,mala,positive,3
+spinifex,goanna,positive,3
+spinifex,bandicoot,positive,3
+spinifex,bilby,positive,3
+spinifex,small mammal,positive,3
+spinifex,cat,positive,3
+spinifex,tiliqua,positive,3
+grass,mala,positive,3
+grass,goanna,positive,3
+grass,bandicoot,positive,3
+grass,bilby,positive,3
+grass,small mammal,positive,3
+grass,cat,positive,3
+grass,tiliqua,positive,3
+human fire,patchiness,complexpositive,4
+lightning fire,patchiness,complexnegative,4
+patchiness,mala,complexpositive,4
+patchiness,goanna,complexpositive,4
+patchiness,bandicoot,complexpositive,4
+patchiness,bilby,complexpositive,4
+patchiness,small mammal,complexpositive,4
+patchiness,cat,complexpositive,4
+patchiness,tiliqua,complexpositive,4
+patchiness,dingo,complexpositive,4
+human,human fire,complexpositive,4
+patchiness,lightning fire,complexnegative,4
+human fire,Acacia,complexfire,4
+human fire,misc_plant,complexfire,4
+human fire,forb,complexfire,4
+human fire,shrub,complexfire,4
+human fire,bush,complexfire,4
+human fire,wama,complexfire,4
+human fire,solanum,complexfire,4
+lightning fire,Acacia,complexfire,4
+lightning fire,misc_plant,complexfire,4
+lightning fire,forb,complexfire,4
+lightning fire,shrub,complexfire,4
+lightning fire,bush,complexfire,4
+lightning fire,wama,complexfire,4
+lightning fire,solanum,complexfire,4
+patchiness,cat,complexnegative,4
+patchiness,fox,complexnegative,4

@@ -103,7 +103,7 @@ cat(sum(is.na(hotnet$to)),  # print how many did not match
 # ate something from another group, so the link from group to group would be 
 # included multiple times
 
-hotnetsmall <- hotnet[!duplicated(hotnet[c("from","to")]), 
+hotnetsmall <- hotnet[!duplicated(hotnet[c("from","to", "type")]), 
                       c("from", "to", "type")]
 
 #write.csv(hotnetsmall, file = "hotgrouped.csv", row.names = F)
