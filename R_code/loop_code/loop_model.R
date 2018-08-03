@@ -2,7 +2,7 @@
 # Loop model 
 ###############################################################################
 
-
+library(svMisc)
 
 #------------------------------------------------------------------------------
 # read in the interactions table
@@ -11,9 +11,9 @@
 # adjust the path here to match where you put the data file
 setwd("~/Documents/Australia/R_code/loop_code")
 
-networktable = "~/Documents/Australia/R_code/loop_code/hotgrouped_fake.csv"
+networktable = "~/Documents/Australia/R_code/loop_code/hotgroupedm2.csv"
 
-outcomes = "~/Documents/Australia/R_code/loop_code/outcomes_fake.csv"
+outcomes = "~/Documents/Australia/R_code/loop_code/outcomes.csv"
 
 x = read.csv(networktable, stringsAsFactors = F)  # interactions table
 x[] = lapply(x, tolower)  # change everything to lowercase
@@ -46,7 +46,7 @@ colnames(monitor) = c('response_node','response_value')
 #------------------------------------------------------------------------------
 
 nwrand = 1000  # number of randomisations with different interaction strengths
-max_nwrand = 200*nwrand  # try a maximum of this many realisations 
+max_nwrand = 2000*nwrand  # try a maximum of this many realisations 
 
 node_names = unique(union(x$to,x$from))  # get the list of nodes
 n = length(node_names)  # number of nodes
@@ -133,8 +133,8 @@ for (z in (1:dim(x)[1])) {
   this_from = as.character(x[z, ]$from) ## the "from" (predator) element 
   this_to = as.character(x[z, ]$to) ## the "to" (prey) element 
   
-  if (grepl("competition", x[z, ]$type, ignore.case=T)) {
-    Ant[this_from, this_to] = -1
+  if (grepl("simplefire", x[z, ]$type, ignore.case=T)) {
+    Ant[this_from, this_to] = 1
     Ant[this_to, this_from] = -1
   } else if (grepl("habitat", x[z, ]$type, ignore.case=T) ||
              grepl("positive", x[z, ]$type, ignore.case=T)) {
@@ -231,7 +231,7 @@ for (twi in 1:max_nwrand) {
   this_valid_count = this_valid_count+1  # valid, so add to count
   
   
-
+  progress(this_valid_count, max.value = 1000)
 
   
   # find the predicted response to human decline
@@ -243,7 +243,7 @@ for (twi in 1:max_nwrand) {
   rsummary_h[2,] = rsummary_h[2,]+as.double(temp == 0)
   rsummary_h[3,] = rsummary_h[3,]+as.double(temp == 1)
 
-  if (stable_count_h == nwrand) {
+  if (this_valid_count == nwrand) {
     # try up to max_nwrand times, but stop when nwrand achieved
     break
   }
@@ -267,7 +267,7 @@ v = paste("Number of valid models:", this_valid_count,
 print(v)
 
 
-barplot(rsummary_h/stable_count_h,
+barplot(rsummary_h/this_valid_count,
         cex.names = 0.7,
         las = 2,
         legend = T,

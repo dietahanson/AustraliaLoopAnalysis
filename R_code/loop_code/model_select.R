@@ -227,17 +227,18 @@ press.impact = function(edges,perturb,monitor) {
 # Get data and set variables
 #------------------------------------------------------------------------------
 
+# on local
+setwd("~/Documents/Australia/R_code/loop_code/")  # adjust as needed
+networktable = "~/Documents/Australia/R_code/loop_code/hotgrouped.csv"
+models = "~/Documents/Australia/R_code/loop_code/models.csv"
+outcomes = "~/Documents/Australia/R_code/loop_code/outcomes.csv"
 
-#setwd("~/Documents/Australia/R_code/loop_code/")  # adjust as needed
+# on vulpes
+# networktable = "/home/dieta/Australia/loop_code/hotgrouped.csv"
+# models = "/home/dieta/Australia/loop_code/models.csv"
+# outcomes = "/home/dieta/Australia/loop_code/outcomes.csv"
 
-#networktable = "~/Documents/Australia/R_code/loop_code/hotgrouped.csv"
-networktable = "/home/dieta/Australia/loop_code/hotgrouped.csv"
 
-#models = "~/Documents/Australia/R_code/loop_code/models.csv"
-models = "/home/dieta/Australia/loop_code/models.csv"
-
-#outcomes = "~/Documents/Australia/R_code/loop_code/outcomes.csv"
-outcomes = "/home/dieta/Australia/loop_code/outcomes.csv"
 
 x = read.csv(networktable, stringsAsFactors = F)  # interactions table
 x[] = lapply(x, tolower)  # change everything to lowercase
@@ -275,7 +276,7 @@ t = unique(x$type)  # how many different interaction types there are
 
 
 # set how many stable and valid realizations you want to achieve
-n.samples = 100
+n.samples = 5
 n.max = 4000*n.samples  # try a maximum of this many times (to prevent runaways)
 
 # set the perturbed node
@@ -291,6 +292,10 @@ print(paste((z$V1[1]),
 
 # set the monitored nodes, whose sign represents the expected outcome
 monitor = setNames(as.numeric(z$V2), z$V1)
+
+# date
+dddd <- gsub("-", "", as.character(Sys.Date()))
+
 
 
 #------------------------------------------------------------------------------
@@ -410,16 +415,17 @@ for (f in 1:length(t)) {
 # model was stable and valid most often has the highest posterior probability
 #------------------------------------------------------------------------------
 
-cat(sprintf('Main loop started at: %s\n',date()))
+cat(paste("Main loop started at:", date(),"\n"))
 
 ## Model indicator
 model = integer(n.samples)
 
 ## Outcomes
 impacts = matrix(0,n.samples,n)
-accepted = 0
+valid = 0
 tried = 0
 stable = 0
+accepted = 0
 
 while((accepted < n.samples) && (tried < n.max)) {
   
@@ -436,15 +442,6 @@ while((accepted < n.samples) && (tried < n.max)) {
   W = H$cmat
   tried = tried + 1  # count this towards attempted realizations
   
-  
-  # check stability and exit if not stable
-  if(!stable.community(W)) next
-  
-  stable = stable +1
-  
-
-  
-  
   # generate a function to see if the impact of the press perturbation is the
   # same as the expected outcomes "monitor"
   press = press.validate(H$edges,perturb = perturb, monitor = monitor)
@@ -452,7 +449,13 @@ while((accepted < n.samples) && (tried < n.max)) {
   # call the function to check press condition 
   if(!press(W)) next  # skip if not valid
   
-  accepted = accepted+1  # count if valid
+  valid = valid + 1
+  
+  # check stability and exit if not stable
+  if(!stable.community(W)) next
+  
+  
+  accepted = accepted + 1  # count if valid and stable
   
   progress(accepted, max.value = 1000)
   
@@ -464,28 +467,39 @@ while((accepted < n.samples) && (tried < n.max)) {
   model[accepted] <- m
   impacts[accepted,] <- imp
   
-  #flush.console()
-  
 }
 
-
+cat(paste("Main loop finished at:", date(),"\n"))
 colnames(impacts) <- node_names
+
+################################################################################
+## make some outputs
+################################################################################
 
 ## Posterior probabilities of model correctness
 pp = table(model)/n.samples
+
+write.csv(pp, file = paste("pp",dddd,".csv", sep=""),
+          row.names = F)
+
+pdf(paste("pp_plot", dddd, ".pdf", sep = ""), width = 11, height = 8.5)
 
 barplot(table(model)/n.samples,
      ylab = "Posterior Probability of Correctness",
      xlab = "Model")
 
-write.csv(pp, file = "pp.csv",
-          row.names = F)
+title(print(paste("accepted:",accepted,"valid:",valid, "tried:",tried)))
+
+
+dev.off()
+
+# print some stats for the log file
 
 print(paste("accepted:",accepted))
-print(paste("stable:",stable))
+print(paste("valid:", valid))
 print(paste("tried:",tried))
-
 print(paste("model:", model))
 
-write.csv(c(model, accepted, stable, tried), file = "raw_results",
+write.csv(model, 
+          file = paste("raw_results", dddd,".csv", sep = ""),
           row.names = F)
