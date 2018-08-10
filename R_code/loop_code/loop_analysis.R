@@ -276,8 +276,13 @@ t = unique(x$type)  # how many different interaction types there are
 
 
 # set how many stable and valid realizations you want to achieve
-n.samples = 50
+n.samples = 500
 n.max = 4000*n.samples  # try a maximum of this many times (to prevent runaways)
+
+# which model is going to be used? (This should be the model with the highest 
+# posterior probability from the model_select script)
+
+m = 1
 
 # set the perturbed node
 
@@ -419,24 +424,27 @@ print(paste("Main loop started at:", date()))
 print("Progress")  # just making new lines so progress doesn't cover up above
 print("Progress")  # just making new lines so progress doesn't cover up above
 
-## Model indicator
-model = integer(n.samples)
 
 ## Outcomes
+impacts = matrix(0,n.samples,n)
 valid = 0
 tried = 0
-stable = 0
 accepted = 0
+
+# summary of predictions for each element in the model
+rsummary = matrix(0,nrow = 3,ncol = length(node_names))
+rownames(rsummary) = c('Negative','Zero','Positive')
+colnames(rsummary) = node_names
 
 while((accepted < n.samples) && (tried < n.max)) {
   
-  m = sample(nrow(y),1)  # randomly select a model
   
   # get a list of the types of interactions the model needs
   need = as.numeric(y[m,])
   names(need) = colnames(y)
   need = names(need[need > 0])
   
+
   # simulate a matrix W for the model
   H = sampler(need, n, node_names, am, x)
   W = H$cmat
@@ -458,42 +466,39 @@ while((accepted < n.samples) && (tried < n.max)) {
   
   progress(accepted, max.value = n.samples)  # show progress in the console
   
-  # store which model was accepted 
-  model[accepted] <- m
+  # generate a function to determine the outcome of the press perturbation
+  impact <- press.impact(H$edges,perturb = perturb,monitor = NULL)
   
+  ## Monitor impact post press
+  imp <- signum(impact(W))  # get the sign of the impact
+  
+  # keep tabs on summary results
+  rsummary[1,] = rsummary[1,]+as.double(imp == -1)
+  rsummary[2,] = rsummary[2,]+as.double(imp == 0)
+  rsummary[3,] = rsummary[3,]+as.double(imp == 1)
 }
 
 cat(paste("Main loop finished at:", date(),"\n"))
-
+colnames(impacts) <- node_names
 
 ################################################################################
 ## make some outputs
 ################################################################################
-
-## Posterior probabilities of model correctness
-pp = table(model)/n.samples
-
-write.csv(pp, file = paste("pp",dddd,".csv", sep=""),
-          row.names = F)
-
-pdf(paste("pp_plot", dddd, ".pdf", sep = ""), width = 11, height = 8.5)
-
-barplot(table(model)/n.samples,
-     ylab = "Posterior Probability of Correctness",
-     xlab = "Model")
-
-title(print(paste("accepted:",accepted,"valid:",valid, "tried:",tried)))
-
-
-dev.off()
 
 # print some stats for the log file
 
 print(paste("accepted:",accepted))
 print(paste("valid:", valid))
 print(paste("tried:",tried))
-print(paste("model:", model))
 
-write.csv(model, 
-          file = paste("raw_results", dddd,".csv", sep = ""),
-          row.names = F)
+barplot(rsummary/accepted,
+        cex.names = 0.7,
+        las = 2,
+        legend = T,
+        xpd = T,
+        args.legend = list(x = 'topright', inset = c(-.1,0), cex = 0.7),
+        ylab = "Proportion")
+
+title(main = v, cex.main = .9, line = 2)
+
+

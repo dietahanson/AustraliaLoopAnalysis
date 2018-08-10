@@ -1,0 +1,9 @@
+M1: Trophic interactions only, no fire (1)
+M2: Trophic interactions, with simple fire (as a reciprocal trophic interaction) (1) (2) 
+M3: Trophic interactions, with simple fire and simple non-trophic interactions (1) (2) (3)
+M4: Trophic interactions, with complex fire (no simple fire), simple non-trophic interactions, and complex non-trophic interactions (1) (2) (3) (4)
+
+1 = green
+2 = red
+3 = blue
+4 = purple

@@ -11,7 +11,7 @@ library(svMisc)
 # adjust the path here to match where you put the data file
 setwd("~/Documents/Australia/R_code/loop_code")
 
-networktable = "~/Documents/Australia/R_code/loop_code/hotgroupedm2.csv"
+networktable = "~/Documents/Australia/R_code/loop_code/hotgrouped_fake.csv"
 
 outcomes = "~/Documents/Australia/R_code/loop_code/outcomes.csv"
 
@@ -133,8 +133,8 @@ for (z in (1:dim(x)[1])) {
   this_from = as.character(x[z, ]$from) ## the "from" (predator) element 
   this_to = as.character(x[z, ]$to) ## the "to" (prey) element 
   
-  if (grepl("simplefire", x[z, ]$type, ignore.case=T)) {
-    Ant[this_from, this_to] = 1
+  if (grepl("competition", x[z, ]$type, ignore.case=T)) {
+    Ant[this_from, this_to] = -1
     Ant[this_to, this_from] = -1
   } else if (grepl("habitat", x[z, ]$type, ignore.case=T) ||
              grepl("positive", x[z, ]$type, ignore.case=T)) {
