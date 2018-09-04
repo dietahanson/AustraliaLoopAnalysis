@@ -60,9 +60,8 @@ trophic = function(n, node_names, A, x) {
 
 
 # Function to populate a non-trophic matrix with interaction strengths. Requires 
-# inputs n = number of nodes, node_names, A = sign matrix, x = master table of 
-# interactions
-nontrophic = function(n, node_names, A, x) {  
+# inputs n = number of nodes, node_names, A = sign matrix
+nontrophic = function(n, node_names, A) {  
   
   # first fill the matrix with random uniform values
   Bnt = matrix(runif(n^2), nrow=n)*0.99+0.01  # values between 0.1 and 1
@@ -75,6 +74,25 @@ nontrophic = function(n, node_names, A, x) {
   # last, populate diagonal elements
   diag(Cnt) = 0  # diagonal will be populated from the trophic matrix
   return(Cnt)
+}
+
+# Function to populate a non-trophic matrix with beta-distributed interaction 
+# strengths. Requires inputs n = number of nodes, node_names, A = sign matrix
+nontrophicbeta = function(n, node_names, A) {  
+  
+  # first fill the matrix with beta-dist values
+  Bntbeta = makeSymm(matrix(rbeta(n^2,  # make symmetric so ij is a function of ji
+                             shape1 = 1, shape2 = 4),  # parameters of beta dist
+                       nrow = n))*.99 + 0.01 # make all values between 0.1 and 1 
+  colnames(Bntbeta) = node_names
+  rownames(Bntbeta) = node_names
+  
+  # then add signs to strengths
+  Cntbeta=Bntbeta*A  
+  
+  # last, populate diagonal elements
+  diag(Cntbeta) = 0  # diagonal will be populated from the trophic matrix
+  return(Cntbeta)
 }
 
 
@@ -103,11 +121,18 @@ sampler = function(need, n, node_names, am, x) {
     if (grepl("predatorprey", need[g], ignore.case = T)) {
       tm = trophic(n, node_names, am[[need[g]]], x)  # appropriate sign matrix
       sm[[g]] = tm
+    } else if (grepl("positivebeta", need[g], ignore.case = T)) {
+        ntmbeta = nontrophicbeta(n, node_names, am[["positive"]])
+        sm[[g]] = ntmbeta
+    } else if (grepl("simplefirebeta", need[g], ignore.case = T)) {
+      ntmbeta = nontrophicbeta(n, node_names, am[["simplefire"]])
+      sm[[g]] = ntmbeta    
     } else {
-      ntm = nontrophic(n, node_names, am[[need[g]]])
-      sm[[g]] = ntm
-    }
-  } 
+        ntm = nontrophic(n, node_names, am[[need[g]]])
+        sm[[g]] = ntm
+       }
+   } 
+  
   
   # then add all type matrices
   popmod = Reduce("+", sm)  
@@ -133,8 +158,6 @@ sampler = function(need, n, node_names, am, x) {
         edges$type[i] = "N"}
       }
     }
-  
-
   
   # create a list containing the community matrix and the edges table
   res = list(cmat = popmod, edges = edges)
@@ -276,7 +299,7 @@ t = unique(x$type)  # how many different interaction types there are
 
 
 # set how many stable and valid realizations you want to achieve
-n.samples = 50
+n.samples = 500
 n.max = 4000*n.samples  # try a maximum of this many times (to prevent runaways)
 
 # set the perturbed node
