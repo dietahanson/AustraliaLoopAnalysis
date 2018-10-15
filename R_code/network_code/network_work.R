@@ -2,6 +2,7 @@
 ###Add groups to network
 ###############################################
 library(splitstackshape)
+library(data.table)
 
 stefgroup <- read.csv("stefgroups.csv",  # get stefanis groups 
                       header = T,
@@ -110,5 +111,17 @@ hotnetsmall <- hotnet[!duplicated(hotnet[c("from","to", "type")]),
 
 
 
+################################################################################
+## Make a table which shows the maximum and minimum body size for a group
+################################################################################
 
+weights = read.csv("rawweights.csv", header = T, stringsAsFactors = F)
 
+groups = merge(groups, weights, by.x = "latin", by.y = "latin",  # add weights
+               all.x = T, all.y = F)
+
+# get min and max weights for each group
+groupsdt = data.table(groups)
+groupsdt = as.data.frame(groupsdt[,list(groupminwt = min(weight, na.rm = T),
+                                        groupmaxwt = max(weight, na.rm = T)),
+                              by = list(stefgroup)])

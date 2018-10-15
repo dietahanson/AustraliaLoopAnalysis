@@ -2,6 +2,8 @@ M1: Trophic interactions only, no fire (1)
 M2: Trophic interactions, with simple fire (as a reciprocal trophic interaction) (1) (2) 
 M3: Trophic interactions, with simple fire and simple non-trophic interactions (1) (2) (3)
 M4: Trophic interactions, with complex fire (no simple fire), simple non-trophic interactions, and complex non-trophic interactions (1) (2) (3) (4)
+M5: Same as M3, but with simple fire and simple non-trophic interactions having beta-distributed interaction strengths
+M6: Same as M1, but with interaction strengths being proportional to body size
 
 1 = green
 2 = red

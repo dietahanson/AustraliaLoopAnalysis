@@ -59,6 +59,45 @@ trophic = function(n, node_names, A, x) {
 
 
 
+# Function to populate a trophic matrix with interaction strengths based on 
+# body size. Requires inputs n = number of nodes, node_names, A = sign matrix, 
+# x = master table of interactions
+trophicbw = function(n, node_names, A, x) { 
+  
+  # get the interaction strengths from beta between 0 and 1 and sort decreasing
+  draw = sort((rbeta(n^2, shape1 = 1, shape2 = 4)*.99 + 0.01),
+              decreasing = T)
+  # split into groups of length n (number of nodes)
+  drawsp = split(draw, rep(1:ceiling(length(draw)/n), each=n))
+  
+  # make an empty matrix with nodes in decreasing body weight
+  Bt = matrix(NA, nrow = n, ncol = n)  
+  colnames(Bt) = node_names
+  rownames(Bt) = node_names
+  
+  # fill with the interaction strengths
+  for (c in 1:ncol(Bt)) {
+    Bt[,c] = sample(drawsp[[c]])
+  }
+  
+  # then add signs to strengths
+  Ct=Bt*A  
+  
+  # last, populate diagonal elements 
+  for (m in (1:length(node_names))) {
+    
+    sp = node_names[m] 
+    
+    # only predators will be in the from column (for predatorprey interactions)
+    if (sp %in% x[grepl("predatorprey", x$type, ignore.case=TRUE),]$from) {  
+      Ct[sp, sp] = -.1  # if a predator  
+    } else { Ct[sp, sp] = -1}  # if basal
+  }
+  return(Ct)
+}
+
+
+
 # Function to populate a non-trophic matrix with interaction strengths. Requires 
 # inputs n = number of nodes, node_names, A = sign matrix
 nontrophic = function(n, node_names, A) {  
@@ -81,7 +120,7 @@ nontrophic = function(n, node_names, A) {
 nontrophicbeta = function(n, node_names, A) {  
   
   # first fill the matrix with beta-dist values
-  Bntbeta = makeSymm(matrix(rbeta(n^2,  # make symmetric so ij is a function of ji
+  Bntbeta = makeSymm(matrix(rbeta(n^2,  # make symmetric so ij is function of ji
                              shape1 = 1, shape2 = 4),  # parameters of beta dist
                        nrow = n))*.99 + 0.01 # make all values between 0.1 and 1 
   colnames(Bntbeta) = node_names
@@ -118,15 +157,18 @@ sampler = function(need, n, node_names, am, x) {
   # otherwise will use the nontrophic function) and put into the sm list
   for (g in 1:length(need)) {  
     
-    if (grepl("predatorprey", need[g], ignore.case = T)) {
+    if (grepl("\\bpredatorprey\\b", need[g], ignore.case = T)) {
       tm = trophic(n, node_names, am[[need[g]]], x)  # appropriate sign matrix
       sm[[g]] = tm
     } else if (grepl("positivebeta", need[g], ignore.case = T)) {
-        ntmbeta = nontrophicbeta(n, node_names, am[["positive"]])
-        sm[[g]] = ntmbeta
+      ntmpbeta = nontrophicbeta(n, node_names, am[["positive"]])
+      sm[[g]] = ntmpbeta
     } else if (grepl("simplefirebeta", need[g], ignore.case = T)) {
       ntmbeta = nontrophicbeta(n, node_names, am[["simplefire"]])
-      sm[[g]] = ntmbeta    
+      sm[[g]] = ntmbeta
+    } else if (grepl("predatorpreybw", need[g], ignore.case = T)) {
+      tmbw = trophicbw(n, node_names, am[["predatorprey"]], x)
+      sm[[g]] = tmbw
     } else {
         ntm = nontrophic(n, node_names, am[[need[g]]])
         sm[[g]] = ntm
@@ -255,13 +297,15 @@ setwd("~/Documents/Australia/R_code/loop_code/")  # adjust as needed
 networktable = "~/Documents/Australia/R_code/loop_code/hotgrouped.csv"
 models = "~/Documents/Australia/R_code/loop_code/models.csv"
 outcomes = "~/Documents/Australia/R_code/loop_code/outcomes.csv"
+weights = "~/Documents/Australia/R_code/loop_code/weights.csv"
 
 # on vulpes
 # networktable = "/home/dieta/Australia/loop_code/hotgrouped.csv"
 # models = "/home/dieta/Australia/loop_code/models.csv"
 # outcomes = "/home/dieta/Australia/loop_code/outcomes.csv"
 
-
+w = read.csv(weights, stringsAsFactors = F)  # body weights
+w[] = lapply(w, tolower)  # change everything to lowercase
 
 x = read.csv(networktable, stringsAsFactors = F)  # interactions table
 x[] = lapply(x, tolower)  # change everything to lowercase
@@ -290,9 +334,20 @@ if (sum(!unique(x$type) %in% colnames(y))>0) {
               unique(x$type)[!unique(x$type) %in% colnames(y)], 
               "in network table is not found in models table"))}
 
+if (sum(!union(x$from, x$to) %in% w$group)>0) {
+  print(paste("Error:",
+              union(x$from, x$to)[!union(x$from, x$to) %in% w$group],
+              "in network table is not found in weights table"))}
 
 
-node_names = unique(union(x$to,x$from))  # get the list of nodes
+
+nodes = unique(union(x$to,x$from))  # get the list of nodes
+
+
+# merge node names with their weights, then order by weight
+nodesw = merge(nodes, w, by.x = "x",
+               by.y = "group", all.x = T, all.y = F)
+node_names = as.character(nodesw[order(nodesw$size, decreasing = T),]$x)
 n = length(node_names)  # number of nodes
 
 t = unique(x$type)  # how many different interaction types there are
