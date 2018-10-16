@@ -1,6 +1,41 @@
-﻿group,size
-skinks,10
-bird,100
-insect,1
-mala,1000
-tiliqua,10000
+"group","size"
+"Acacia",1e+06
+"skinks",1000
+"misc_plant",1000
+"bird",1000
+"Snakes",1000
+"eagle",10000
+"insect",10
+"bustard",10000
+"betong",1000
+"eggs",10
+"forb",1000
+"camel",1e+06
+"honeyant",1
+"dingo",10000
+"shrub",1e+05
+"bush",1e+05
+"bandicoot",1000
+"minyara",1
+"carnivorous_mammal",100
+"emu",1e+05
+"grub",10
+"spinifex",1000
+"cat",10000
+"fire",0
+"wama",10000
+"human",1e+05
+"human fire",0
+"mala",1000
+"small mammal",10000
+"lightning fire",0
+"kangaroo",1e+05
+"bilby",1000
+"rush",1000
+"grass",100
+"patchiness",0
+"solanum",1000
+"tiliqua",1000
+"goanna",10000
+"kanjamarra",100
+"fox",10000

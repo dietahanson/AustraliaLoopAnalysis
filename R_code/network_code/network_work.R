@@ -115,13 +115,17 @@ hotnetsmall <- hotnet[!duplicated(hotnet[c("from","to", "type")]),
 ## Make a table which shows the maximum and minimum body size for a group
 ################################################################################
 
-weights = read.csv("rawweights.csv", header = T, stringsAsFactors = F)
+weights = read.csv("weight.csv", header = T, stringsAsFactors = F)
 
-groups = merge(groups, weights, by.x = "latin", by.y = "latin",  # add weights
-               all.x = T, all.y = F)
+groupweights = merge(groups, weights, by.x = "latin", by.y = "latin",  # add weights
+               all.x = T, all.y = T)
 
 # get min and max weights for each group
-groupsdt = data.table(groups)
-groupsdt = as.data.frame(groupsdt[,list(groupminwt = min(weight, na.rm = T),
-                                        groupmaxwt = max(weight, na.rm = T)),
+groupsdt = data.table(groupweights)
+groupsdt = as.data.frame(groupsdt[,list(groupminwt = min(max_size_g, na.rm = T),
+                                        groupmaxwt = max(max_size_g, na.rm = T)),
                               by = list(stefgroup)])
+
+maxweights = data.frame(group = groupsdt$stefgroup, size = groupsdt$groupmaxwt)
+
+#write.csv(maxweights, file = "weights.csv", row.names = F)

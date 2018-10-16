@@ -77,8 +77,12 @@ trophicbw = function(n, node_names, A, x) {
   
   # fill with the interaction strengths
   for (c in 1:ncol(Bt)) {
-    Bt[,c] = sample(drawsp[[c]])
+    Bt[,c] = drawsp[[c]]
   }
+  
+  # make symmetrical and make all values between 0.1 and 1
+  
+  Bt = makeSymm(Bt)*.99+0.01
   
   # then add signs to strengths
   Ct=Bt*A  
@@ -295,7 +299,7 @@ press.impact = function(edges,perturb,monitor) {
 # on local
 setwd("~/Documents/Australia/R_code/loop_code/")  # adjust as needed
 networktable = "~/Documents/Australia/R_code/loop_code/hotgrouped.csv"
-models = "~/Documents/Australia/R_code/loop_code/models.csv"
+models = "~/Documents/Australia/R_code/loop_code/models_bw.csv"
 outcomes = "~/Documents/Australia/R_code/loop_code/outcomes.csv"
 weights = "~/Documents/Australia/R_code/loop_code/weights.csv"
 
