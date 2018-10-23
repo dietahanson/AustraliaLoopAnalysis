@@ -9,3 +9,12 @@ M6: Same as M1, but with interaction strengths being proportional to body size
 2 = red
 3 = blue
 4 = purple
+
+
+change known outcomes for complex fire -> human fire should decrease, lightning fire should increase
+
+also take out cats and foxes from known outcomes
+
+just run model 1 and 4 and look at the differences
+
+include a climate node and use the effects of perturbing it to perturbing humans 
