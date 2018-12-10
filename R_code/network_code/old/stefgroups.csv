@@ -1,22 +1,22 @@
 ﻿common,latin,stefgroup
 Acacia,Acacia acradenia,Acacia
-Acacia,Acacia aneura,Tree
+Acacia,Acacia aneura,Acacia
 Acacia,Acacia coriacea,Acacia
 Acacia,Acacia cowleana,Acacia
 Acacia,Acacia cuthbertsoni,Acacia
 Acacia,Acacia dictyophleba,Acacia
 Acacia,Acacia kempeana,Acacia
 Acacia,Acacia ligulata,Acacia
-Acacia,Acacia pruinocarpa,Tree
+Acacia,Acacia pruinocarpa,Acacia
 Acacia,Acacia spondylophylla,Acacia
 Acacia,Acacia tetragonophylla,Acacia
-Desert oak,Allocasuarina decaisneana,Tree
-Eucaluptus,Eucalyptus opaca,Tree
+Desert oak,Allocasuarina decaisneana,Acacia
+Eucaluptus,Eucalyptus opaca,Acacia
 pig-footed bandicoot,Chaeropus ecaudatus,bandicoot
-desert bandicoot,Perameles eremiana,bandicoot
 golden bandicoot,Isodon auratus,bandicoot
+desert bandicoot,Perameles eremiana,bandicoot
 Burrowing betong,Bettongia lesueur,betong
-Greater bilby,Macrotis lagotis,Bilby
+Greater bilby,Macrotis lagotis,bilby
 Pacific black duck,Anas superciliosa,bird
 Galah,Calyptorhynchus roseicapilla,bird
 Crows,Corvus cecilae,bird
@@ -27,44 +27,43 @@ creseted pigeon,Ocyphaps lophotes,bird
 Australian pratincole,Stiltia isabella,bird
 zebra finch,Taeniopygia guttata,bird
 Little buttonquail,Turnix velox,bird
-Round leaf caper,Capparis loranthifolia,shrub
-Wild orange,Capparis umbonata,shrub
-Dumara bush,Cynanchum floribundum,subshrub
-barrier saltbush,Enchylaena tomentosa,subshrub
-Nitre bush,Nitraria billardierei,subshrub
-Desert quandong,Santalum acuminatum,Tree
-Northern sandalwood,Santalum lanceolatum,shrub
-tall sida,Sida calyxhymenia,forb
-purple flower bush,Tecticornia verrucosa,subshrub
-Desert heath myrtle,Thryptomene maisonneuve,shrub
+Round leaf caper,Capparis loranthifolia,bush
+Wild orange,Capparis umbonata,bush
+Dumara bush,Cynanchum floribundum,bush
+barrier saltbush,Enchylaena tomentosa,bush
+Nitre bush,Nitraria billardierei,bush
+Desert quandong,Santalum acuminatum,bush
+Northern sandalwood,Santalum lanceolatum,bush
+tall sida,Sida calyxhymenia,bush
+purple flower bush,Tecticornia verrucosa,bush
+Desert heath myrtle,Thryptomene maisonneuve,bush
 bustard,Ardeotis australis,bustard
 Camel,Camelus dromedarius,camel
-crest-tailed mulgara,Dasycercus cristicauda,carnivorous mammal
-carniverous marsupial,Dasycercus hilleri,carnivorous mammal
-carniverous marsupial,Dasyurus hallucatus,carnivorous mammal
-stripe-faced dunnart,Sminthopsis macroura,carnivorous mammal
+crest-tailed mulgara,Dasycercus cristicauda,carnivorous_mammal
+carniverous marsupial,Dasycercus hilleri,carnivorous_mammal
+carniverous marsupial,Dasyurus hallucatus,carnivorous_mammal
+stripe-faced dunnart,Sminthopsis macroura,carnivorous_mammal
 Cat,Felis catus,cat
 Dingo,Canis lupus dingo,dingo
 Wedge-tailed eagle,Aquila audax,eagle
 bird shell,Bird egg shell,eggs
 reptile eggs,Reptile eggs,eggs
 Emu,Dromaius novaehollandiae,emu
-human fire,human fire,human fire
-lightning fire,lightning fire,lightning fire
-Upside down plant,Leptosema chambersii,forb
-Camel weed,Scaevola parvifolia,forb
+Fire,Fire,fire
 Purslane,Calandrinia polyandra,forb
 Amaranth,Chenopodium curvispicatum,forb
+truffle,Chioromyces aboriginum,forb
 buttongrass,Dactyloctenium radulans,forb
 Australian carrot,Daucus glochidiatus,forb
+Flowering saltbush,Leptosema chambersii,forb
+fungus,Mycoclelandia bulundarii,forb
 common purslane,Portulaca oleracea,forb
 pink mulla mulla,Ptilotus exaltatus,forb
 green pussytail,Ptilotus macrocephalus,forb
 Prince of Wales feather grass,Ptilotus polystachyus,forb
 plant,Rhyncharrhena linearis,forb
+Camel weed,Scaevola parvifolia,forb
 short herb,Tetragonia eremaea,forb
-truffle,Chioromyces aboriginum,forb
-fungus,Mycoclelandia bulundarii,forb
 fox,Vulpes vulpes,fox
 Varanid,Varanus acanthurus,goanna
 Varanid,Varanus giganteus,goanna
@@ -72,17 +71,17 @@ Varanid,Varanus gouldii,goanna
 Varanid,Varanus panoptes,goanna
 Varanid,Varanus tristis,goanna
 australian millet,Panicum decompositum,grass
-Lazarides grass,Yakirra australiensis,grass
 grass,Thyridolepis multiculmis,grass
+Lazarides grass,Yakirra australiensis,grass
 Australian moth,Endoxyla cinerea,grub
 Cossid moth,Endoxyla leucomochla,grub
-Camponotus inflatus,honey ant,honey ant
+Honey ant,Camponotus inflatus,honeyant
 human,Homo sapiens,human
+human fire,human fire,human fire
 Spiders,Araneidae,insect
 Freshwater rotifers,Bdelloid,insect
 Cockroaches and Termites,Blattodea,insect
 Freshwater plankton,Brachionus sp.,insect
-Honey ant,Camponotus inflatus,insect
 Rotifer,Cephalodella sp.,insect
 centipede,Chilopoda,insect
 Plague locust,Chortoicetes terminifera,insect
@@ -99,36 +98,37 @@ lacewing,Neuroptera,insect
 micro crustaceans,Ostracods,insect
 stick bug,Phasmatodea,insect
 Protozoa,Protozoans (ciliates),insect
+Tree growth parasite,Psylla eucalypti,insect
 scorpions,Scorpionida,insect
 stingless bees,Trigona sp.,insect
 silverfish insect,Zygentoma ,insect
-Tree growth parasite,Psylla eucalypti,insect
 Hill kangaroo,Macropus robustus,kangaroo
 Red kangaroo,Macropus rufus,kangaroo
 Pencil Yam,Vigna lanceolata,kanjamarra
+lightning fire,lightning fire,lightning fire
 mala,Lagorchestes hirsutus,mala
 Bush Onion,Cyperus bulbosus,minyara
-parasitic shrub,Amyema sp.,misc plant
-Musk melon,Cucumis melo (agrestis),misc plant
-water milfoil,Myriophyllum crispatum,misc plant
-southern cattail,Typha dominguensis,misc plant
-bullrush,Typha orientalis,misc plant
-flowering plant,Senna sp.,subshrub
-native fuscia,Eremophila latrobei,subshrub
-flowering figwort,Eremophila longifolia,subshrub
-Australian myrtle,Canthium attenuatum,subshrub
-myrtle,Canthium latifolium,subshrub
-Ficus,Ficus brachypoda,Tree
+parasitic shrub,Amyema sp.,misc_plant
+Musk melon,Cucumis melo (agrestis),misc_plant
+water milfoil,Myriophyllum crispatum,rush
+southern cattail,Typha dominguensis,rush
+bullrush,Typha orientalis,rush
+Australian myrtle,Canthium attenuatum,shrub
+myrtle,Canthium latifolium,shrub
+native fuscia,Eremophila latrobei,shrub
+flowering figwort,Eremophila longifolia,shrub
+Ficus,Ficus brachypoda,shrub
+flowering plant,Senna sp.,shrub
 Lizard,Amphibolurus burnsi,skinks
 Striated worm-lizard,Aprasia striolata,skinks
 ring tailed dragon,Ctenophorus caudicinctus,skinks
 Military dragon,Ctenotus isolepis,skinks
 Leonhardi's lizard,Ctenotus leonhardii,skinks
 Eastern striped skink,Ctenotus robustus,skinks
-Eastern Barred Wedgesnout,Ctenotus strauchii,skinks
-Great desert skink,Egernia kintorei,large skinks
-Nocturnal desert skink,Egernia striata,large skinks
-Australian tree skink,Egernia striolata,large skinks
+Eastern Barred Wedgesnoutæ,Ctenotus strauchii,skinks
+Great desert skink,Egernia kintorei,skinks
+Nocturnal desert skink,Egernia striata,skinks
+Australian tree skink,Egernia striolata,skinks
 Four toed earless skink,Hemiergis peronii,skinks
 Bynoe's gecko,Heteronotia binoei,skinks
 skink,Leiolopisma metallicum,skinks
@@ -144,13 +144,13 @@ dwarf bearded dragon,Pogona minor,skinks
 central bearded dragon,Pogona vitticeps,skinks
 eastern hooded scaly foot,Pygopus schraderi,skinks
 Eyrean earless dragon,Tympanocryptis tetraporophora,skinks
-European rabbit,Oryctolagus cuniculus,small mammal
 Forrest's mouse,Leggadina forresti,small mammal
 native mouse,Notomys sp.,small mammal
 Northern marsupial mole,Notoryctes caurinus,small mammal
-black-flanked rock wallabee,Petrogale lateralis,kangaroo
-short-beaked echidna,Tachyglossus aculeatus,echidna
-brushtail possum,Trichosurus vulpecula,possum
+European rabbit,Oryctolagus cuniculus,small mammal
+black-flanked rock wallabee,Petrogale lateralis,small mammal
+short-beaked echidna,Tachyglossus aculeatus,small mammal
+brushtail possum,Trichosurus vulpecula,small mammal
 Stimson's python,Antaresia stimsoni,Snakes
 black-headed python,Aspidites melanocephalus,Snakes
 Ramsay's python,Aspidites ramsayii,Snakes
@@ -162,20 +162,19 @@ Solanum fruits,Solanum cleistogamum,solanum
 Solanum fruits,Solanum diversiflorum,solanum
 Solanum fruits,Solanum gilesii,solanum
 Solanum fruits,Solanum lasiophyllum,solanum
-Woolybutt grass,Eragrostis eriopoda,grass
-Canegrass,Eragrostis lanipes,grass
-Canegrass,Eragrostis setifolia,grass
+Woolybutt grass,Eragrostis eriopoda,spinifex
+Canegrass,Eragrostis lanipes,spinifex
+Canegrass,Eragrostis setifolia,spinifex
 Soft spinifex,Plectrachne schinzii,spinifex
 spinifex,Triodia basedownii,spinifex
 spinifex,Triodia longiceps,spinifex
 spinifex,Triodia pungens,spinifex
-blue tongued skink,Tiliqua multifasciata,large skinks
-blue tongued lizard,Tiliqua occipitalis,large skinks
-eastern blue tongued lizard,Tiliqua scincoides,large skinks
+blue tongued skink,Tiliqua multifasciata,tiliqua
+blue tongued lizard,Tiliqua occipitalis,tiliqua
+eastern blue tongued lizard,Tiliqua scincoides,tiliqua
 plant,Grevillea eriostachya,wama
 plant,Grevillea stenobotrya,wama
 plant,Grevillea wickhamii,wama
 plant,Hakea leucoptera,wama
 plant,Hakea suberea,wama
 patchiness,patchiness,patchiness
-Fire,Fire,fire

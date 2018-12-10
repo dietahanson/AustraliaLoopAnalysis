@@ -1,169 +1,261 @@
-From,To,Type
-skinks,insect,Predator-prey
-bird,insect,Predator-prey
-bird,spinifex,Predator-prey
-Snakes,skinks,Predator-prey
-Snakes,mala,Predator-prey
-Snakes,small mammal,Predator-prey
-bustard,skinks,Predator-prey
-bustard,insect,Predator-prey
-bustard,small mammal,Predator-prey
-bustard,Snakes,Predator-prey
-bustard,solanum,Predator-prey
-bustard,bird,Predator-prey
-bustard,spinifex,Predator-prey
-bustard,goanna,Predator-prey
-Snakes,betong,Predator-prey
-Snakes,Snakes,Predator-prey
-Snakes,eggs,Predator-prey
-Snakes,bird,Predator-prey
-Snakes,goanna,Predator-prey
-Snakes,rabbit,Predator-prey
-betong,spinifex,Predator-prey
-betong,forb,Predator-prey
-betong,bush,Predator-prey
-bird,Acacia,Predator-prey
-camel,vine,Predator-prey
-camel,bush,Predator-prey
-camel,forb,Predator-prey
-camel,spinifex,Predator-prey
-camel,wama,Predator-prey
-camel,solanum,Predator-prey
-bandicoot,spinifex,Predator-prey
-bandicoot,forb,Predator-prey
-bird,forb,Predator-prey
-bird,vine,Predator-prey
-bird,bush,Predator-prey
-bird,human,Predator-prey
-bird,mala,Predator-prey
-bird,skinks,Predator-prey
-bird,Snakes,Predator-prey
-bird,bird,Predator-prey
-bird,goanna,Predator-prey
-bird,small mammal,Predator-prey
-skinks,skinks,Predator-prey
-small mammal,insect,Predator-prey
-small mammal,betong,Predator-prey
-small mammal,bandicoot,Predator-prey
-small mammal,mala,Predator-prey
-small mammal,small mammal,Predator-prey
-small mammal,bird,Predator-prey
-emu,Acacia,Predator-prey
-emu,vine,Predator-prey
-emu,bush,Predator-prey
-emu,forb,Predator-prey
-emu,grub,Predator-prey
-emu,wama,Predator-prey
-emu,skinks,Predator-prey
-emu,spinifex,Predator-prey
-skinks,spinifex,Predator-prey
-skinks,bush,Predator-prey
-skinks,solanum,Predator-prey
-skinks,forb,Predator-prey
-grub,Acacia,Predator-prey
-bird,betong,Predator-prey
-bird,rush,Predator-prey
-skinks,grub,Predator-prey
-bandicoot,Acacia,Predator-prey
-bandicoot,insect,Predator-prey
-bandicoot,bush,Predator-prey
-small mammal,spinifex,Predator-prey
-small mammal,forb,Predator-prey
-kangaroo,forb,Predator-prey
-kangaroo,spinifex,Predator-prey
-kangaroo,bush,Predator-prey
-rabbit,vine,Predator-prey
-rabbit,bush,Predator-prey
-rabbit,spinifex,Predator-prey
-rabbit,forb,Predator-prey
-small mammal,vine,Predator-prey
-small mammal,bush,Predator-prey
-small mammal,Acacia,Predator-prey
-small mammal,wama,Predator-prey
-goanna,insect,Predator-prey
-goanna,skinks,Predator-prey
-goanna,eggs,Predator-prey
-goanna,human,Predator-prey
-goanna,goanna,Predator-prey
-fox,insect,Predator-prey
-fox,eggs,Predator-prey
-fox,small mammal,Predator-prey
-fox,eagle,Predator-prey
-fox,bustard,Predator-prey
-eagle,betong,Predator-prey
-eagle,dingo,Predator-prey
-eagle,bandicoot,Predator-prey
-eagle,skinks,Predator-prey
-eagle,cat,Predator-prey
-eagle,mala,Predator-prey
-eagle,kangaroo,Predator-prey
-eagle,small mammal,Predator-prey
-eagle,insect,Predator-prey
-eagle,bird,Predator-prey
-eagle,goanna,Predator-prey
-dingo,bustard,Predator-prey
-dingo,betong,Predator-prey
-dingo,bandicoot,Predator-prey
-dingo,insect,Predator-prey
-dingo,skinks,Predator-prey
-dingo,cat,Predator-prey
-dingo,human,Predator-prey
-dingo,mala,Predator-prey
-dingo,kangaroo,Predator-prey
-dingo,small mammal,Predator-prey
-dingo,goanna,Predator-prey
-dingo,eagle,Predator-prey
-dingo,camel,Predator-prey
-dingo,emu,Predator-prey
-dingo,bird,Predator-prey
-dingo,fox,Predator-prey
-cat,skinks,Predator-prey
-cat,mala,Predator-prey
-cat,small mammal,Predator-prey
-cat,Snakes,Predator-prey
-cat,eggs,Predator-prey
-cat,bird,Predator-prey
-cat,goanna,Predator-prey
-cat,bustard,Predator-prey
-cat,fox,Predator-prey
-human,Acacia,Predator-prey
-human,vine,Predator-prey
-human,bird,Predator-prey
-human,Snakes,Predator-prey
-human,eagle,Predator-prey
-human,bustard,Predator-prey
-human,betong,Predator-prey
-human,insect,Predator-prey
-human,camel,Predator-prey
-human,dingo,Predator-prey
-human,bush,Predator-prey
-human,bandicoot,Predator-prey
-human,fungus,Predator-prey
-human,skinks,Predator-prey
-human,forb,Predator-prey
-human,small mammal,Predator-prey
-human,emu,Predator-prey
-human,cat,Predator-prey
-human,wama,Predator-prey
-human,human,Predator-prey
-human,mala,Predator-prey
-human,kangaroo,Predator-prey
-human,rabbit,Predator-prey
-human,spinifex,Predator-prey
-human,solanum,Predator-prey
-human,goanna,Predator-prey
-human,fox,Predator-prey
-mala,insect,Predator-prey
-mala,forb,Predator-prey
-mala,spinifex,Predator-prey
-fire,Acacia,Predator-prey
-fire,vine,Predator-prey
-fire,forb,Predator-prey
-fire,bush,Predator-prey
-fire,fungus,Predator-prey
-fire,spinifex,Predator-prey
-fire,wama,Predator-prey
-fire,solanum,Predator-prey
-fire,eggs,Predator-prey
-fire,insect,Predator-prey
-fire,skinks,Predator-prey
+"from","to","type"
+"skinks","insect","predatorprey"
+"bird","insect","predatorprey"
+"bird","spinifex","predatorprey"
+"Snakes","skinks","predatorprey"
+"Snakes","mala","predatorprey"
+"Snakes","small mammal","predatorprey"
+"Snakes","tiliqua","predatorprey"
+"bustard","skinks","predatorprey"
+"bustard","insect","predatorprey"
+"bustard","small mammal","predatorprey"
+"bustard","Snakes","predatorprey"
+"bustard","solanum","predatorprey"
+"bustard","bird","predatorprey"
+"bustard","tiliqua","predatorprey"
+"bustard","spinifex","predatorprey"
+"bustard","goanna","predatorprey"
+"Snakes","betong","predatorprey"
+"Snakes","Snakes","predatorprey"
+"Snakes","eggs","predatorprey"
+"Snakes","bird","predatorprey"
+"Snakes","goanna","predatorprey"
+"betong","spinifex","predatorprey"
+"betong","grass","predatorprey"
+"betong","forb","predatorprey"
+"betong","bush","predatorprey"
+"bird","Acacia","predatorprey"
+"camel","misc_plant","predatorprey"
+"camel","shrub","predatorprey"
+"camel","bush","predatorprey"
+"camel","forb","predatorprey"
+"camel","spinifex","predatorprey"
+"camel","wama","predatorprey"
+"camel","grass","predatorprey"
+"camel","solanum","predatorprey"
+"bandicoot","spinifex","predatorprey"
+"bandicoot","grass","predatorprey"
+"bandicoot","forb","predatorprey"
+"bird","forb","predatorprey"
+"bird","misc_plant","predatorprey"
+"bird","bush","predatorprey"
+"bird","human","predatorprey"
+"bird","mala","predatorprey"
+"bird","skinks","predatorprey"
+"bird","Snakes","predatorprey"
+"bird","bird","predatorprey"
+"bird","goanna","predatorprey"
+"bird","small mammal","predatorprey"
+"skinks","skinks","predatorprey"
+"carnivorous_mammal","insect","predatorprey"
+"carnivorous_mammal","honeyant","predatorprey"
+"carnivorous_mammal","betong","predatorprey"
+"carnivorous_mammal","bandicoot","predatorprey"
+"carnivorous_mammal","mala","predatorprey"
+"carnivorous_mammal","bilby","predatorprey"
+"carnivorous_mammal","small mammal","predatorprey"
+"carnivorous_mammal","bird","predatorprey"
+"emu","Acacia","predatorprey"
+"emu","misc_plant","predatorprey"
+"emu","shrub","predatorprey"
+"emu","bush","predatorprey"
+"emu","forb","predatorprey"
+"emu","grub","predatorprey"
+"emu","wama","predatorprey"
+"emu","skinks","predatorprey"
+"emu","spinifex","predatorprey"
+"emu","grass","predatorprey"
+"skinks","spinifex","predatorprey"
+"skinks","forb","predatorprey"
+"skinks","shrub","predatorprey"
+"skinks","solanum","predatorprey"
+"skinks","grass","predatorprey"
+"skinks","honeyant","predatorprey"
+"grub","Acacia","predatorprey"
+"bird","betong","predatorprey"
+"bird","carnivorous_mammal","predatorprey"
+"bird","rush","predatorprey"
+"skinks","grub","predatorprey"
+"bandicoot","Acacia","predatorprey"
+"bandicoot","insect","predatorprey"
+"bandicoot","shrub","predatorprey"
+"bandicoot","bush","predatorprey"
+"small mammal","insect","predatorprey"
+"small mammal","spinifex","predatorprey"
+"small mammal","grass","predatorprey"
+"small mammal","forb","predatorprey"
+"kangaroo","forb","predatorprey"
+"kangaroo","spinifex","predatorprey"
+"kangaroo","bush","predatorprey"
+"kangaroo","grass","predatorprey"
+"bilby","insect","predatorprey"
+"bird","shrub","predatorprey"
+"bird","grass","predatorprey"
+"skinks","tiliqua","predatorprey"
+"small mammal","misc_plant","predatorprey"
+"small mammal","shrub","predatorprey"
+"small mammal","bush","predatorprey"
+"bandicoot","honeyant","predatorprey"
+"Snakes","carnivorous_mammal","predatorprey"
+"small mammal","honeyant","predatorprey"
+"tiliqua","insect","predatorprey"
+"tiliqua","grub","predatorprey"
+"small mammal","Acacia","predatorprey"
+"small mammal","wama","predatorprey"
+"goanna","insect","predatorprey"
+"goanna","skinks","predatorprey"
+"goanna","eggs","predatorprey"
+"goanna","human","predatorprey"
+"goanna","goanna","predatorprey"
+"fox","insect","predatorprey"
+"fox","eggs","predatorprey"
+"fox","small mammal","predatorprey"
+"fox","eagle","predatorprey"
+"fox","bustard","predatorprey"
+"eagle","betong","predatorprey"
+"eagle","dingo","predatorprey"
+"eagle","bandicoot","predatorprey"
+"eagle","skinks","predatorprey"
+"eagle","cat","predatorprey"
+"eagle","mala","predatorprey"
+"eagle","kangaroo","predatorprey"
+"eagle","small mammal","predatorprey"
+"eagle","insect","predatorprey"
+"eagle","bird","predatorprey"
+"eagle","tiliqua","predatorprey"
+"eagle","goanna","predatorprey"
+"dingo","bustard","predatorprey"
+"dingo","betong","predatorprey"
+"dingo","bandicoot","predatorprey"
+"dingo","insect","predatorprey"
+"dingo","skinks","predatorprey"
+"dingo","cat","predatorprey"
+"dingo","human","predatorprey"
+"dingo","mala","predatorprey"
+"dingo","kangaroo","predatorprey"
+"dingo","small mammal","predatorprey"
+"dingo","tiliqua","predatorprey"
+"dingo","goanna","predatorprey"
+"dingo","eagle","predatorprey"
+"dingo","camel","predatorprey"
+"dingo","emu","predatorprey"
+"dingo","bird","predatorprey"
+"dingo","fox","predatorprey"
+"cat","skinks","predatorprey"
+"cat","mala","predatorprey"
+"cat","small mammal","predatorprey"
+"cat","Snakes","predatorprey"
+"cat","eggs","predatorprey"
+"cat","carnivorous_mammal","predatorprey"
+"cat","bird","predatorprey"
+"cat","goanna","predatorprey"
+"cat","bustard","predatorprey"
+"cat","fox","predatorprey"
+"human","Acacia","predatorprey"
+"human","misc_plant","predatorprey"
+"human","bird","predatorprey"
+"human","Snakes","predatorprey"
+"human","eagle","predatorprey"
+"human","bustard","predatorprey"
+"human","betong","predatorprey"
+"human","insect","predatorprey"
+"human","camel","predatorprey"
+"human","dingo","predatorprey"
+"human","shrub","predatorprey"
+"human","bush","predatorprey"
+"human","bandicoot","predatorprey"
+"human","forb","predatorprey"
+"human","skinks","predatorprey"
+"human","carnivorous_mammal","predatorprey"
+"human","emu","predatorprey"
+"human","cat","predatorprey"
+"human","wama","predatorprey"
+"human","human","predatorprey"
+"human","mala","predatorprey"
+"human","kangaroo","predatorprey"
+"human","bilby","predatorprey"
+"human","small mammal","predatorprey"
+"human","grass","predatorprey"
+"human","solanum","predatorprey"
+"human","tiliqua","predatorprey"
+"human","goanna","predatorprey"
+"human","fox","predatorprey"
+"mala","insect","predatorprey"
+"mala","forb","predatorprey"
+"mala","spinifex","predatorprey"
+"fire","Acacia","simplefire"
+"fire","misc_plant","simplefire"
+"fire","forb","simplefire"
+"fire","shrub","simplefire"
+"fire","bush","simplefire"
+"fire","spinifex","simplefire"
+"fire","wama","simplefire"
+"fire","grass","simplefire"
+"fire","solanum","simplefire"
+"honeyant","Acacia","predatorprey"
+"honeyant","shrub","predatorprey"
+"honeyant","wama","predatorprey"
+"honeyant","forb","predatorprey"
+"bustard","honeyant","predatorprey"
+"bird","honeyant","predatorprey"
+"tiliqua","honeyant","predatorprey"
+"goanna","honeyant","predatorprey"
+"fox","honeyant","predatorprey"
+"eagle","honeyant","predatorprey"
+"dingo","honeyant","predatorprey"
+"human","honeyant","predatorprey"
+"mala","honeyant","predatorprey"
+"bilby","honeyant","predatorprey"
+"human fire","spinifex","complexfire"
+"human fire","grass","complexfire"
+"lightning fire","spinifex","complexfire"
+"lightning fire","grass","complexfire"
+"lightning fire","dingo","complexfire"
+"lightning fire","mala","complexfire"
+"lightning fire","bilby","complexfire"
+"lightning fire","goanna","complexfire"
+"lightning fire","bandicoot","complexfire"
+"human","dingo","positive"
+"human","solanum","positive"
+"spinifex","mala","positive"
+"spinifex","goanna","positive"
+"spinifex","bandicoot","positive"
+"spinifex","bilby","positive"
+"spinifex","small mammal","positive"
+"spinifex","cat","positive"
+"spinifex","tiliqua","positive"
+"grass","mala","positive"
+"grass","goanna","positive"
+"grass","bandicoot","positive"
+"grass","bilby","positive"
+"grass","small mammal","positive"
+"grass","cat","positive"
+"grass","tiliqua","positive"
+"human fire","patchiness","complexpositive"
+"lightning fire","patchiness","complexnegative"
+"patchiness","mala","complexpositive"
+"patchiness","goanna","complexpositive"
+"patchiness","bandicoot","complexpositive"
+"patchiness","bilby","complexpositive"
+"patchiness","small mammal","complexpositive"
+"patchiness","cat","complexpositive"
+"patchiness","tiliqua","complexpositive"
+"patchiness","dingo","complexpositive"
+"human","human fire","complexpositive"
+"patchiness","lightning fire","complexnegative"
+"human fire","Acacia","complexfire"
+"human fire","misc_plant","complexfire"
+"human fire","forb","complexfire"
+"human fire","shrub","complexfire"
+"human fire","bush","complexfire"
+"human fire","wama","complexfire"
+"human fire","solanum","complexfire"
+"lightning fire","Acacia","complexfire"
+"lightning fire","misc_plant","complexfire"
+"lightning fire","forb","complexfire"
+"lightning fire","shrub","complexfire"
+"lightning fire","bush","complexfire"
+"lightning fire","wama","complexfire"
+"lightning fire","solanum","complexfire"
+"patchiness","cat","complexnegative"
+"patchiness","fox","complexnegative"

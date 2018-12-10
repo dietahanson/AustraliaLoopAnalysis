@@ -282,7 +282,7 @@ n.max = 4000*n.samples  # try a maximum of this many times (to prevent runaways)
 # which model is going to be used? (This should be the model with the highest 
 # posterior probability from the model_select script)
 
-m = 1
+m = 2
 
 # set the perturbed node
 
