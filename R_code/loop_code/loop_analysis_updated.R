@@ -335,7 +335,7 @@ outcomes = "~/Documents/Australia/R_code/loop_code/outcomes.csv"
 weights = "~/Documents/Australia/R_code/loop_code/weights.csv"
 
 # set how many stable and valid realizations you want to achieve
-n.samples = 1000
+n.samples = 5
 n.max = 4000*n.samples  # try a maximum of this many times (to prevent runaways)
 
 # which model is going to be used? (This should be the model with the highest 
